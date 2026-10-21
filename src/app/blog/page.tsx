@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ARTICLES } from "@/lib/blog/articles";
 import BlogGrid from "@/components/blog/BlogGrid";
 import { SITE_URL } from "@/lib/site";
+import { TYPE, fullStopSquare } from "@/lib/brand";
 
 const TITLE = "Blog: guides to payments, mobile money and stablecoins in emerging markets";
 const DESCRIPTION =
@@ -71,20 +72,13 @@ export default function BlogIndexPage() {
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 32, flexWrap: "wrap", marginTop: 24 }}>
           <h1
             style={{
-              fontFamily: "var(--font-heading)",
-              fontSize: "clamp(33px,3.82vw,55px)",
-              lineHeight: 0.95,
-              letterSpacing: "-0.045em",
-              fontWeight: 700,
+              ...TYPE.h1Hero,
               margin: 0,
               maxWidth: "13ch",
             }}
           >
             Field notes on moving money
-            <span
-              aria-hidden="true"
-              style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }}
-            />
+            <span aria-hidden="true" style={fullStopSquare} />
           </h1>
           <p style={{ fontSize: 17, lineHeight: "26px", color: MUTED, margin: 0, maxWidth: "40ch" }}>
             Guides on mobile money, stablecoins, FX and cross-border payments across emerging markets, from the

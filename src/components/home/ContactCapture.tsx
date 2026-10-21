@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import { COLOR, TYPE, fullStopSquare } from "@/lib/brand";
 
 export default function ContactCapture() {
   const [email, setEmail] = useState("");
@@ -12,7 +13,7 @@ export default function ContactCapture() {
       <div
         style={{
           borderRadius: 28,
-          background: "#3B2ED3",
+          background: COLOR.indigo,
           color: "#fff",
           padding: "clamp(32px,5vw,64px)",
           display: "grid",
@@ -22,9 +23,9 @@ export default function ContactCapture() {
         }}
       >
         <div>
-          <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(32px,3.65vw,51px)", fontWeight: 700, letterSpacing: "-0.045em", lineHeight: 0.98 }}>
+          <h2 style={{ margin: 0, ...TYPE.h2Cta }}>
             Get on the rails
-            <span style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }} />
+            <span style={fullStopSquare} />
           </h2>
           <p style={{ margin: "20px 0 0", fontSize: 17, lineHeight: 1.55, opacity: 0.9, maxWidth: "40ch" }}>
             Leave your work email and tell us what your business needs. We&apos;ll scope your markets with you and
@@ -39,7 +40,7 @@ export default function ContactCapture() {
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Work email"
               aria-label="Work email"
-              style={{ flex: 1, minWidth: 160, height: 50, padding: "0 18px", border: 0, outline: "none", background: "transparent", color: "#131126", font: "16px var(--font-body)" }}
+              style={{ flex: 1, minWidth: 160, height: 50, padding: "0 18px", border: 0, outline: "none", background: "transparent", color: COLOR.ink, font: "16px var(--font-body)" }}
             />
             <button
               type="button"

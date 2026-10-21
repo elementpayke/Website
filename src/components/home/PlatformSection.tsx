@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { TYPE } from "@/lib/brand";
 
 const MUTED = "#4C4A66";
 const INK = "#131126";
@@ -8,7 +9,7 @@ export default function PlatformSection() {
   return (
     <section data-screen-label="Platform" id="platform" style={{ maxWidth: 1200, margin: "0 auto", padding: "clamp(56px,8vw,96px) clamp(12px,3vw,24px) 0", display: "flex", flexDirection: "column", gap: 16, scrollMarginTop: 80 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 20, flexWrap: "wrap", marginBottom: 20, padding: "0 4px" }}>
-        <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,3.03vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1, maxWidth: "14ch" }}>
+        <h2 style={{ margin: 0, ...TYPE.h2Section, maxWidth: "14ch" }}>
           One platform, three ways in.
         </h2>
         <p style={{ margin: 0, fontSize: 16, lineHeight: 1.55, color: MUTED, maxWidth: "42ch" }}>
@@ -19,7 +20,7 @@ export default function PlatformSection() {
       <article style={{ background: "#3B2ED3", color: "#fff", borderRadius: 28, padding: "clamp(24px,3.4vw,40px)", display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,380px),1fr))", gap: 40, alignItems: "center" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: 20 }}>
           <span style={{ fontFamily: "var(--font-label)", fontSize: 12, letterSpacing: ".06em", opacity: 0.8 }}>01 · Mboka · for finance teams</span>
-          <h3 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(26px,2.81vw,34px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1.04 }}>
+          <h3 style={{ margin: 0, ...TYPE.h3Feature }}>
             Real business bank accounts, cards and payouts.
           </h3>
           <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, opacity: 0.88, maxWidth: "46ch" }}>
@@ -48,13 +49,13 @@ export default function PlatformSection() {
               <Image src="/flags/ke.svg" alt="" width={26} height={19} style={{ borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
               <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
                 <b style={{ fontFamily: "var(--font-heading)", fontSize: 15 }}>Kenya shilling account</b>
-                <span style={{ fontSize: 11, color: "#6B6880" }}>Local bank · Nairobi</span>
+                <span style={{ fontSize: 11, color: "#6E6C8A" }}>Local bank · Nairobi</span>
               </div>
               <span style={{ fontFamily: "var(--font-label)", fontSize: 11.5, padding: "4px 9px", borderRadius: 999, background: "#EDEBFB", color: "#3B2ED3" }}>KES</span>
             </div>
             {[["Account name", "ACME TRADING LTD"], ["Account number", "0100 •••• 4471"], ["SWIFT / BIC", "••••KENA"]].map(([k, v]) => (
               <div key={k} style={{ display: "flex", justifyContent: "space-between", gap: 12, padding: "9px 0", borderTop: "1px solid #EEECF4" }}>
-                <span style={{ fontSize: 11.5, color: "#6B6880" }}>{k}</span>
+                <span style={{ fontSize: 11.5, color: "#6E6C8A" }}>{k}</span>
                 <span style={{ fontFamily: "var(--font-label)", fontSize: 12.5 }}>{v}</span>
               </div>
             ))}
@@ -64,13 +65,13 @@ export default function PlatformSection() {
               <Image src="/flags/us.svg" alt="" width={26} height={19} style={{ borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
               <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
                 <b style={{ fontFamily: "var(--font-heading)", fontSize: 15 }}>US dollar account</b>
-                <span style={{ fontSize: 11, color: "#6B6880" }}>US partner bank</span>
+                <span style={{ fontSize: 11, color: "#6E6C8A" }}>US partner bank</span>
               </div>
               <span style={{ fontFamily: "var(--font-label)", fontSize: 11.5, padding: "4px 9px", borderRadius: 999, background: "#EDEBFB", color: "#3B2ED3" }}>USD</span>
             </div>
             {[["Account number", "•••• 9982"], ["ACH routing", "026•••••9"]].map(([k, v]) => (
               <div key={k} style={{ display: "flex", justifyContent: "space-between", gap: 12, padding: "9px 0", borderTop: "1px solid #EEECF4" }}>
-                <span style={{ fontSize: 11.5, color: "#6B6880" }}>{k}</span>
+                <span style={{ fontSize: 11.5, color: "#6E6C8A" }}>{k}</span>
                 <span style={{ fontFamily: "var(--font-label)", fontSize: 12.5 }}>{v}</span>
               </div>
             ))}
@@ -81,17 +82,17 @@ export default function PlatformSection() {
       <div style={{ display: "flex", flexWrap: "wrap", gap: 16 }}>
         <article style={{ flex: "1 1 380px", minWidth: "min(100%,300px)", background: "#FFB224", color: INK, borderRadius: 28, padding: "clamp(24px,3.4vw,40px)", display: "flex", flexDirection: "column", gap: 20, boxSizing: "border-box" }}>
           <span style={{ fontFamily: "var(--font-label)", fontSize: 12, letterSpacing: ".06em", opacity: 0.8 }}>02 · Merchant dashboard · for operations teams</span>
-          <h3 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(26px,2.59vw,33px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1.04 }}>
+          <h3 style={{ margin: 0, ...TYPE.h3Feature }}>
             Collections, payouts and approvals in one place.
           </h3>
           <div style={{ background: "#fff", borderRadius: 22, padding: 18, display: "flex", flexDirection: "column", gap: 12, marginTop: "auto" }}>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(3,minmax(0,1fr))", gap: 8 }}>
               <div style={{ padding: 12, borderRadius: 14, background: "#F6F4EF" }}>
-                <div style={{ fontSize: 11, color: "#6B6880" }}>Collected</div>
+                <div style={{ fontSize: 11, color: "#6E6C8A" }}>Collected</div>
                 <div style={{ fontFamily: "var(--font-heading)", fontSize: 20, fontWeight: 700 }}>$128.4k</div>
               </div>
               <div style={{ padding: 12, borderRadius: 14, background: "#F6F4EF" }}>
-                <div style={{ fontSize: 11, color: "#6B6880" }}>Paid out</div>
+                <div style={{ fontSize: 11, color: "#6E6C8A" }}>Paid out</div>
                 <div style={{ fontFamily: "var(--font-heading)", fontSize: 20, fontWeight: 700 }}>$96.2k</div>
               </div>
               <div style={{ padding: 12, borderRadius: 14, background: INK, color: "#fff" }}>
@@ -103,7 +104,7 @@ export default function PlatformSection() {
               <span style={{ width: 28, height: 34, borderRadius: 4, background: "#5ED6B4", display: "flex", alignItems: "flex-end", justifyContent: "center", paddingBottom: 4, boxSizing: "border-box", fontSize: 8, fontWeight: 700 }}>CSV</span>
               <div style={{ display: "flex", flexDirection: "column" }}>
                 <b style={{ fontSize: 12.5 }}>october-payouts.csv</b>
-                <span style={{ fontSize: 11, color: "#6B6880" }}>250 recipients · 6 countries</span>
+                <span style={{ fontSize: 11, color: "#6E6C8A" }}>250 recipients · 6 countries</span>
               </div>
             </div>
           </div>
@@ -111,9 +112,9 @@ export default function PlatformSection() {
             Explore the dashboard →
           </Link>
         </article>
-        <article style={{ flex: "1 1 380px", minWidth: "min(100%,300px)", background: "#fff", color: INK, border: "1px solid #E6E2DA", borderRadius: 28, padding: "clamp(24px,3.4vw,40px)", display: "flex", flexDirection: "column", gap: 20, boxSizing: "border-box" }}>
+        <article style={{ flex: "1 1 380px", minWidth: "min(100%,300px)", background: "#fff", color: INK, border: "1px solid rgba(19,17,38,.08)", borderRadius: 28, padding: "clamp(24px,3.4vw,40px)", display: "flex", flexDirection: "column", gap: 20, boxSizing: "border-box" }}>
           <span style={{ fontFamily: "var(--font-label)", fontSize: 12, letterSpacing: ".06em", opacity: 0.8 }}>03 · ElementPay API · for product teams</span>
-          <h3 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(26px,2.59vw,33px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1.04 }}>
+          <h3 style={{ margin: 0, ...TYPE.h3Feature }}>
             Build payments into your own product.
           </h3>
           <div style={{ background: INK, color: "#E8E6F5", borderRadius: 18, overflow: "hidden", marginTop: "auto" }}>

@@ -1,4 +1,5 @@
 import HeroScene from "./HeroScene";
+import { COLOR, TYPE } from "@/lib/brand";
 
 export default function Hero() {
   return (
@@ -32,11 +33,11 @@ export default function Hero() {
           <span style={{ width: 8, height: 8, background: "#FFB224" }} />
           Cross-border payment infrastructure for businesses
         </span>
-        <h1 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(32px,3.65vw,49px)", fontWeight: 700, letterSpacing: "-0.045em", lineHeight: 1 }}>
+        <h1 style={{ margin: 0, ...TYPE.h1Hero }}>
           Money should move like{" "}
-          <span style={{ color: "#3B2ED3" }}>
+          <span style={{ color: COLOR.indigo }}>
             messages
-            <span style={{ display: "inline-block", width: ".22em", height: ".22em", marginLeft: ".06em", background: "#FFB224" }} />
+            <span style={{ display: "inline-block", width: ".22em", height: ".22em", marginLeft: ".06em", background: COLOR.amber }} />
           </span>
         </h1>
         <p style={{ margin: 0, fontSize: 18, color: "#4C4A66", maxWidth: 470, lineHeight: 1.55 }}>

@@ -1,3 +1,5 @@
+import { TYPE } from "@/lib/brand";
+
 const FEATURES: Array<[string, string, string]> = [
   ["#FFB224", "One integration", "One platform for every market and rail we cover."],
   ["#5ED6B4", "Pricing upfront", "The rate and fee are shown before you confirm."],
@@ -11,7 +13,7 @@ export default function WhySection() {
       <div style={{ borderRadius: 28, background: "#131126", color: "#fff", padding: "clamp(28px,4vw,48px)", display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,340px),1fr))", gap: "clamp(28px,4vw,56px)" }}>
         <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
           <span style={{ fontFamily: "var(--font-label)", fontSize: 12, letterSpacing: ".06em", opacity: 0.7 }}>Why ElementPay</span>
-          <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,2.96vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1 }}>
+          <h2 style={{ margin: 0, ...TYPE.h2Section }}>
             Built for teams that need control.
           </h2>
           <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: "#B4B1D0", maxWidth: "42ch" }}>

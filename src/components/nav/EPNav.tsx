@@ -31,7 +31,7 @@ export default function EPNav({ active }: Props) {
   useEffect(() => {
     const onResize = () => {
       const w = window.innerWidth;
-      const isMob = w <= 900;
+      const isMob = w < 1024;
       setMob(isMob);
       setNarrow(w <= 420);
       if (!isMob) setMobOpen(false);
@@ -118,7 +118,7 @@ export default function EPNav({ active }: Props) {
                 minWidth: 0,
                 flexWrap: "wrap",
                 overflow: "hidden",
-                height: 40,
+                height: 44,
               }}
             >
               {NAV_GROUP_KEYS.map((key) => {
@@ -133,7 +133,7 @@ export default function EPNav({ active }: Props) {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      height: 40,
+                      height: 44,
                       boxSizing: "border-box",
                       lineHeight: 1,
                       padding: "0 clamp(6px,0.9vw,14px)",
@@ -156,7 +156,7 @@ export default function EPNav({ active }: Props) {
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
-                  height: 40,
+                  height: 44,
                   boxSizing: "border-box",
                   lineHeight: 1,
                   padding: "0 clamp(6px,0.9vw,14px)",
@@ -178,7 +178,10 @@ export default function EPNav({ active }: Props) {
             <Link
               href="/contact"
               style={{
-                padding: "11px clamp(12px,1.4vw,18px)",
+                display: "inline-flex",
+                alignItems: "center",
+                minHeight: 44,
+                padding: "0 clamp(12px,1.4vw,18px)",
                 borderRadius: 999,
                 fontSize: "clamp(13px,1.3vw,15px)",
                 fontWeight: 500,
@@ -187,6 +190,7 @@ export default function EPNav({ active }: Props) {
                 whiteSpace: "nowrap",
                 flex: "none",
                 textDecoration: "none",
+                boxSizing: "border-box",
               }}
             >
               Talk to sales

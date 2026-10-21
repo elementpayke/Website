@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { HOME_FAQS } from "./homeData";
+import { TYPE } from "@/lib/brand";
 
 const MUTED = "#4C4A66";
 
@@ -21,7 +22,7 @@ export default function FaqSection() {
       }}
     >
       <div style={{ padding: "0 4px" }}>
-        <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,3.03vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1 }}>
+        <h2 style={{ margin: 0, ...TYPE.h2Section }}>
           Questions.
         </h2>
         <p style={{ margin: "16px 0 0", fontSize: 16, lineHeight: 1.55, color: MUTED, maxWidth: "36ch" }}>

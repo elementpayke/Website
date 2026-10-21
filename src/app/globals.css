@@ -26,6 +26,31 @@ body {
   font-family: var(--font-body), Arial, Helvetica, sans-serif;
 }
 
+/* BRAND.md section 2: links, focus and selection, defined once instead of per page */
+a {
+  color: #3b2ed3;
+  text-decoration: none;
+}
+a:hover {
+  color: #2a1fb0;
+}
+*:focus-visible {
+  outline: 2px solid #7c6fff;
+  outline-offset: 2px;
+}
+::selection {
+  background: #eeedfb;
+  color: #3b2ed3;
+}
+body {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3 {
+  text-wrap: balance;
+}
+
 /* Shared resets from the ElementPay design system (repeated across every .dc.html <helmet>) */
 html {
   -webkit-text-size-adjust: 100%;

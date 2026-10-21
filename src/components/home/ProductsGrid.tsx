@@ -1,11 +1,12 @@
 import Link from "next/link";
 import { PRODUCTS } from "./homeData";
+import { TYPE } from "@/lib/brand";
 
 export default function ProductsGrid() {
   return (
     <section data-screen-label="Products" id="products" style={{ maxWidth: 1200, margin: "0 auto", padding: "clamp(72px,9vw,112px) clamp(12px,3vw,24px) 0", scrollMarginTop: 80 }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 20, flexWrap: "wrap", marginBottom: 36, padding: "0 4px" }}>
-        <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,3.03vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1, maxWidth: "14ch" }}>
+        <h2 style={{ margin: 0, ...TYPE.h2Section, maxWidth: "14ch" }}>
           Everything your money needs to do.
         </h2>
         <p style={{ margin: 0, fontSize: 16, lineHeight: 1.55, color: "#4C4A66", maxWidth: "42ch" }}>
@@ -28,7 +29,7 @@ export default function ProductsGrid() {
                 borderRadius: 28,
                 background: b.bg,
                 color: b.fg,
-                border: b.bg === "#fff" ? "1px solid #E6E2DA" : "0",
+                border: b.bg === "#fff" ? "1px solid rgba(19,17,38,.08)" : "0",
                 boxSizing: "border-box",
                 textDecoration: "none",
               }}

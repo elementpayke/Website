@@ -6,6 +6,7 @@ import { ARTICLES, getArticleBySlug } from "@/lib/blog/articles";
 import { buildArticleBlocks } from "@/lib/blog/toc";
 import ArticleToc from "@/components/blog/ArticleToc";
 import { SITE_URL } from "@/lib/site";
+import { TYPE, fullStopSquare } from "@/lib/brand";
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -84,21 +85,9 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
             <span>/</span>
             <span style={{ color: PURPLE }}>{article.cat}</span>
           </div>
-          <h1
-            style={{
-              fontFamily: "var(--font-heading)",
-              fontSize: "clamp(30px,3.44vw,46px)",
-              lineHeight: 1,
-              letterSpacing: "-0.04em",
-              fontWeight: 700,
-              margin: "20px 0 0",
-            }}
-          >
+          <h1 style={{ ...TYPE.h1Article, margin: "20px 0 0" }}>
             {h1Text}
-            <span
-              aria-hidden="true"
-              style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }}
-            />
+            <span aria-hidden="true" style={fullStopSquare} />
           </h1>
           <p style={{ fontSize: "clamp(18px,1.6vw,21px)", lineHeight: 1.5, color: MUTED, margin: "20px 0 0", maxWidth: "60ch" }}>
             {article.desc}
@@ -145,18 +134,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
             {blocks.map((b, i) => {
               if (b.isH) {
                 return (
-                  <h2
-                    key={i}
-                    id={b.id}
-                    style={{
-                      fontFamily: "var(--font-heading)",
-                      fontSize: "clamp(26px,2.25vw,30px)",
-                      lineHeight: 1.1,
-                      letterSpacing: "-0.025em",
-                      fontWeight: 700,
-                      margin: "40px 0 0",
-                    }}
-                  >
+                  <h2 key={i} id={b.id} style={{ ...TYPE.h3Feature, margin: "40px 0 0" }}>
                     {b.text}
                   </h2>
                 );
@@ -177,7 +155,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
                 );
               }
               return (
-                <p key={i} style={{ fontSize: 18, lineHeight: "30px", color: "#2A2840", margin: "16px 0 0" }}>
+                <p key={i} style={{ fontSize: 18, lineHeight: "30px", color: "#131126", margin: "16px 0 0" }}>
                   {b.text}
                 </p>
               );
@@ -220,9 +198,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
         </div>
 
         <section style={{ maxWidth: 1240, margin: "0 auto", padding: "clamp(64px,8vw,112px) clamp(20px,4vw,48px) 0" }}>
-          <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(26px,2.4vw,32px)", letterSpacing: "-0.03em", fontWeight: 700, margin: 0 }}>
-            Keep reading.
-          </h2>
+          <h2 style={{ ...TYPE.h2Section, margin: 0 }}>Keep reading.</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,300px),1fr))", gap: 12, marginTop: 24 }}>
             {more.map((m) => (
               <Link

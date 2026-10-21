@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { COVERAGE_REGIONS } from "./homeData";
+import { TYPE } from "@/lib/brand";
 
 const INK = "#131126";
 const MUTED = "#4C4A66";
@@ -16,7 +17,7 @@ export default function CoverageSection() {
     <section data-screen-label="Coverage" id="coverage" style={{ maxWidth: 1200, margin: "0 auto", padding: "clamp(72px,9vw,112px) clamp(12px,3vw,24px) 0" }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 20, flexWrap: "wrap", marginBottom: 28, padding: "0 4px" }}>
         <div>
-          <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,3.03vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1 }}>
+          <h2 style={{ margin: 0, ...TYPE.h2Section }}>
             Where your money can go.
           </h2>
           <p style={{ margin: "14px 0 0", fontSize: 16, lineHeight: 1.55, color: MUTED }}>

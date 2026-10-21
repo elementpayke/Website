@@ -230,7 +230,7 @@ export default function EPFooter() {
                   fontWeight: 500,
                   display: "inline-flex",
                   alignItems: "center",
-                  boxShadow: "0 0 0 1px #E6E2DA",
+                  boxShadow: "0 0 0 1px rgba(19,17,38,.08)",
                   textDecoration: "none",
                 }}
               >
@@ -260,7 +260,7 @@ export default function EPFooter() {
         style={{
           marginTop: 48,
           paddingTop: 28,
-          borderTop: "1px solid #E6E2DA",
+          borderTop: "1px solid rgba(19,17,38,.08)",
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,240px),1fr))",
           gap: 24,

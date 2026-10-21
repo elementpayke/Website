@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TYPE } from "@/lib/brand";
 
 const POSTS: Array<{ href: string; dot: string; cat: string; title: string }> = [
   { href: "/blog/stablecoin-off-ramps-africa", dot: "#5ED6B4", cat: "Stablecoins", title: "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money" },
@@ -10,7 +11,7 @@ export default function BlogPreview() {
   return (
     <section data-screen-label="Blog" id="blog" style={{ maxWidth: 1200, margin: "0 auto", padding: "clamp(72px,9vw,112px) clamp(12px,3vw,24px) 0" }}>
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 20, flexWrap: "wrap", marginBottom: 28, padding: "0 4px" }}>
-        <h2 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(27px,3.03vw,39px)", fontWeight: 700, letterSpacing: "-0.04em", lineHeight: 1 }}>
+        <h2 style={{ margin: 0, ...TYPE.h2Section }}>
           From the blog
           <span aria-hidden style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }} />
         </h2>
