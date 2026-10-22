@@ -3,8 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { ARTICLES } from "@/lib/blog/articles";
 import BlogGrid from "@/components/blog/BlogGrid";
-import { SITE_URL } from "@/lib/site";
 import { TYPE, fullStopSquare } from "@/lib/brand";
+import { blogSchema, withContext } from "@/lib/schema";
 
 const TITLE = "Blog: guides to payments, mobile money and stablecoins in emerging markets";
 const DESCRIPTION =
@@ -33,18 +33,7 @@ const MUTED = "#4C4A66";
 
 export default function BlogIndexPage() {
   const [feat, ...rest] = ARTICLES;
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "Blog",
-    name: "ElementPay Blog",
-    url: `${SITE_URL}/blog`,
-    blogPost: ARTICLES.slice(0, 8).map((a) => ({
-      "@type": "BlogPosting",
-      headline: a.title,
-      url: `${SITE_URL}/blog/${a.slug}`,
-      datePublished: a.date,
-    })),
-  };
+  const jsonLd = withContext(blogSchema(ARTICLES.slice(0, 8)));
 
   return (
     <>

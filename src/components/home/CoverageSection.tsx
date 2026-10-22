@@ -58,7 +58,7 @@ export default function CoverageSection() {
             href={st.href}
             style={{ display: "flex", alignItems: "center", gap: 12, padding: "16px 18px", borderRadius: 20, background: "#fff", border: "1px solid rgba(19,17,38,.08)", color: INK, textDecoration: "none" }}
           >
-            <Image src={st.flag} alt={`${st.n} flag`} width={30} height={21} style={{ borderRadius: 4, objectFit: "cover", flex: "none", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
+            <Image src={st.flag} alt={`${st.n} flag`} width={30} height={21} style={{ width: 30, height: 21, borderRadius: 4, objectFit: "cover", flex: "none", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
             <span style={{ flex: 1, minWidth: 0 }}>
               <span style={{ display: "block", fontFamily: "var(--font-heading)", fontSize: 17, fontWeight: 700, letterSpacing: "-0.015em" }}>{st.n}</span>
               <span style={{ display: "block", fontSize: 12.5, color: "#6E6C8A", marginTop: 2 }}>{st.sub}</span>

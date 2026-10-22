@@ -5,8 +5,8 @@ import Image from "next/image";
 import { ARTICLES, getArticleBySlug } from "@/lib/blog/articles";
 import { buildArticleBlocks } from "@/lib/blog/toc";
 import ArticleToc from "@/components/blog/ArticleToc";
-import { SITE_URL } from "@/lib/site";
 import { TYPE, fullStopSquare } from "@/lib/brand";
+import { articleSchema, withContext } from "@/lib/schema";
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -60,15 +60,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
   const more = pickMoreArticles(article.slug, article.cat);
   const h1Text = article.title.replace(/\.$/, "");
 
-  const jsonLd = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    headline: article.title,
-    description: article.desc,
-    url: `${SITE_URL}/blog/${article.slug}`,
-    datePublished: article.date,
-    author: { "@type": "Organization", name: "ElementPay" },
-  };
+  const jsonLd = withContext(articleSchema(article));
 
   return (
     <>
@@ -181,7 +173,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
                   alt=""
                   width={40}
                   height={28}
-                  style={{ borderRadius: 5, objectFit: "cover" }}
+                  style={{ width: 40, height: 28, borderRadius: 5, objectFit: "cover" }}
                 />
                 <span style={{ fontFamily: "var(--font-heading)", fontSize: 24, fontWeight: 700, letterSpacing: "-0.02em" }}>
                   Move money with ElementPay.
@@ -211,7 +203,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
                   alt=""
                   width={64}
                   height={46}
-                  style={{ borderRadius: 8, objectFit: "cover", flex: "none" }}
+                  style={{ width: 64, height: 46, borderRadius: 8, objectFit: "cover", flex: "none" }}
                 />
                 <span>
                   <span style={{ display: "block", fontFamily: "var(--font-label)", fontSize: 12, color: PURPLE }}>{m.cat}</span>

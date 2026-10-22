@@ -12,7 +12,6 @@ import BlogPreview from "@/components/home/BlogPreview";
 import FaqSection from "@/components/home/FaqSection";
 import ContactCapture from "@/components/home/ContactCapture";
 import HomeFooter from "@/components/home/HomeFooter";
-import { SITE_URL } from "@/lib/site";
 
 const TITLE = "ElementPay (Element Pay): stablecoin and cross-border payments API for businesses in Africa";
 const DESCRIPTION =
@@ -35,31 +34,9 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      name: "ElementPay",
-      alternateName: ["Element Pay", "ElementPay Payments"],
-      url: SITE_URL,
-      sameAs: ["https://mboka.finance", "https://docs.elementpay.net/"],
-      description: "Cross-border payment infrastructure for businesses in emerging markets.",
-      knowsAbout: [
-        "Cross-border payments", "Mobile money API", "M-Pesa", "Stablecoin payments", "USDC", "USDT",
-        "Stablecoin on-ramp", "Stablecoin off-ramp", "Bulk payouts", "Payment gateway", "Foreign exchange",
-        "Business bank accounts",
-      ],
-      brand: [{ "@type": "Brand", name: "Mboka", url: "https://mboka.finance" }],
-    },
-    { "@type": "WebSite", name: "ElementPay", url: SITE_URL },
-  ],
-};
-
 export default function HomePage() {
   return (
     <div style={{ background: "#F6F4EF" }}>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <TopBar />
       <div style={{ position: "sticky", top: 0, zIndex: 30, background: "#F6F4EF", boxShadow: "0 1px 0 rgba(19,17,38,.08)" }}>
         <EPNav />

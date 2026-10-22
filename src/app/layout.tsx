@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Mono, DM_Sans, Space_Grotesk } from "next/font/google";
 import { siteConfig } from "@/lib/site";
+import { jsonLdGraph, organizationSchema, websiteSchema } from "@/lib/schema";
 import "./globals.css";
 
 const spaceGrotesk = Space_Grotesk({
@@ -11,7 +12,7 @@ const spaceGrotesk = Space_Grotesk({
 
 const dmSans = DM_Sans({
   variable: "--font-body",
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
 });
 
@@ -46,13 +47,18 @@ export const metadata: Metadata = {
   },
 };
 
+const orgJsonLd = jsonLdGraph(organizationSchema(), websiteSchema());
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
       className={`${spaceGrotesk.variable} ${dmSans.variable} ${dmMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
+        {children}
+      </body>
     </html>
   );
 }

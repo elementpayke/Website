@@ -46,7 +46,7 @@ export default function PlatformSection() {
         <div style={{ maxWidth: 420, width: "100%", justifySelf: "center", display: "flex", flexDirection: "column", gap: 14 }}>
           <div style={{ background: "#fff", color: INK, borderRadius: 22, padding: "18px 20px 8px", boxShadow: "0 34px 60px -30px rgba(10,8,40,.6)", transform: "rotate(-1.5deg)" }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10, paddingBottom: 12 }}>
-              <Image src="/flags/ke.svg" alt="" width={26} height={19} style={{ borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
+              <Image src="/flags/ke.svg" alt="" width={26} height={19} style={{ width: 26, height: 19, borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
               <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
                 <b style={{ fontFamily: "var(--font-heading)", fontSize: 15 }}>Kenya shilling account</b>
                 <span style={{ fontSize: 11, color: "#6E6C8A" }}>Local bank · Nairobi</span>
@@ -62,7 +62,7 @@ export default function PlatformSection() {
           </div>
           <div style={{ background: "#fff", color: INK, borderRadius: 22, padding: "18px 20px 8px", boxShadow: "0 34px 60px -30px rgba(10,8,40,.6)", transform: "rotate(1.5deg) translateX(14px)", marginTop: -6 }}>
             <div style={{ display: "flex", alignItems: "center", gap: 10, paddingBottom: 12 }}>
-              <Image src="/flags/us.svg" alt="" width={26} height={19} style={{ borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
+              <Image src="/flags/us.svg" alt="" width={26} height={19} style={{ width: 26, height: 19, borderRadius: 4, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
               <div style={{ display: "flex", flexDirection: "column", flex: 1, minWidth: 0 }}>
                 <b style={{ fontFamily: "var(--font-heading)", fontSize: 15 }}>US dollar account</b>
                 <span style={{ fontSize: 11, color: "#6E6C8A" }}>US partner bank</span>

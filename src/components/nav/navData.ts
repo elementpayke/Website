@@ -46,7 +46,7 @@ export const NAV_GROUPS: Record<NavGroupKey, { blurb: string; items: readonly Na
     blurb: "The building blocks of cross-border money.",
     items: [
       ["send", "Payments", "Payouts in 20 African countries", "payments"],
-      ["globe", "Settlement and FX", "Instant conversion, including stablecoins", "fx"],
+      ["globe", "Settlement and FX", "Convert currencies and stablecoins", "fx"],
       ["bank", "Accounts and treasury", "Bank accounts in 30 currencies", "accounts"],
       ["swap", "OTC desk", "Large-ticket FX quoted by a trader", "otc"],
       ["bot", "Agentic payments", "Budgets and policies for AI agents", "agentic"],

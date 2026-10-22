@@ -5,7 +5,8 @@
       "name": "newsitev1-dev",
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev"],
-      "port": 3100
+      "port": 3100,
+      "autoPort": true
     }
   ]
 }

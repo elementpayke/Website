@@ -1,8 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import EpGlobe from "./EpGlobe";
+import dynamic from "next/dynamic";
 import { SCENE_NAMES } from "./homeData";
+
+const EpGlobe = dynamic(() => import("./EpGlobe"));
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -43,11 +45,6 @@ export default function HeroScene() {
           position: "relative",
           width: "100%",
           aspectRatio: "1/0.92",
-          borderRadius: 28,
-          background: "#fff",
-          border: "1px solid rgba(19,17,38,.08)",
-          boxShadow: "0 40px 80px -50px rgba(19,17,38,.45)",
-          overflow: "hidden",
         }}
       >
         <div
@@ -61,7 +58,8 @@ export default function HeroScene() {
             gap: 8,
             padding: "7px 12px",
             borderRadius: 999,
-            background: "rgba(246,244,239,.92)",
+            background: "#fff",
+            boxShadow: "0 14px 30px -16px rgba(19,17,38,.4)",
             fontFamily: "var(--font-label)",
             fontSize: 11.5,
             color: INK,
@@ -203,8 +201,8 @@ const PAYOUT_ROWS: Array<{ iso: string; country: string; rail: string; amt: stri
 function BulkPayoutScene() {
   return (
     <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
-      <div style={{ width: "82%", display: "flex", flexDirection: "column", gap: 12 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 12px", borderRadius: 14, border: "1.5px dashed #CFCBE0", animation: "epTick .45s .05s both" }}>
+      <div style={{ width: "86%", background: "#fff", borderRadius: 20, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 4 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "6px 0 14px", animation: "epTick .45s .05s both" }}>
           <span style={{ width: 28, height: 34, borderRadius: 4, background: "#5ED6B4", display: "flex", alignItems: "flex-end", justifyContent: "center", paddingBottom: 4, boxSizing: "border-box", fontSize: 8, fontWeight: 700 }}>
             CSV
           </span>
@@ -214,9 +212,20 @@ function BulkPayoutScene() {
           </span>
           <span style={{ padding: "5px 10px", borderRadius: 999, background: "#EEEDFB", color: "#3B2ED3", fontSize: 11.5, fontWeight: 700 }}>Approved</span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, padding: 16, borderRadius: 18, background: "#F6F4EF" }}>
-          {PAYOUT_ROWS.map((row) => (
-            <div key={row.iso} style={{ display: "grid", gridTemplateColumns: "auto minmax(0,1fr) auto", gap: "4px 10px", alignItems: "center", animation: `epTick .45s ${row.delay}s both` }}>
+        <div style={{ display: "flex", flexDirection: "column" }}>
+          {PAYOUT_ROWS.map((row, i) => (
+            <div
+              key={row.iso}
+              style={{
+                display: "grid",
+                gridTemplateColumns: "auto minmax(0,1fr) auto",
+                gap: "4px 10px",
+                alignItems: "center",
+                padding: "10px 0",
+                borderTop: i === 0 ? "none" : "1px solid rgba(19,17,38,.06)",
+                animation: `epTick .45s ${row.delay}s both`,
+              }}
+            >
               <span aria-hidden style={{ width: 20, height: 14, borderRadius: 3, flex: "none", background: `url(/flags/${row.iso}.svg) center/cover`, boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
               <span style={{ fontSize: 12.5, fontWeight: 700 }}>
                 {row.country} <span style={{ color: "#6E6C8A", fontWeight: 500 }}>· {row.rail}</span>
@@ -229,7 +238,7 @@ function BulkPayoutScene() {
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 12.5, fontWeight: 700, animation: "epTick .45s 1.2s both" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 12.5, fontWeight: 700, paddingTop: 14, animation: "epTick .45s 1.2s both" }}>
           <span>One file. One approval. Five countries.</span>
           <span style={{ fontFamily: "var(--font-label)", color: "#0E7A5A" }}>231 / 250 paid</span>
         </div>
@@ -266,7 +275,7 @@ function StablecoinRampScene() {
             <b style={{ fontFamily: "var(--font-heading)", fontSize: 22, letterSpacing: "-0.02em" }}>25,000.00 USDC</b>
           </span>
         </div>
-        <div style={{ padding: "16px 16px 2px", borderRadius: 18, background: "#F6F4EF" }}>
+        <div style={{ padding: "16px 16px 2px", borderRadius: 18, background: "#fff" }}>
           {steps.map((step) => (
             <div key={step.n} style={{ display: "grid", gridTemplateColumns: "auto minmax(0,1fr)", gap: "0 12px", animation: `epTick .45s ${step.delay}s both` }}>
               <span style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -315,7 +324,7 @@ function FxConversionScene() {
   return (
     <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
       <div style={{ width: "78%", display: "flex", flexDirection: "column", gap: 10 }}>
-        <div style={{ padding: 18, borderRadius: 20, background: "#F6F4EF", animation: "epTick .5s .1s both" }}>
+        <div style={{ padding: 18, borderRadius: 20, background: "#fff", animation: "epTick .5s .1s both" }}>
           <div style={{ fontSize: 12, color: "#6E6C8A", fontWeight: 700 }}>You send</div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 4 }}>
             <b style={{ fontFamily: "var(--font-heading)", fontSize: 30, letterSpacing: "-0.03em" }}>10,000.00</b>

@@ -82,11 +82,10 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
 ];
 
 const SOCIALS: Array<[string, string]> = [
-  ["LinkedIn", "https://www.linkedin.com/company/elementpay"],
-  ["X", "https://x.com/elementpay"],
-  ["Telegram", "https://t.me/elementpay"],
-  ["YouTube", "https://www.youtube.com/@elementpay"],
-  ["Instagram", "https://www.instagram.com/elementpay"],
+  ["LinkedIn", "https://www.linkedin.com/company/elementpayhq/"],
+  ["X", "https://x.com/element_pay"],
+  ["TikTok", "https://www.tiktok.com/@elementpay"],
+  ["Instagram", "https://www.instagram.com/_elementpay/"],
 ];
 
 export default function EPFooter() {
@@ -273,7 +272,7 @@ export default function EPFooter() {
               alt=""
               width={20}
               height={14}
-              style={{ borderRadius: 2, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }}
+              style={{ width: 20, height: 14, borderRadius: 2, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }}
             />
             Nairobi, Kenya
           </span>
@@ -287,7 +286,7 @@ export default function EPFooter() {
               alt=""
               width={20}
               height={14}
-              style={{ borderRadius: 2, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }}
+              style={{ width: 20, height: 14, borderRadius: 2, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }}
             />
             Wilmington, DE, USA
           </span>
