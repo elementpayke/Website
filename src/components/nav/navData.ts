@@ -75,7 +75,7 @@ export const NAV_GROUPS: Record<NavGroupKey, { blurb: string; items: readonly Na
     items: [
       ["map", "Coverage", "10+ payout countries, 30 account currencies", "coverage"],
       ["globe", "Stablecoin payments in Africa", "Country-by-country guides", "stablecoin-payments-africa"],
-      ["book", "Developer documentation", "Guides and tutorials for integrating", "https://docs.elementpay.net/"],
+      ["book", "Developer documentation", "Guides and tutorials for integrating", "https://partners.elementpay.net/"],
       ["globe", "Exchange rates", "Indicative rates for 30 currencies and stablecoins", "rates"],
       ["book", "Glossary", "Mobile money, FX and stablecoin terms explained", "glossary"],
       ["help", "Help centre", "Answers for finance teams", "help"],

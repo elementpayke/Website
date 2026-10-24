@@ -214,7 +214,7 @@ export const PRODUCTS: Record<ProductSlug, ProductData> = {
     title: "One API for every rail.",
     lede: "Create orders, quote FX, pay out and collect with the same objects in every market, whether funded in fiat or stablecoins. Every state change arrives as a signed webhook.",
     specs: [["Style", "REST and JSON"], ["Auth", "Keys per environment"], ["Events", "Signed webhooks"], ["Sandbox", "Full test environment"]],
-    cta: ["Read the docs", "https://docs.elementpay.net/"],
+    cta: ["Read the docs", "https://partners.elementpay.net/"],
     demoTitle: "Your first payout.",
     demoSub: "One call creates the order. Webhooks tell you when it has settled.",
     features: [

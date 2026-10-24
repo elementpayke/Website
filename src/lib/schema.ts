@@ -14,7 +14,7 @@ export function organizationSchema() {
     name: siteConfig.name,
     alternateName: ["Element Pay", "ElementPay Payments"],
     url: SITE_URL,
-    sameAs: [...ORG_SOCIALS, "https://mboka.finance", "https://docs.elementpay.net/"],
+    sameAs: [...ORG_SOCIALS, "https://mboka.finance", "https://partners.elementpay.net/"],
     description: siteConfig.description,
     knowsAbout: [
       "Cross-border payments", "Mobile money API", "M-Pesa", "Stablecoin payments", "USDC", "USDT",

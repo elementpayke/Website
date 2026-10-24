@@ -444,7 +444,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [
@@ -525,7 +525,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [
@@ -594,7 +594,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [] as const,
@@ -654,7 +654,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [] as const,
@@ -714,7 +714,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [
@@ -765,7 +765,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Countries",
-        "20",
+        "10+",
       ],
       [
         "Rails",
@@ -872,7 +872,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Docs",
-        "docs.elementpay.net",
+        "partners.elementpay.net",
       ],
     ],
     features: [
@@ -886,7 +886,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Read the docs",
-        "Developer guides live at docs.elementpay.net.",
+        "Developer guides live at partners.elementpay.net.",
       ],
     ],
     faqs: [] as const,
@@ -1086,7 +1086,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Docs",
-        "docs.elementpay.net",
+        "partners.elementpay.net",
       ],
       [
         "Support",
@@ -1114,7 +1114,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     faqs: [
       {
         q: "Where are developer docs?",
-        a: "API guides and tutorials live at https://docs.elementpay.net/.",
+        a: "API guides and tutorials live at https://partners.elementpay.net/.",
       },
       {
         q: "How do I talk to a human?",
@@ -1223,7 +1223,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     specs: [
       [
         "Payout countries",
-        "20",
+        "10+",
       ],
       [
         "Account currencies",

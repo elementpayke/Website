@@ -62,7 +62,7 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
       ["Blog", "Blog.dc.html"],
       ["Help centre", "help.dc.html"],
       ["Status", "Status.dc.html"],
-      ["Docs", "https://docs.elementpay.net/"],
+      ["Docs", "https://partners.elementpay.net/"],
     ],
   ],
   [
