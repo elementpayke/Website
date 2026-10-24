@@ -156,7 +156,7 @@ export default function HeroScene() {
               <EpGlobe />
             </div>
             <div style={{ position: "absolute", left: 0, right: 0, bottom: "3%", display: "flex", justifyContent: "center", fontFamily: "var(--font-heading)", fontSize: 13, fontWeight: 700, color: "#4C4A66", whiteSpace: "nowrap", animation: "epIn .6s 1s both" }}>
-              Payouts in 20 African countries. Accounts in 30 currencies.
+              Payouts in 10+ African countries. Accounts in 30 currencies.
             </div>
           </div>
         )}

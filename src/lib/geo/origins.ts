@@ -19,20 +19,21 @@ export const ORIGINS: Origin[] = [
   { slug: "germany", name: "Germany", shortName: "Germany", iso: "de", currencyCode: "EUR", fundingMethod: "SEPA" },
 ];
 
-// [originSlug, destCountrySlug][]
+// [originSlug, destCountrySlug][]. Only pairs where the destination is a
+// confirmed payout country in coverage.ts — France has no corridors left
+// now that Benin/Cameroon/Côte d'Ivoire/Mali/Senegal were removed as unconfirmed.
 export const CORRIDORS: Array<[string, string]> = [
   ["canada", "ghana"], ["canada", "nigeria"],
   ["china", "ghana"], ["china", "kenya"], ["china", "nigeria"], ["china", "tanzania"],
-  ["france", "benin"], ["france", "cameroon"], ["france", "cote-divoire"], ["france", "mali"], ["france", "senegal"],
   ["germany", "ghana"], ["germany", "nigeria"],
-  ["uae", "ethiopia"], ["uae", "kenya"], ["uae", "nigeria"], ["uae", "uganda"],
+  ["uae", "kenya"], ["uae", "nigeria"], ["uae", "uganda"],
   ["uk", "ghana"], ["uk", "kenya"], ["uk", "nigeria"], ["uk", "south-africa"], ["uk", "uganda"],
-  ["us", "cameroon"], ["us", "ethiopia"], ["us", "ghana"], ["us", "kenya"], ["us", "nigeria"],
+  ["us", "ghana"], ["us", "kenya"], ["us", "nigeria"],
 ];
 
 export const STABLECOIN_RAMP_COUNTRIES: Record<"USDC" | "USDT", string[]> = {
   USDC: ["ghana", "kenya", "nigeria", "south-africa", "uganda"],
-  USDT: ["cameroon", "ghana", "kenya", "nigeria"],
+  USDT: ["ghana", "kenya", "nigeria"],
 };
 
 export function originBySlug(slug: string): Origin | undefined {

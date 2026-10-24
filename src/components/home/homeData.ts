@@ -130,10 +130,10 @@ function slugify(n: string): string {
 }
 
 const COVERAGE_RAW: Array<[string, Array<[string, string, string] | [string, string, string, true]>]> = [
-  ["East Africa", [["Kenya", "KES", "ke"], ["Uganda", "UGX", "ug"], ["Tanzania", "TZS", "tz"], ["Rwanda", "RWF", "rw"], ["Ethiopia", "ETB", "et"]]],
-  ["West Africa", [["Nigeria", "NGN", "ng"], ["Ghana", "GHS", "gh"], ["Senegal", "XOF", "sn"], ["Côte d’Ivoire", "XOF", "ci"], ["Benin", "XOF", "bj"], ["Togo", "XOF", "tg"], ["Burkina Faso", "XOF", "bf"], ["Mali", "XOF", "ml"]]],
-  ["Central Africa", [["Cameroon", "XAF", "cm"], ["DR Congo", "CDF", "cd"]]],
-  ["Southern Africa", [["South Africa", "ZAR", "za"], ["Zambia", "ZMW", "zm"], ["Malawi", "MWK", "mw"], ["Mozambique", "MZN", "mz"], ["Botswana", "BWP", "bw"]]],
+  ["East Africa", [["Kenya", "KES", "ke"], ["Uganda", "UGX", "ug"], ["Tanzania", "TZS", "tz"], ["Rwanda", "RWF", "rw"]]],
+  ["West Africa", [["Nigeria", "NGN", "ng"], ["Ghana", "GHS", "gh"]]],
+  ["Southern Africa", [["South Africa", "ZAR", "za"], ["Zambia", "ZMW", "zm"], ["Malawi", "MWK", "mw"], ["Botswana", "BWP", "bw"]]],
+  ["Latin America", [["Argentina", "ARS", "ar"], ["Colombia", "COP", "co"]]],
   ["Bank accounts", [
     ["US dollar", "USD", "us", true], ["Euro", "EUR", "eu", true], ["British pound", "GBP", "gb", true],
     ["UAE dirham", "AED", "ae", true], ["Chinese yuan", "CNY", "cn", true], ["Canadian dollar", "CAD", "ca", true],
@@ -159,7 +159,7 @@ export const COVERAGE_REGIONS: CoverageRegion[] = COVERAGE_RAW.map(([label, rows
 
 export const HOME_FAQS: Array<{ q: string; a: string }> = [
   ["What does ElementPay do?", "ElementPay is payment infrastructure for businesses. You can collect, pay out, convert and hold money across mobile money, bank rails and the USDC and USDT stablecoins on one platform."],
-  ["Which markets do you cover?", "Payouts reach 20 African countries across East, West, Central and Southern Africa. Bank accounts are available in 30 currencies."],
+  ["Which markets do you cover?", "Payouts reach 10+ African countries across East, West and Southern Africa, plus Argentina and Colombia, with more rolling out. Bank accounts are available in 30 currencies."],
   ["What is the difference between Mboka, the dashboard and the API?", "They are three ways onto the same rails. Mboka is a web app with real business bank accounts, cards and payouts for finance teams. The merchant dashboard is for operations teams running collections and payouts. The API is for teams building payments into their own product."],
   ["Do we need a separate setup per country?", "No. One platform covers every market and rail we support."],
   ["Can we fund payments with stablecoins?", "Yes. Hold USDC or USDT in your ElementPay balance and fund payouts from it. The rate to local currency is shown before you confirm."],

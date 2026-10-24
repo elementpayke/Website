@@ -1,4 +1,4 @@
-import type { Country, Rail } from "./coverage";
+import { AFRICAN_COUNTRY_COUNT, type Country, type Rail } from "./coverage";
 
 function listJoin(items: string[]): string {
   if (items.length === 1) return items[0];
@@ -27,7 +27,7 @@ export function stablecoinContent(country: Country) {
   ];
 
   const howItWorks = [
-    { num: "01", title: "Verify your business", body: "Complete onboarding once to pay and collect across all 20 countries." },
+    { num: "01", title: "Verify your business", body: `Complete onboarding once to pay and collect across ${AFRICAN_COUNTRY_COUNT}+ countries, plus Argentina and Colombia.` },
     { num: "02", title: "Fund in stablecoins", body: "Send USDC or USDT, or use your existing ElementPay balance." },
     { num: "03", title: `Pay out in ${currencyCode}`, body: `Choose ${railList} and confirm the locked ${currencyCode} amount.` },
     { num: "04", title: "Reconcile", body: "Every payment returns a status and your own reference by webhook." },

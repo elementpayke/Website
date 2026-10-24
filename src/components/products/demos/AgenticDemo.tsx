@@ -91,7 +91,7 @@ export default function AgenticDemo() {
       <div style={{ padding: 24, borderRadius: 22, background: COLOR.ink, color: "#F6F4EF", display: "grid", gap: 8, alignContent: "start" }}>
         <div style={{ display: "flex", justifyContent: "space-between", fontFamily: "var(--font-label)", fontSize: 12, color: COLOR.onDark, marginBottom: 6 }}>
           <span>AUDIT LOG</span>
-          <span style={{ animation: "epPulse 1.4s infinite" }}>● LIVE</span>
+          <span>PREVIEW</span>
         </div>
         {[0, 1, 2, 3, 4].map((offset) => {
           const [flag, agent, text, status] = LOG[(tick + offset) % LOG.length];

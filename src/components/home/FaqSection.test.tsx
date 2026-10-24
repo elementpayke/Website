@@ -18,7 +18,7 @@ describe("FaqSection", () => {
 
     await user.click(screen.getByText("Which markets do you cover?"));
     expect(screen.queryByText(/payment infrastructure for businesses/)).not.toBeInTheDocument();
-    expect(screen.getByText(/Payouts reach 20 African countries/)).toBeInTheDocument();
+    expect(screen.getByText(/Payouts reach 10\+ African countries/)).toBeInTheDocument();
   });
 
   test("clicking an open question closes it", async () => {

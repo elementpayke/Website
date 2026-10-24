@@ -1,9 +1,10 @@
 import { describe, expect, test } from "vitest";
-import { COUNTRIES, GLOBAL_CURRENCIES, accountCurrencies, countryBySlug } from "./coverage";
+import { COUNTRIES, GLOBAL_CURRENCIES, AFRICAN_COUNTRY_COUNT, accountCurrencies, countryBySlug } from "./coverage";
 
 describe("COUNTRIES", () => {
-  test("has 20 African payout countries", () => {
-    expect(COUNTRIES.length).toBe(20);
+  test("has 10 confirmed African payout countries plus Argentina and Colombia", () => {
+    expect(AFRICAN_COUNTRY_COUNT).toBe(10);
+    expect(COUNTRIES.length).toBe(12);
   });
 
   test("every slug and iso is unique", () => {
