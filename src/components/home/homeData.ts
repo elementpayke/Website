@@ -77,7 +77,7 @@ const PC: Array<[string, string]> = [
 const PRODUCTS_RAW: Array<[string, string, string[], string]> = [
   ["Payments", "Collect and pay out on local rails.", ["Mobile money", "Bank payouts", "Payment links"], "/payments"],
   ["Settlement and FX", "Convert and settle between currencies.", ["Rate locked before you confirm", "USD · EUR · GBP · CNY"], "/settlement-and-fx"],
-  ["Stablecoins", "USDC and USDT into and out of local currency.", ["On- and off-ramps", "Fund payouts"], "/stablecoin-payments-api"],
+  ["Stablecoins", "USDC and USDT into and out of local currency.", ["On- and off-ramps", "Fund payouts"], "/stablecoins"],
   ["OTC desk", "Large FX and liquidity, quoted directly.", ["Firm quotes", "Named contact"], "/otc-desk"],
   ["Accounts and treasury", "Hold the currencies you earn and spend.", ["30 currencies", "Statements on demand"], "/business-accounts"],
   ["Agentic payments", "Payments made by software, within your rules.", ["Budgets", "Human approval", "Audit trail"], "/agentic-payments"],

@@ -3,6 +3,7 @@ import sitemap from "./sitemap";
 import { SITE_URL } from "@/lib/site";
 import { ARTICLES } from "@/lib/blog/articles";
 import { PRODUCTS } from "@/lib/products/productsData";
+import { ALL_MARKETING_PAGES } from "@/lib/marketing/pagesData";
 
 describe("sitemap", () => {
   test("includes the home page", () => {
@@ -18,5 +19,16 @@ describe("sitemap", () => {
     for (const product of Object.values(PRODUCTS)) {
       expect(urls).toContain(`${SITE_URL}${product.path}`);
     }
+  });
+
+  test("includes marketing pages and contact", () => {
+    const urls = sitemap().map((entry) => entry.url);
+    expect(urls).toContain(`${SITE_URL}/contact`);
+    for (const page of ALL_MARKETING_PAGES) {
+      expect(urls).toContain(`${SITE_URL}${page.path}`);
+    }
+    expect(urls).toContain(`${SITE_URL}/stablecoin-payments-api`);
+    expect(urls).toContain(`${SITE_URL}/for-global-merchants`);
+    expect(urls).toContain(`${SITE_URL}/why-elementpay`);
   });
 });
