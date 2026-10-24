@@ -26,6 +26,19 @@ body {
   font-family: var(--font-body), Arial, Helvetica, sans-serif;
 }
 
+/* body is `flex flex-col` (layout.tsx) with no wrapping element around page
+   content, so every top-level section is a flex item. Flex items centered
+   via `max-width + margin: 0 auto` (the standard pattern used throughout
+   this codebase) are cross-axis sized by content ("fit-content"), not
+   stretched to fill — grid-heavy sections collapse to their content's
+   natural width instead of expanding to max-width on wide viewports.
+   Forcing width:100% here restores stretch-then-clamp sizing for every
+   direct child, while leaving their own internal max-width centering
+   (which runs in normal block flow, not as a flex item) unaffected. */
+body > * {
+  width: 100%;
+}
+
 /* BRAND.md section 2: links, focus and selection, defined once instead of per page */
 a {
   color: #3b2ed3;
@@ -150,4 +163,11 @@ summary::-webkit-details-marker {
 @keyframes epFlow {
   from { transform: translateX(-100%); }
   to { transform: translateX(300%); }
+}
+@keyframes epDash {
+  to { stroke-dashoffset: -20; }
+}
+@keyframes epRing {
+  0% { r: 3; opacity: 1; }
+  100% { r: 14; opacity: 0; }
 }

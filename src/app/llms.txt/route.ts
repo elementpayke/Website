@@ -17,7 +17,7 @@ export function GET() {
     ...ALL_MARKETING_PAGES.map((p) => `- [${p.seo.title}](${SITE_URL}${p.path}): ${p.seo.description}`),
     "",
     "## Coverage",
-    `- [Payment coverage](${SITE_URL}/coverage): 20 African payout countries and 30 account currencies.`,
+    `- [Payment coverage](${SITE_URL}/coverage): 10+ African payout countries and 30 account currencies.`,
     ...COUNTRIES.map(
       (c) =>
         `- [Send money to ${c.name}](${SITE_URL}/send-money-to-${c.slug}): Payouts to ${c.rails.map((r) => r.name).join(", ")} in ${c.currencyCode}.`

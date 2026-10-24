@@ -440,7 +440,7 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
       ],
       [
         "Remittance features",
-        "Let users send home to 20 African countries.",
+        "Let users send home to 10+ African countries.",
       ],
     ],
     steps: [
@@ -492,8 +492,8 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
     group: "Solutions",
     name: "Remittance companies",
     title: "Deliver to mobile money in every corridor.",
-    lede: "Fund once, in fiat or USDC, and pay out to phones and bank accounts in 20 African countries without pre-funding a bank in each.",
-    inShort: "Fund once, in fiat or USDC, and pay out to phones and bank accounts in 20 African countries without pre-funding a bank in each.",
+    lede: "Fund once, in fiat or USDC, and pay out to phones and bank accounts in 10+ African countries without pre-funding a bank in each.",
+    inShort: "Fund once, in fiat or USDC, and pay out to phones and bank accounts in 10+ African countries without pre-funding a bank in each.",
     specs: [
       [
         "Float",
@@ -561,7 +561,7 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Remittance payouts to mobile money in 20 African countries",
+      title: "Remittance payouts to mobile money in 10+ African countries",
       description: "Fund once in fiat or USDC and deliver to M-Pesa, MTN MoMo and banks without pre-funding each country.",
     },
   },
@@ -650,9 +650,13 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
     group: "Solutions",
     name: "AI agents",
     title: "Programmable payments for software.",
-    lede: "Give agents a budget and policies. They pay within your rules, and recipients get local currency on mobile money, bank or USDC.",
-    inShort: "Give agents a budget and policies. They pay within your rules, and recipients get local currency on mobile money, bank or USDC.",
+    lede: "We're building agent budgets and policies so software can pay within your rules, with recipients getting local currency on mobile money, bank or USDC. Early access, by pilot.",
+    inShort: "We're building agent budgets and policies so software can pay within your rules, with recipients getting local currency on mobile money, bank or USDC. Early access, by pilot.",
     specs: [
+      [
+        "Status",
+        "Early access",
+      ],
       [
         "Policies",
         "Budgets, allow-lists",
@@ -660,10 +664,6 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
       [
         "Approvals",
         "Over threshold",
-      ],
-      [
-        "Audit",
-        "Every action",
       ],
     ],
     features: [
@@ -702,7 +702,7 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
         "Ops lead approves from the dashboard.",
       ],
     ],
-    dayIntro: "An operations team running three agents.",
+    dayIntro: "A preview of what three agents could do once this ships.",
     faqs: [] as const,
     related: [
       [
@@ -719,8 +719,8 @@ export const SOLUTIONS: Record<SolutionSlug, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Programmable payments for AI agents in local currency",
-      description: "Give agents budgets and policies. They pay suppliers on M-Pesa, banks or USDC within your rules.",
+      title: "Programmable payments for AI agents in local currency (early access)",
+      description: "ElementPay is building agent budgets and policies so software can pay suppliers on M-Pesa, banks or USDC within your rules. Early access by pilot.",
     },
   },
 } as const;

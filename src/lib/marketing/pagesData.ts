@@ -18,7 +18,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Payout countries",
-        "20 in Africa",
+        "10+ in Africa",
       ],
       [
         "Rails",
@@ -32,7 +32,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "Stablecoin payouts",
-        "Fund in USDC or USDT and pay suppliers, staff or users in local currency to mobile money and banks in 20 African countries.",
+        "Fund in USDC or USDT and pay suppliers, staff or users in local currency to mobile money and banks in 10+ African countries.",
       ],
       [
         "Stablecoin collections",
@@ -54,7 +54,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Which stablecoins and countries do you support?",
-        a: "USDC and USDT, with payouts to mobile money and bank accounts in 20 African countries including Nigeria, Kenya, Ghana, Uganda, Tanzania, South Africa, Senegal and Cameroon.",
+        a: "USDC and USDT, with payouts to mobile money and bank accounts in 10+ African countries including Nigeria, Kenya, Ghana, Uganda, Tanzania and South Africa, plus Argentina and Colombia.",
       },
       {
         q: "How fast are payouts?",
@@ -116,16 +116,16 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "One payment gateway for Africa",
     title: "One payment gateway for Africa.",
-    lede: "Collect from customers across 20 African countries on the methods they actually use: mobile money, bank transfer, card and stablecoins. Settle in local currency, USD, or USDC and USDT, and pay out on the same rails.",
-    inShort: "Collect from customers across 20 African countries on the methods they actually use: mobile money, bank transfer, card and stablecoins. Settle in local currency, USD, or USDC and USDT, and pay out on the same rails.",
+    lede: "Collect from customers across Africa on the methods they actually use: mobile money, bank transfer and stablecoins. Settle in local currency, USD, or USDC and USDT, and pay out on the same rails. Card acceptance is in certification, not yet live.",
+    inShort: "Collect from customers across Africa on the methods they actually use: mobile money, bank transfer and stablecoins. Settle in local currency, USD, or USDC and USDT, and pay out on the same rails. Card acceptance is in certification, not yet live.",
     specs: [
       [
         "Methods",
-        "Mobile money, bank, card, stablecoins",
+        "Mobile money, bank, stablecoins",
       ],
       [
-        "Countries",
-        "20 in Africa",
+        "Cards",
+        "In certification, not yet live",
       ],
       [
         "Settlement",
@@ -146,8 +146,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "Local bank rails including PesaLink and Nigerian bank transfers.",
       ],
       [
-        "Cards",
-        "Card acceptance alongside local methods.",
+        "Cards, coming soon",
+        "Visa and Mastercard acceptance is going through PCI certification and isn't live yet.",
       ],
       [
         "Stablecoins",
@@ -157,11 +157,11 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     faqs: [
       {
         q: "Which payment methods does the gateway support?",
-        a: "Mobile money, local bank transfer, card and the USDC and USDT stablecoins, depending on the country.",
+        a: "Mobile money, local bank transfer and the USDC and USDT stablecoins, depending on the country. Card acceptance is going through PCI certification and isn't live yet.",
       },
       {
         q: "Which countries?",
-        a: "20 African countries.",
+        a: "10+ African countries.",
       },
       {
         q: "Can we settle in USD or stablecoins?",
@@ -187,8 +187,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Payment gateway for Africa: mobile money, bank, card and stablecoin pa",
-      description: "One payment gateway for Africa. Collect by mobile money, bank transfer, card and stablecoins across 20 countries and settle in local currency, USD or USDC.",
+      title: "Payment gateway for Africa: mobile money, bank and stablecoin payments",
+      description: "One payment gateway for Africa. Collect by mobile money, bank transfer and stablecoins and settle in local currency, USD or USDC. Card acceptance is in certification.",
     },
     steps: [
       [
@@ -228,7 +228,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Countries",
-        "20 in Africa",
+        "10+ in Africa",
       ],
       [
         "Checkout",
@@ -242,7 +242,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Flexible settlement",
-        "Keep stablecoins, or settle to local currency in 20 African countries.",
+        "Keep stablecoins, or settle to local currency in 10+ African countries.",
       ],
       [
         "Order matching",
@@ -264,7 +264,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Can we settle into local currency?",
-        a: "Yes, to mobile money or bank accounts in 20 African countries.",
+        a: "Yes, to mobile money or bank accounts in 10+ African countries.",
       },
       {
         q: "Is there a no-code option?",
@@ -287,7 +287,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Stablecoin payment gateway: accept USDC and USDT and settle to local c",
-      description: "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency in 20 African countries.",
+      description: "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency in 10+ African countries.",
     },
     steps: [
       [
@@ -327,7 +327,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Payouts",
-        "20 African countries",
+        "10+ African countries",
       ],
       [
         "Pricing",
@@ -511,6 +511,10 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     features: [
+      [
+        "Audit logging",
+        "Every API request is logged immutably, built for compliance and security review.",
+      ],
       [
         "Talk to sales",
         "Walk through coverage, pricing and verification with our team.",
@@ -752,8 +756,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     group: "Resources",
     name: "Stablecoin payments across Africa",
     title: "Stablecoin payments across Africa.",
-    lede: "Move USDC and USDT into and out of 20 African countries through one integration. Pay suppliers and staff in local currency on mobile money or bank, collect from customers and settle in stablecoins.",
-    inShort: "Move USDC and USDT into and out of 20 African countries through one integration. Pay suppliers and staff in local currency on mobile money or bank, collect from customers and settle in stablecoins.",
+    lede: "Move USDC and USDT into and out of 10+ African countries through one integration. Pay suppliers and staff in local currency on mobile money or bank, collect from customers and settle in stablecoins.",
+    inShort: "Move USDC and USDT into and out of 10+ African countries through one integration. Pay suppliers and staff in local currency on mobile money or bank, collect from customers and settle in stablecoins.",
     specs: [
       [
         "Stablecoins",
@@ -793,7 +797,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     faqs: [
       {
         q: "Which African countries support stablecoin payments with ElementPay?",
-        a: "20 countries: Kenya, Uganda, Tanzania, Rwanda, Ethiopia, Nigeria, Ghana, Senegal, Côte d’Ivoire, Benin, Togo, Burkina Faso, Mali, Cameroon, DR Congo, South Africa, Zambia, Malawi, Mozambique and Botswana.",
+        a: "10+ countries: Kenya, Uganda, Tanzania, Rwanda, Nigeria, Ghana, South Africa, Zambia, Malawi and Botswana in Africa, plus Argentina and Colombia. More corridors are rolling out.",
       },
       {
         q: "Which stablecoins?",
@@ -824,7 +828,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Stablecoin payments in Africa: USDC and USDT payouts and collections i",
-      description: "Stablecoin payments across Africa for businesses. Pay out and collect in 20 African countries from USDC and USDT, delivered to mobile money and bank accounts.",
+      description: "Stablecoin payments across Africa for businesses. Pay out and collect in 10+ African countries from USDC and USDT, delivered to mobile money and bank accounts.",
     },
     steps: [
       [
@@ -934,7 +938,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "One integration",
-        "Collect, pay out, convert and hold balances across 20 African countries and 30 currencies, including USDC and USDT.",
+        "Collect, pay out, convert and hold balances across 10+ African countries and 30 currencies, including USDC and USDT.",
       ],
       [
         "Pricing shown upfront",
@@ -960,7 +964,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Which rails and stablecoins are supported?",
-        a: "Payouts to mobile money and banks in 20 African countries, accounts in 30 currencies, and USDC and USDT on- and off-ramps.",
+        a: "Payouts to mobile money and banks in 10+ African countries, accounts in 30 currencies, and USDC and USDT on- and off-ramps.",
       },
     ],
     related: [
@@ -997,7 +1001,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     specs: [
       [
         "Payout countries",
-        "20 in Africa",
+        "10+ in Africa",
       ],
       [
         "Account currencies",
@@ -1060,7 +1064,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "About ElementPay: payment rails for emerging markets",
-      description: "ElementPay connects mobile money and local banks in 20 African countries to 30 global currencies and to USDC and USDT.",
+      description: "ElementPay connects mobile money and local banks in 10+ African countries to 30 global currencies and to USDC and USDT.",
     },
   },
   "/help": {
@@ -1092,7 +1096,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "Payouts",
-        "How to send to mobile money and banks in 20 African countries.",
+        "How to send to mobile money and banks in 10+ African countries.",
       ],
       [
         "Accounts and FX",
@@ -1141,7 +1145,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Help centre: payouts, accounts, stablecoins and verification",
-      description: "Answers on payouts to 20 African countries, accounts in 30 currencies, USDC and USDT, and business verification.",
+      description: "Answers on payouts to 10+ African countries, accounts in 30 currencies, USDC and USDT, and business verification.",
     },
   },
   "/press": {
@@ -1173,7 +1177,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "Company facts",
-        "20 African payout countries, 30 account currencies, USDC and USDT.",
+        "10+ African payout countries, 30 account currencies, USDC and USDT.",
       ],
       [
         "Brand",
@@ -1214,8 +1218,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     group: "Resources",
     name: "Coverage",
     title: "Payment coverage across Africa and 30 currencies.",
-    lede: "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 20 African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
-    inShort: "Payouts to 20 African countries on mobile money and bank rails, plus business accounts in 30 currencies including USDC and USDT.",
+    lede: "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 10+ African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
+    inShort: "Payouts to 10+ African countries on mobile money and bank rails, plus business accounts in 30 currencies including USDC and USDT.",
     specs: [
       [
         "Payout countries",
@@ -1255,7 +1259,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     faqs: [
       {
         q: "How many African countries can I pay out to?",
-        a: "20 African countries on mobile money and bank rails.",
+        a: "10+ African countries on mobile money and bank rails.",
       },
       {
         q: "How many account currencies are available?",
@@ -1281,8 +1285,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Payment coverage: payouts in 20 African countries, accounts in 30 currencies",
-      description: "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 20 African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
+      title: "Payment coverage: payouts in 10+ African countries, accounts in 30 currencies",
+      description: "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 10+ African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
     },
   },
 };

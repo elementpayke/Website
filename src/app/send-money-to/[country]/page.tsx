@@ -6,7 +6,7 @@ import EPNav from "@/components/nav/EPNav";
 import EPFooter from "@/components/footer/EPFooter";
 import FaqAccordion from "@/components/shared/FaqAccordion";
 import { COLOR, TYPE, fullStopSquare } from "@/lib/brand";
-import { COUNTRIES, countryBySlug, regionMates } from "@/lib/geo/coverage";
+import { AFRICAN_COUNTRY_COUNT, COUNTRIES, countryBySlug, regionMates } from "@/lib/geo/coverage";
 import { sendMoneyContent } from "@/lib/geo/sendMoneyContent";
 import { breadcrumbSchema, faqSchema, jsonLdGraph, serviceSchema } from "@/lib/schema";
 
@@ -180,7 +180,7 @@ export default async function SendMoneyToCountryPage({ params }: PageProps<"/sen
           <section data-screen-label="Nearby" style={{ maxWidth: 1240, margin: "0 auto", padding: "clamp(64px,8vw,112px) clamp(20px,4vw,48px) 0" }}>
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 24, flexWrap: "wrap" }}>
               <h2 style={{ ...TYPE.h2Section, margin: 0 }}>Also in {country.region}.</h2>
-              <Link href="/coverage" style={{ fontWeight: 600 }}>All 20 countries →</Link>
+              <Link href="/coverage" style={{ fontWeight: 600 }}>All {AFRICAN_COUNTRY_COUNT}+ countries →</Link>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(min(100%,220px),1fr))", gap: 10, marginTop: 24 }}>
               {mates.map((m) => (

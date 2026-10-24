@@ -3,12 +3,12 @@ import { getMarketingPage } from "@/lib/marketing/pagesData";
 import { breadcrumbSchema, faqSchema, jsonLdGraph, serviceSchema } from "@/lib/schema";
 import EPNav from "@/components/nav/EPNav";
 import EPFooter from "@/components/footer/EPFooter";
-import ProductCta from "@/components/products/ProductCta";
 import MarketingHero from "@/components/marketing/MarketingHero";
 import MarketingFeatures from "@/components/marketing/MarketingFeatures";
 import MarketingFaq from "@/components/marketing/MarketingFaq";
 import MarketingRelated from "@/components/marketing/MarketingRelated";
 import CoverageDirectory from "@/components/marketing/CoverageDirectory";
+import CoverageMap from "@/components/marketing/CoverageMap";
 
 const page = getMarketingPage("/coverage")!;
 
@@ -45,11 +45,13 @@ export default function Page() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <EPNav active="Resources" />
       <MarketingHero page={page} />
+      <div style={{ maxWidth: 1240, margin: "0 auto", padding: "0 clamp(20px,4vw,48px)" }}>
+        <CoverageMap />
+      </div>
       <CoverageDirectory />
       <MarketingFeatures page={page} />
       <MarketingFaq page={page} />
       <MarketingRelated page={page} />
-      <ProductCta />
       <EPFooter />
     </>
   );
