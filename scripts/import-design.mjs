@@ -179,18 +179,7 @@ function splitRules(css) {
 const SHARED_RULES =
   /^(html\s*\{\s*lang|body\s*\{\s*margin:0;background:#fff|a\s*\{\s*color:#3B2ED3|a:hover\s*\{|\*:focus-visible|summary(::-webkit-details-marker)?\s*\{|html\s*\{\s*-webkit-text-size-adjust|body\s*\{\s*overflow-x|img,\s*svg,\s*video|@media \(max-width:700px\)\s*\{\s*\[style\*="grid-column:span 2"\])/;
 
-// ---------------------------------------------------------------------------
-// Convert one page
-// ---------------------------------------------------------------------------
-function convert(file) {
-  const raw = fs.readFileSync(path.join(SRC, file), "utf8");
-  const url = urlOf.get(file);
-  const lang = url.startsWith("/fr/") ? "fr" : "en";
-  const src = lang === "fr" ? scrubFr(raw) : raw;
-  const doc = parse(src);
-  const xdc = find(doc, (n) => n.nodeName === "x-dc");
-  const helmet = find(xdc, (n) => n.nodeName === "helmet");
-
+function readHead(helmet, url) {
   const head = { title: "", description: "", canonical: url, alternates: {}, og: {}, twitter: {} };
   const jsonLd = [];
   let css = "";
@@ -212,6 +201,22 @@ function convert(file) {
   }
   // The helmet <style> mostly repeats the site-wide resets already in
   // globals.css; keep only the page-specific rules.
+  return { head, jsonLd, css };
+}
+
+// ---------------------------------------------------------------------------
+// Convert one page
+// ---------------------------------------------------------------------------
+function convert(file) {
+  const raw = fs.readFileSync(path.join(SRC, file), "utf8");
+  const url = urlOf.get(file);
+  const lang = url.startsWith("/fr/") ? "fr" : "en";
+  const src = lang === "fr" ? scrubFr(raw) : raw;
+  const doc = parse(src);
+  const xdc = find(doc, (n) => n.nodeName === "x-dc");
+  const helmet = find(xdc, (n) => n.nodeName === "helmet");
+
+  const { head, jsonLd, css } = readHead(helmet, url);
   // A page-level body background (only the cream pages differ from white)
   // becomes a page field rather than a global body rule.
   let background = null;
@@ -284,6 +289,20 @@ for (const file of files.filter(isStatic).sort()) {
   index.push({ slug: page.slug, lang: page.lang, url: page.url, title: page.head.title, description: page.head.description });
 }
 fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(index, null, 1) + "\n");
+
+// Head metadata (title, description, Open Graph, hreflang, JSON-LD) for the
+// pages built by hand from design components (products, solutions, company,
+// blog, press, status, careers, contact, coverage, home), keyed by URL.
+const heads = {};
+for (const file of files.filter((f) => !isStatic(f) && urlOf.has(f) && f !== "Coverage.html").sort()) {
+  const url = urlOf.get(file);
+  const doc = parse(fs.readFileSync(path.join(SRC, file), "utf8"));
+  const helmet = find(doc, (n) => n.nodeName === "helmet");
+  if (!helmet) continue;
+  const { head, jsonLd } = readHead(helmet, url);
+  heads[url] = { head, jsonLd };
+}
+fs.writeFileSync(path.join(OUT, "heads.json"), JSON.stringify(heads, null, 1) + "\n");
 
 // Components (nav, footer, homepage, product and solution templates) are
 // ported by hand and reference these states through src/lib/design/pseudo.ts,

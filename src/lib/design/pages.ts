@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import type { NavGroupKey } from "@/components/nav/navData";
 import { SITE_URL } from "@/lib/site";
 import index from "@/content/design-pages/index.json";
+import heads from "@/content/design-pages/heads.json";
 
 /**
  * Pages imported verbatim from the Claude Design export by
@@ -48,7 +49,17 @@ export function loadDesignPage(lang: DesignLang, slug: string): DesignPage | nul
   return JSON.parse(fs.readFileSync(path.join(DIR, lang, `${slug}.json`), "utf8")) as DesignPage;
 }
 
-export function designMetadata(page: DesignPage): Metadata {
+type DesignHead = Pick<DesignPage, "head" | "jsonLd">;
+const HEADS = heads as Record<string, DesignHead>;
+
+/** Head metadata and JSON-LD for a page built by hand from a design component. */
+export function designHead(url: string): DesignHead {
+  const h = HEADS[url];
+  if (!h) throw new Error(`No design head for ${url}; re-run scripts/import-design.mjs`);
+  return h;
+}
+
+export function designMetadata(page: DesignHead): Metadata {
   const { head } = page;
   const languages = Object.fromEntries(Object.entries(head.alternates).map(([k, v]) => [k, `${SITE_URL}${v}`]));
   return {

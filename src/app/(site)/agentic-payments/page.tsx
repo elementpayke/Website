@@ -1,25 +1,10 @@
-import type { Metadata } from "next";
 import { PRODUCTS } from "@/lib/products/productsData";
 import ProductPage from "@/components/products/ProductPage";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
 const product = PRODUCTS.agentic;
 
-export const metadata: Metadata = {
-  title: product.seo.title,
-  description: product.seo.description,
-  alternates: { canonical: product.path },
-  openGraph: {
-    title: `${product.seo.title} | ElementPay`,
-    description: product.seo.description,
-    url: product.path,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${product.seo.title} | ElementPay`,
-    description: product.seo.description,
-  },
-};
+export const metadata = designMetadata(designHead(product.path));
 
 export default function Page() {
   return <ProductPage product={product} />;
