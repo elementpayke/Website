@@ -14,6 +14,7 @@ export type MarketingPageData = {
   steps?: ReadonlyArray<readonly [string, string]>;
   dayIntro?: string;
   faqs: ReadonlyArray<{ q: string; a: string }>;
+  faqHeading?: string;
   related: ReadonlyArray<readonly [string, string]>;
   relatedHeading?: string;
   /** Design default is "before-faq" (Related/Coverage, then FAQ, then CTA).

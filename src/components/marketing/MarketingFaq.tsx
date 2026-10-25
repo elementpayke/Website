@@ -7,7 +7,7 @@ export default function MarketingFaq({ page }: { page: MarketingPageData }) {
 
   return (
     <section data-screen-label="FAQ" style={{ maxWidth: 840, margin: "0 auto", padding: "clamp(48px,7vw,96px) clamp(20px,4vw,48px) 0" }}>
-      <h2 style={{ ...TYPE.h2Section, margin: "0 0 28px" }}>Questions.</h2>
+      <h2 style={{ ...TYPE.h2Section, margin: "0 0 28px" }}>{page.faqHeading ?? "Questions."}</h2>
       <FaqAccordion faqs={page.faqs} />
     </section>
   );

@@ -463,6 +463,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "Developer guides live at partners.elementpay.net.",
       ],
     ],
+    faqHeading: "Pricing questions.",
     faqs: [
       {
         q: "How does ElementPay pricing work?",
