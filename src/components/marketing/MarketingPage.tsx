@@ -8,6 +8,7 @@ import MarketingFeatures from "./MarketingFeatures";
 import MarketingSteps from "./MarketingSteps";
 import MarketingFaq from "./MarketingFaq";
 import MarketingRelated from "./MarketingRelated";
+import StablecoinCountryPills from "./StablecoinCountryPills";
 
 export default function MarketingPage({ page }: { page: MarketingPageData }) {
   const crumbs = [
@@ -30,9 +31,11 @@ export default function MarketingPage({ page }: { page: MarketingPageData }) {
       <MarketingHero page={page} />
       <MarketingFeatures page={page} />
       <MarketingSteps page={page} />
+      {page.countryPills && <StablecoinCountryPills heading={page.countryPills.heading} links={page.countryPills.links} />}
+      {page.relatedPosition !== "after-cta" && <MarketingRelated page={page} />}
       <MarketingFaq page={page} />
-      <MarketingRelated page={page} />
       <ProductCta />
+      {page.relatedPosition === "after-cta" && <MarketingRelated page={page} />}
       <EPFooter />
     </>
   );

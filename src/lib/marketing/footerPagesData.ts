@@ -1,4 +1,9 @@
 import type { MarketingPageData } from "./types";
+import { COUNTRIES } from "../geo/coverage";
+
+const PAYROLL_DESTINATION_LINKS: ReadonlyArray<readonly [string, string]> = COUNTRIES.map(
+  (c) => [c.name, `/send-money-to-${c.slug}`] as const
+);
 
 export const FOOTER_PAGES: Record<string, MarketingPageData> = {
   "/mobile-money-api": {
@@ -27,6 +32,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "What businesses use it for.",
     features: [
       [
         "Payouts to wallets",
@@ -130,6 +136,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Built for payout-heavy businesses.",
     features: [
       [
         "Marketplaces",
@@ -229,6 +236,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Who runs bulk payouts.",
     features: [
       [
         "Payroll",
@@ -328,6 +336,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Ways to collect.",
     features: [
       [
         "Payment links",
@@ -427,6 +436,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Every direction money moves.",
     features: [
       [
         "Into Africa",
@@ -526,6 +536,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Why one gateway.",
     features: [
       [
         "One checkout",
@@ -625,6 +636,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Who uses it.",
     features: [
       [
         "Employers with distributed teams",
@@ -675,9 +687,11 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "/contact",
       ],
     ],
+    relatedPosition: "after-cta",
+    countryPills: { heading: "Payroll destinations.", links: PAYROLL_DESTINATION_LINKS },
     seo: {
       title: "Stablecoin payroll for Africa: pay staff in Kenya and Nigeria from USD",
-      description: "Pay employees and contractors in Kenya, Nigeria and 18 other African countries from a USDC or USDT balance.",
+      description: "Pay employees and contractors in Kenya, Nigeria and 8 other African countries from a USDC or USDT balance.",
     },
     steps: [
       [
@@ -724,6 +738,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Talk to sales",
       ],
     ],
+    featuresHeading: "Who off-ramps with ElementPay.",
     features: [
       [
         "Wallets and exchanges",

@@ -1,6 +1,16 @@
 import type { MarketingPageData } from "./types";
 import { SOLUTIONS } from "./solutionsData";
 import { FOOTER_PAGES } from "./footerPagesData";
+import { COUNTRIES } from "../geo/coverage";
+import { STABLECOIN_RAMP_COUNTRIES, destCountry } from "../geo/origins";
+
+const STABLECOIN_COUNTRY_LINKS: ReadonlyArray<readonly [string, string]> = COUNTRIES.map(
+  (c) => [c.name, `/stablecoin-payments-in-${c.slug}`] as const
+);
+const STABLECOIN_ROUTE_LINKS: ReadonlyArray<readonly [string, string]> = [
+  ...STABLECOIN_RAMP_COUNTRIES.USDC.map((slug) => [`USDC to ${destCountry(slug)!.name}`, `/usdc-to-${slug}`] as const),
+  ...STABLECOIN_RAMP_COUNTRIES.USDT.map((slug) => [`USDT to ${destCountry(slug)!.name}`, `/usdt-to-${slug}`] as const),
+];
 
 const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
   "/stablecoin-payments-api": {
@@ -29,6 +39,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "One order API",
       ],
     ],
+    featuresHeading: "What businesses build on it.",
     features: [
       [
         "Stablecoin payouts",
@@ -87,6 +98,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "/payout-api",
       ],
     ],
+    relatedPosition: "after-cta",
+    countryPills: { heading: "Stablecoin routes.", links: STABLECOIN_ROUTE_LINKS },
     seo: {
       title: "Stablecoin payments API and gateway for Africa: USDC and USDT payment ",
       description: "Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa.",
@@ -136,6 +149,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "Hosted or API",
       ],
     ],
+    featuresHeading: "Every way customers pay.",
     features: [
       [
         "Mobile money",
@@ -334,6 +348,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "Shown before you confirm",
       ],
     ],
+    featuresHeading: "Where businesses use stablecoins.",
     features: [
       [
         "Supplier payments",
@@ -384,6 +399,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "/blog",
       ],
     ],
+    relatedHeading: "Explore.",
     seo: {
       title: "B2B stablecoin payments: USDC and USDT for supplier, payroll and treas",
       description: "B2B stablecoin payments for companies trading with Africa. Pay suppliers, run payroll and manage treasury in USDC and USDT.",
@@ -683,8 +699,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     group: "Resources",
     name: "Exchange rates to Africa",
     title: "Exchange rates to Africa.",
-    lede: "Indicative rates from USD, EUR, GBP and USDC to 15 African currencies. Your exact rate is locked in a quote before you confirm.",
-    inShort: "Indicative rates from USD, EUR, GBP and USDC to 15 African currencies. Your exact rate is locked in a quote before you confirm.",
+    lede: "Indicative rates from USD, EUR, GBP and USDC to 12 currencies across Africa and Latin America. Your exact rate is locked in a quote before you confirm.",
+    inShort: "Indicative rates from USD, EUR, GBP and USDC to 12 currencies across Africa and Latin America. Your exact rate is locked in a quote before you confirm.",
     specs: [
       [
         "From",
@@ -692,7 +708,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "To",
-        "African currencies",
+        "Africa + Latin America",
       ],
       [
         "Type",
@@ -746,8 +762,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Exchange rates: USD, EUR, GBP and USDC to African currencies",
-      description: "Indicative exchange rates from USD, EUR, GBP and USDC to KES, NGN, GHS, ZAR, XOF, XAF and 9 more African currencies.",
+      title: "Exchange rates: USD, EUR, GBP and USDC to African and Latin American currencies",
+      description: "Indicative exchange rates from USD, EUR, GBP and USDC to KES, NGN, GHS, ZAR, ARS, COP and 6 more currencies.",
     },
   },
   "/stablecoin-payments-africa": {
@@ -776,6 +792,7 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         "Country by country",
       ],
     ],
+    featuresHeading: "One balance, 10+ countries.",
     features: [
       [
         "Payouts",
@@ -812,20 +829,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
         a: "Yes. ElementPay serves businesses and every account is verified.",
       },
     ],
-    related: [
-      [
-        "Coverage",
-        "/coverage",
-      ],
-      [
-        "Contact",
-        "/contact",
-      ],
-      [
-        "Blog",
-        "/blog",
-      ],
-    ],
+    related: [],
+    countryPills: { heading: "Stablecoin payments by country.", links: STABLECOIN_COUNTRY_LINKS },
     seo: {
       title: "Stablecoin payments in Africa: USDC and USDT payouts and collections i",
       description: "Stablecoin payments across Africa for businesses. Pay out and collect in 10+ African countries from USDC and USDT, delivered to mobile money and bank accounts.",
