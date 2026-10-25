@@ -39,7 +39,7 @@ export default function Page() {
           Build the rails money moves on
           <span aria-hidden="true" style={fullStopSquare} />
         </h1>
-        <p style={{ ...TYPE.lede, margin: "24px 0 0", maxWidth: "56ch" }}>
+        <p style={{ fontSize: "clamp(17px,1.4vw,19px)", lineHeight: 1.55, color: COLOR.slate, margin: "24px 0 0", maxWidth: "56ch" }}>
           ElementPay connects mobile money and local banks across Africa to 30 global currencies and to USDC and USDT, for businesses that move money across borders. We are looking for people who want to build that infrastructure with us.
         </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 32 }}>

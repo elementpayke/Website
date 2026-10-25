@@ -23,7 +23,7 @@ export default function ContactCapture() {
         }}
       >
         <div>
-          <h2 style={{ margin: 0, ...TYPE.h2Cta }}>
+          <h2 style={{ margin: 0, ...TYPE.h2Cta, lineHeight: 0.98 }}>
             Get on the rails
             <span style={fullStopSquare} />
           </h2>

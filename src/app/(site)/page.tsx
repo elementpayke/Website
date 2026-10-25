@@ -13,6 +13,7 @@ import FaqSection from "@/components/home/FaqSection";
 import ContactCapture from "@/components/home/ContactCapture";
 import HomeFooter from "@/components/home/HomeFooter";
 import DesignJsonLd from "@/components/design/DesignJsonLd";
+import LegacyHashRedirect from "@/components/home/LegacyHashRedirect";
 import { designHead, designMetadata } from "@/lib/design/pages";
 
 // Design: ElementPay v2.dc.html (title, Open Graph and Organization JSON-LD).
@@ -22,6 +23,7 @@ export default function HomePage() {
   return (
     <div style={{ background: "#F6F4EF" }}>
       <DesignJsonLd url="/" />
+      <LegacyHashRedirect />
       <TopBar />
       <div style={{ position: "sticky", top: 0, zIndex: 30, background: "#F6F4EF", boxShadow: "0 1px 0 rgba(19,17,38,.08)" }}>
         <EPNav />

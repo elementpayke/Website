@@ -25,7 +25,7 @@ export default function Newsletter() {
           <h2
             style={{
               fontFamily: "var(--font-heading)",
-              fontSize: "clamp(29px,3.16vw,44px)",
+              fontSize: "clamp(28px, 1.5vw + 22px, 44px)",
               lineHeight: 0.95,
               letterSpacing: "-0.04em",
               fontWeight: 700,
