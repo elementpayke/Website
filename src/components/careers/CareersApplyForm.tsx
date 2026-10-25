@@ -18,8 +18,22 @@ const inputStyle: React.CSSProperties = {
 
 export default function CareersApplyForm() {
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [team, setTeam] = useState<string | null>(null);
+  const [link, setLink] = useState("");
+  const [note, setNote] = useState("");
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const reset = () => {
+    setSent(false);
+    setName("");
+    setEmail("");
+    setTeam(null);
+    setLink("");
+    setNote("");
+  };
 
   if (sent) {
     return (
@@ -30,7 +44,7 @@ export default function CareersApplyForm() {
         </h3>
         <button
           type="button"
-          onClick={() => { setSent(false); setName(""); setTeam(null); }}
+          onClick={reset}
           style={{ justifySelf: "start", height: 46, padding: "0 18px", border: 0, borderRadius: 12, background: COLOR.cream, font: "500 15px var(--font-body)", cursor: "pointer", color: COLOR.ink }}
         >
           Send another
@@ -41,9 +55,26 @@ export default function CareersApplyForm() {
 
   return (
     <form
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSent(true);
+        setSubmitting(true);
+        setError(null);
+        try {
+          const res = await fetch("/api/careers", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ name, email, team, link, note }),
+          });
+          if (!res.ok) {
+            const body = await res.json().catch(() => null);
+            throw new Error(body?.error || "Failed to send your application. Please try again.");
+          }
+          setSent(true);
+        } catch (err) {
+          setError(err instanceof Error ? err.message : "Failed to send your application. Please try again.");
+        } finally {
+          setSubmitting(false);
+        }
       }}
       style={{ display: "grid", gap: 16 }}
     >
@@ -54,7 +85,7 @@ export default function CareersApplyForm() {
         </label>
         <label style={{ display: "grid", gap: 8, fontSize: 13, fontWeight: 600 }}>
           Email
-          <input name="email" required type="email" autoComplete="email" style={inputStyle} />
+          <input name="email" required type="email" autoComplete="email" value={email} onChange={(e) => setEmail(e.target.value)} style={inputStyle} />
         </label>
       </div>
       <div>
@@ -86,17 +117,34 @@ export default function CareersApplyForm() {
       </div>
       <label style={{ display: "grid", gap: 8, fontSize: 13, fontWeight: 600 }}>
         LinkedIn, portfolio or CV link
-        <input name="link" type="url" placeholder="https://" style={inputStyle} />
+        <input name="link" type="url" placeholder="https://" value={link} onChange={(e) => setLink(e.target.value)} style={inputStyle} />
       </label>
       <label style={{ display: "grid", gap: 8, fontSize: 13, fontWeight: 600 }}>
         What would you work on?
-        <textarea name="note" rows={4} style={{ ...inputStyle, height: "auto", padding: "14px 16px", resize: "vertical", fontFamily: "var(--font-body)" }} />
+        <textarea name="note" rows={4} value={note} onChange={(e) => setNote(e.target.value)} style={{ ...inputStyle, height: "auto", padding: "14px 16px", resize: "vertical", fontFamily: "var(--font-body)" }} />
       </label>
+      {error && (
+        <p role="alert" style={{ margin: 0, fontSize: 14, color: "#b42318" }}>
+          {error}
+        </p>
+      )}
       <button
         type="submit"
-        style={{ justifySelf: "start", height: 52, padding: "0 28px", border: 0, borderRadius: 999, background: COLOR.indigo, color: "#fff", font: "600 16px var(--font-body)", cursor: "pointer" }}
+        disabled={submitting}
+        style={{
+          justifySelf: "start",
+          height: 52,
+          padding: "0 28px",
+          border: 0,
+          borderRadius: 999,
+          background: COLOR.indigo,
+          color: "#fff",
+          font: "600 16px var(--font-body)",
+          cursor: submitting ? "default" : "pointer",
+          opacity: submitting ? 0.7 : 1,
+        }}
       >
-        Send application
+        {submitting ? "Sending…" : "Send application"}
       </button>
     </form>
   );
