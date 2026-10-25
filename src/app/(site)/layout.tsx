@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/site";
 import { fontVariables } from "@/lib/fonts";
-import { jsonLdGraph, organizationSchema, websiteSchema } from "@/lib/schema";
 import "../globals.css";
 import "../design-pseudo.css";
 
@@ -32,13 +31,10 @@ export const metadata: Metadata = {
   },
 };
 
-const orgJsonLd = jsonLdGraph(organizationSchema(), websiteSchema());
-
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={fontVariables}>
       <body>
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }} />
         {children}
       </body>
     </html>

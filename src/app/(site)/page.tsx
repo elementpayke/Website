@@ -12,31 +12,16 @@ import BlogPreview from "@/components/home/BlogPreview";
 import FaqSection from "@/components/home/FaqSection";
 import ContactCapture from "@/components/home/ContactCapture";
 import HomeFooter from "@/components/home/HomeFooter";
+import DesignJsonLd from "@/components/design/DesignJsonLd";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
-const TITLE = "ElementPay (Element Pay): stablecoin and cross-border payments API for businesses in Africa";
-const DESCRIPTION =
-  "Payment infrastructure for businesses. Collect, pay out, convert and hold money across mobile money, banks and USDC or USDT through one platform.";
-
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: "/" },
-  openGraph: {
-    title: "ElementPay: cross-border payment infrastructure for businesses",
-    description: "Payouts in 20 African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
-    url: "/",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "ElementPay: cross-border payment infrastructure for businesses",
-    description: "Payouts in 20 African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
-  },
-};
+// Design: ElementPay v2.dc.html (title, Open Graph and Organization JSON-LD).
+export const metadata: Metadata = designMetadata(designHead("/"));
 
 export default function HomePage() {
   return (
     <div style={{ background: "#F6F4EF" }}>
+      <DesignJsonLd url="/" />
       <TopBar />
       <div style={{ position: "sticky", top: 0, zIndex: 30, background: "#F6F4EF", boxShadow: "0 1px 0 rgba(19,17,38,.08)" }}>
         <EPNav />

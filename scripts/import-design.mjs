@@ -314,6 +314,13 @@ for (const file of files) {
   }
 }
 
+// The design's sitemap and AI-crawler summary are served as-is.
+const sitemap = [...fs.readFileSync(path.join(SRC, "sitemap.xml"), "utf8").matchAll(/<loc>([^<]*)<\/loc>(?:<lastmod>([^<]*)<\/lastmod>)?/g)].map(
+  ([, loc, lastmod]) => ({ path: loc.replace(SITE, "") || "/", lastmod: lastmod ?? null }),
+);
+fs.writeFileSync(path.join(OUT, "sitemap.json"), JSON.stringify(sitemap, null, 1) + "\n");
+fs.copyFileSync(path.join(SRC, "llms.txt"), path.join(OUT, "llms.txt"));
+
 const pseudoCss = [...pseudoRules.keys()].sort().map((k) => pseudoRules.get(k)).join("\n");
 fs.writeFileSync(
   path.join(ROOT, "src/app/design-pseudo.css"),

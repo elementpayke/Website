@@ -1,0 +1,420 @@
+# ElementPay
+
+> ElementPay (also written Element Pay) is cross-border and stablecoin payment infrastructure for businesses in Africa. Businesses use one API and dashboard to pay out to mobile money and banks in 20 African countries, hold bank accounts in 30 currencies (issued one per currency), and convert between them and the USDC and USDT stablecoins.
+
+ElementPay is a financial technology company, not a bank. Banking services are provided by licensed partner institutions.
+
+## Key facts
+- Payout countries (20): Kenya, Uganda, Tanzania, Rwanda, Ethiopia, Nigeria, Ghana, Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali, Cameroon, DR Congo, South Africa, Zambia, Malawi, Mozambique, Botswana
+- Account currencies (30): USD, EUR, GBP, ZAR, CAD, AED, NGN, GHS, KES, TZS, AUD, NZD, JPY, CNY, HKD, ILS, MXN, SEK, CHF, NOK, DKK, SGD, KRW, THB, HUF, PLN, RON, CZK, XOF, XAF
+- Stablecoins: USDC and USDT (on- and off-ramps)
+- Products: Mboka (web app issuing real business bank accounts, plus cards and payouts), merchant dashboard, ElementPay API (stablecoin and fiat payments API), ElementPay dApp (on- and off-ramp between USDC/USDT and local currency only), OTC desk, agentic payments
+- Audience: businesses only (fintechs, platforms, payroll and EOR providers, PSPs, merchants, remittance companies)
+
+## Main pages
+- [Coverage](https://www.elementpay.net/coverage)
+- [Payments](https://www.elementpay.net/payments)
+- [Stablecoins](https://www.elementpay.net/stablecoins)
+- [Stablecoin payments API](https://www.elementpay.net/stablecoin-payments-api)
+- [Stablecoin payments in Nigeria](https://www.elementpay.net/stablecoin-payments-api-nigeria)
+- [Stablecoin payroll](https://www.elementpay.net/stablecoin-payroll)
+- [Business accounts](https://www.elementpay.net/business-accounts)
+- [Exchange rates](https://www.elementpay.net/exchange-rates)
+- [Pricing](https://www.elementpay.net/pricing)
+- [Security and compliance](https://www.elementpay.net/security-and-compliance)
+- [Glossary](https://www.elementpay.net/glossary)
+- [Help centre](https://www.elementpay.net/help)
+- [Developer docs](https://docs.elementpay.net/)
+
+## Country guides
+- https://www.elementpay.net/send-money-to-benin
+- https://www.elementpay.net/send-money-to-botswana
+- https://www.elementpay.net/send-money-to-burkina-faso
+- https://www.elementpay.net/send-money-to-cameroon
+- https://www.elementpay.net/send-money-to-cote-divoire
+- https://www.elementpay.net/send-money-to-dr-congo
+- https://www.elementpay.net/send-money-to-ethiopia
+- https://www.elementpay.net/send-money-to-ghana
+- https://www.elementpay.net/send-money-to-kenya
+- https://www.elementpay.net/send-money-to-malawi
+- https://www.elementpay.net/send-money-to-mali
+- https://www.elementpay.net/send-money-to-mozambique
+- https://www.elementpay.net/send-money-to-nigeria
+- https://www.elementpay.net/send-money-to-rwanda
+- https://www.elementpay.net/send-money-to-senegal
+- https://www.elementpay.net/send-money-to-south-africa
+- https://www.elementpay.net/send-money-to-tanzania
+- https://www.elementpay.net/send-money-to-togo
+- https://www.elementpay.net/send-money-to-uganda
+- https://www.elementpay.net/send-money-to-zambia
+
+## Corridors
+- https://www.elementpay.net/send-money-from-canada-to-ghana
+- https://www.elementpay.net/send-money-from-canada-to-nigeria
+- https://www.elementpay.net/send-money-from-china-to-ghana
+- https://www.elementpay.net/send-money-from-china-to-kenya
+- https://www.elementpay.net/send-money-from-china-to-nigeria
+- https://www.elementpay.net/send-money-from-china-to-tanzania
+- https://www.elementpay.net/send-money-from-france-to-benin
+- https://www.elementpay.net/send-money-from-france-to-cameroon
+- https://www.elementpay.net/send-money-from-france-to-cote-divoire
+- https://www.elementpay.net/send-money-from-france-to-mali
+- https://www.elementpay.net/send-money-from-france-to-senegal
+- https://www.elementpay.net/send-money-from-germany-to-ghana
+- https://www.elementpay.net/send-money-from-germany-to-nigeria
+- https://www.elementpay.net/send-money-from-uae-to-ethiopia
+- https://www.elementpay.net/send-money-from-uae-to-kenya
+- https://www.elementpay.net/send-money-from-uae-to-nigeria
+- https://www.elementpay.net/send-money-from-uae-to-uganda
+- https://www.elementpay.net/send-money-from-uk-to-ghana
+- https://www.elementpay.net/send-money-from-uk-to-kenya
+- https://www.elementpay.net/send-money-from-uk-to-nigeria
+- https://www.elementpay.net/send-money-from-uk-to-south-africa
+- https://www.elementpay.net/send-money-from-uk-to-uganda
+- https://www.elementpay.net/send-money-from-us-to-cameroon
+- https://www.elementpay.net/send-money-from-us-to-ethiopia
+- https://www.elementpay.net/send-money-from-us-to-ghana
+- https://www.elementpay.net/send-money-from-us-to-kenya
+- https://www.elementpay.net/send-money-from-us-to-nigeria
+
+## Stablecoin off-ramps
+- https://www.elementpay.net/usdc-to-ghana
+- https://www.elementpay.net/usdc-to-kenya
+- https://www.elementpay.net/usdc-to-nigeria
+- https://www.elementpay.net/usdc-to-south-africa
+- https://www.elementpay.net/usdc-to-uganda
+- https://www.elementpay.net/usdt-to-cameroon
+- https://www.elementpay.net/usdt-to-ghana
+- https://www.elementpay.net/usdt-to-kenya
+- https://www.elementpay.net/usdt-to-nigeria
+
+## Account currencies
+- https://www.elementpay.net/open-a-aed-account
+- https://www.elementpay.net/open-a-aud-account
+- https://www.elementpay.net/open-a-cad-account
+- https://www.elementpay.net/open-a-chf-account
+- https://www.elementpay.net/open-a-cny-account
+- https://www.elementpay.net/open-a-czk-account
+- https://www.elementpay.net/open-a-dkk-account
+- https://www.elementpay.net/open-a-eur-account
+- https://www.elementpay.net/open-a-gbp-account
+- https://www.elementpay.net/open-a-ghs-account
+- https://www.elementpay.net/open-a-hkd-account
+- https://www.elementpay.net/open-a-huf-account
+- https://www.elementpay.net/open-a-ils-account
+- https://www.elementpay.net/open-a-jpy-account
+- https://www.elementpay.net/open-a-kes-account
+- https://www.elementpay.net/open-a-krw-account
+- https://www.elementpay.net/open-a-mxn-account
+- https://www.elementpay.net/open-a-ngn-account
+- https://www.elementpay.net/open-a-nok-account
+- https://www.elementpay.net/open-a-nzd-account
+- https://www.elementpay.net/open-a-pln-account
+- https://www.elementpay.net/open-a-ron-account
+- https://www.elementpay.net/open-a-sek-account
+- https://www.elementpay.net/open-a-sgd-account
+- https://www.elementpay.net/open-a-thb-account
+- https://www.elementpay.net/open-a-tzs-account
+- https://www.elementpay.net/open-a-usd-account
+- https://www.elementpay.net/open-a-xaf-account
+- https://www.elementpay.net/open-a-xof-account
+- https://www.elementpay.net/open-a-zar-account
+
+## French
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-benin
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-burkina-faso
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-cameroun
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-mali
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-senegal
+- https://www.elementpay.net/fr/envoyer-de-l-argent-au-togo
+- https://www.elementpay.net/fr/envoyer-de-l-argent-en-cote-divoire
+- https://www.elementpay.net/fr/envoyer-de-l-argent-en-rd-congo
+
+## Guides
+- https://www.elementpay.net/blog/agentic-payments-policies
+- https://www.elementpay.net/blog/cfa-franc-xof-xaf
+- https://www.elementpay.net/blog/correspondent-banking-explained
+- https://www.elementpay.net/blog/mass-payouts-mobile-money
+- https://www.elementpay.net/blog/mobile-money-west-africa
+- https://www.elementpay.net/blog/paying-suppliers-china-from-africa
+- https://www.elementpay.net/blog/send-money-uk-to-kenya
+- https://www.elementpay.net/blog/stablecoin-off-ramps-africa
+
+## Comparisons
+- https://www.elementpay.net/elementpay-vs-crypto-exchange-off-ramps
+- https://www.elementpay.net/elementpay-vs-remittance-apps
+- https://www.elementpay.net/elementpay-vs-swift-wire
+
+## Stablecoin payments and gateways
+- [How to choose a stablecoin payment API for Africa](https://www.elementpay.net/best-stablecoin-payment-api-africa)
+- [Stablecoin payments in Africa](https://www.elementpay.net/stablecoin-payments-africa)
+- [B2B stablecoin payments](https://www.elementpay.net/b2b-stablecoin-payments)
+- [Stablecoin payment gateway](https://www.elementpay.net/stablecoin-payment-gateway)
+- [Payment gateway for Africa](https://www.elementpay.net/payment-gateway-africa)
+- [Card payment gateway](https://www.elementpay.net/card-payment-gateway)
+- [Stablecoin payments in benin](https://www.elementpay.net/stablecoin-payments-in-benin)
+- [Stablecoin payments in botswana](https://www.elementpay.net/stablecoin-payments-in-botswana)
+- [Stablecoin payments in burkina faso](https://www.elementpay.net/stablecoin-payments-in-burkina-faso)
+- [Stablecoin payments in cameroon](https://www.elementpay.net/stablecoin-payments-in-cameroon)
+- [Stablecoin payments in cote divoire](https://www.elementpay.net/stablecoin-payments-in-cote-divoire)
+- [Stablecoin payments in dr congo](https://www.elementpay.net/stablecoin-payments-in-dr-congo)
+- [Stablecoin payments in ethiopia](https://www.elementpay.net/stablecoin-payments-in-ethiopia)
+- [Stablecoin payments in ghana](https://www.elementpay.net/stablecoin-payments-in-ghana)
+- [Stablecoin payments in kenya](https://www.elementpay.net/stablecoin-payments-in-kenya)
+- [Stablecoin payments in malawi](https://www.elementpay.net/stablecoin-payments-in-malawi)
+- [Stablecoin payments in mali](https://www.elementpay.net/stablecoin-payments-in-mali)
+- [Stablecoin payments in mozambique](https://www.elementpay.net/stablecoin-payments-in-mozambique)
+- [Stablecoin payments in rwanda](https://www.elementpay.net/stablecoin-payments-in-rwanda)
+- [Stablecoin payments in senegal](https://www.elementpay.net/stablecoin-payments-in-senegal)
+- [Stablecoin payments in south africa](https://www.elementpay.net/stablecoin-payments-in-south-africa)
+- [Stablecoin payments in tanzania](https://www.elementpay.net/stablecoin-payments-in-tanzania)
+- [Stablecoin payments in togo](https://www.elementpay.net/stablecoin-payments-in-togo)
+- [Stablecoin payments in uganda](https://www.elementpay.net/stablecoin-payments-in-uganda)
+- [Stablecoin payments in zambia](https://www.elementpay.net/stablecoin-payments-in-zambia)
+- [Stablecoin payments china](https://www.elementpay.net/stablecoin-payments-china)
+- [Stablecoin payments uk](https://www.elementpay.net/stablecoin-payments-uk)
+- [Stablecoin payments us](https://www.elementpay.net/stablecoin-payments-us)
+- [Stablecoin payments uae](https://www.elementpay.net/stablecoin-payments-uae)
+- [Stablecoin payments europe](https://www.elementpay.net/stablecoin-payments-europe)
+- [Stablecoin payments canada](https://www.elementpay.net/stablecoin-payments-canada)
+
+## French (Français)
+- [Paiements en stablecoins: senegal](https://www.elementpay.net/fr/paiements-stablecoins-senegal)
+- [Paiements en stablecoins: cote-divoire](https://www.elementpay.net/fr/paiements-stablecoins-cote-divoire)
+- [Paiements en stablecoins: cameroon](https://www.elementpay.net/fr/paiements-stablecoins-cameroon)
+- [Paiements en stablecoins: benin](https://www.elementpay.net/fr/paiements-stablecoins-benin)
+- [Paiements en stablecoins: togo](https://www.elementpay.net/fr/paiements-stablecoins-togo)
+- [Paiements en stablecoins: mali](https://www.elementpay.net/fr/paiements-stablecoins-mali)
+- [Paiements en stablecoins: burkina-faso](https://www.elementpay.net/fr/paiements-stablecoins-burkina-faso)
+- [Paiements en stablecoins: dr-congo](https://www.elementpay.net/fr/paiements-stablecoins-dr-congo)
+
+## Payments, payouts and collections
+- [Mobile money API for Africa: M-Pesa, MTN MoMo, Airtel Money and Orange Money](https://www.elementpay.net/mobile-money-api): One mobile money API for businesses. Pay out and collect on M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and more across 20 African countries.
+- [M-Pesa API for businesses: pay out and collect in Kenya and Tanzania](https://www.elementpay.net/mpesa-api-for-business): Pay suppliers, staff and customers on M-Pesa and collect M-Pesa payments through one business API. Kenya and Tanzania, funded in KES, TZS, USD or stablecoins.
+- [Payout API for Africa: mobile money and bank payouts in 20 countries](https://www.elementpay.net/payout-api): One payout API for businesses paying suppliers, staff, sellers and users across Africa. Mobile money and bank payouts in 20 countries, funded in fiat or stablecoins.
+- [Bulk payouts in Africa: pay hundreds of recipients from one file](https://www.elementpay.net/bulk-payouts-africa): Send bulk payments to mobile money and bank accounts across 20 African countries from one file or API call, with approvals and a status for every recipient.
+- [Collect payments in Africa: mobile money and bank collections for businesses](https://www.elementpay.net/collect-payments-in-africa): Accept payments from customers across Africa by mobile money and bank transfer, and settle into local currency, USD or USDC and USDT. One API and dashboard.
+- [Cross-border payments to and from Africa for businesses](https://www.elementpay.net/cross-border-payments-africa): Move money into, out of and across Africa: payouts in 20 countries, accounts in 30 currencies, FX with rates shown upfront, and USDC and USDT ramps. One platform.
+- [Pay Chinese suppliers from Africa in CNY, USD or USDT](https://www.elementpay.net/pay-suppliers-in-china-from-africa): For African importers: pay suppliers in China in CNY or USD from naira, shillings or cedis, or from USDT and USDC, with the rate shown before you confirm.
+- [Pay contractors and employees in Africa: mobile money and bank payouts](https://www.elementpay.net/pay-contractors-in-africa): Pay remote contractors and employees in Kenya, Nigeria, Ghana, South Africa and 16 more African countries, to mobile money or bank, funded in USD or stablecoins.
+- [Stablecoin off-ramp API: USDC and USDT to mobile money and bank in Africa](https://www.elementpay.net/stablecoin-off-ramp-api): Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API.
+- [Stablecoin on-ramp API: local currency to USDC and USDT in Africa](https://www.elementpay.net/stablecoin-on-ramp-api): On-ramp from naira, shillings, cedis and other African currencies into USDC and USDT through one business API, with the rate shown before you confirm.
+- [ElementPay at a glance](https://www.elementpay.net/elementpay-facts): Key facts about ElementPay: products, coverage and status.
+
+## Blog guides (new)
+- [How businesses convert USDT to M-Pesa in Kenya](https://www.elementpay.net/blog/usdt-to-mpesa-for-business): A step-by-step guide for companies that hold USDT or USDC and need to pay suppliers, staff or partners on M-Pesa in Kenyan shillings.
+- [USDC vs USDT for business payments in Africa](https://www.elementpay.net/blog/usdc-vs-usdt-for-business): The practical differences between USDC and USDT for companies that settle, hold or pay out in stablecoins across African markets.
+- [B2B stablecoin payments: a guide for finance teams](https://www.elementpay.net/blog/b2b-stablecoin-payments-guide): How companies use USDC and USDT to pay suppliers and partners across borders, and the controls finance teams need in place.
+- [How to choose a payment gateway for Africa: a checklist](https://www.elementpay.net/blog/choose-payment-gateway-africa): What to compare when choosing a payment gateway for African markets: payment methods, coverage, settlement currencies, pricing visibility and controls.
+- [Paying and collecting in Ghana: MTN MoMo, Telecel Cash and bank](https://www.elementpay.net/blog/paying-and-collecting-in-ghana): A business guide to moving money in Ghana: which mobile money networks and bank rails to use, and how to fund GHS payouts from abroad or from stablecoins.
+- [Running payroll across several African countries](https://www.elementpay.net/blog/multi-country-payroll-africa): How companies pay employees and contractors in Kenya, Nigeria, Ghana, South Africa and other markets from one balance, on mobile money and bank.
+- [What is a mobile money API?](https://www.elementpay.net/blog/what-is-a-mobile-money-api): A plain explanation of mobile money APIs: what they do, who uses them, and what to look for when you need to pay out to or collect from wallets across Africa.
+- [How to pay suppliers in Nigeria from abroad](https://www.elementpay.net/blog/pay-suppliers-in-nigeria-from-abroad): A guide for foreign businesses paying Nigerian suppliers in naira: bank payouts, funding in USD, GBP, CNY or stablecoins, and what to check before sending.
+
+## Full page index
+
+### Blog
+- [Blog: guides to payments, mobile money and stablecoins in emerging markets](https://www.elementpay.net/blog): Guides on sending money to Africa, mobile money, stablecoin off-ramps, CFA francs and cross-border payments.
+- [Agentic payments: how to let AI agents pay within your rules](https://www.elementpay.net/blog/agentic-payments-policies): Budgets, allow-lists, approval thresholds and audit trails for software that moves money.
+- [XOF and XAF: a business guide to the CFA franc zones](https://www.elementpay.net/blog/cfa-franc-xof-xaf): Two currencies, one euro peg. Who uses which, what the peg means for pricing, and how to hold both.
+- [Why do cross-border payments to Africa take days? Correspondent banking explained](https://www.elementpay.net/blog/correspondent-banking-explained): What happens between your bank and the recipient, where the time and fees go, and how local rails change the picture.
+- [Mass payouts to mobile money: a guide for platforms and marketplaces](https://www.elementpay.net/blog/mass-payouts-mobile-money): How to structure payout files, choose between API and dashboard, fund the run and handle failed lines.
+- [Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov](https://www.elementpay.net/blog/mobile-money-west-africa): Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and how to pay out across them.
+- [Paying suppliers in China from Nigeria, Ghana and Kenya](https://www.elementpay.net/blog/paying-suppliers-china-from-africa): How importers pay factories in CNY without long waits, with rate locks, stablecoin funding and the OTC desk for large orders.
+- [How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options](https://www.elementpay.net/blog/send-money-uk-to-kenya): A practical guide for businesses paying recipients in Kenya, from M-Pesa wallets and PesaLink bank transfers to USDC-funded payouts.
+- [Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money](https://www.elementpay.net/blog/stablecoin-off-ramps-africa): How businesses convert dollar stablecoins into local currency on M-Pesa, MTN MoMo and bank accounts.
+
+### Products and company
+- [About ElementPay: payment rails for emerging markets](https://www.elementpay.net/about): ElementPay connects mobile money and local banks in 20 African countries to 30 global currencies and to USDC and USDT.
+- [Agentic payments infrastructure: stablecoin payment rails for AI agents](https://www.elementpay.net/agentic-payments): Agentic payments infrastructure and API for businesses. Let AI agents pay in USDC or local currency within budgets, allow-lists and approval thresholds.
+- [Multi-currency business accounts in 30 currencies](https://www.elementpay.net/business-accounts): Bank accounts issued one per currency in USD, EUR, GBP, KES, NGN, XOF, XAF and 23 more, alongside USDC and USDT balances.
+- [Talk to ElementPay sales: cross-border payments for your business](https://www.elementpay.net/contact): Tell us about your business and what you need. Our team replies within one business day with coverage, pricing and an onboarding plan.
+- [Coverage: payouts in 20 African countries, accounts in 30 currencies · ElementPay](https://www.elementpay.net/coverage): ElementPay pays out to mobile money and banks in 20 African countries and issues bank accounts in 30 currencies, with USDC and USDT funding.
+- [ElementPay dApp: on- and off-ramp USDC and USDT to M-Pesa, mobile money and banks](https://www.elementpay.net/elementpay-dapp): Connect a self-custody wallet and sell USDC or USDT straight to M-Pesa, MTN MoMo or a bank account. See the local amount before you sign.
+- [Exchange rates: USD, EUR, GBP and USDC to African currencies](https://www.elementpay.net/exchange-rates): Indicative exchange rates from USD, EUR, GBP and USDC to KES, NGN, GHS, ZAR, XOF, XAF and 9 more African currencies.
+- [Help centre: payouts, accounts, stablecoins and verification](https://www.elementpay.net/help): Answers on payouts to 20 African countries, accounts in 30 currencies, USDC and USDT, and business verification.
+- [Merchant dashboard for collections, payouts and approvals](https://www.elementpay.net/merchant-dashboard): Collect, pay, approve and reconcile across 20 African payout countries and 30 currencies, including stablecoins, from one dashboard.
+- [OTC desk for large FX and stablecoin trades](https://www.elementpay.net/otc-desk): Firm quotes from a named trader, held for 60 seconds, settled the same day. USD, USDT and USDC against African currencies.
+- [Payouts to 20 African countries: M-Pesa, MTN MoMo and bank](https://www.elementpay.net/payments): Pay out to mobile money and bank accounts in 20 African countries. Fund from USD, EUR, GBP, USDC or USDT.
+- [Payments API for mobile money, banks and stablecoins](https://www.elementpay.net/payments-api): One REST API for payouts and collections on every African rail, funded in fiat or USDC, with signed webhooks for every event.
+- [Pricing: how ElementPay rates and fees work](https://www.elementpay.net/pricing): ElementPay shows the exchange rate and fee before every payment. No intermediary deductions. Volume pricing for businesses and OTC quotes for large trades.
+- [Security and compliance: how ElementPay protects your money](https://www.elementpay.net/security-and-compliance): How ElementPay verifies businesses, monitors transactions, works with licensed banking partners and protects data.
+- [Cross-border FX and settlement in 30 currencies and stablecoins](https://www.elementpay.net/settlement-and-fx): Live FX quotes locked before you confirm. Convert between 30 currencies, USDC and USDT with no correspondent banks.
+- [ElementPay system status: live uptime for every rail](https://www.elementpay.net/status): Live status and 90-day uptime for M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave, bank rails, USDC and USDT settlement and the ElementPay API.
+- [Why ElementPay: one platform for cross-border payments, with control](https://www.elementpay.net/why-elementpay): One integration for mobile money, banks and stablecoins, pricing shown upfront, every payment traceable, and approvals built in.
+- [Careers](https://www.elementpay.net/careers): Working at ElementPay and how to apply.
+
+### Core
+- [ElementPay (Element Pay): stablecoin and cross-border payments API for businesses in Africa](https://www.elementpay.net/): Payment infrastructure for businesses. Collect, pay out, convert and hold money across mobile money, banks and USDC or USDT through one API and dashboard.
+
+### Press
+- [Newsroom: ElementPay press releases and media kit](https://www.elementpay.net/press): ElementPay press releases, company facts, brand assets and media contacts.
+- [ElementPay launches bank accounts in 30 currencies](https://www.elementpay.net/press/bank-accounts-30-currencies): Businesses can now receive, hold and pay in 30 currencies, each with its own account details.
+- [ElementPay introduces Mboka, a web app with real business bank accounts, cards and payouts](https://www.elementpay.net/press/mboka-business-app): Mboka brings ElementPay accounts, cards and payouts to growing businesses in one app.
+- [ElementPay opens an OTC desk for large-ticket FX](https://www.elementpay.net/press/otc-desk): A named trader now quotes large FX and liquidity requests and settles the same day.
+- [ElementPay expands payouts to 20 African countries](https://www.elementpay.net/press/payouts-20-african-countries): Mobile money and bank payouts now reach East, West, Central and Southern Africa through one API.
+- [ElementPay adds USDC and USDT off-ramps to mobile money](https://www.elementpay.net/press/usdc-usdt-off-ramps): Businesses can convert dollar stablecoins into local currency on mobile money and bank accounts.
+
+### Stablecoin payments and gateways
+- [B2B stablecoin payments: USDC and USDT for supplier, payroll and treasury payments](https://www.elementpay.net/b2b-stablecoin-payments): B2B stablecoin payments for companies trading with Africa. Pay suppliers, run payroll and manage treasury in USDC and USDT.
+- [How to choose a stablecoin payment API for Africa: a buyer’s checklist](https://www.elementpay.net/best-stablecoin-payment-api-africa): What fintechs, payroll providers and platforms should check before choosing a stablecoin payment API for African corridors: coverage, rails, speed, FX.
+- [Card payment gateway for Africa: accept cards alongside mobile money and stablecoins](https://www.elementpay.net/card-payment-gateway): Accept card payments from customers alongside mobile money, bank transfer and stablecoins, and settle in local currency, USD or USDC.
+- [Payment gateway for Africa: mobile money, bank, card and stablecoin payments](https://www.elementpay.net/payment-gateway-africa): One payment gateway for Africa. Collect by mobile money, bank transfer, card and stablecoins across 20 countries and settle in local currency, USD or USDC.
+- [Stablecoin payment gateway: accept USDC and USDT and settle to local currency](https://www.elementpay.net/stablecoin-payment-gateway): A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency across 20 African.
+- [Stablecoin payments in Africa: USDC and USDT payouts and collections in 20 countries](https://www.elementpay.net/stablecoin-payments-africa): Stablecoin payments across Africa for businesses. Pay out and collect in 20 African countries from USDC and USDT, delivered to mobile money and bank accounts.
+- [Stablecoin payments API and gateway for Africa: USDC and USDT payment solutions](https://www.elementpay.net/stablecoin-payments-api): Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa.
+- [Stablecoin payments API in Nigeria: USDC and USDT collections and payouts in NGN](https://www.elementpay.net/stablecoin-payments-api-nigeria): Collect and pay out in Nigeria with USDC and USDT. Pay suppliers and staff in NGN to any Nigerian bank account, or collect naira and settle in stablecoins.
+- [Stablecoin payments from Canada to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-canada): For businesses in Canada: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payments from China to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-china): For businesses in China: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payments from Europe to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-europe): For businesses in Europe: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payments in Benin: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-benin): B2B stablecoin payments in Benin. Pay suppliers and staff in XOF on MTN MoMo and Moov Money from USDC or USDT, or collect XOF and settle in stablecoins.
+- [Stablecoin payments in Botswana: USDC and USDT to BWP for businesses](https://www.elementpay.net/stablecoin-payments-in-botswana): B2B stablecoin payments in Botswana. Pay suppliers and staff in BWP on Orange Money and bank from USDC or USDT, or collect BWP and settle in stablecoins.
+- [Stablecoin payments in Burkina Faso: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-burkina-faso): B2B stablecoin payments in Burkina Faso. Pay suppliers and staff in XOF on Orange Money and Moov Money from USDC or USDT.
+- [Stablecoin payments in Cameroon: USDC and USDT to XAF for businesses](https://www.elementpay.net/stablecoin-payments-in-cameroon): B2B stablecoin payments in Cameroon. Pay suppliers and staff in XAF on MTN MoMo and Orange Money from USDC or USDT, or collect XAF and settle in stablecoins.
+- [Stablecoin payments in Côte d’Ivoire: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-cote-divoire): B2B stablecoin payments in Côte d’Ivoire. Pay suppliers and staff in XOF on Orange Money, MTN MoMo and Moov Money from USDC or USDT.
+- [Stablecoin payments in DR Congo: USDC and USDT to CDF for businesses](https://www.elementpay.net/stablecoin-payments-in-dr-congo): B2B stablecoin payments in DR Congo. Pay suppliers and staff in CDF on M-Pesa, Airtel Money and Orange Money from USDC or USDT.
+- [Stablecoin payments in Ethiopia: USDC and USDT to ETB for businesses](https://www.elementpay.net/stablecoin-payments-in-ethiopia): B2B stablecoin payments in Ethiopia. Pay suppliers and staff in ETB on telebirr and bank from USDC or USDT, or collect ETB and settle in stablecoins.
+- [Stablecoin payments in Ghana: USDC and USDT to GHS for businesses](https://www.elementpay.net/stablecoin-payments-in-ghana): B2B stablecoin payments in Ghana. Pay suppliers and staff in GHS on MTN MoMo, Telecel Cash and AT Money from USDC or USDT.
+- [Stablecoin payments in Kenya: USDC and USDT to KES for businesses](https://www.elementpay.net/stablecoin-payments-in-kenya): B2B stablecoin payments in Kenya. Pay suppliers and staff in KES on M-Pesa, Airtel Money and PesaLink from USDC or USDT.
+- [Stablecoin payments in Malawi: USDC and USDT to MWK for businesses](https://www.elementpay.net/stablecoin-payments-in-malawi): B2B stablecoin payments in Malawi. Pay suppliers and staff in MWK on Airtel Money and TNM Mpamba from USDC or USDT, or collect MWK and settle in stablecoins.
+- [Stablecoin payments in Mali: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-mali): B2B stablecoin payments in Mali. Pay suppliers and staff in XOF on Orange Money and Moov Money from USDC or USDT, or collect XOF and settle in stablecoins.
+- [Stablecoin payments in Mozambique: USDC and USDT to MZN for businesses](https://www.elementpay.net/stablecoin-payments-in-mozambique): B2B stablecoin payments in Mozambique. Pay suppliers and staff in MZN on M-Pesa and e-Mola from USDC or USDT, or collect MZN and settle in stablecoins.
+- [Stablecoin payments in Rwanda: USDC and USDT to RWF for businesses](https://www.elementpay.net/stablecoin-payments-in-rwanda): B2B stablecoin payments in Rwanda. Pay suppliers and staff in RWF on MTN MoMo, Airtel Money and bank from USDC or USDT.
+- [Stablecoin payments in Senegal: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-senegal): B2B stablecoin payments in Senegal. Pay suppliers and staff in XOF on Orange Money, Wave and Free Money from USDC or USDT.
+- [Stablecoin payments in South Africa: USDC and USDT to ZAR for businesses](https://www.elementpay.net/stablecoin-payments-in-south-africa): B2B stablecoin payments in South Africa. Pay suppliers and staff in ZAR on bank EFT from USDC or USDT, or collect ZAR and settle in stablecoins.
+- [Stablecoin payments in Tanzania: USDC and USDT to TZS for businesses](https://www.elementpay.net/stablecoin-payments-in-tanzania): B2B stablecoin payments in Tanzania. Pay suppliers and staff in TZS on M-Pesa, Airtel Money and Mixx by Yas from USDC or USDT.
+- [Stablecoin payments in Togo: USDC and USDT to XOF for businesses](https://www.elementpay.net/stablecoin-payments-in-togo): B2B stablecoin payments in Togo. Pay suppliers and staff in XOF on Moov Money and Mixx by Yas from USDC or USDT, or collect XOF and settle in stablecoins.
+- [Stablecoin payments in Uganda: USDC and USDT to UGX for businesses](https://www.elementpay.net/stablecoin-payments-in-uganda): B2B stablecoin payments in Uganda. Pay suppliers and staff in UGX on MTN MoMo, Airtel Money and bank from USDC or USDT.
+- [Stablecoin payments in Zambia: USDC and USDT to ZMW for businesses](https://www.elementpay.net/stablecoin-payments-in-zambia): B2B stablecoin payments in Zambia. Pay suppliers and staff in ZMW on MTN MoMo, Airtel Money and Zamtel from USDC or USDT.
+- [Stablecoin payments from the UAE to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-uae): For businesses in the UAE: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payments from the UK to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-uk): For businesses in the UK: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payments from the US to Africa: pay African suppliers in USDC and USDT](https://www.elementpay.net/stablecoin-payments-us): For businesses in the US: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.
+- [Stablecoin payroll for Africa: pay staff in Kenya and Nigeria from USDC and USDT](https://www.elementpay.net/stablecoin-payroll): Pay employees and contractors in Kenya, Nigeria and 18 other African countries from a USDC or USDT balance.
+- [Stablecoin payment solutions for businesses in Africa: USDC and USDT gateway, on- and off-ramps](https://www.elementpay.net/stablecoins): USDC and USDT payment solutions for businesses in Africa. Convert stablecoins to local currency and pay out to M-Pesa.
+
+### Comparisons
+- [ElementPay vs crypto exchange off-ramps for USDC and USDT](https://www.elementpay.net/elementpay-vs-crypto-exchange-off-ramps): Crypto exchanges let you sell USDC or USDT, but getting local currency to a recipient usually means a P2P trade or a withdrawal to your own bank first. Ele
+- [ElementPay vs consumer remittance apps for business payouts](https://www.elementpay.net/elementpay-vs-remittance-apps): Consumer remittance apps are built for individuals sending money to family. ElementPay is built for businesses: bulk payouts, an API, approvals, multi-curr
+- [ElementPay vs a SWIFT bank wire for payments to Africa](https://www.elementpay.net/elementpay-vs-swift-wire): A SWIFT wire works almost anywhere but often takes 2–5 business days to reach African bank accounts, passes through correspondent banks and cannot pay mobi
+
+### Solutions
+- [Programmable payments for AI agents in local currency](https://www.elementpay.net/for-ai-agents): Give agents budgets and policies. They pay suppliers on M-Pesa, banks or USDC within your rules.
+- [Pay suppliers in China and the Gulf from Africa](https://www.elementpay.net/for-cross-border-traders): Collect locally, hold USD or USDT, and pay suppliers in CNY or AED without waiting on SWIFT.
+- [Payments infrastructure for banks, MFIs and PSPs in Africa](https://www.elementpay.net/for-financial-institutions): White-label payouts, correspondent-free transfers and stablecoin liquidity for financial institutions.
+- [Mobile money cash-in and cash-out API for fintechs](https://www.elementpay.net/for-fintechs-and-wallets): Add M-Pesa, MTN MoMo and bank on- and off-ramps plus USDC balances to your app with one API.
+- [Accept M-Pesa, MTN MoMo and Wave from anywhere](https://www.elementpay.net/for-global-merchants): Let customers pay with mobile money and local bank transfer. Settle in USD, EUR, GBP or USDC.
+- [Business accounts, payroll and payouts for African SMEs](https://www.elementpay.net/for-growing-businesses): Collect from customers, pay staff and suppliers across countries, and hold every currency including USDC in one place.
+- [Cash transfers to beneficiaries on mobile money](https://www.elementpay.net/for-ngos-and-aid): Disburse stipends and cash transfers to mobile money wallets in bulk with donor-ready reporting.
+- [Mass payouts to mobile money for platforms and marketplaces](https://www.elementpay.net/for-platforms-and-marketplaces): Pay thousands of sellers, drivers and creators on M-Pesa, banks and Wave from one USD or USDC balance.
+- [Remittance payouts to mobile money in 20 African countries](https://www.elementpay.net/for-remittance-companies): Fund once in fiat or USDC and deliver to M-Pesa, MTN MoMo and banks without pre-funding each country.
+
+### Français
+- [Envoyer de l’argent au Bénin : MTN MoMo et Moov Money en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-benin): Pour les entreprises : payez vers MTN MoMo et Moov Money au Bénin en quelques secondes. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance, 7j/7.
+- [Envoyer de l’argent au Burkina Faso : Orange Money et Moov Money en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-burkina-faso): Pour les entreprises : payez vers Orange Money et Moov Money au Burkina Faso en quelques secondes. Financez en EUR, USD, USDC ou USDT.
+- [Envoyer de l’argent au Cameroun : MTN MoMo et Orange Money en XAF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-cameroun): Pour les entreprises : payez vers MTN MoMo et Orange Money au Cameroun en quelques secondes. Financez en EUR, USD, USDC ou USDT.
+- [Envoyer de l’argent au Mali : Orange Money et Moov Money en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-mali): Pour les entreprises : payez vers Orange Money et Moov Money au Mali en quelques secondes. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance, 7j/7.
+- [Envoyer de l’argent au Sénégal : Orange Money, Wave et Free Money en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-senegal): Pour les entreprises : payez vers Orange Money, Wave et Free Money au Sénégal en quelques secondes. Financez en EUR, USD, USDC ou USDT.
+- [Envoyer de l’argent au Togo : Moov Money et Mixx by Yas en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-au-togo): Pour les entreprises : payez vers Moov Money et Mixx by Yas au Togo en quelques secondes. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance, 7j/7.
+- [Envoyer de l’argent en Côte d’Ivoire : Orange Money, MTN MoMo et Moov Money en XOF](https://www.elementpay.net/fr/envoyer-de-l-argent-en-cote-divoire): Pour les entreprises : payez vers Orange Money, MTN MoMo, Moov Money et Wave en Côte d’Ivoire en quelques secondes. Financez en EUR, USD, USDC ou USDT.
+- [Envoyer de l’argent en RD Congo : M-Pesa, Airtel Money et Orange Money en CDF](https://www.elementpay.net/fr/envoyer-de-l-argent-en-rd-congo): Pour les entreprises : payez vers M-Pesa, Airtel Money et Orange Money en RD Congo en quelques secondes. Financez en EUR, USD, USDC ou USDT.
+- [Paiements en stablecoins au Bénin : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-benin): Paiements B2B en stablecoins au Bénin. Payez fournisseurs et salariés en XOF sur MTN MoMo et Moov Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins au Burkina Faso : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-burkina-faso): Paiements B2B en stablecoins au Burkina Faso. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins au Cameroun : USDC et USDT vers XAF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-cameroon): Paiements B2B en stablecoins au Cameroun. Payez fournisseurs et salariés en XAF sur MTN MoMo et Orange Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins en Côte d’Ivoire : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-cote-divoire): Paiements B2B en stablecoins en Côte d’Ivoire. Payez fournisseurs et salariés en XOF sur Orange Money, MTN MoMo et Moov Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins en RD Congo : USDC et USDT vers CDF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-dr-congo): Paiements B2B en stablecoins en RD Congo. Payez fournisseurs et salariés en CDF sur M-Pesa, Airtel Money et Orange Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins au Mali : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-mali): Paiements B2B en stablecoins au Mali. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins au Sénégal : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-senegal): Paiements B2B en stablecoins au Sénégal. Payez fournisseurs et salariés en XOF sur Orange Money, Wave et Free Money depuis un solde USDC ou USDT.
+- [Paiements en stablecoins au Togo : USDC et USDT vers XOF pour les entreprises](https://www.elementpay.net/fr/paiements-stablecoins-togo): Paiements B2B en stablecoins au Togo. Payez fournisseurs et salariés en XOF sur Moov Money et Mixx by Yas depuis un solde USDC ou USDT.
+
+### Glossary
+- [Payments glossary: mobile money, FX and stablecoin terms explained](https://www.elementpay.net/glossary): Plain definitions of M-Pesa, PesaLink, CFA franc, SWIFT, correspondent banks, off-ramps, USDC, USDT and other cross-border payment terms.
+
+### Currency accounts
+- [Open a AED business account: UAE dirham account details](https://www.elementpay.net/open-a-aed-account): Get a dedicated AED account for your business. Receive, hold and convert UAE dirhams, plus 29 other currencies, USDC and USDT.
+- [Open a AUD business account: Australian dollar account details](https://www.elementpay.net/open-a-aud-account): Get a dedicated AUD account for your business. Receive, hold and convert Australian dollars, plus 29 other currencies, USDC and USDT.
+- [Open a CAD business account: Canadian dollar account details](https://www.elementpay.net/open-a-cad-account): Get a dedicated CAD account for your business. Receive, hold and convert Canadian dollars, plus 29 other currencies, USDC and USDT.
+- [Open a CHF business account: Swiss franc account details](https://www.elementpay.net/open-a-chf-account): Get a dedicated CHF account for your business. Receive, hold and convert Swiss francs, plus 29 other currencies, USDC and USDT.
+- [Open a CNY business account: Chinese yuan account details](https://www.elementpay.net/open-a-cny-account): Get a dedicated CNY account for your business. Receive, hold and convert Chinese yuans, plus 29 other currencies, USDC and USDT.
+- [Open a CZK business account: Czech koruna account details](https://www.elementpay.net/open-a-czk-account): Get a dedicated CZK account for your business. Receive, hold and convert Czech korunas, plus 29 other currencies, USDC and USDT.
+- [Open a DKK business account: Danish krone account details](https://www.elementpay.net/open-a-dkk-account): Get a dedicated DKK account for your business. Receive, hold and convert Danish krones, plus 29 other currencies, USDC and USDT.
+- [Open a EUR business account: Euro account details](https://www.elementpay.net/open-a-eur-account): Get a dedicated EUR account for your business. Receive, hold and convert Euros, plus 29 other currencies, USDC and USDT, and pay out to 20 African countries.
+- [Open a GBP business account: British pound account details](https://www.elementpay.net/open-a-gbp-account): Get a dedicated GBP account for your business. Receive, hold and convert British pounds, plus 29 other currencies, USDC and USDT.
+- [Open a GHS business account: Ghanaian cedi account details](https://www.elementpay.net/open-a-ghs-account): Get a dedicated GHS account for your business. Receive, hold and convert Ghanaian cedis, plus 29 other currencies, USDC and USDT.
+- [Open a HKD business account: Hong Kong dollar account details](https://www.elementpay.net/open-a-hkd-account): Get a dedicated HKD account for your business. Receive, hold and convert Hong Kong dollars, plus 29 other currencies, USDC and USDT.
+- [Open a HUF business account: Hungarian forint account details](https://www.elementpay.net/open-a-huf-account): Get a dedicated HUF account for your business. Receive, hold and convert Hungarian forints, plus 29 other currencies, USDC and USDT.
+- [Open a ILS business account: Israeli shekel account details](https://www.elementpay.net/open-a-ils-account): Get a dedicated ILS account for your business. Receive, hold and convert Israeli shekels, plus 29 other currencies, USDC and USDT.
+- [Open a JPY business account: Japanese yen account details](https://www.elementpay.net/open-a-jpy-account): Get a dedicated JPY account for your business. Receive, hold and convert Japanese yens, plus 29 other currencies, USDC and USDT.
+- [Open a KES business account: Kenyan shilling account details](https://www.elementpay.net/open-a-kes-account): Get a dedicated KES account for your business. Receive, hold and convert Kenyan shillings, plus 29 other currencies, USDC and USDT.
+- [Open a KRW business account: South Korean won account details](https://www.elementpay.net/open-a-krw-account): Get a dedicated KRW account for your business. Receive, hold and convert South Korean wons, plus 29 other currencies, USDC and USDT.
+- [Open a MXN business account: Mexican peso account details](https://www.elementpay.net/open-a-mxn-account): Get a dedicated MXN account for your business. Receive, hold and convert Mexican pesos, plus 29 other currencies, USDC and USDT.
+- [Open a NGN business account: Nigerian naira account details](https://www.elementpay.net/open-a-ngn-account): Get a dedicated NGN account for your business. Receive, hold and convert Nigerian nairas, plus 29 other currencies, USDC and USDT.
+- [Open a NOK business account: Norwegian krone account details](https://www.elementpay.net/open-a-nok-account): Get a dedicated NOK account for your business. Receive, hold and convert Norwegian krones, plus 29 other currencies, USDC and USDT.
+- [Open a NZD business account: New Zealand dollar account details](https://www.elementpay.net/open-a-nzd-account): Get a dedicated NZD account for your business. Receive, hold and convert New Zealand dollars, plus 29 other currencies, USDC and USDT.
+- [Open a PLN business account: Polish złoty account details](https://www.elementpay.net/open-a-pln-account): Get a dedicated PLN account for your business. Receive, hold and convert Polish złotys, plus 29 other currencies, USDC and USDT.
+- [Open a RON business account: Romanian leu account details](https://www.elementpay.net/open-a-ron-account): Get a dedicated RON account for your business. Receive, hold and convert Romanian leus, plus 29 other currencies, USDC and USDT.
+- [Open a SEK business account: Swedish krona account details](https://www.elementpay.net/open-a-sek-account): Get a dedicated SEK account for your business. Receive, hold and convert Swedish kronas, plus 29 other currencies, USDC and USDT.
+- [Open a SGD business account: Singapore dollar account details](https://www.elementpay.net/open-a-sgd-account): Get a dedicated SGD account for your business. Receive, hold and convert Singapore dollars, plus 29 other currencies, USDC and USDT.
+- [Open a THB business account: Thai baht account details](https://www.elementpay.net/open-a-thb-account): Get a dedicated THB account for your business. Receive, hold and convert Thai bahts, plus 29 other currencies, USDC and USDT.
+- [Open a TZS business account: Tanzanian shilling account details](https://www.elementpay.net/open-a-tzs-account): Get a dedicated TZS account for your business. Receive, hold and convert Tanzanian shillings, plus 29 other currencies, USDC and USDT.
+- [Open a USD business account: US dollar account details](https://www.elementpay.net/open-a-usd-account): Get a dedicated USD account for your business. Receive, hold and convert US dollars, plus 29 other currencies, USDC and USDT.
+- [Open a XAF business account: Central African CFA franc account details](https://www.elementpay.net/open-a-xaf-account): Get a dedicated XAF account for your business. Receive, hold and convert Central African CFA francs, plus 29 other currencies, USDC and USDT.
+- [Open a XOF business account: West African CFA franc account details](https://www.elementpay.net/open-a-xof-account): Get a dedicated XOF account for your business. Receive, hold and convert West African CFA francs, plus 29 other currencies, USDC and USDT.
+- [Open a ZAR business account: South African rand account details](https://www.elementpay.net/open-a-zar-account): Get a dedicated ZAR account for your business. Receive, hold and convert South African rands, plus 29 other currencies, USDC and USDT.
+
+### Payout routes
+- [Send money from Canada to Ghana: CAD to GHS on MTN MoMo](https://www.elementpay.net/send-money-from-canada-to-ghana): For businesses: pay recipients in Ghana from Canada: fund in CAD, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank.
+- [Send money from Canada to Nigeria: CAD to NGN on Bank transfer](https://www.elementpay.net/send-money-from-canada-to-nigeria): For businesses: pay recipients in Nigeria from Canada: fund in CAD, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money from China to Ghana: CNY to GHS on MTN MoMo](https://www.elementpay.net/send-money-from-china-to-ghana): For businesses: pay recipients in Ghana from China: fund in CNY, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank.
+- [Send money from China to Kenya: CNY to KES on M-Pesa](https://www.elementpay.net/send-money-from-china-to-kenya): For businesses: pay recipients in Kenya from China: fund in CNY, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank.
+- [Send money from China to Nigeria: CNY to NGN on Bank transfer](https://www.elementpay.net/send-money-from-china-to-nigeria): For businesses: pay recipients in Nigeria from China: fund in CNY, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money from China to Tanzania: CNY to TZS on M-Pesa](https://www.elementpay.net/send-money-from-china-to-tanzania): For businesses: pay recipients in Tanzania from China: fund in CNY, deliver TZS to M-Pesa, Airtel Money, Mixx by Yas and Bank.
+- [Send money from France to Benin: EUR to XOF on MTN MoMo](https://www.elementpay.net/send-money-from-france-to-benin): For businesses: pay recipients in Benin from France: fund in EUR, deliver XOF to MTN MoMo and Moov Money. Rate and fee shown upfront, open 24/7.
+- [Send money from France to Cameroon: EUR to XAF on MTN MoMo](https://www.elementpay.net/send-money-from-france-to-cameroon): For businesses: pay recipients in Cameroon from France: fund in EUR, deliver XAF to MTN MoMo and Orange Money. Rate and fee shown upfront, open 24/7.
+- [Send money from France to Côte d’Ivoire: EUR to XOF on Orange Money](https://www.elementpay.net/send-money-from-france-to-cote-divoire): For businesses: pay recipients in Côte d’Ivoire from France: fund in EUR, deliver XOF to Orange Money, MTN MoMo, Moov Money and Wave.
+- [Send money from France to Mali: EUR to XOF on Orange Money](https://www.elementpay.net/send-money-from-france-to-mali): For businesses: pay recipients in Mali from France: fund in EUR, deliver XOF to Orange Money and Moov Money. Rate and fee shown upfront, open 24/7.
+- [Send money from France to Senegal: EUR to XOF on Orange Money](https://www.elementpay.net/send-money-from-france-to-senegal): For businesses: pay recipients in Senegal from France: fund in EUR, deliver XOF to Orange Money, Wave and Free Money. Rate and fee shown upfront, open 24/7.
+- [Send money from Germany to Ghana: EUR to GHS on MTN MoMo](https://www.elementpay.net/send-money-from-germany-to-ghana): For businesses: pay recipients in Ghana from Germany: fund in EUR, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank.
+- [Send money from Germany to Nigeria: EUR to NGN on Bank transfer](https://www.elementpay.net/send-money-from-germany-to-nigeria): For businesses: pay recipients in Nigeria from Germany: fund in EUR, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money from the UAE to Ethiopia: AED to ETB on telebirr](https://www.elementpay.net/send-money-from-uae-to-ethiopia): For businesses: pay recipients in Ethiopia from the UAE: fund in AED, deliver ETB to telebirr and Bank. Rate and fee shown upfront, open 24/7.
+- [Send money from the UAE to Kenya: AED to KES on M-Pesa](https://www.elementpay.net/send-money-from-uae-to-kenya): For businesses: pay recipients in Kenya from the UAE: fund in AED, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank.
+- [Send money from the UAE to Nigeria: AED to NGN on Bank transfer](https://www.elementpay.net/send-money-from-uae-to-nigeria): For businesses: pay recipients in Nigeria from the UAE: fund in AED, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money from the UAE to Uganda: AED to UGX on MTN MoMo](https://www.elementpay.net/send-money-from-uae-to-uganda): For businesses: pay recipients in Uganda from the UAE: fund in AED, deliver UGX to MTN MoMo, Airtel Money and Bank. Rate and fee shown upfront, open 24/7.
+- [Send money from the UK to Ghana: GBP to GHS on MTN MoMo](https://www.elementpay.net/send-money-from-uk-to-ghana): For businesses: pay recipients in Ghana from the UK: fund in GBP, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank.
+- [Send money from the UK to Kenya: GBP to KES on M-Pesa](https://www.elementpay.net/send-money-from-uk-to-kenya): For businesses: pay recipients in Kenya from the UK: fund in GBP, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank.
+- [Send money from the UK to Nigeria: GBP to NGN on Bank transfer](https://www.elementpay.net/send-money-from-uk-to-nigeria): For businesses: pay recipients in Nigeria from the UK: fund in GBP, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money from the UK to South Africa: GBP to ZAR on Bank EFT](https://www.elementpay.net/send-money-from-uk-to-south-africa): For businesses: pay recipients in South Africa from the UK: fund in GBP, deliver ZAR to Bank EFT. Rate and fee shown upfront, open 24/7.
+- [Send money from the UK to Uganda: GBP to UGX on MTN MoMo](https://www.elementpay.net/send-money-from-uk-to-uganda): For businesses: pay recipients in Uganda from the UK: fund in GBP, deliver UGX to MTN MoMo, Airtel Money and Bank. Rate and fee shown upfront, open 24/7.
+- [Send money from the US to Cameroon: USD to XAF on MTN MoMo](https://www.elementpay.net/send-money-from-us-to-cameroon): For businesses: pay recipients in Cameroon from the US: fund in USD, deliver XAF to MTN MoMo and Orange Money. Rate and fee shown upfront, open 24/7.
+- [Send money from the US to Ethiopia: USD to ETB on telebirr](https://www.elementpay.net/send-money-from-us-to-ethiopia): For businesses: pay recipients in Ethiopia from the US: fund in USD, deliver ETB to telebirr and Bank. Rate and fee shown upfront, open 24/7.
+- [Send money from the US to Ghana: USD to GHS on MTN MoMo](https://www.elementpay.net/send-money-from-us-to-ghana): For businesses: pay recipients in Ghana from the US: fund in USD, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank.
+- [Send money from the US to Kenya: USD to KES on M-Pesa](https://www.elementpay.net/send-money-from-us-to-kenya): For businesses: pay recipients in Kenya from the US: fund in USD, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank.
+- [Send money from the US to Nigeria: USD to NGN on Bank transfer](https://www.elementpay.net/send-money-from-us-to-nigeria): For businesses: pay recipients in Nigeria from the US: fund in USD, deliver NGN to Bank transfer. Rate and fee shown upfront, open 24/7.
+- [Send money to Benin: MTN MoMo and Moov Money payouts in XOF](https://www.elementpay.net/send-money-to-benin): For businesses: pay out to MTN MoMo and Moov Money in Benin. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Botswana: Orange Money and Bank payouts in BWP](https://www.elementpay.net/send-money-to-botswana): For businesses: pay out to Orange Money and Bank in Botswana. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Burkina Faso: Orange Money and Moov Money payouts in XOF](https://www.elementpay.net/send-money-to-burkina-faso): For businesses: pay out to Orange Money and Moov Money in Burkina Faso. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Cameroon: MTN MoMo and Orange Money payouts in XAF](https://www.elementpay.net/send-money-to-cameroon): For businesses: pay out to MTN MoMo and Orange Money in Cameroon. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Côte d’Ivoire: Orange Money, MTN MoMo and Moov Money payouts in XOF](https://www.elementpay.net/send-money-to-cote-divoire): For businesses: pay out to Orange Money, MTN MoMo, Moov Money and Wave in Côte d’Ivoire. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to DR Congo: M-Pesa, Airtel Money and Orange Money payouts in CDF](https://www.elementpay.net/send-money-to-dr-congo): For businesses: pay out to M-Pesa, Airtel Money and Orange Money in DR Congo. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Ethiopia: telebirr and Bank payouts in ETB](https://www.elementpay.net/send-money-to-ethiopia): For businesses: pay out to telebirr and Bank in Ethiopia. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Ghana: MTN MoMo, Telecel Cash and AT Money payouts in GHS](https://www.elementpay.net/send-money-to-ghana): For businesses: pay out to MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Kenya: M-Pesa, Airtel Money and PesaLink payouts in KES](https://www.elementpay.net/send-money-to-kenya): For businesses: pay out to M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Malawi: Airtel Money and TNM Mpamba payouts in MWK](https://www.elementpay.net/send-money-to-malawi): For businesses: pay out to Airtel Money and TNM Mpamba in Malawi. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Mali: Orange Money and Moov Money payouts in XOF](https://www.elementpay.net/send-money-to-mali): For businesses: pay out to Orange Money and Moov Money in Mali. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Mozambique: M-Pesa and e-Mola payouts in MZN](https://www.elementpay.net/send-money-to-mozambique): For businesses: pay out to M-Pesa and e-Mola in Mozambique. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Nigeria: Bank transfer payouts in NGN](https://www.elementpay.net/send-money-to-nigeria): For businesses: pay out to Bank transfer in Nigeria. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Rwanda: MTN MoMo, Airtel Money and Bank payouts in RWF](https://www.elementpay.net/send-money-to-rwanda): For businesses: pay out to MTN MoMo, Airtel Money and Bank in Rwanda. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Senegal: Orange Money, Wave and Free Money payouts in XOF](https://www.elementpay.net/send-money-to-senegal): For businesses: pay out to Orange Money, Wave and Free Money in Senegal. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to South Africa: Bank EFT payouts in ZAR](https://www.elementpay.net/send-money-to-south-africa): For businesses: pay out to Bank EFT in South Africa. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Tanzania: M-Pesa, Airtel Money and Mixx by Yas payouts in TZS](https://www.elementpay.net/send-money-to-tanzania): For businesses: pay out to M-Pesa, Airtel Money, Mixx by Yas and Bank in Tanzania. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Togo: Moov Money and Mixx by Yas payouts in XOF](https://www.elementpay.net/send-money-to-togo): For businesses: pay out to Moov Money and Mixx by Yas in Togo. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Uganda: MTN MoMo, Airtel Money and Bank payouts in UGX](https://www.elementpay.net/send-money-to-uganda): For businesses: pay out to MTN MoMo, Airtel Money and Bank in Uganda. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [Send money to Zambia: MTN MoMo, Airtel Money and Zamtel payouts in ZMW](https://www.elementpay.net/send-money-to-zambia): For businesses: pay out to MTN MoMo, Airtel Money and Zamtel in Zambia. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront, open 24/7.
+- [USDC to MTN MoMo: convert USDC to GHS in Ghana](https://www.elementpay.net/usdc-to-ghana): For businesses: turn USDC into GHS on MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Rate shown before you sign.
+- [USDC to M-Pesa: convert USDC to KES in Kenya](https://www.elementpay.net/usdc-to-kenya): For businesses: turn USDC into KES on M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Rate shown before you sign.
+- [USDC to Bank transfer: convert USDC to NGN in Nigeria](https://www.elementpay.net/usdc-to-nigeria): For businesses: turn USDC into NGN on Bank transfer in Nigeria. Rate shown before you sign. Built for treasury, payroll and supplier payouts.
+- [USDC to Bank EFT: convert USDC to ZAR in South Africa](https://www.elementpay.net/usdc-to-south-africa): For businesses: turn USDC into ZAR on Bank EFT in South Africa. Rate shown before you sign. Built for treasury, payroll and supplier payouts.
+- [USDC to MTN MoMo: convert USDC to UGX in Uganda](https://www.elementpay.net/usdc-to-uganda): For businesses: turn USDC into UGX on MTN MoMo, Airtel Money and Bank in Uganda. Rate shown before you sign. Built for treasury, payroll and supplier payouts.
+- [USDT to MTN MoMo: convert USDT to XAF in Cameroon](https://www.elementpay.net/usdt-to-cameroon): For businesses: turn USDT into XAF on MTN MoMo and Orange Money in Cameroon. Rate shown before you sign. Built for treasury, payroll and supplier payouts.
+- [USDT to MTN MoMo: convert USDT to GHS in Ghana](https://www.elementpay.net/usdt-to-ghana): For businesses: turn USDT into GHS on MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Rate shown before you sign.
+- [USDT to M-Pesa: convert USDT to KES in Kenya](https://www.elementpay.net/usdt-to-kenya): For businesses: turn USDT into KES on M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Rate shown before you sign.
+- [USDT to Bank transfer: convert USDT to NGN in Nigeria](https://www.elementpay.net/usdt-to-nigeria): For businesses: turn USDT into NGN on Bank transfer in Nigeria. Rate shown before you sign. Built for treasury, payroll and supplier payouts.

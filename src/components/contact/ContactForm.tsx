@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useEffect, useState } from "react";
+import { Suspense, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import { focus, hover } from "@/lib/design/pseudo";
 
@@ -43,17 +43,15 @@ const EMAIL_RE = /^[^@\s]+@[^@\s]+\.[^@\s]+$/;
 function ContactFormInner() {
   const params = useSearchParams();
   const [f, setF] = useState({ first: "", last: "", email: params.get("email") ?? "", role: "", company: "", site: "", hq: "", type: "", msg: "" });
-  const [needs, setNeeds] = useState<string[]>([]);
+  // ?need= preselects a need, as in the design.
+  const [needs, setNeeds] = useState<string[]>(() => {
+    const need = params.get("need");
+    return need ? [need] : [];
+  });
   const [when, setWhen] = useState(-1);
   const [sent, setSent] = useState(false);
   const [err, setErr] = useState("");
   const [submitting, setSubmitting] = useState(false);
-
-  // ?need= preselects a need, as in the design.
-  useEffect(() => {
-    const need = params.get("need");
-    if (need) setNeeds([need]);
-  }, [params]);
 
   const on = (k: keyof typeof f) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>) => {
     setF((s) => ({ ...s, [k]: e.target.value }));

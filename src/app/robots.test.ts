@@ -16,7 +16,7 @@ describe("robots", () => {
     expect(aiRule).toBeDefined();
     expect(aiRule?.allow).toBe("/");
     expect(aiRule?.userAgent).toEqual(
-      expect.arrayContaining(["GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "Bingbot", "Applebot"])
+      expect.arrayContaining(["GPTBot", "OAI-SearchBot", "ClaudeBot", "PerplexityBot", "Google-Extended", "Bingbot", "Applebot"])
     );
   });
 });
