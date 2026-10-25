@@ -514,7 +514,7 @@ export const ARTICLES: readonly Article[] = [
     date: "Sep 18, 2026",
     read: "5 min",
     title: "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov",
-    desc: "Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and how to pay out across them.",
+    desc: "Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and what a shared XOF balance means for treasury.",
     tags: ["West Africa", "Orange Money", "Wave", "XOF"],
     body: [
       ["h", "A multi-network region"],
@@ -537,12 +537,12 @@ export const ARTICLES: readonly Article[] = [
       ["h", "One currency across eight countries"],
       [
         "p",
-        "Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali, Niger and Guinea-Bissau share the West African CFA franc (XOF). That simplifies treasury: a single XOF balance can fund payouts across several markets.",
+        "Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali, Niger and Guinea-Bissau share the West African CFA franc (XOF). That simplifies treasury: a single XOF balance can hold value across several markets without converting currency at every border.",
       ],
-      ["h", "Paying out with one integration"],
+      ["h", "What's live today"],
       [
         "p",
-        "ElementPay routes each payout to the right network from the phone number and country, so you send one request whatever the operator. With an XOF bank account you can also receive regional payments in the local currency, or fund the run from USDC.",
+        "ElementPay issues business bank accounts in XOF, so you can collect and hold CFA francs, or fund a balance from USDC, ahead of paying anyone out. Mobile money payouts are live in Ghana today. Country-level payout rails for Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso and Mali are rolling out — check current coverage before you route a payment to a specific network in those markets.",
       ],
     ],
   },
@@ -618,7 +618,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "Holding CFA francs with ElementPay"],
       [
         "p",
-        "ElementPay issues bank accounts in both XOF and XAF, alongside 28 other currencies. Businesses can collect in CFA francs, hold them and pay out to mobile money in Senegal, Côte d'Ivoire, Cameroon and the other payout countries.",
+        "ElementPay issues bank accounts in both XOF and XAF, alongside 28 other currencies, so businesses can collect and hold CFA francs even ahead of a payout. Mobile money payout rails into specific XOF and XAF markets, including Cameroon, are rolling out — check current coverage before you route a payment to a particular country.",
       ],
     ],
   },
