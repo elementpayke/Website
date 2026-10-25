@@ -1,89 +1,63 @@
-import type { Metadata } from "next";
 import Link from "next/link";
 import EPNav from "@/components/nav/EPNav";
 import EPFooter from "@/components/footer/EPFooter";
+import DesignJsonLd from "@/components/design/DesignJsonLd";
 import ContactForm from "@/components/contact/ContactForm";
-import { COLOR, TYPE, fullStopSquare } from "@/lib/brand";
-import { breadcrumbSchema, jsonLdGraph } from "@/lib/schema";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
-const TITLE = "Contact ElementPay";
-const DESCRIPTION =
-  "Talk to the ElementPay team about payouts across Africa, business accounts, OTC desk access or stablecoin rails for your business.";
+export const metadata = designMetadata(designHead("/contact"));
 
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: "/contact" },
-  openGraph: { title: TITLE, description: DESCRIPTION, url: "/contact", type: "website" },
-  twitter: { card: "summary_large_image", title: TITLE, description: DESCRIPTION },
-};
+const STEPS = ["We reply within one business day.", "A 30-minute call to scope your markets and use case.", "Sandbox access and a pricing proposal."];
 
-const EXPECTATIONS = [
-  ["01", "We reply by email", "Usually within one business day, from a real person on the team."],
-  ["02", "We scope your markets", "Which countries, currencies and rails fit what you're building."],
-  ["03", "We set up a call", "To walk through rates, fees and what going live looks like."],
-];
-
+/** Talk to sales (design: contact.dc.html). */
 export default function ContactPage() {
-  const jsonLd = jsonLdGraph(
-    breadcrumbSchema([
-      { name: "Home", path: "/" },
-      { name: "Company", path: "/contact" },
-      { name: "Contact", path: "/contact" },
-    ])
-  );
-
   return (
-    <>
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-      <EPNav active="Company" />
+    <div style={{ background: "#F6F4EF" }}>
+      <DesignJsonLd url="/contact" />
+      <div style={{ position: "sticky", top: 0, zIndex: 30 }}>
+        <EPNav active="Company" />
+      </div>
       <section
-        data-screen-label="Contact hero"
+        data-screen-label="Talk to sales"
         style={{
           maxWidth: 1240,
           margin: "0 auto",
-          padding: "clamp(48px,7vw,96px) clamp(20px,4vw,48px) clamp(64px,8vw,112px)",
+          padding: "clamp(48px,7vw,96px) clamp(20px,4vw,48px)",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,400px),1fr))",
-          gap: "clamp(32px,5vw,80px)",
+          gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,360px),1fr))",
+          gap: "clamp(32px,5vw,72px)",
           alignItems: "start",
         }}
       >
-        <div style={{ minWidth: 0 }}>
-          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", fontFamily: "var(--font-label)", fontSize: 13, color: COLOR.muted }}>
-            <Link href="/" style={{ color: COLOR.muted }}>
-              Home
-            </Link>
-            <span>/</span>
-            <span style={{ color: COLOR.indigo }}>Contact</span>
-          </div>
-          <h1 style={{ ...TYPE.h1Hero, margin: "24px 0 0", maxWidth: "15ch" }}>
-            Talk to the team
-            <span aria-hidden="true" style={fullStopSquare} />
+        <div style={{ position: "sticky", top: 120 }}>
+          <div style={{ fontFamily: "var(--font-label)", fontSize: 13, color: "#3B2ED3" }}>Talk to sales</div>
+          <h1 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(34px, 2.2vw + 26px, 58px)", lineHeight: 0.95, letterSpacing: "-0.045em", fontWeight: 700, margin: "20px 0 0" }}>
+            Tell us how your business moves money
+            <span aria-hidden="true" style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }} />
           </h1>
-          <p style={{ fontSize: "clamp(17px,1.4vw,19px)", lineHeight: 1.55, color: COLOR.slate, margin: "24px 0 0", maxWidth: "50ch" }}>
-            Tell us about your business and what you need to move. We&apos;ll come back with the markets, rails and
-            rates that fit.
+          <p style={{ fontSize: 18, lineHeight: 1.55, color: "#4C4A66", margin: "24px 0 0", maxWidth: "42ch" }}>
+            A few details about your company and what you need help us bring the right coverage, pricing and integration plan to the first call.
           </p>
-          <div style={{ display: "grid", gap: 4, marginTop: 40 }}>
-            {EXPECTATIONS.map(([n, title, sub]) => (
-              <div key={n} style={{ display: "flex", gap: 16, padding: "16px 4px", borderTop: `1px solid ${COLOR.hairline}` }}>
-                <span style={{ fontFamily: "var(--font-heading)", fontSize: 22, fontWeight: 700, color: COLOR.violet, flex: "none" }}>
-                  {n}
-                </span>
-                <span style={{ minWidth: 0 }}>
-                  <b style={{ display: "block", fontSize: 15 }}>{title}</b>
-                  <span style={{ display: "block", fontSize: 14, lineHeight: 1.5, color: COLOR.muted, marginTop: 2 }}>{sub}</span>
-                </span>
+          <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr)", gap: 14, marginTop: 36, fontSize: 16, color: "#4C4A66" }}>
+            {STEPS.map((t, i) => (
+              <div key={t} style={{ display: "flex", gap: 14 }}>
+                <span style={{ fontFamily: "var(--font-label)", color: "#3B2ED3" }}>{String(i + 1).padStart(2, "0")}</span>
+                {t}
               </div>
             ))}
           </div>
+          <p style={{ fontSize: 15, color: "#6E6C8A", margin: "36px 0 0" }}>
+            Existing customer?{" "}
+            <Link href="/help" style={{ fontWeight: 500 }}>
+              Visit the help centre
+            </Link>
+          </p>
         </div>
-        <div style={{ minWidth: 0 }}>
+        <div style={{ borderRadius: 28, background: "#fff", padding: "clamp(24px,4vw,44px)" }}>
           <ContactForm />
         </div>
       </section>
       <EPFooter />
-    </>
+    </div>
   );
 }
