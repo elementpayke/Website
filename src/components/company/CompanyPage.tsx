@@ -182,7 +182,7 @@ function Help() {
           <span style={title}>System status →</span>
           <span style={{ fontSize: 14, color: "#4C4A66" }}>Live uptime for every rail.</span>
         </Link>
-        <a href="https://docs.elementpay.net/" target="_blank" rel="noopener" className={hover("background:#ECEAE4;color:#131126")} style={{ ...card, background: "#fff", color: "#131126" }}>
+        <a href="https://partners.elementpay.net/" target="_blank" rel="noopener" className={hover("background:#ECEAE4;color:#131126")} style={{ ...card, background: "#fff", color: "#131126" }}>
           <span style={title}>Developer docs →</span>
           <span style={{ fontSize: 14, color: "#4C4A66" }}>Guides and API reference.</span>
         </a>

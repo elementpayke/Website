@@ -43,9 +43,17 @@ for (const f of files) {
   const m = s.match(/rel="canonical" href="([^"]*)"/);
   if (m) urlOf.set(f, m[1].replace(SITE, "") || "/");
 }
-// HANDOFF.md: Coverage v3 replaces the old coverage page at /coverage.
+// HANDOFF.md: Coverage.html (the map page) is served at /coverage.
 urlOf.set("Coverage.html", "/coverage");
-urlOf.set("Coverage v3.dc.html", "/coverage");
+urlOf.delete("Coverage v3.dc.html");
+
+// Live URLs that differ from the ones written into the design.
+const LINK_UPDATES = [
+  ["https://docs.elementpay.net", "https://partners.elementpay.net"],
+  ["https://x.com/elementpay", "https://x.com/element_pay"],
+  [">docs.elementpay.net<", ">partners.elementpay.net<"],
+];
+const readSrc = (file) => LINK_UPDATES.reduce((s, [from, to]) => s.split(from).join(to), fs.readFileSync(path.join(SRC, file), "utf8"));
 
 function rewriteHref(href) {
   if (!href || /^(https?:|mailto:|tel:|#)/.test(href)) {
@@ -208,7 +216,7 @@ function readHead(helmet, url) {
 // Convert one page
 // ---------------------------------------------------------------------------
 function convert(file) {
-  const raw = fs.readFileSync(path.join(SRC, file), "utf8");
+  const raw = readSrc(file);
   const url = urlOf.get(file);
   const lang = url.startsWith("/fr/") ? "fr" : "en";
   const src = lang === "fr" ? scrubFr(raw) : raw;
@@ -273,7 +281,7 @@ function convert(file) {
 
 function isStatic(file) {
   if (!file.endsWith(".dc.html")) return false;
-  const s = fs.readFileSync(path.join(SRC, file), "utf8");
+  const s = readSrc(file);
   const imports = new Set([...s.matchAll(/<dc-import name="([^"]*)"/g)].map((m) => m[1]));
   if (!imports.has("EPNav") || !imports.has("EPFooter")) return false;
   return [...imports].every((n) => n === "EPNav" || n === "EPFooter") && !s.includes("{{");
@@ -294,10 +302,11 @@ fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(index, null, 1) + 
 // pages built by hand from design components (products, solutions, company,
 // blog, press, status, careers, contact, coverage, home), keyed by URL.
 const heads = {};
-for (const file of files.filter((f) => !isStatic(f) && urlOf.has(f) && f !== "Coverage.html").sort()) {
+for (const file of files.filter((f) => !isStatic(f) && urlOf.has(f)).sort()) {
   const url = urlOf.get(file);
-  const doc = parse(fs.readFileSync(path.join(SRC, file), "utf8"));
-  const helmet = find(doc, (n) => n.nodeName === "helmet");
+  const doc = parse(readSrc(file));
+  // Coverage.html is a plain HTML page: its metadata is in <head>.
+  const helmet = find(doc, (n) => n.nodeName === (file === "Coverage.html" ? "head" : "helmet"));
   if (!helmet) continue;
   const { head, jsonLd } = readHead(helmet, url);
   heads[url] = { head, jsonLd };
@@ -308,7 +317,7 @@ fs.writeFileSync(path.join(OUT, "heads.json"), JSON.stringify(heads, null, 1) + 
 // ported by hand and reference these states through src/lib/design/pseudo.ts,
 // so collect every literal style-* attribute in the export, not just pages'.
 for (const file of files) {
-  const s = fs.readFileSync(path.join(SRC, file), "utf8");
+  const s = readSrc(file);
   for (const m of s.matchAll(/ style-([a-z-]+)="([^"]*)"/g)) {
     if (!m[2].includes("{{")) pseudoClass(m[1], m[2].replace(/&quot;/g, '"').replace(/&amp;/g, "&"));
   }
@@ -319,7 +328,7 @@ const sitemap = [...fs.readFileSync(path.join(SRC, "sitemap.xml"), "utf8").match
   ([, loc, lastmod]) => ({ path: loc.replace(SITE, "") || "/", lastmod: lastmod ?? null }),
 );
 fs.writeFileSync(path.join(OUT, "sitemap.json"), JSON.stringify(sitemap, null, 1) + "\n");
-fs.copyFileSync(path.join(SRC, "llms.txt"), path.join(OUT, "llms.txt"));
+fs.writeFileSync(path.join(OUT, "llms.txt"), readSrc("llms.txt"));
 
 const pseudoCss = [...pseudoRules.keys()].sort().map((k) => pseudoRules.get(k)).join("\n");
 fs.writeFileSync(

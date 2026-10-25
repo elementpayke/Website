@@ -140,7 +140,7 @@ export const PRODUCTS: Record<ProductSlug, ProductData> = {
     title: "Let AI agents pay, within your rules.",
     lede: "Give each agent a budget, an allow-list and approval thresholds. Recipients get local currency or USDC. Every action is logged.",
     specs: [["Limits", "Per agent and payee"], ["Approvals", "Above any threshold"], ["Audit", "Every action logged"], ["Access", "API"]],
-    cta: ["Read the docs", "https://docs.elementpay.net/"],
+    cta: ["Read the docs", "https://partners.elementpay.net/"],
     demoTitle: "The agent console.",
     demoSub: "Flip a policy or approve the held payment.",
     features: [
@@ -186,7 +186,7 @@ export const PRODUCTS: Record<ProductSlug, ProductData> = {
     title: "Collections, payouts and approvals in one place.",
     lede: "Where finance teams collect, pay, approve and reconcile across every market and currency ElementPay covers, stablecoins included.",
     specs: [["Access", "Web, any browser"], ["Team", "Roles per user"], ["Approvals", "Multi-step, by amount"], ["Exports", "CSV and PDF"]],
-    cta: ["See Mboka", "https://mboka.finance"],
+    cta: ["Open the dashboard", "https://dev.elementpay.net/"],
     demoTitle: "Look inside.",
     demoSub: "Click around the sidebar and clear the approval.",
     features: [
@@ -209,7 +209,7 @@ export const PRODUCTS: Record<ProductSlug, ProductData> = {
     title: "One API for every rail.",
     lede: "Create orders, quote FX, pay out and collect with the same objects in every market, whether funded in fiat or stablecoins. Every state change arrives as a signed webhook.",
     specs: [["Style", "REST and JSON"], ["Auth", "Keys per environment"], ["Events", "Signed webhooks"], ["Sandbox", "Full test environment"]],
-    cta: ["Read the docs", "https://docs.elementpay.net/"],
+    cta: ["Read the docs", "https://partners.elementpay.net/"],
     demoTitle: "Your first payout.",
     demoSub: "One call creates the order. Webhooks tell you when it has settled.",
     features: [

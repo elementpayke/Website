@@ -170,10 +170,11 @@ export const SCENE_NAMES = ["Collect and pay out", "Where we reach", "Bulk payou
 
 export const HOME_SOCIALS: Array<{ n: string; href: string }> = [
   { n: "LinkedIn", href: "https://www.linkedin.com/company/elementpay" },
-  { n: "X", href: "https://x.com/elementpay" },
+  { n: "X", href: "https://x.com/element_pay" },
   { n: "Telegram", href: "https://t.me/elementpay" },
   { n: "YouTube", href: "https://www.youtube.com/@elementpay" },
   { n: "Instagram", href: "https://www.instagram.com/elementpay" },
+  { n: "TikTok", href: "https://www.tiktok.com/@elementpay?lang=en" },
 ];
 
 export const HOME_FOOTER_COLUMNS: Array<{ h: string; links: Array<{ t: string; href: string }> }> = [
