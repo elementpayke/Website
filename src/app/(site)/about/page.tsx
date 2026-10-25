@@ -1,26 +1,9 @@
-import type { Metadata } from "next";
-import { getMarketingPage } from "@/lib/marketing/pagesData";
-import MarketingPage from "@/components/marketing/MarketingPage";
+import CompanyPage from "@/components/company/CompanyPage";
+import { designHead, designMetadata } from "@/lib/design/pages";
+import { COMPANY_PATH } from "@/lib/company/companyData";
 
-const page = getMarketingPage("/about")!;
-
-export const metadata: Metadata = {
-  title: page.seo.title,
-  description: page.seo.description,
-  alternates: { canonical: page.path },
-  openGraph: {
-    title: `${page.seo.title} | ElementPay`,
-    description: page.seo.description,
-    url: page.path,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${page.seo.title} | ElementPay`,
-    description: page.seo.description,
-  },
-};
+export const metadata = designMetadata(designHead(COMPANY_PATH.about));
 
 export default function Page() {
-  return <MarketingPage page={page} />;
+  return <CompanyPage page="about" />;
 }
