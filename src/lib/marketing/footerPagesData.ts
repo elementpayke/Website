@@ -7,8 +7,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "One mobile money API for Africa",
     title: "One mobile money API for Africa.",
-    lede: "Pay out to and collect from mobile money wallets across 10+ African countries through one integration: M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and the other networks each market uses.",
-    inShort: "Pay out to and collect from mobile money wallets across 10+ African countries through one integration: M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and the other networks each market uses.",
+    lede: "Pay out to and collect from mobile money wallets across 20 African countries through one integration: M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and the other networks each market uses.",
+    inShort: "Pay out to and collect from mobile money wallets across 20 African countries through one integration: M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and the other networks each market uses.",
     specs: [
       [
         "Audience",
@@ -52,7 +52,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "How many countries does the mobile money API cover?",
-        a: "10+ African countries across East, West and Southern Africa, plus Argentina and Colombia in Latin America.",
+        a: "20 African countries across East, West, Central and Southern Africa.",
       },
       {
         q: "Can we both pay out and collect?",
@@ -83,7 +83,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Mobile money API for Africa: M-Pesa, MTN MoMo, Airtel Money and Orange",
-      description: "One mobile money API for businesses. Pay out and collect on M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and more across 10+ African countries.",
+      description: "One mobile money API for businesses. Pay out and collect on M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and more across 20 African countries.",
     },
     steps: [
       [
@@ -110,8 +110,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "One payout API for Africa",
     title: "One payout API for Africa.",
-    lede: "Pay suppliers, staff, sellers and users across 10+ African countries from one balance. Mobile money and bank payouts, single or bulk, funded in local currency, USD or USDC and USDT.",
-    inShort: "Pay suppliers, staff, sellers and users across 10+ African countries from one balance. Mobile money and bank payouts, single or bulk, funded in local currency, USD or USDC and USDT.",
+    lede: "Pay suppliers, staff, sellers and users across 20 African countries from one balance. Mobile money and bank payouts, single or bulk, funded in local currency, USD or USDC and USDT.",
+    inShort: "Pay suppliers, staff, sellers and users across 20 African countries from one balance. Mobile money and bank payouts, single or bulk, funded in local currency, USD or USDC and USDT.",
     specs: [
       [
         "Audience",
@@ -151,7 +151,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     faqs: [
       {
         q: "Which countries can the payout API reach?",
-        a: "10+ African countries, on mobile money and bank rails.",
+        a: "20 African countries, on mobile money and bank rails.",
       },
       {
         q: "Can payouts be funded with stablecoins?",
@@ -181,8 +181,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Payout API for Africa: mobile money and bank payouts in 10+ countries",
-      description: "One payout API for businesses paying suppliers, staff, sellers and users across Africa. Mobile money and bank payouts in 10+ countries, funded in fiat or stablec",
+      title: "Payout API for Africa: mobile money and bank payouts in 20 countries",
+      description: "One payout API for businesses paying suppliers, staff, sellers and users across Africa. Mobile money and bank payouts in 20 countries, funded in fiat or stablec",
     },
     steps: [
       [
@@ -209,8 +209,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "Bulk payouts across Africa from one file",
     title: "Bulk payouts across Africa from one file.",
-    lede: "Upload one file or make one API call to pay hundreds of suppliers, staff or users across 10+ African countries. Approvals before release, and a status for every recipient.",
-    inShort: "Upload one file or make one API call to pay hundreds of suppliers, staff or users across 10+ African countries. Approvals before release, and a status for every recipient.",
+    lede: "Upload one file or make one API call to pay hundreds of suppliers, staff or users across 20 African countries. Approvals before release, and a status for every recipient.",
+    inShort: "Upload one file or make one API call to pay hundreds of suppliers, staff or users across 20 African countries. Approvals before release, and a status for every recipient.",
     specs: [
       [
         "Audience",
@@ -281,7 +281,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Bulk payouts in Africa: pay hundreds of recipients from one file",
-      description: "Send bulk payments to mobile money and bank accounts across 10+ African countries from one file or API call, with approvals and a status for every recipient.",
+      description: "Send bulk payments to mobile money and bank accounts across 20 African countries from one file or API call, with approvals and a status for every recipient.",
     },
     steps: [
       [
@@ -452,7 +452,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Which corridors do you support?",
-        a: "Funding from the UK, US, Europe, the UAE, Canada and China, with payouts in 10+ African countries.",
+        a: "Funding from the UK, US, Europe, the UAE, Canada and China, with payouts in 20 African countries.",
       },
       {
         q: "Can we hold foreign currency?",
@@ -479,7 +479,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Cross-border payments to and from Africa for businesses",
-      description: "Move money into, out of and across Africa: payouts in 10+ countries, accounts in 30 currencies, FX with rates shown upfront, and USDC and USDT ramps. One platfor",
+      description: "Move money into, out of and across Africa: payouts in 20 countries, accounts in 30 currencies, FX with rates shown upfront, and USDC and USDT ramps. One platfor",
     },
     steps: [
       [
@@ -504,10 +504,10 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     slug: "card-payment-gateway",
     path: "/card-payment-gateway",
     group: "Products",
-    name: "Mobile money, bank and stablecoins today. Cards coming soon",
-    title: "Mobile money, bank and stablecoins today. Cards coming soon.",
-    lede: "Collect in the same checkout by mobile money, bank transfer and stablecoins, settled into one balance in local currency, USD or USDC. Card acceptance is in certification and not yet live.",
-    inShort: "Collect in the same checkout by mobile money, bank transfer and stablecoins, settled into one balance in local currency, USD or USDC. Card acceptance is in certification and not yet live.",
+    name: "Card payments, alongside every local method",
+    title: "Card payments, alongside every local method.",
+    lede: "Accept card payments in the same checkout as mobile money, bank transfer and stablecoins. Settle everything into one balance in local currency, USD or USDC, and pay out on local rails.",
+    inShort: "Accept card payments in the same checkout as mobile money, bank transfer and stablecoins. Settle everything into one balance in local currency, USD or USDC, and pay out on local rails.",
     specs: [
       [
         "Audience",
@@ -518,8 +518,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Africa rails",
       ],
       [
-        "Cards",
-        "In certification, not yet live",
+        "Stablecoins",
+        "USDC and USDT",
       ],
       [
         "CTA",
@@ -529,33 +529,33 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "One checkout",
-        "Mobile money, bank and stablecoins in one hosted page or API today.",
+        "Cards, mobile money, bank and stablecoins in one hosted page or API.",
       ],
       [
         "One balance",
-        "Every method settles to the same ElementPay balance.",
+        "All methods settle to the same ElementPay balance.",
       ],
       [
         "Flexible settlement",
         "Local currency, USD, USDC or USDT.",
       ],
       [
-        "Cards, coming soon",
-        "Visa and Mastercard acceptance is going through PCI certification and isn't live yet.",
+        "One reconciliation",
+        "Every payment carries your order reference.",
       ],
     ],
     faqs: [
       {
-        q: "Can we accept card payments today?",
-        a: "Not yet. Card acceptance is going through PCI certification. Mobile money, bank transfer and stablecoins are live in one checkout today.",
+        q: "Can we accept cards and mobile money in one checkout?",
+        a: "Yes. Customers choose their method on one hosted page or in your own UI through the API.",
       },
       {
-        q: "What currencies can payments settle in?",
+        q: "What currencies can card payments settle in?",
         a: "Local currency, USD, USDC or USDT.",
       },
       {
         q: "Is there a no-code option?",
-        a: "Yes. Payment links work for mobile money, bank and stablecoins.",
+        a: "Yes. Payment links work for cards and every other method.",
       },
       {
         q: "How is pricing set?",
@@ -577,8 +577,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Payment gateway for Africa: mobile money, bank and stablecoins (cards soon)",
-      description: "Accept payments from customers by mobile money, bank transfer and stablecoins, and settle in local currency, USD or USDC. Card acceptance is in certification.",
+      title: "Card payment gateway for Africa: accept cards alongside mobile money a",
+      description: "Accept card payments from customers alongside mobile money, bank transfer and stablecoins, and settle in local currency, USD or USDC.",
     },
     steps: [
       [
@@ -586,8 +586,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
         "Hosted checkout, payment links or API.",
       ],
       [
-        "Customer pays locally",
-        "By mobile money, bank or stablecoin.",
+        "Customer pays by card",
+        "Or chooses a local method.",
       ],
       [
         "Webhook",
@@ -650,7 +650,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Which countries can we pay?",
-        a: "10+ African countries, including Kenya, Nigeria, Ghana, Uganda, Tanzania, Rwanda and South Africa.",
+        a: "20 African countries, including Kenya, Nigeria, Ghana, Uganda, Tanzania, Rwanda and South Africa.",
       },
       {
         q: "Is there an API for stablecoin payroll?",
@@ -704,8 +704,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "Stablecoin off-ramp API for Africa",
     title: "Stablecoin off-ramp API for Africa.",
-    lede: "Convert USDC and USDT into local currency and deliver it to mobile money wallets and bank accounts in 10+ African countries. For wallets, exchanges, fintechs and treasury teams.",
-    inShort: "Convert USDC and USDT into local currency and deliver it to mobile money wallets and bank accounts in 10+ African countries. For wallets, exchanges, fintechs and treasury teams.",
+    lede: "Convert USDC and USDT into local currency and deliver it to mobile money wallets and bank accounts in 20 African countries. For wallets, exchanges, fintechs and treasury teams.",
+    inShort: "Convert USDC and USDT into local currency and deliver it to mobile money wallets and bank accounts in 20 African countries. For wallets, exchanges, fintechs and treasury teams.",
     specs: [
       [
         "Audience",
@@ -753,7 +753,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Where can we off-ramp to?",
-        a: "Mobile money and bank accounts in 10+ African countries.",
+        a: "Mobile money and bank accounts in 20 African countries.",
       },
       {
         q: "Is it for businesses only?",
@@ -776,7 +776,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "Stablecoin off-ramp API: USDC and USDT to mobile money and bank in Afr",
-      description: "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 10+ African countries through one business API.",
+      description: "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API.",
     },
     steps: [
       [
@@ -929,7 +929,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       ],
       [
         "Local rails",
-        "Mobile money and bank payouts in 10+ African countries.",
+        "Mobile money and bank payouts in 20 African countries.",
       ],
       [
         "Stablecoins",
@@ -975,8 +975,8 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     group: "Products",
     name: "ElementPay at a glance: facts, coverage, product",
     title: "ElementPay at a glance: facts, coverage, products and status.",
-    lede: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 10+ payout countries, 30 account currencies and regulatory status.",
-    inShort: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 10+ payout countries, 30 account currencies and regulatory status.",
+    lede: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory status.",
+    inShort: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory status.",
     specs: [
       [
         "Audience",
@@ -998,11 +998,11 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     features: [
       [
         "Built for businesses",
-        "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 10+ payout countries, 30 account currencies and regulatory status.",
+        "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory status.",
       ],
       [
         "Local rails",
-        "Mobile money and bank payouts in 10+ African countries.",
+        "Mobile money and bank payouts in 20 African countries.",
       ],
       [
         "Stablecoins",
@@ -1016,7 +1016,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
       },
       {
         q: "Which countries does ElementPay cover?",
-        a: "Payouts in 10+ African countries and bank accounts in 30 currencies.",
+        a: "Payouts in 20 African countries and bank accounts in 30 currencies.",
       },
       {
         q: "Is ElementPay a bank?",
@@ -1047,7 +1047,7 @@ export const FOOTER_PAGES: Record<string, MarketingPageData> = {
     ],
     seo: {
       title: "ElementPay at a glance: facts, coverage, products and status",
-      description: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 10+ payout countries, 30 account currencies and regulatory stat",
+      description: "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory stat",
     },
   },
 };

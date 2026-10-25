@@ -23,14 +23,14 @@ export const metadata: Metadata = {
   alternates: { canonical: "/" },
   openGraph: {
     title: "ElementPay: cross-border payment infrastructure for businesses",
-    description: "Payouts in 10+ African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
+    description: "Payouts in 20 African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
     url: "/",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "ElementPay: cross-border payment infrastructure for businesses",
-    description: "Payouts in 10+ African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
+    description: "Payouts in 20 African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
   },
 };
 

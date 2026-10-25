@@ -1,6 +1,4 @@
-import { accountCurrencies, AFRICAN_COUNTRY_COUNT, COUNTRIES } from "./coverage";
-
-const COVERAGE_BLURB = `${AFRICAN_COUNTRY_COUNT}+ African countries, plus Argentina and Colombia`;
+import { accountCurrencies, COUNTRIES } from "./coverage";
 
 type AccountCurrency = ReturnType<typeof accountCurrencies>[number];
 
@@ -11,7 +9,7 @@ export function accountContent(currency: AccountCurrency) {
   const description = `Get a dedicated ${code} account for your business. Receive, hold and convert ${name}s, plus 29 other currencies, USDC and USDT.`;
   const h1 = `A ${name} account for your business`;
   const intro = `Your own ${code} account details, so customers and partners pay you like a local. Hold ${code} alongside 29 other currencies and USDC and USDT, and convert between them.`;
-  const quickAnswer = `Yes. ElementPay issues dedicated ${code} accounts to verified businesses, one account per currency. You can receive, hold and convert ${name}s, and use the balance to fund payouts in ${COVERAGE_BLURB}.`;
+  const quickAnswer = `Yes. ElementPay issues dedicated ${code} accounts to verified businesses, one account per currency. You can receive, hold and convert ${name}s, and use the balance to fund payouts in 20 African countries.`;
 
   const facts = [
     { label: "Currency", value: `${code} · ${name}` },
@@ -28,7 +26,7 @@ export function accountContent(currency: AccountCurrency) {
     {
       num: "04",
       title: "Pay out",
-      body: payoutCountry ? `Pay recipients in ${code} directly.` : `Fund payouts to mobile money and banks in ${COVERAGE_BLURB}.`,
+      body: payoutCountry ? `Pay recipients in ${code} directly.` : "Fund payouts to mobile money and banks in 20 African countries.",
       link: payoutCountry ? { text: "See payouts →", href: `/send-money-to-${payoutCountry.slug}` } : null,
     },
   ];
@@ -40,7 +38,7 @@ export function accountContent(currency: AccountCurrency) {
     },
     {
       q: `What can I do with a ${code} account?`,
-      a: `Receive ${code} from customers and partners with your own account details, hold the balance, convert to any of 29 other currencies or to USDC and USDT, and pay out to mobile money and banks in ${COVERAGE_BLURB}.`,
+      a: `Receive ${code} from customers and partners with your own account details, hold the balance, convert to any of 29 other currencies or to USDC and USDT, and pay out to mobile money and banks in 20 African countries.`,
     },
     {
       q: `How fast are conversions from ${code}?`,

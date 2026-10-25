@@ -6,7 +6,7 @@ import { COLOR } from "@/lib/brand";
 
 const TOKENS = [{ n: "USDC", d: "USD Coin", i: "$" }, { n: "USDT", d: "Tether USD", i: "₮" }];
 const LOCATIONS: Array<[string, string, string]> = [
-  ["ke", "Kenya", "M-Pesa · KES"], ["ng", "Nigeria", "Bank · NGN"], ["gh", "Ghana", "MTN MoMo · GHS"], ["za", "South Africa", "Bank EFT · ZAR"],
+  ["ke", "Kenya", "M-Pesa · KES"], ["ng", "Nigeria", "Bank · NGN"], ["gh", "Ghana", "MTN MoMo · GHS"], ["sn", "Senegal", "Wave · XOF"],
 ];
 
 function segStyle(on: boolean) {
