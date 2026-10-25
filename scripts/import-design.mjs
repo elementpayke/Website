@@ -43,9 +43,9 @@ for (const f of files) {
   const m = s.match(/rel="canonical" href="([^"]*)"/);
   if (m) urlOf.set(f, m[1].replace(SITE, "") || "/");
 }
-// HANDOFF.md: Coverage v3 replaces the old coverage page at /coverage.
+// HANDOFF.md: Coverage.html (the map page) is served at /coverage.
 urlOf.set("Coverage.html", "/coverage");
-urlOf.set("Coverage v3.dc.html", "/coverage");
+urlOf.delete("Coverage v3.dc.html");
 
 function rewriteHref(href) {
   if (!href || /^(https?:|mailto:|tel:|#)/.test(href)) {
@@ -294,10 +294,11 @@ fs.writeFileSync(path.join(OUT, "index.json"), JSON.stringify(index, null, 1) + 
 // pages built by hand from design components (products, solutions, company,
 // blog, press, status, careers, contact, coverage, home), keyed by URL.
 const heads = {};
-for (const file of files.filter((f) => !isStatic(f) && urlOf.has(f) && f !== "Coverage.html").sort()) {
+for (const file of files.filter((f) => !isStatic(f) && urlOf.has(f)).sort()) {
   const url = urlOf.get(file);
   const doc = parse(fs.readFileSync(path.join(SRC, file), "utf8"));
-  const helmet = find(doc, (n) => n.nodeName === "helmet");
+  // Coverage.html is a plain HTML page: its metadata is in <head>.
+  const helmet = find(doc, (n) => n.nodeName === (file === "Coverage.html" ? "head" : "helmet"));
   if (!helmet) continue;
   const { head, jsonLd } = readHead(helmet, url);
   heads[url] = { head, jsonLd };

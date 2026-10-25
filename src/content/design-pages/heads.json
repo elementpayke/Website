@@ -82,56 +82,37 @@
  },
  "/coverage": {
   "head": {
-   "title": "Payment coverage: payouts in 20 African countries, accounts in 30 currencies · ElementPay",
-   "description": "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 20 African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
+   "title": "Coverage: payouts in 20 African countries, accounts in 30 currencies · ElementPay",
+   "description": "ElementPay pays out to mobile money and banks in 20 African countries and issues bank accounts in 30 currencies, with USDC and USDT funding.",
    "canonical": "/coverage",
    "alternates": {},
    "og": {
     "type": "website",
     "site_name": "ElementPay",
-    "title": "ElementPay coverage: 20 African payout countries, 30 account currencies",
-    "description": "Countries, currencies and rails for payouts, business accounts and stablecoin funding.",
+    "title": "Where money moves: ElementPay coverage",
+    "description": "Payouts to mobile money and banks in 20 African countries. Bank accounts in 30 currencies. USDC and USDT funding.",
     "url": "https://www.elementpay.net/coverage",
-    "image": "https://www.elementpay.net/og-image.png"
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
    },
    "twitter": {
-    "card": "summary_large_image"
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
    }
   },
   "jsonLd": [
    {
     "@context": "https://schema.org",
-    "@graph": [
-     {
-      "@type": "WebPage",
-      "name": "ElementPay payment coverage",
-      "url": "https://www.elementpay.net/coverage",
-      "description": "Countries, currencies and payment rails supported by ElementPay for payouts, business accounts and stablecoin funding.",
-      "about": [
-       "Stablecoin payments in Africa",
-       "Cross-border payouts",
-       "Mobile money payouts",
-       "Multi-currency business accounts"
-      ]
-     },
-     {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-       {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://www.elementpay.net/"
-       },
-       {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Coverage",
-        "item": "https://www.elementpay.net/coverage"
-       }
-      ]
-     }
-    ]
+    "@type": "WebPage",
+    "name": "ElementPay coverage: payout countries and account currencies",
+    "url": "https://www.elementpay.net/coverage",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay",
+     "alternateName": "Element Pay"
+    }
    }
   ]
  },

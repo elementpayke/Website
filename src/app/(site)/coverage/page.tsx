@@ -1,201 +1,156 @@
-import Image from "next/image";
 import Link from "next/link";
 import EPNav from "@/components/nav/EPNav";
-import EPFooter from "@/components/footer/EPFooter";
+import CoverageFooter from "@/components/coverage/CoverageFooter";
 import DesignJsonLd from "@/components/design/DesignJsonLd";
-import CoverageTable from "@/components/coverage/CoverageTable";
+import CoverageMap from "@/components/coverage/CoverageMap";
+import CoverageDirectory from "@/components/coverage/CoverageDirectory";
 import { designHead, designMetadata } from "@/lib/design/pages";
-import { hover } from "@/lib/design/pseudo";
-import { GLOBAL, LOCAL_RAIL_COUNT, flagsOf } from "@/lib/geo/coverageTable";
+import { ACCOUNT_CURRENCIES, PAYOUT_RAIL_COUNT, STABLECOIN_COUNTRY_LINKS } from "@/lib/geo/coverageData";
 
-// Design: Coverage v3.dc.html, which replaces the earlier map-based page.
+// Design: Coverage.html (the map page).
 export const metadata = designMetadata(designHead("/coverage"));
 
-const section = (top: string, bottom = "0") => ({
-  maxWidth: 1200,
-  margin: "0 auto",
-  padding: `${top} clamp(16px,4vw,24px) ${bottom}`,
-});
-const h2 = {
-  fontFamily: "var(--font-heading)",
-  fontSize: "clamp(28px, 1.5vw + 22px, 44px)",
-  fontWeight: 700,
-  letterSpacing: "-0.04em",
-  lineHeight: 1,
-} as const;
-const statCard = { padding: 22, borderRadius: 20, background: "#fff", border: "1px solid rgba(19,17,38,.08)" } as const;
-const statNum = { fontFamily: "var(--font-heading)", fontSize: "clamp(26px,2.72vw,35px)", fontWeight: 700, letterSpacing: "-0.03em" } as const;
-const sq = (c: string) => ({ width: 12, height: 12, background: c, flex: "none" as const });
+// The page-level rules Coverage.html defines. Unlike the other design pages it
+// uses border-box sizing throughout, so they are scoped to .cov-page.
+const CSS = `
+.cov-page,.cov-page *{box-sizing:border-box}
+.cov-page .wrap{max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px)}
+.cov-page .h{font-family:var(--font-heading),sans-serif;font-weight:600;letter-spacing:-0.04em;line-height:.95;margin:0}
+.cov-page .mono{font-family:var(--font-label),monospace}
+.cov-page .cov-card{padding:20px;border-radius:20px;background:#fff}
+.cov-chip{padding:10px 14px;border:0;border-radius:12px;cursor:pointer;font:500 14px var(--font-body),sans-serif;background:#fff;color:#131126}
+.cov-chip.on{color:#fff}
+`;
 
-const REGION_CARDS = [
-  {
-    t: "East Africa",
-    c: "#5ED6B4",
-    flags: flagsOf("East Africa"),
-    p: "Payouts in Kenya, Uganda, Tanzania, Rwanda and Ethiopia over M-Pesa, Airtel Money, MTN MoMo, Mixx by Yas, telebirr, PesaLink and local banks. Business accounts in KES and TZS.",
-  },
-  {
-    t: "West Africa",
-    c: "#FFB224",
-    flags: flagsOf("West Africa"),
-    p: "Bank transfers in Nigeria, MTN MoMo, Telecel Cash and AT Money in Ghana, and Orange Money, Wave, Moov Money, MTN MoMo and Free Money across the XOF markets. Accounts in NGN, GHS and XOF.",
-  },
-  {
-    t: "Central Africa",
-    c: "#FF6A55",
-    flags: flagsOf("Central Africa"),
-    p: "MTN MoMo and Orange Money in Cameroon, and M-Pesa, Airtel Money and Orange Money in DR Congo. Business accounts in XAF.",
-  },
-  {
-    t: "Southern Africa",
-    c: "#A79EFF",
-    flags: flagsOf("Southern Africa"),
-    p: "Bank EFT in South Africa, MTN MoMo, Airtel Money and Zamtel in Zambia, Airtel Money and TNM Mpamba in Malawi, M-Pesa and e-Mola in Mozambique, Orange Money and banks in Botswana. Accounts in ZAR.",
-  },
-  {
-    t: "Global accounts",
-    c: "#3B2ED3",
-    flags: GLOBAL.slice(0, 8).map(([iso, name]) => ({ src: `/flags/${iso}.svg`, alt: name })),
-    p: "Business accounts in 30 currencies, including USD, EUR, GBP, CAD, AED, CNY and HKD, so you can receive from customers and pay suppliers in their own currency.",
-  },
-  {
-    t: "Stablecoin funding",
-    c: "#131126",
-    flags: [],
-    p: "Fund payouts to any of the 20 African countries in USDC or USDT, or off-ramp stablecoins into local currency, mobile money and bank accounts from one balance.",
-  },
+const STATS: Array<[string | number, string]> = [
+  ["20", "payout countries"],
+  ["30", "account currencies"],
+  [PAYOUT_RAIL_COUNT, "payout rails"],
+  ["USDC · USDT", "stablecoin funding"],
 ];
 
-const RELATED = [
-  { t: "Stablecoin payments in Africa", d: "Move USDC and USDT into mobile money and bank accounts across 20 African countries.", href: "/stablecoin-payments-africa", c: "#5ED6B4" },
-  { t: "Payment gateway for Africa", d: "Collect and pay out across mobile money and banks through one platform.", href: "/payment-gateway-africa", c: "#FFB224" },
-  { t: "B2B stablecoin payments", d: "Pay suppliers and partners in stablecoins and settle them in local currency.", href: "/b2b-stablecoin-payments", c: "#A79EFF" },
-  { t: "Business accounts", d: "Accounts in your company’s name in 30 currencies.", href: "/business-accounts", c: "#3B2ED3" },
-];
+/* eslint-disable @next/next/no-img-element -- small static flags, as in the design */
+const Flag = ({ c }: { c: string }) => <img className="cov-flag" src={`/flags/${c}.svg`} alt="" loading="lazy" />;
+/* eslint-enable @next/next/no-img-element */
 
 export default function CoveragePage() {
   return (
-    <div style={{ background: "#F6F4EF" }}>
+    <>
       <DesignJsonLd url="/coverage" />
-      <div style={{ position: "sticky", top: 0, zIndex: 30, background: "#F6F4EF", boxShadow: "0 1px 0 rgba(19,17,38,.08)" }}>
-        <EPNav />
+      <div style={{ position: "sticky", top: 0, zIndex: 30 }}>
+        <EPNav active="Resources" />
       </div>
+      <div className="cov-page">
+        <style dangerouslySetInnerHTML={{ __html: CSS }} />
 
-      <main>
-        <section style={section("clamp(40px,7vw,88px)")}>
-          <nav aria-label="Breadcrumb" style={{ display: "flex", gap: 8, fontFamily: "var(--font-label)", fontSize: 12, color: "#6E6C8A", marginBottom: 22 }}>
-            <Link href="/" className={hover("color:#131126")} style={{ color: "#6E6C8A" }}>
+        <section data-screen-label="Coverage hero" className="wrap" style={{ paddingTop: "clamp(56px,8vw,104px)", paddingBottom: "clamp(40px,5vw,64px)" }}>
+          <div className="mono" style={{ display: "flex", gap: 8, fontSize: 13, color: "#6E6C8A" }}>
+            <Link href="/" style={{ color: "#6E6C8A" }}>
               Home
             </Link>
             <span>/</span>
-            <span style={{ color: "#131126" }}>Coverage</span>
-          </nav>
-          <h1 style={{ margin: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(34px, 2.2vw + 26px, 58px)", fontWeight: 700, letterSpacing: "-0.045em", lineHeight: 0.98, maxWidth: "15ch" }}>
-            Payment coverage across Africa and 30 currencies
+            <span>Resources</span>
+            <span>/</span>
+            <span style={{ color: "#3B2ED3" }}>Coverage</span>
+          </div>
+          <h1 className="h" style={{ fontSize: "clamp(33px,4.04vw,60px)", letterSpacing: "-0.045em", marginTop: 24, maxWidth: "14ch" }}>
+            Where money moves
             <span aria-hidden="true" style={{ display: "inline-block", width: ".2em", height: ".2em", marginLeft: ".06em", background: "#FFB224" }} />
           </h1>
-          <p style={{ margin: "24px 0 0", fontSize: "clamp(16px,1.6vw,19px)", lineHeight: 1.55, color: "#4C4A66", maxWidth: "56ch" }}>
-            Pay out to mobile money and bank accounts in 20 African countries. Hold and receive money in business accounts in 30 currencies. Fund any payout in USD, EUR, GBP, USDC or USDT, with the rate shown before you confirm.
+          <p style={{ fontSize: "clamp(17px,1.4vw,19px)", lineHeight: 1.55, color: "#4C4A66", margin: "24px 0 0", maxWidth: "56ch" }}>
+            Payouts to mobile money and banks in 20 African countries. Bank accounts in 30 currencies, issued one per currency. Fund any of it in USD, EUR, GBP or the USDC and USDT stablecoins.
           </p>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,200px),1fr))", gap: 10, marginTop: 40 }}>
-            <div style={statCard}>
-              <div style={statNum}>20</div>
-              <div style={{ fontSize: 14, color: "#4C4A66", marginTop: 4 }}>African payout countries</div>
-            </div>
-            <div style={statCard}>
-              <div style={statNum}>30</div>
-              <div style={{ fontSize: 14, color: "#4C4A66", marginTop: 4 }}>account currencies</div>
-            </div>
-            <div style={statCard}>
-              <div style={statNum}>{LOCAL_RAIL_COUNT}</div>
-              <div style={{ fontSize: 14, color: "#4C4A66", marginTop: 4 }}>local payout rails</div>
-            </div>
-            <div style={{ padding: 22, borderRadius: 20, background: "#3B2ED3", color: "#fff" }}>
-              <div style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(24px,2.25vw,31px)", fontWeight: 700, letterSpacing: "-0.03em", whiteSpace: "nowrap", lineHeight: 1.25 }}>USDC · USDT</div>
-              <div style={{ fontSize: 14, opacity: 0.88, marginTop: 4 }}>stablecoin funding and off-ramps</div>
-            </div>
-          </div>
-        </section>
-
-        <section aria-labelledby="regions-h" style={section("clamp(64px,8vw,104px)")}>
-          <h2 id="regions-h" style={{ ...h2, margin: "0 0 28px", maxWidth: "20ch" }}>
-            Cross-border payouts in Africa, region by region
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,340px),1fr))", gap: 12 }}>
-            {REGION_CARDS.map((rc) => (
-              <article key={rc.t} style={{ display: "flex", flexDirection: "column", gap: 12, padding: 24, borderRadius: 24, background: "#fff", border: "1px solid rgba(19,17,38,.08)" }}>
-                <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-                  <span style={sq(rc.c)} />
-                  <h3 style={{ margin: 0, flex: 1, minWidth: 0, fontFamily: "var(--font-heading)", fontSize: "clamp(19px, 0.45vw + 17px, 24px)", fontWeight: 700, letterSpacing: "-0.02em" }}>{rc.t}</h3>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,180px),1fr))", gap: 8, marginTop: 40 }}>
+            {STATS.map(([v, l]) => (
+              <div key={l} style={{ padding: 22, borderRadius: 20, background: "#F6F4EF" }}>
+                <div className="h" style={{ fontSize: "clamp(26px,2.4vw,32px)", letterSpacing: "-0.03em" }}>
+                  {v}
                 </div>
-                <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.6, color: "#4C4A66" }}>{rc.p}</p>
-                <div style={{ display: "flex", gap: 6, flexWrap: "wrap", marginTop: "auto" }}>
-                  {rc.flags.map((f) => (
-                    <Image key={f.src} src={f.src} alt={f.alt} title={f.alt} width={26} height={18} style={{ width: 26, height: 18, borderRadius: 3, objectFit: "cover", boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
-                  ))}
-                </div>
-              </article>
+                <div style={{ fontSize: 14, color: "#4C4A66", marginTop: 6 }}>{l}</div>
+              </div>
             ))}
           </div>
         </section>
 
-        <section id="table" aria-labelledby="table-h" style={{ ...section("clamp(64px,8vw,104px)"), scrollMarginTop: 80 }}>
-          <CoverageTable />
-          <p style={{ margin: "14px 4px 0", fontSize: 13, lineHeight: 1.55, color: "#6E6C8A" }}>
-            Delivery times depend on the local rail. Coverage grows over time; <Link href="/contact">talk to sales</Link> about a market that is not listed.
-          </p>
-        </section>
+        <CoverageMap />
 
-        <section aria-labelledby="rel-h" style={section("clamp(64px,8vw,104px)")}>
-          <h2 id="rel-h" style={{ ...h2, margin: "0 0 28px" }}>
-            Related solutions for African payments
-          </h2>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,260px),1fr))", gap: 12 }}>
-            {RELATED.map((x) => (
-              <Link
-                key={x.href}
-                href={x.href}
-                className={hover("border-color:#3B2ED3;color:#131126")}
-                style={{ display: "flex", flexDirection: "column", gap: 12, padding: 24, borderRadius: 24, background: "#fff", border: "1px solid rgba(19,17,38,.08)", color: "#131126", minHeight: 220 }}
-              >
-                <span style={sq(x.c)} />
-                <span style={{ fontFamily: "var(--font-heading)", fontSize: 21, fontWeight: 700, letterSpacing: "-0.02em", lineHeight: 1.15 }}>{x.t}</span>
-                <span style={{ fontSize: 14, lineHeight: 1.55, color: "#4C4A66", flex: 1 }}>{x.d}</span>
-                <span style={{ fontSize: 13.5, fontWeight: 700, color: "#3B2ED3" }}>Explore →</span>
+        <CoverageDirectory />
+
+        <section data-screen-label="Account currencies" className="wrap" style={{ paddingTop: "clamp(72px,9vw,120px)" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 24, flexWrap: "wrap" }}>
+            <h2 className="h" style={{ fontSize: "clamp(29px,3.16vw,44px)", maxWidth: "14ch" }}>
+              30 account currencies. Plus digital dollars.
+            </h2>
+            <p style={{ fontSize: 16, lineHeight: "25px", color: "#4C4A66", margin: 0, maxWidth: "40ch" }}>
+              Bank accounts are issued one per currency. USDC and USDT balances sit on the same balance sheet and convert.
+            </p>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill,minmax(min(100%,180px),1fr))", gap: 8, marginTop: 32 }}>
+            {ACCOUNT_CURRENCIES.map(([c, n, f]) => (
+              <Link key={c} href={`/open-a-${c.toLowerCase()}-account`} className="cov-card" style={{ color: "#131126", background: "#F6F4EF", display: "flex", flexDirection: "column", gap: 14 }}>
+                <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span className="h" style={{ fontSize: 28, letterSpacing: "-0.02em" }}>
+                    {c}
+                  </span>
+                  {c === "XOF" || c === "XAF" ? (
+                    <span style={{ display: "flex", gap: 3 }}>
+                      {(c === "XOF" ? ["sn", "ci", "bj"] : ["cm", "ga", "td"]).map((x) => (
+                        <Flag key={x} c={x} />
+                      ))}
+                    </span>
+                  ) : (
+                    <Flag c={f} />
+                  )}
+                </span>
+                <span style={{ fontSize: 14, color: "#4C4A66" }}>{n}</span>
               </Link>
             ))}
+            {["USDC", "USDT"].map((c) => (
+              <div key={c} className="cov-card" style={{ background: "#131126", color: "#F6F4EF", display: "flex", flexDirection: "column", gap: 14 }}>
+                <span style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                  <span className="h" style={{ fontSize: 28, letterSpacing: "-0.02em" }}>
+                    {c}
+                  </span>
+                  <span style={{ width: 22, height: 22, borderRadius: "50%", background: "#fff", color: "#131126", display: "grid", placeItems: "center", font: "600 12px var(--font-body),sans-serif" }}>$</span>
+                </span>
+                <span style={{ fontSize: 14, color: "#B4B1D0" }}>Digital dollar balance</span>
+              </div>
+            ))}
           </div>
         </section>
 
-        <section style={section("clamp(64px,8vw,104px)", "clamp(56px,7vw,88px)")}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,380px),1fr))", gap: 28, alignItems: "center", padding: "clamp(28px,4vw,52px)", borderRadius: 28, background: "#131126", color: "#fff" }}>
+        <section className="wrap" style={{ paddingTop: "clamp(80px,10vw,140px)" }}>
+          <div style={{ borderRadius: 28, background: "#3B2ED3", color: "#fff", padding: "clamp(36px,6vw,80px)", display: "flex", justifyContent: "space-between", alignItems: "flex-end", gap: 32, flexWrap: "wrap" }}>
             <div>
-              <h2 style={{ ...h2, margin: 0 }}>Ready to move money across borders?</h2>
-              <p style={{ margin: "16px 0 0", fontSize: 16, lineHeight: 1.55, color: "#B4B1D0", maxWidth: "46ch" }}>
-                Tell us where you pay and collect. We will confirm coverage for your corridors and set up your account.
-              </p>
+              <h2 className="h" style={{ fontSize: "clamp(31px,3.65vw,54px)", letterSpacing: "-0.045em", maxWidth: "12ch" }}>
+                Need a market we don&apos;t list?
+              </h2>
+              <p style={{ fontSize: 18, lineHeight: "28px", color: "#E6E4FF", margin: "20px 0 0", maxWidth: "42ch" }}>Tell us where you need to pay and collect. New corridors open regularly.</p>
             </div>
-            <div style={{ display: "flex", gap: 10, flexWrap: "wrap", justifyContent: "flex-start" }}>
-              <Link
-                href="/contact"
-                className={hover("background:#fff;color:#131126")}
-                style={{ display: "inline-flex", alignItems: "center", minHeight: 52, padding: "0 24px", borderRadius: 999, background: "#FFB224", color: "#131126", fontWeight: 700, fontSize: 15 }}
-              >
-                Talk to sales
-              </Link>
-              <Link
-                href="/#platform"
-                className={hover("border-color:#fff;color:#fff")}
-                style={{ display: "inline-flex", alignItems: "center", minHeight: 52, padding: "0 24px", borderRadius: 999, border: "1.5px solid rgba(255,255,255,.4)", color: "#fff", fontWeight: 700, fontSize: 15 }}
-              >
-                See the platform
-              </Link>
-            </div>
+            <Link href="/contact" style={{ padding: "16px 28px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: "#fff", color: "#3B2ED3" }}>
+              Talk to sales
+            </Link>
           </div>
         </section>
-      </main>
 
-      <EPFooter />
-    </div>
+        <section data-screen-label="Stablecoins by country" style={{ maxWidth: 1240, margin: "0 auto", padding: "clamp(56px,7vw,96px) clamp(20px,4vw,48px) 0" }}>
+          <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(27px,2.75vw,39px)", lineHeight: 0.95, letterSpacing: "-0.04em", fontWeight: 700, margin: 0 }}>Stablecoin payments by country.</h2>
+          <p style={{ fontSize: 17, lineHeight: 1.55, color: "#4C4A66", margin: "16px 0 0", maxWidth: "56ch" }}>
+            USDC and USDT payouts and collections for businesses in every market we cover.{" "}
+            <Link href="/stablecoin-payments-africa" style={{ fontWeight: 500 }}>
+              Overview →
+            </Link>
+          </p>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 24 }}>
+            {STABLECOIN_COUNTRY_LINKS.map(([n, href]) => (
+              <Link key={href} href={href} style={{ display: "inline-flex", alignItems: "center", minHeight: 44, padding: "0 18px", borderRadius: 999, background: "#fff", color: "#131126", fontWeight: 500, fontSize: 15, boxShadow: "0 0 0 1px #E6E2DA" }}>
+                {n}
+              </Link>
+            ))}
+          </div>
+        </section>
+        <CoverageFooter />
+      </div>
+    </>
   );
 }
