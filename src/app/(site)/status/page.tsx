@@ -1,26 +1,22 @@
-import type { Metadata } from "next";
-import { getMarketingPage } from "@/lib/marketing/pagesData";
-import MarketingPage from "@/components/marketing/MarketingPage";
+import EPNav from "@/components/nav/EPNav";
+import EPFooter from "@/components/footer/EPFooter";
+import DesignJsonLd from "@/components/design/DesignJsonLd";
+import StatusBoard from "@/components/status/StatusBoard";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
-const page = getMarketingPage("/status")!;
+// Design: Status.dc.html.
+export const metadata = designMetadata(designHead("/status"));
 
-export const metadata: Metadata = {
-  title: page.seo.title,
-  description: page.seo.description,
-  alternates: { canonical: page.path },
-  openGraph: {
-    title: `${page.seo.title} | ElementPay`,
-    description: page.seo.description,
-    url: page.path,
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${page.seo.title} | ElementPay`,
-    description: page.seo.description,
-  },
-};
-
-export default function Page() {
-  return <MarketingPage page={page} />;
+export default function StatusPage() {
+  return (
+    <>
+      <DesignJsonLd url="/status" />
+      <div style={{ position: "sticky", top: 0, zIndex: 30 }}>
+        <EPNav active="Resources" />
+      </div>
+      <StatusBoard>
+        <EPFooter />
+      </StatusBoard>
+    </>
+  );
 }
