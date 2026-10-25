@@ -1,0 +1,120 @@
+{
+ "slug": "pay-suppliers-in-china-from-africa",
+ "lang": "en",
+ "url": "/pay-suppliers-in-china-from-africa",
+ "nav": "Products",
+ "head": {
+  "title": "Pay Chinese suppliers from Africa in CNY, USD or USDT",
+  "description": "For African importers: pay suppliers in China in CNY or USD from naira, shillings or cedis, or from USDT and USDC, with the rate shown before you confirm.",
+  "canonical": "/pay-suppliers-in-china-from-africa",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Pay Chinese suppliers from Africa in CNY, USD or USDT | ElementPay",
+   "description": "For African importers: pay suppliers in China in CNY or USD from naira, shillings or cedis, or from USDT and USDC, with the rate shown before you confirm.",
+   "url": "https://www.elementpay.net/pay-suppliers-in-china-from-africa",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Can a Nigerian business pay a Chinese supplier in CNY?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Fund in NGN or stablecoins and pay the supplier’s Chinese bank account in CNY or USD."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we use USDT to pay Chinese suppliers?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Fund from a USDT or USDC balance and the supplier receives CNY or USD in their bank account."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do we see the rate first?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The rate and fee are shown before you confirm."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What details do we need?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The supplier’s bank details and your invoice or PO reference."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Pay suppliers in China",
+     "serviceType": "Cross-border supplier payments",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": [
+      "Nigeria",
+      "Kenya",
+      "Ghana",
+      "Tanzania",
+      "China"
+     ],
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "For African importers: pay suppliers in China in CNY or USD from naira, shillings or cedis, or from USDT and USDC, with the rate shown before you confirm."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Payments",
+       "item": "https://www.elementpay.net/payments"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Pay suppliers in China",
+       "item": "https://www.elementpay.net/pay-suppliers-in-china-from-africa"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/payments\" style=\"color:#4C4A66\">Payments</a><span>/</span><span style=\"color:#3B2ED3\">Pay suppliers in China</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">Pay suppliers in China from Africa<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">African importers use ElementPay to pay Chinese suppliers in CNY or USD, funded from local currency or from a USDC or USDT balance, with the rate shown before you confirm.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/#platform\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See the platform →</a></div><div style=\"margin-top:40px;max-width:760px;padding:22px 24px;border-radius:20px;background:#F6F4EF\"><div style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#4C4A66\"><span style=\"width:8px;height:8px;background:#5ED6B4\"></span>In short</div><p style=\"margin:10px 0 0;font-size:16px;line-height:1.6\">To pay a supplier in China from Africa, fund your ElementPay balance in local currency or stablecoins, create a payment to the supplier’s Chinese bank account in CNY or USD, confirm the quoted rate, and track the payment by its reference.</p></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Built for importers.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Pay in CNY</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Settle invoices in yuan to the supplier’s bank account.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Fund from local currency</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">NGN, KES, GHS, TZS and more.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Fund from stablecoins</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Use a USDC or USDT balance.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Invoice references</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Every payment carries your PO or invoice number.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Add the supplier</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Bank details and invoice.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Fund</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Local currency, USD or stablecoins.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Confirm the rate</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Shown before you approve.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Track</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Status and reference until it lands.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Related.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/send-money-from-china-to-nigeria\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">China to Nigeria</a><a href=\"/send-money-from-china-to-kenya\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">China to Kenya</a><a href=\"/open-a-cny-account\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Open a CNY account</a><a href=\"/for-cross-border-traders\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Cross-border traders</a><a href=\"/blog/paying-suppliers-china-from-africa\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Paying Chinese suppliers guide</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can a Nigerian business pay a Chinese supplier in CNY?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Fund in NGN or stablecoins and pay the supplier’s Chinese bank account in CNY or USD.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we use USDT to pay Chinese suppliers?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Fund from a USDT or USDC balance and the supplier receives CNY or USD in their bank account.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Do we see the rate first?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. The rate and fee are shown before you confirm.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">What details do we need?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">The supplier’s bank details and your invoice or PO reference.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Pay your next supplier<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

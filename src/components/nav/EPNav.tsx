@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 import {
   ICONS,
   MENU_FEATURE,
@@ -31,7 +32,7 @@ export default function EPNav({ active }: Props) {
   useEffect(() => {
     const onResize = () => {
       const w = window.innerWidth;
-      const isMob = w < 1024;
+      const isMob = w <= 900;
       setMob(isMob);
       setNarrow(w <= 420);
       if (!isMob) setMobOpen(false);
@@ -118,7 +119,7 @@ export default function EPNav({ active }: Props) {
                 minWidth: 0,
                 flexWrap: "wrap",
                 overflow: "hidden",
-                height: 44,
+                height: 40,
               }}
             >
               {NAV_GROUP_KEYS.map((key) => {
@@ -133,7 +134,7 @@ export default function EPNav({ active }: Props) {
                     style={{
                       display: "inline-flex",
                       alignItems: "center",
-                      height: 44,
+                      height: 40,
                       boxSizing: "border-box",
                       lineHeight: 1,
                       padding: "0 clamp(6px,0.9vw,14px)",
@@ -153,10 +154,11 @@ export default function EPNav({ active }: Props) {
               <Link
                 href="/blog"
                 onMouseEnter={closeNow}
+                className={hover("background:#F6F4EF;color:#131126")}
                 style={{
                   display: "inline-flex",
                   alignItems: "center",
-                  height: 44,
+                  height: 40,
                   boxSizing: "border-box",
                   lineHeight: 1,
                   padding: "0 clamp(6px,0.9vw,14px)",
@@ -177,11 +179,9 @@ export default function EPNav({ active }: Props) {
           {showCta && (
             <Link
               href="/contact"
+              className={hover("background:#2A1FB0;color:#fff")}
               style={{
-                display: "inline-flex",
-                alignItems: "center",
-                minHeight: 44,
-                padding: "0 clamp(12px,1.4vw,18px)",
+                padding: "11px clamp(12px,1.4vw,18px)",
                 borderRadius: 999,
                 fontSize: "clamp(13px,1.3vw,15px)",
                 fontWeight: 500,
@@ -189,8 +189,6 @@ export default function EPNav({ active }: Props) {
                 color: "#fff",
                 whiteSpace: "nowrap",
                 flex: "none",
-                textDecoration: "none",
-                boxSizing: "border-box",
               }}
             >
               Talk to sales
@@ -234,6 +232,8 @@ export default function EPNav({ active }: Props) {
               marginTop: 8,
               maxHeight: "calc(100dvh - 96px)",
               overflowY: "auto",
+              WebkitOverflowScrolling: "touch",
+              overscrollBehavior: "contain",
               borderRadius: 20,
               background: "#fff",
               color: INK,
@@ -243,6 +243,7 @@ export default function EPNav({ active }: Props) {
           >
             <Link
               href="/contact"
+              className={hover("background:#2A1FB0;color:#fff")}
               style={{
                 display: "flex",
                 alignItems: "center",
@@ -292,6 +293,7 @@ export default function EPNav({ active }: Props) {
                           href={resolveNavHref(x)}
                           target={x.startsWith("http") ? "_blank" : "_self"}
                           rel={x.startsWith("http") ? "noopener" : undefined}
+                          className={hover("background:#F6F4EF;color:#131126")}
                           style={{
                             display: "flex",
                             gap: 12,
@@ -357,9 +359,12 @@ export default function EPNav({ active }: Props) {
               transform: "translateX(-50%)",
               width: "min(100%,880px)",
               top: "100%",
+              borderTop: "14px solid transparent",
+              backgroundClip: "padding-box",
               padding: 10,
               borderRadius: 22,
-              background: "#fff",
+              backgroundColor: "#fff",
+              animation: "epDrop .18s ease-out",
               color: INK,
               boxShadow: "0 40px 80px -24px rgba(19,17,38,.35)",
               display: "grid",
@@ -408,6 +413,7 @@ export default function EPNav({ active }: Props) {
                 </div>
                 <a
                   href={resolveNavHref(MENU_FEATURE[menu].href)}
+                  className={hover("color:#A79EFF")}
                   style={{ display: "inline-block", marginTop: 14, color: "#fff", fontSize: 13, fontWeight: 500 }}
                 >
                   {MENU_FEATURE[menu].title} →
@@ -429,7 +435,8 @@ export default function EPNav({ active }: Props) {
                   target={x.startsWith("http") ? "_blank" : "_self"}
                   rel={x.startsWith("http") ? "noopener" : undefined}
                   onClick={closeNow}
-                  style={{ display: "flex", gap: 14, padding: 14, borderRadius: 14, color: INK, textDecoration: "none" }}
+                  className={hover("background:#F6F4EF;color:#131126")}
+                  style={{ display: "flex", gap: 14, padding: 14, borderRadius: 14, color: INK }}
                 >
                   <svg
                     width="20"

@@ -45,8 +45,8 @@ export const NAV_GROUPS: Record<NavGroupKey, { blurb: string; items: readonly Na
   Products: {
     blurb: "The building blocks of cross-border money.",
     items: [
-      ["send", "Payments", "Payouts in 10+ African countries", "payments"],
-      ["globe", "Settlement and FX", "Convert currencies and stablecoins", "fx"],
+      ["send", "Payments", "Payouts in 20 African countries", "payments"],
+      ["globe", "Settlement and FX", "Instant conversion, including stablecoins", "fx"],
       ["bank", "Accounts and treasury", "Bank accounts in 30 currencies", "accounts"],
       ["swap", "OTC desk", "Large-ticket FX quoted by a trader", "otc"],
       ["bot", "Agentic payments", "Budgets and policies for AI agents", "agentic"],
@@ -73,7 +73,7 @@ export const NAV_GROUPS: Record<NavGroupKey, { blurb: string; items: readonly Na
   Resources: {
     blurb: "Everything you need to get started.",
     items: [
-      ["map", "Coverage", "10+ payout countries, 30 account currencies", "coverage"],
+      ["map", "Coverage", "20 payout countries, 30 account currencies", "coverage"],
       ["globe", "Stablecoin payments in Africa", "Country-by-country guides", "stablecoin-payments-africa"],
       ["book", "Developer documentation", "Guides and tutorials for integrating", "https://docs.elementpay.net/"],
       ["globe", "Exchange rates", "Indicative rates for 30 currencies and stablecoins", "rates"],

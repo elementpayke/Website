@@ -1,0 +1,114 @@
+{
+ "slug": "stablecoin-off-ramp-api",
+ "lang": "en",
+ "url": "/stablecoin-off-ramp-api",
+ "nav": "Products",
+ "head": {
+  "title": "Stablecoin off-ramp API: USDC and USDT to mobile money and bank in Africa",
+  "description": "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API.",
+  "canonical": "/stablecoin-off-ramp-api",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Stablecoin off-ramp API: USDC and USDT to mobile money and bank in Africa | ElementPay",
+   "description": "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API.",
+   "url": "https://www.elementpay.net/stablecoin-off-ramp-api",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a stablecoin off-ramp?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A service that converts stablecoins such as USDC and USDT into local currency and pays it to a bank account or mobile money wallet."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which chains are supported?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Supported chains are confirmed during onboarding. Talk to sales for the current list."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Where can we off-ramp to?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mobile money and bank accounts in 20 African countries."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is it for businesses only?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every account goes through business verification."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Stablecoin off-ramp API",
+     "serviceType": "Stablecoin off-ramp",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Africa",
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stablecoins",
+       "item": "https://www.elementpay.net/stablecoins"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Stablecoin off-ramp API",
+       "item": "https://www.elementpay.net/stablecoin-off-ramp-api"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/stablecoins\" style=\"color:#4C4A66\">Stablecoins</a><span>/</span><span style=\"color:#3B2ED3\">Stablecoin off-ramp API</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">Stablecoin off-ramp API for Africa<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">Convert USDC and USDT into local currency and deliver it to mobile money wallets and bank accounts in 20 African countries. For wallets, exchanges, fintechs and treasury teams.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/#platform\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See the platform →</a></div><div style=\"margin-top:40px;max-width:760px;padding:22px 24px;border-radius:20px;background:#F6F4EF\"><div style=\"display:flex;align-items:center;gap:8px;font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#4C4A66\"><span style=\"width:8px;height:8px;background:#5ED6B4\"></span>In short</div><p style=\"margin:10px 0 0;font-size:16px;line-height:1.6\">A stablecoin off-ramp converts USDC or USDT into local currency and pays it out. ElementPay’s off-ramp API delivers to mobile money and bank accounts in 20 African countries, with the rate shown before you confirm.</p></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Who off-ramps with ElementPay.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Wallets and exchanges</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Offer users cash-out to mobile money and banks.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Treasury teams</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Convert stablecoin revenue into local currency.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Payroll</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Fund payroll in stablecoins, pay in local currency.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Supplier payments</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Pay African suppliers from a stablecoin balance.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Send USDC or USDT</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">To your deposit address on a supported chain.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Get a quote</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Local amount and fee shown upfront.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Pay out</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">To mobile money or bank.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Webhook</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Status and reference.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Related.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/stablecoin-on-ramp-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin on-ramp API</a><a href=\"/usdt-to-nigeria\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDT to Nigeria</a><a href=\"/usdc-to-kenya\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Kenya</a><a href=\"/elementpay-vs-crypto-exchange-off-ramps\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">ElementPay vs crypto exchanges</a><a href=\"/stablecoin-payments-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin payments API</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">What is a stablecoin off-ramp?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">A service that converts stablecoins such as USDC and USDT into local currency and pays it to a bank account or mobile money wallet.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Which chains are supported?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Supported chains are confirmed during onboarding. Talk to sales for the current list.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Where can we off-ramp to?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Mobile money and bank accounts in 20 African countries.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Is it for businesses only?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Every account goes through business verification.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Off-ramp to Africa<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

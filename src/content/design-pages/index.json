@@ -1,0 +1,1080 @@
+[
+ {
+  "slug": "b2b-stablecoin-payments",
+  "lang": "en",
+  "url": "/b2b-stablecoin-payments",
+  "title": "B2B stablecoin payments: USDC and USDT for supplier, payroll and treasury payments",
+  "description": "B2B stablecoin payments for companies trading with Africa. Pay suppliers, run payroll and manage treasury in USDC and USDT."
+ },
+ {
+  "slug": "best-stablecoin-payment-api-africa",
+  "lang": "en",
+  "url": "/best-stablecoin-payment-api-africa",
+  "title": "How to choose a stablecoin payment API for Africa: a buyer’s checklist",
+  "description": "What fintechs, payroll providers and platforms should check before choosing a stablecoin payment API for African corridors: coverage, rails, speed, FX."
+ },
+ {
+  "slug": "bulk-payouts-africa",
+  "lang": "en",
+  "url": "/bulk-payouts-africa",
+  "title": "Bulk payouts in Africa: pay hundreds of recipients from one file",
+  "description": "Send bulk payments to mobile money and bank accounts across 20 African countries from one file or API call, with approvals and a status for every recipient."
+ },
+ {
+  "slug": "card-payment-gateway",
+  "lang": "en",
+  "url": "/card-payment-gateway",
+  "title": "Card payment gateway for Africa: accept cards alongside mobile money and stablecoins",
+  "description": "Accept card payments from customers alongside mobile money, bank transfer and stablecoins, and settle in local currency, USD or USDC."
+ },
+ {
+  "slug": "collect-payments-in-africa",
+  "lang": "en",
+  "url": "/collect-payments-in-africa",
+  "title": "Collect payments in Africa: mobile money and bank collections for businesses",
+  "description": "Accept payments from customers across Africa by mobile money and bank transfer, and settle into local currency, USD or USDC and USDT. One API and dashboard."
+ },
+ {
+  "slug": "cross-border-payments-africa",
+  "lang": "en",
+  "url": "/cross-border-payments-africa",
+  "title": "Cross-border payments to and from Africa for businesses",
+  "description": "Move money into, out of and across Africa: payouts in 20 countries, accounts in 30 currencies, FX with rates shown upfront, and USDC and USDT ramps. One platform."
+ },
+ {
+  "slug": "elementpay-facts",
+  "lang": "en",
+  "url": "/elementpay-facts",
+  "title": "ElementPay at a glance: facts, coverage, products and status",
+  "description": "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory status."
+ },
+ {
+  "slug": "elementpay-vs-crypto-exchange-off-ramps",
+  "lang": "en",
+  "url": "/elementpay-vs-crypto-exchange-off-ramps",
+  "title": "ElementPay vs crypto exchange off-ramps for USDC and USDT | ElementPay",
+  "description": "Crypto exchanges let you sell USDC or USDT, but getting local currency to a recipient usually means a P2P trade or a withdrawal to your own bank first. Ele"
+ },
+ {
+  "slug": "elementpay-vs-remittance-apps",
+  "lang": "en",
+  "url": "/elementpay-vs-remittance-apps",
+  "title": "ElementPay vs consumer remittance apps for business payouts",
+  "description": "Consumer remittance apps are built for individuals sending money to family. ElementPay is built for businesses: bulk payouts, an API, approvals, multi-curr"
+ },
+ {
+  "slug": "elementpay-vs-swift-wire",
+  "lang": "en",
+  "url": "/elementpay-vs-swift-wire",
+  "title": "ElementPay vs a SWIFT bank wire for payments to Africa | ElementPay",
+  "description": "A SWIFT wire works almost anywhere but often takes 2–5 business days to reach African bank accounts, passes through correspondent banks and cannot pay mobi"
+ },
+ {
+  "slug": "exchange-rates",
+  "lang": "en",
+  "url": "/exchange-rates",
+  "title": "Exchange rates: USD, EUR, GBP and USDC to African currencies",
+  "description": "Indicative exchange rates from USD, EUR, GBP and USDC to KES, NGN, GHS, ZAR, XOF, XAF and 9 more African currencies."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-benin",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-benin",
+  "title": "Envoyer de l’argent au Bénin : MTN MoMo et Moov Money en XOF",
+  "description": "Pour les entreprises : payez vers MTN MoMo et Moov Money au Bénin. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-burkina-faso",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-burkina-faso",
+  "title": "Envoyer de l’argent au Burkina Faso : Orange Money et Moov Money en XOF",
+  "description": "Pour les entreprises : payez vers Orange Money et Moov Money au Burkina Faso. Financez en EUR, USD, USDC ou USDT."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-cameroun",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-cameroun",
+  "title": "Envoyer de l’argent au Cameroun : MTN MoMo et Orange Money en XAF",
+  "description": "Pour les entreprises : payez vers MTN MoMo et Orange Money au Cameroun. Financez en EUR, USD, USDC ou USDT."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-mali",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-mali",
+  "title": "Envoyer de l’argent au Mali : Orange Money et Moov Money en XOF",
+  "description": "Pour les entreprises : payez vers Orange Money et Moov Money au Mali. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-senegal",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-senegal",
+  "title": "Envoyer de l’argent au Sénégal : Orange Money, Wave et Free Money en XOF",
+  "description": "Pour les entreprises : payez vers Orange Money, Wave et Free Money au Sénégal. Financez en EUR, USD, USDC ou USDT."
+ },
+ {
+  "slug": "envoyer-de-l-argent-au-togo",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-au-togo",
+  "title": "Envoyer de l’argent au Togo : Moov Money et Mixx by Yas en XOF",
+  "description": "Pour les entreprises : payez vers Moov Money et Mixx by Yas au Togo. Financez en EUR, USD, USDC ou USDT. Taux affiché à l’avance."
+ },
+ {
+  "slug": "envoyer-de-l-argent-en-cote-divoire",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-en-cote-divoire",
+  "title": "Envoyer de l’argent en Côte d’Ivoire : Orange Money, MTN MoMo et Moov Money en XOF",
+  "description": "Pour les entreprises : payez vers Orange Money, MTN MoMo, Moov Money et Wave en Côte d’Ivoire. Financez en EUR, USD, USDC ou USDT."
+ },
+ {
+  "slug": "envoyer-de-l-argent-en-rd-congo",
+  "lang": "fr",
+  "url": "/fr/envoyer-de-l-argent-en-rd-congo",
+  "title": "Envoyer de l’argent en RD Congo : M-Pesa, Airtel Money et Orange Money en CDF",
+  "description": "Pour les entreprises : payez vers M-Pesa, Airtel Money et Orange Money en RD Congo. Financez en EUR, USD, USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-benin",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-benin",
+  "title": "Paiements en stablecoins au Bénin : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Bénin. Payez fournisseurs et salariés en XOF sur MTN MoMo et Moov Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-burkina-faso",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-burkina-faso",
+  "title": "Paiements en stablecoins au Burkina Faso : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Burkina Faso. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-cameroon",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-cameroon",
+  "title": "Paiements en stablecoins au Cameroun : USDC et USDT vers XAF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Cameroun. Payez fournisseurs et salariés en XAF sur MTN MoMo et Orange Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-cote-divoire",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-cote-divoire",
+  "title": "Paiements en stablecoins en Côte d’Ivoire : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins en Côte d’Ivoire. Payez fournisseurs et salariés en XOF sur Orange Money, MTN MoMo et Moov Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-dr-congo",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-dr-congo",
+  "title": "Paiements en stablecoins en RD Congo : USDC et USDT vers CDF pour les entreprises",
+  "description": "Paiements B2B en stablecoins en RD Congo. Payez fournisseurs et salariés en CDF sur M-Pesa, Airtel Money et Orange Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-mali",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-mali",
+  "title": "Paiements en stablecoins au Mali : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Mali. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-senegal",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-senegal",
+  "title": "Paiements en stablecoins au Sénégal : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Sénégal. Payez fournisseurs et salariés en XOF sur Orange Money, Wave et Free Money depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "paiements-stablecoins-togo",
+  "lang": "fr",
+  "url": "/fr/paiements-stablecoins-togo",
+  "title": "Paiements en stablecoins au Togo : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Togo. Payez fournisseurs et salariés en XOF sur Moov Money et Mixx by Yas depuis un solde USDC ou USDT."
+ },
+ {
+  "slug": "glossary",
+  "lang": "en",
+  "url": "/glossary",
+  "title": "Payments glossary: mobile money, FX and stablecoin terms explained",
+  "description": "Plain definitions of M-Pesa, PesaLink, CFA franc, SWIFT, correspondent banks, off-ramps, USDC, USDT and other cross-border payment terms."
+ },
+ {
+  "slug": "mobile-money-api",
+  "lang": "en",
+  "url": "/mobile-money-api",
+  "title": "Mobile money API for Africa: M-Pesa, MTN MoMo, Airtel Money and Orange Money",
+  "description": "One mobile money API for businesses. Pay out and collect on M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and more across 20 African countries."
+ },
+ {
+  "slug": "mpesa-api-for-business",
+  "lang": "en",
+  "url": "/mpesa-api-for-business",
+  "title": "M-Pesa API for businesses: pay out and collect in Kenya and Tanzania",
+  "description": "Pay suppliers, staff and customers on M-Pesa and collect M-Pesa payments through one business API. Kenya and Tanzania, funded in KES, TZS, USD or stablecoins."
+ },
+ {
+  "slug": "open-a-aed-account",
+  "lang": "en",
+  "url": "/open-a-aed-account",
+  "title": "Open a AED business account: UAE dirham account details | ElementPay",
+  "description": "Get a dedicated AED account for your business. Receive, hold and convert UAE dirhams, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-aud-account",
+  "lang": "en",
+  "url": "/open-a-aud-account",
+  "title": "Open a AUD business account: Australian dollar account details",
+  "description": "Get a dedicated AUD account for your business. Receive, hold and convert Australian dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-cad-account",
+  "lang": "en",
+  "url": "/open-a-cad-account",
+  "title": "Open a CAD business account: Canadian dollar account details",
+  "description": "Get a dedicated CAD account for your business. Receive, hold and convert Canadian dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-chf-account",
+  "lang": "en",
+  "url": "/open-a-chf-account",
+  "title": "Open a CHF business account: Swiss franc account details | ElementPay",
+  "description": "Get a dedicated CHF account for your business. Receive, hold and convert Swiss francs, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-cny-account",
+  "lang": "en",
+  "url": "/open-a-cny-account",
+  "title": "Open a CNY business account: Chinese yuan account details | ElementPay",
+  "description": "Get a dedicated CNY account for your business. Receive, hold and convert Chinese yuans, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-czk-account",
+  "lang": "en",
+  "url": "/open-a-czk-account",
+  "title": "Open a CZK business account: Czech koruna account details | ElementPay",
+  "description": "Get a dedicated CZK account for your business. Receive, hold and convert Czech korunas, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-dkk-account",
+  "lang": "en",
+  "url": "/open-a-dkk-account",
+  "title": "Open a DKK business account: Danish krone account details | ElementPay",
+  "description": "Get a dedicated DKK account for your business. Receive, hold and convert Danish krones, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-eur-account",
+  "lang": "en",
+  "url": "/open-a-eur-account",
+  "title": "Open a EUR business account: Euro account details | ElementPay",
+  "description": "Get a dedicated EUR account for your business. Receive, hold and convert Euros, plus 29 other currencies, USDC and USDT, and pay out to 20 African countries."
+ },
+ {
+  "slug": "open-a-gbp-account",
+  "lang": "en",
+  "url": "/open-a-gbp-account",
+  "title": "Open a GBP business account: British pound account details",
+  "description": "Get a dedicated GBP account for your business. Receive, hold and convert British pounds, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-ghs-account",
+  "lang": "en",
+  "url": "/open-a-ghs-account",
+  "title": "Open a GHS business account: Ghanaian cedi account details",
+  "description": "Get a dedicated GHS account for your business. Receive, hold and convert Ghanaian cedis, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-hkd-account",
+  "lang": "en",
+  "url": "/open-a-hkd-account",
+  "title": "Open a HKD business account: Hong Kong dollar account details",
+  "description": "Get a dedicated HKD account for your business. Receive, hold and convert Hong Kong dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-huf-account",
+  "lang": "en",
+  "url": "/open-a-huf-account",
+  "title": "Open a HUF business account: Hungarian forint account details",
+  "description": "Get a dedicated HUF account for your business. Receive, hold and convert Hungarian forints, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-ils-account",
+  "lang": "en",
+  "url": "/open-a-ils-account",
+  "title": "Open a ILS business account: Israeli shekel account details",
+  "description": "Get a dedicated ILS account for your business. Receive, hold and convert Israeli shekels, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-jpy-account",
+  "lang": "en",
+  "url": "/open-a-jpy-account",
+  "title": "Open a JPY business account: Japanese yen account details | ElementPay",
+  "description": "Get a dedicated JPY account for your business. Receive, hold and convert Japanese yens, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-kes-account",
+  "lang": "en",
+  "url": "/open-a-kes-account",
+  "title": "Open a KES business account: Kenyan shilling account details",
+  "description": "Get a dedicated KES account for your business. Receive, hold and convert Kenyan shillings, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-krw-account",
+  "lang": "en",
+  "url": "/open-a-krw-account",
+  "title": "Open a KRW business account: South Korean won account details",
+  "description": "Get a dedicated KRW account for your business. Receive, hold and convert South Korean wons, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-mxn-account",
+  "lang": "en",
+  "url": "/open-a-mxn-account",
+  "title": "Open a MXN business account: Mexican peso account details | ElementPay",
+  "description": "Get a dedicated MXN account for your business. Receive, hold and convert Mexican pesos, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-ngn-account",
+  "lang": "en",
+  "url": "/open-a-ngn-account",
+  "title": "Open a NGN business account: Nigerian naira account details",
+  "description": "Get a dedicated NGN account for your business. Receive, hold and convert Nigerian nairas, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-nok-account",
+  "lang": "en",
+  "url": "/open-a-nok-account",
+  "title": "Open a NOK business account: Norwegian krone account details",
+  "description": "Get a dedicated NOK account for your business. Receive, hold and convert Norwegian krones, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-nzd-account",
+  "lang": "en",
+  "url": "/open-a-nzd-account",
+  "title": "Open a NZD business account: New Zealand dollar account details",
+  "description": "Get a dedicated NZD account for your business. Receive, hold and convert New Zealand dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-pln-account",
+  "lang": "en",
+  "url": "/open-a-pln-account",
+  "title": "Open a PLN business account: Polish złoty account details | ElementPay",
+  "description": "Get a dedicated PLN account for your business. Receive, hold and convert Polish złotys, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-ron-account",
+  "lang": "en",
+  "url": "/open-a-ron-account",
+  "title": "Open a RON business account: Romanian leu account details | ElementPay",
+  "description": "Get a dedicated RON account for your business. Receive, hold and convert Romanian leus, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-sek-account",
+  "lang": "en",
+  "url": "/open-a-sek-account",
+  "title": "Open a SEK business account: Swedish krona account details",
+  "description": "Get a dedicated SEK account for your business. Receive, hold and convert Swedish kronas, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-sgd-account",
+  "lang": "en",
+  "url": "/open-a-sgd-account",
+  "title": "Open a SGD business account: Singapore dollar account details",
+  "description": "Get a dedicated SGD account for your business. Receive, hold and convert Singapore dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-thb-account",
+  "lang": "en",
+  "url": "/open-a-thb-account",
+  "title": "Open a THB business account: Thai baht account details | ElementPay",
+  "description": "Get a dedicated THB account for your business. Receive, hold and convert Thai bahts, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-tzs-account",
+  "lang": "en",
+  "url": "/open-a-tzs-account",
+  "title": "Open a TZS business account: Tanzanian shilling account details",
+  "description": "Get a dedicated TZS account for your business. Receive, hold and convert Tanzanian shillings, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-usd-account",
+  "lang": "en",
+  "url": "/open-a-usd-account",
+  "title": "Open a USD business account: US dollar account details | ElementPay",
+  "description": "Get a dedicated USD account for your business. Receive, hold and convert US dollars, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-xaf-account",
+  "lang": "en",
+  "url": "/open-a-xaf-account",
+  "title": "Open a XAF business account: Central African CFA franc account details",
+  "description": "Get a dedicated XAF account for your business. Receive, hold and convert Central African CFA francs, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-xof-account",
+  "lang": "en",
+  "url": "/open-a-xof-account",
+  "title": "Open a XOF business account: West African CFA franc account details",
+  "description": "Get a dedicated XOF account for your business. Receive, hold and convert West African CFA francs, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "open-a-zar-account",
+  "lang": "en",
+  "url": "/open-a-zar-account",
+  "title": "Open a ZAR business account: South African rand account details",
+  "description": "Get a dedicated ZAR account for your business. Receive, hold and convert South African rands, plus 29 other currencies, USDC and USDT."
+ },
+ {
+  "slug": "pay-contractors-in-africa",
+  "lang": "en",
+  "url": "/pay-contractors-in-africa",
+  "title": "Pay contractors and employees in Africa: mobile money and bank payouts",
+  "description": "Pay remote contractors and employees in Kenya, Nigeria, Ghana, South Africa and 16 more African countries, to mobile money or bank, funded in USD or stablecoins."
+ },
+ {
+  "slug": "pay-suppliers-in-china-from-africa",
+  "lang": "en",
+  "url": "/pay-suppliers-in-china-from-africa",
+  "title": "Pay Chinese suppliers from Africa in CNY, USD or USDT",
+  "description": "For African importers: pay suppliers in China in CNY or USD from naira, shillings or cedis, or from USDT and USDC, with the rate shown before you confirm."
+ },
+ {
+  "slug": "payment-gateway-africa",
+  "lang": "en",
+  "url": "/payment-gateway-africa",
+  "title": "Payment gateway for Africa: mobile money, bank, card and stablecoin payments",
+  "description": "One payment gateway for Africa. Collect by mobile money, bank transfer, card and stablecoins across 20 countries and settle in local currency, USD or USDC."
+ },
+ {
+  "slug": "payout-api",
+  "lang": "en",
+  "url": "/payout-api",
+  "title": "Payout API for Africa: mobile money and bank payouts in 20 countries",
+  "description": "One payout API for businesses paying suppliers, staff, sellers and users across Africa. Mobile money and bank payouts in 20 countries, funded in fiat or stablecoins."
+ },
+ {
+  "slug": "pricing",
+  "lang": "en",
+  "url": "/pricing",
+  "title": "Pricing: how ElementPay rates and fees work | ElementPay",
+  "description": "ElementPay shows the exchange rate and fee before every payment. No intermediary deductions. Volume pricing for businesses and OTC quotes for large trades."
+ },
+ {
+  "slug": "security-and-compliance",
+  "lang": "en",
+  "url": "/security-and-compliance",
+  "title": "Security and compliance: how ElementPay protects your money",
+  "description": "How ElementPay verifies businesses, monitors transactions, works with licensed banking partners and protects data."
+ },
+ {
+  "slug": "send-money-from-canada-to-ghana",
+  "lang": "en",
+  "url": "/send-money-from-canada-to-ghana",
+  "title": "Send money from Canada to Ghana: CAD to GHS on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Ghana from Canada: fund in CAD, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank."
+ },
+ {
+  "slug": "send-money-from-canada-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-canada-to-nigeria",
+  "title": "Send money from Canada to Nigeria: CAD to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from Canada: fund in CAD, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-china-to-ghana",
+  "lang": "en",
+  "url": "/send-money-from-china-to-ghana",
+  "title": "Send money from China to Ghana: CNY to GHS on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Ghana from China: fund in CNY, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank."
+ },
+ {
+  "slug": "send-money-from-china-to-kenya",
+  "lang": "en",
+  "url": "/send-money-from-china-to-kenya",
+  "title": "Send money from China to Kenya: CNY to KES on M-Pesa | ElementPay",
+  "description": "For businesses: pay recipients in Kenya from China: fund in CNY, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank."
+ },
+ {
+  "slug": "send-money-from-china-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-china-to-nigeria",
+  "title": "Send money from China to Nigeria: CNY to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from China: fund in CNY, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-china-to-tanzania",
+  "lang": "en",
+  "url": "/send-money-from-china-to-tanzania",
+  "title": "Send money from China to Tanzania: CNY to TZS on M-Pesa | ElementPay",
+  "description": "For businesses: pay recipients in Tanzania from China: fund in CNY, deliver TZS to M-Pesa, Airtel Money, Mixx by Yas and Bank."
+ },
+ {
+  "slug": "send-money-from-france-to-benin",
+  "lang": "en",
+  "url": "/send-money-from-france-to-benin",
+  "title": "Send money from France to Benin: EUR to XOF on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Benin from France: fund in EUR, deliver XOF to MTN MoMo and Moov Money. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-france-to-cameroon",
+  "lang": "en",
+  "url": "/send-money-from-france-to-cameroon",
+  "title": "Send money from France to Cameroon: EUR to XAF on MTN MoMo",
+  "description": "For businesses: pay recipients in Cameroon from France: fund in EUR, deliver XAF to MTN MoMo and Orange Money. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-france-to-cote-divoire",
+  "lang": "en",
+  "url": "/send-money-from-france-to-cote-divoire",
+  "title": "Send money from France to Côte d’Ivoire: EUR to XOF on Orange Money",
+  "description": "For businesses: pay recipients in Côte d’Ivoire from France: fund in EUR, deliver XOF to Orange Money, MTN MoMo, Moov Money and Wave."
+ },
+ {
+  "slug": "send-money-from-france-to-mali",
+  "lang": "en",
+  "url": "/send-money-from-france-to-mali",
+  "title": "Send money from France to Mali: EUR to XOF on Orange Money",
+  "description": "For businesses: pay recipients in Mali from France: fund in EUR, deliver XOF to Orange Money and Moov Money. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-france-to-senegal",
+  "lang": "en",
+  "url": "/send-money-from-france-to-senegal",
+  "title": "Send money from France to Senegal: EUR to XOF on Orange Money",
+  "description": "For businesses: pay recipients in Senegal from France: fund in EUR, deliver XOF to Orange Money, Wave and Free Money. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-germany-to-ghana",
+  "lang": "en",
+  "url": "/send-money-from-germany-to-ghana",
+  "title": "Send money from Germany to Ghana: EUR to GHS on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Ghana from Germany: fund in EUR, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank."
+ },
+ {
+  "slug": "send-money-from-germany-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-germany-to-nigeria",
+  "title": "Send money from Germany to Nigeria: EUR to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from Germany: fund in EUR, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uae-to-ethiopia",
+  "lang": "en",
+  "url": "/send-money-from-uae-to-ethiopia",
+  "title": "Send money from the UAE to Ethiopia: AED to ETB on telebirr",
+  "description": "For businesses: pay recipients in Ethiopia from the UAE: fund in AED, deliver ETB to telebirr and Bank. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uae-to-kenya",
+  "lang": "en",
+  "url": "/send-money-from-uae-to-kenya",
+  "title": "Send money from the UAE to Kenya: AED to KES on M-Pesa | ElementPay",
+  "description": "For businesses: pay recipients in Kenya from the UAE: fund in AED, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank."
+ },
+ {
+  "slug": "send-money-from-uae-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-uae-to-nigeria",
+  "title": "Send money from the UAE to Nigeria: AED to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from the UAE: fund in AED, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uae-to-uganda",
+  "lang": "en",
+  "url": "/send-money-from-uae-to-uganda",
+  "title": "Send money from the UAE to Uganda: AED to UGX on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Uganda from the UAE: fund in AED, deliver UGX to MTN MoMo, Airtel Money and Bank. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uk-to-ghana",
+  "lang": "en",
+  "url": "/send-money-from-uk-to-ghana",
+  "title": "Send money from the UK to Ghana: GBP to GHS on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Ghana from the UK: fund in GBP, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank."
+ },
+ {
+  "slug": "send-money-from-uk-to-kenya",
+  "lang": "en",
+  "url": "/send-money-from-uk-to-kenya",
+  "title": "Send money from the UK to Kenya: GBP to KES on M-Pesa | ElementPay",
+  "description": "For businesses: pay recipients in Kenya from the UK: fund in GBP, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank."
+ },
+ {
+  "slug": "send-money-from-uk-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-uk-to-nigeria",
+  "title": "Send money from the UK to Nigeria: GBP to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from the UK: fund in GBP, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uk-to-south-africa",
+  "lang": "en",
+  "url": "/send-money-from-uk-to-south-africa",
+  "title": "Send money from the UK to South Africa: GBP to ZAR on Bank EFT",
+  "description": "For businesses: pay recipients in South Africa from the UK: fund in GBP, deliver ZAR to Bank EFT. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-uk-to-uganda",
+  "lang": "en",
+  "url": "/send-money-from-uk-to-uganda",
+  "title": "Send money from the UK to Uganda: GBP to UGX on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Uganda from the UK: fund in GBP, deliver UGX to MTN MoMo, Airtel Money and Bank. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-us-to-cameroon",
+  "lang": "en",
+  "url": "/send-money-from-us-to-cameroon",
+  "title": "Send money from the US to Cameroon: USD to XAF on MTN MoMo",
+  "description": "For businesses: pay recipients in Cameroon from the US: fund in USD, deliver XAF to MTN MoMo and Orange Money. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-us-to-ethiopia",
+  "lang": "en",
+  "url": "/send-money-from-us-to-ethiopia",
+  "title": "Send money from the US to Ethiopia: USD to ETB on telebirr",
+  "description": "For businesses: pay recipients in Ethiopia from the US: fund in USD, deliver ETB to telebirr and Bank. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-from-us-to-ghana",
+  "lang": "en",
+  "url": "/send-money-from-us-to-ghana",
+  "title": "Send money from the US to Ghana: USD to GHS on MTN MoMo | ElementPay",
+  "description": "For businesses: pay recipients in Ghana from the US: fund in USD, deliver GHS to MTN MoMo, Telecel Cash, AT Money and Bank."
+ },
+ {
+  "slug": "send-money-from-us-to-kenya",
+  "lang": "en",
+  "url": "/send-money-from-us-to-kenya",
+  "title": "Send money from the US to Kenya: USD to KES on M-Pesa | ElementPay",
+  "description": "For businesses: pay recipients in Kenya from the US: fund in USD, deliver KES to M-Pesa, Airtel Money, PesaLink and Bank."
+ },
+ {
+  "slug": "send-money-from-us-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-from-us-to-nigeria",
+  "title": "Send money from the US to Nigeria: USD to NGN on Bank transfer",
+  "description": "For businesses: pay recipients in Nigeria from the US: fund in USD, deliver NGN to Bank transfer. Rate and fee shown upfront."
+ },
+ {
+  "slug": "send-money-to-benin",
+  "lang": "en",
+  "url": "/send-money-to-benin",
+  "title": "Send money to Benin: MTN MoMo and Moov Money payouts in XOF",
+  "description": "For businesses: pay out to MTN MoMo and Moov Money in Benin. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-botswana",
+  "lang": "en",
+  "url": "/send-money-to-botswana",
+  "title": "Send money to Botswana: Orange Money and Bank payouts in BWP",
+  "description": "For businesses: pay out to Orange Money and Bank in Botswana. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-burkina-faso",
+  "lang": "en",
+  "url": "/send-money-to-burkina-faso",
+  "title": "Send money to Burkina Faso: Orange Money and Moov Money payouts in XOF",
+  "description": "For businesses: pay out to Orange Money and Moov Money in Burkina Faso. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-cameroon",
+  "lang": "en",
+  "url": "/send-money-to-cameroon",
+  "title": "Send money to Cameroon: MTN MoMo and Orange Money payouts in XAF",
+  "description": "For businesses: pay out to MTN MoMo and Orange Money in Cameroon. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-cote-divoire",
+  "lang": "en",
+  "url": "/send-money-to-cote-divoire",
+  "title": "Send money to Côte d’Ivoire: Orange Money, MTN MoMo and Moov Money payouts in XOF",
+  "description": "For businesses: pay out to Orange Money, MTN MoMo, Moov Money and Wave in Côte d’Ivoire. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-dr-congo",
+  "lang": "en",
+  "url": "/send-money-to-dr-congo",
+  "title": "Send money to DR Congo: M-Pesa, Airtel Money and Orange Money payouts in CDF",
+  "description": "For businesses: pay out to M-Pesa, Airtel Money and Orange Money in DR Congo. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-ethiopia",
+  "lang": "en",
+  "url": "/send-money-to-ethiopia",
+  "title": "Send money to Ethiopia: telebirr and Bank payouts in ETB | ElementPay",
+  "description": "For businesses: pay out to telebirr and Bank in Ethiopia. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-ghana",
+  "lang": "en",
+  "url": "/send-money-to-ghana",
+  "title": "Send money to Ghana: MTN MoMo, Telecel Cash and AT Money payouts in GHS",
+  "description": "For businesses: pay out to MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-kenya",
+  "lang": "en",
+  "url": "/send-money-to-kenya",
+  "title": "Send money to Kenya: M-Pesa, Airtel Money and PesaLink payouts in KES",
+  "description": "For businesses: pay out to M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-malawi",
+  "lang": "en",
+  "url": "/send-money-to-malawi",
+  "title": "Send money to Malawi: Airtel Money and TNM Mpamba payouts in MWK",
+  "description": "For businesses: pay out to Airtel Money and TNM Mpamba in Malawi. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-mali",
+  "lang": "en",
+  "url": "/send-money-to-mali",
+  "title": "Send money to Mali: Orange Money and Moov Money payouts in XOF",
+  "description": "For businesses: pay out to Orange Money and Moov Money in Mali. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-mozambique",
+  "lang": "en",
+  "url": "/send-money-to-mozambique",
+  "title": "Send money to Mozambique: M-Pesa and e-Mola payouts in MZN",
+  "description": "For businesses: pay out to M-Pesa and e-Mola in Mozambique. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-nigeria",
+  "lang": "en",
+  "url": "/send-money-to-nigeria",
+  "title": "Send money to Nigeria: Bank transfer payouts in NGN | ElementPay",
+  "description": "For businesses: pay out to Bank transfer in Nigeria. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-rwanda",
+  "lang": "en",
+  "url": "/send-money-to-rwanda",
+  "title": "Send money to Rwanda: MTN MoMo, Airtel Money and Bank payouts in RWF",
+  "description": "For businesses: pay out to MTN MoMo, Airtel Money and Bank in Rwanda. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-senegal",
+  "lang": "en",
+  "url": "/send-money-to-senegal",
+  "title": "Send money to Senegal: Orange Money, Wave and Free Money payouts in XOF",
+  "description": "For businesses: pay out to Orange Money, Wave and Free Money in Senegal. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-south-africa",
+  "lang": "en",
+  "url": "/send-money-to-south-africa",
+  "title": "Send money to South Africa: Bank EFT payouts in ZAR | ElementPay",
+  "description": "For businesses: pay out to Bank EFT in South Africa. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-tanzania",
+  "lang": "en",
+  "url": "/send-money-to-tanzania",
+  "title": "Send money to Tanzania: M-Pesa, Airtel Money and Mixx by Yas payouts in TZS",
+  "description": "For businesses: pay out to M-Pesa, Airtel Money, Mixx by Yas and Bank in Tanzania. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-togo",
+  "lang": "en",
+  "url": "/send-money-to-togo",
+  "title": "Send money to Togo: Moov Money and Mixx by Yas payouts in XOF",
+  "description": "For businesses: pay out to Moov Money and Mixx by Yas in Togo. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-uganda",
+  "lang": "en",
+  "url": "/send-money-to-uganda",
+  "title": "Send money to Uganda: MTN MoMo, Airtel Money and Bank payouts in UGX",
+  "description": "For businesses: pay out to MTN MoMo, Airtel Money and Bank in Uganda. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "send-money-to-zambia",
+  "lang": "en",
+  "url": "/send-money-to-zambia",
+  "title": "Send money to Zambia: MTN MoMo, Airtel Money and Zamtel payouts in ZMW",
+  "description": "For businesses: pay out to MTN MoMo, Airtel Money and Zamtel in Zambia. Fund in USD, EUR, GBP, USDC or USDT. Rates shown upfront."
+ },
+ {
+  "slug": "stablecoin-off-ramp-api",
+  "lang": "en",
+  "url": "/stablecoin-off-ramp-api",
+  "title": "Stablecoin off-ramp API: USDC and USDT to mobile money and bank in Africa",
+  "description": "Off-ramp USDC and USDT to local currency on M-Pesa, MTN MoMo, Airtel Money and bank accounts in 20 African countries through one business API."
+ },
+ {
+  "slug": "stablecoin-on-ramp-api",
+  "lang": "en",
+  "url": "/stablecoin-on-ramp-api",
+  "title": "Stablecoin on-ramp API: local currency to USDC and USDT in Africa",
+  "description": "On-ramp from naira, shillings, cedis and other African currencies into USDC and USDT through one business API, with the rate shown before you confirm."
+ },
+ {
+  "slug": "stablecoin-payment-gateway",
+  "lang": "en",
+  "url": "/stablecoin-payment-gateway",
+  "title": "Stablecoin payment gateway: accept USDC and USDT and settle to local currency",
+  "description": "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency in 20 African countries."
+ },
+ {
+  "slug": "stablecoin-payments-africa",
+  "lang": "en",
+  "url": "/stablecoin-payments-africa",
+  "title": "Stablecoin payments in Africa: USDC and USDT payouts and collections in 20 countries",
+  "description": "Stablecoin payments across Africa for businesses. Pay out and collect in 20 African countries from USDC and USDT, delivered to mobile money and bank accounts."
+ },
+ {
+  "slug": "stablecoin-payments-api-nigeria",
+  "lang": "en",
+  "url": "/stablecoin-payments-api-nigeria",
+  "title": "Stablecoin payments API in Nigeria: USDC and USDT collections and payouts in NGN",
+  "description": "Collect and pay out in Nigeria with USDC and USDT. Pay suppliers and staff in NGN to any Nigerian bank account, or collect naira and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-api",
+  "lang": "en",
+  "url": "/stablecoin-payments-api",
+  "title": "Stablecoin payments API and gateway for Africa: USDC and USDT payment solutions",
+  "description": "Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa."
+ },
+ {
+  "slug": "stablecoin-payments-canada",
+  "lang": "en",
+  "url": "/stablecoin-payments-canada",
+  "title": "Stablecoin payments from Canada to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in Canada: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payments-china",
+  "lang": "en",
+  "url": "/stablecoin-payments-china",
+  "title": "Stablecoin payments from China to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in China: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payments-europe",
+  "lang": "en",
+  "url": "/stablecoin-payments-europe",
+  "title": "Stablecoin payments from Europe to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in Europe: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payments-in-benin",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-benin",
+  "title": "Stablecoin payments in Benin: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Benin. Pay suppliers and staff in XOF on MTN MoMo and Moov Money from USDC or USDT, or collect XOF and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-botswana",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-botswana",
+  "title": "Stablecoin payments in Botswana: USDC and USDT to BWP for businesses",
+  "description": "B2B stablecoin payments in Botswana. Pay suppliers and staff in BWP on Orange Money and bank from USDC or USDT, or collect BWP and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-burkina-faso",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-burkina-faso",
+  "title": "Stablecoin payments in Burkina Faso: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Burkina Faso. Pay suppliers and staff in XOF on Orange Money and Moov Money from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-cameroon",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-cameroon",
+  "title": "Stablecoin payments in Cameroon: USDC and USDT to XAF for businesses",
+  "description": "B2B stablecoin payments in Cameroon. Pay suppliers and staff in XAF on MTN MoMo and Orange Money from USDC or USDT, or collect XAF and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-cote-divoire",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-cote-divoire",
+  "title": "Stablecoin payments in Côte d’Ivoire: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Côte d’Ivoire. Pay suppliers and staff in XOF on Orange Money, MTN MoMo and Moov Money from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-dr-congo",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-dr-congo",
+  "title": "Stablecoin payments in DR Congo: USDC and USDT to CDF for businesses",
+  "description": "B2B stablecoin payments in DR Congo. Pay suppliers and staff in CDF on M-Pesa, Airtel Money and Orange Money from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-ethiopia",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-ethiopia",
+  "title": "Stablecoin payments in Ethiopia: USDC and USDT to ETB for businesses",
+  "description": "B2B stablecoin payments in Ethiopia. Pay suppliers and staff in ETB on telebirr and bank from USDC or USDT, or collect ETB and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-ghana",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-ghana",
+  "title": "Stablecoin payments in Ghana: USDC and USDT to GHS for businesses",
+  "description": "B2B stablecoin payments in Ghana. Pay suppliers and staff in GHS on MTN MoMo, Telecel Cash and AT Money from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-kenya",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-kenya",
+  "title": "Stablecoin payments in Kenya: USDC and USDT to KES for businesses",
+  "description": "B2B stablecoin payments in Kenya. Pay suppliers and staff in KES on M-Pesa, Airtel Money and PesaLink from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-malawi",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-malawi",
+  "title": "Stablecoin payments in Malawi: USDC and USDT to MWK for businesses",
+  "description": "B2B stablecoin payments in Malawi. Pay suppliers and staff in MWK on Airtel Money and TNM Mpamba from USDC or USDT, or collect MWK and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-mali",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-mali",
+  "title": "Stablecoin payments in Mali: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Mali. Pay suppliers and staff in XOF on Orange Money and Moov Money from USDC or USDT, or collect XOF and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-mozambique",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-mozambique",
+  "title": "Stablecoin payments in Mozambique: USDC and USDT to MZN for businesses",
+  "description": "B2B stablecoin payments in Mozambique. Pay suppliers and staff in MZN on M-Pesa and e-Mola from USDC or USDT, or collect MZN and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-rwanda",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-rwanda",
+  "title": "Stablecoin payments in Rwanda: USDC and USDT to RWF for businesses",
+  "description": "B2B stablecoin payments in Rwanda. Pay suppliers and staff in RWF on MTN MoMo, Airtel Money and bank from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-senegal",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-senegal",
+  "title": "Stablecoin payments in Senegal: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Senegal. Pay suppliers and staff in XOF on Orange Money, Wave and Free Money from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-south-africa",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-south-africa",
+  "title": "Stablecoin payments in South Africa: USDC and USDT to ZAR for businesses",
+  "description": "B2B stablecoin payments in South Africa. Pay suppliers and staff in ZAR on bank EFT from USDC or USDT, or collect ZAR and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-tanzania",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-tanzania",
+  "title": "Stablecoin payments in Tanzania: USDC and USDT to TZS for businesses",
+  "description": "B2B stablecoin payments in Tanzania. Pay suppliers and staff in TZS on M-Pesa, Airtel Money and Mixx by Yas from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-togo",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-togo",
+  "title": "Stablecoin payments in Togo: USDC and USDT to XOF for businesses",
+  "description": "B2B stablecoin payments in Togo. Pay suppliers and staff in XOF on Moov Money and Mixx by Yas from USDC or USDT, or collect XOF and settle in stablecoins."
+ },
+ {
+  "slug": "stablecoin-payments-in-uganda",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-uganda",
+  "title": "Stablecoin payments in Uganda: USDC and USDT to UGX for businesses",
+  "description": "B2B stablecoin payments in Uganda. Pay suppliers and staff in UGX on MTN MoMo, Airtel Money and bank from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-in-zambia",
+  "lang": "en",
+  "url": "/stablecoin-payments-in-zambia",
+  "title": "Stablecoin payments in Zambia: USDC and USDT to ZMW for businesses",
+  "description": "B2B stablecoin payments in Zambia. Pay suppliers and staff in ZMW on MTN MoMo, Airtel Money and Zamtel from USDC or USDT."
+ },
+ {
+  "slug": "stablecoin-payments-uae",
+  "lang": "en",
+  "url": "/stablecoin-payments-uae",
+  "title": "Stablecoin payments from the UAE to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in the UAE: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payments-uk",
+  "lang": "en",
+  "url": "/stablecoin-payments-uk",
+  "title": "Stablecoin payments from the UK to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in the UK: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payments-us",
+  "lang": "en",
+  "url": "/stablecoin-payments-us",
+  "title": "Stablecoin payments from the US to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in the US: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank."
+ },
+ {
+  "slug": "stablecoin-payroll",
+  "lang": "en",
+  "url": "/stablecoin-payroll",
+  "title": "Stablecoin payroll for Africa: pay staff in Kenya and Nigeria from USDC and USDT",
+  "description": "Pay employees and contractors in Kenya, Nigeria and 18 other African countries from a USDC or USDT balance."
+ },
+ {
+  "slug": "usdc-to-ghana",
+  "lang": "en",
+  "url": "/usdc-to-ghana",
+  "title": "USDC to MTN MoMo: convert USDC to GHS in Ghana | ElementPay",
+  "description": "For businesses: turn USDC into GHS on MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Rate shown before you sign."
+ },
+ {
+  "slug": "usdc-to-kenya",
+  "lang": "en",
+  "url": "/usdc-to-kenya",
+  "title": "USDC to M-Pesa: convert USDC to KES in Kenya | ElementPay",
+  "description": "For businesses: turn USDC into KES on M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Rate shown before you sign."
+ },
+ {
+  "slug": "usdc-to-nigeria",
+  "lang": "en",
+  "url": "/usdc-to-nigeria",
+  "title": "USDC to Bank transfer: convert USDC to NGN in Nigeria | ElementPay",
+  "description": "For businesses: turn USDC into NGN on Bank transfer in Nigeria. Rate shown before you sign. Built for treasury, payroll and supplier payouts."
+ },
+ {
+  "slug": "usdc-to-south-africa",
+  "lang": "en",
+  "url": "/usdc-to-south-africa",
+  "title": "USDC to Bank EFT: convert USDC to ZAR in South Africa | ElementPay",
+  "description": "For businesses: turn USDC into ZAR on Bank EFT in South Africa. Rate shown before you sign. Built for treasury, payroll and supplier payouts."
+ },
+ {
+  "slug": "usdc-to-uganda",
+  "lang": "en",
+  "url": "/usdc-to-uganda",
+  "title": "USDC to MTN MoMo: convert USDC to UGX in Uganda | ElementPay",
+  "description": "For businesses: turn USDC into UGX on MTN MoMo, Airtel Money and Bank in Uganda. Rate shown before you sign. Built for treasury, payroll and supplier payouts."
+ },
+ {
+  "slug": "usdt-to-cameroon",
+  "lang": "en",
+  "url": "/usdt-to-cameroon",
+  "title": "USDT to MTN MoMo: convert USDT to XAF in Cameroon | ElementPay",
+  "description": "For businesses: turn USDT into XAF on MTN MoMo and Orange Money in Cameroon. Rate shown before you sign. Built for treasury, payroll and supplier payouts."
+ },
+ {
+  "slug": "usdt-to-ghana",
+  "lang": "en",
+  "url": "/usdt-to-ghana",
+  "title": "USDT to MTN MoMo: convert USDT to GHS in Ghana | ElementPay",
+  "description": "For businesses: turn USDT into GHS on MTN MoMo, Telecel Cash, AT Money and Bank in Ghana. Rate shown before you sign."
+ },
+ {
+  "slug": "usdt-to-kenya",
+  "lang": "en",
+  "url": "/usdt-to-kenya",
+  "title": "USDT to M-Pesa: convert USDT to KES in Kenya | ElementPay",
+  "description": "For businesses: turn USDT into KES on M-Pesa, Airtel Money, PesaLink and Bank in Kenya. Rate shown before you sign."
+ },
+ {
+  "slug": "usdt-to-nigeria",
+  "lang": "en",
+  "url": "/usdt-to-nigeria",
+  "title": "USDT to Bank transfer: convert USDT to NGN in Nigeria | ElementPay",
+  "description": "For businesses: turn USDT into NGN on Bank transfer in Nigeria. Rate shown before you sign. Built for treasury, payroll and supplier payouts."
+ }
+]

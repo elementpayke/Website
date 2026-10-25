@@ -1,0 +1,76 @@
+{
+ "slug": "security-and-compliance",
+ "lang": "en",
+ "url": "/security-and-compliance",
+ "nav": "Company",
+ "head": {
+  "title": "Security and compliance: how ElementPay protects your money",
+  "description": "How ElementPay verifies businesses, monitors transactions, works with licensed banking partners and protects data.",
+  "canonical": "/security-and-compliance",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Security and compliance: how ElementPay protects your money | ElementPay",
+   "description": "How ElementPay verifies businesses, monitors transactions, works with licensed banking partners and protects data.",
+   "url": "https://www.elementpay.net/security-and-compliance",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Security and compliance",
+       "item": "https://www.elementpay.net/security-and-compliance"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Is ElementPay a bank?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. ElementPay is a financial technology company. Banking services are provided by licensed partner institutions."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How does ElementPay verify businesses?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Every business completes verification of its registration, directors, beneficial owners and use case before going live."
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(32px,5vw,72px);align-items:start\"><div><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#6E6C8A\"><a href=\"/\" style=\"color:#6E6C8A\">Home</a><span>/</span><span style=\"color:#3B2ED3\">Security and compliance</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0\">How we protect your money<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:50ch\">Verification before anyone goes live, monitoring on every payment, licensed partners holding funds, and security built into every layer.</p><p style=\"font-family:var(--font-label),monospace;font-size:12px;color:#6E6C8A;margin:20px 0 0\">Updated October 2026</p></div><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px\"><div style=\"padding:24px;border-radius:24px;background:#131126;color:#F6F4EF\"><div style=\"font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.12em;color:#B4B1D0\">QUICK ANSWER</div><p style=\"font-size:18px;line-height:28px;margin:12px 0 0\">ElementPay is a financial technology company, not a bank. Banking services are provided by licensed partner institutions. Every business is verified before going live, and every payment is screened and monitored.</p></div></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Four layers of protection.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;min-height:220px\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:#3B2ED3\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Business verification</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">We verify each company’s registration, directors, beneficial owners and use case before it can send or receive money.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;min-height:220px\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:#3B2ED3\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Transaction monitoring</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Payments are screened against sanctions lists and monitored for unusual activity, in fiat and stablecoins.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;min-height:220px\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:#3B2ED3\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Licensed partners</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Customer funds are held with licensed banking partners in the markets where we operate.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;min-height:220px\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:#3B2ED3\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Data security</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Data is encrypted in transit and at rest. Access is limited by role and logged.</p></div></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"padding:clamp(24px,3vw,36px);border-radius:28px;background:#fff;border:2px dashed #B4B1D0\"><div style=\"font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.12em;color:#3B2ED3;margin-bottom:12px\">LICENCES AND PARTNERS · TO COMPLETE</div><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Regulators and banking partners.</h2><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:16px 0 0;max-width:60ch\">Add each licence or registration (regulator, licence type, number, jurisdiction) and each banking partner here before publishing.</p></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Controls you set.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Roles and permissions</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Decide who can view, create and approve payments.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Approval thresholds</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Require one or more approvers above amounts you choose.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Allow-lists</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Limit which recipients your team, or your AI agents, can pay.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Audit trail</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Every action is recorded with who did it and when.</p></div></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(80px,10vw,140px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><div style=\"display:flex;align-items:center;gap:20px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:14ch\">Talk to our compliance team.</h2></div><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

@@ -1,0 +1,92 @@
+{
+ "slug": "pricing",
+ "lang": "en",
+ "url": "/pricing",
+ "nav": "Company",
+ "head": {
+  "title": "Pricing: how ElementPay rates and fees work | ElementPay",
+  "description": "ElementPay shows the exchange rate and fee before every payment. No intermediary deductions. Volume pricing for businesses and OTC quotes for large trades.",
+  "canonical": "/pricing",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Pricing: how ElementPay rates and fees work | ElementPay",
+   "description": "ElementPay shows the exchange rate and fee before every payment. No intermediary deductions. Volume pricing for businesses and OTC quotes for large trades.",
+   "url": "https://www.elementpay.net/pricing",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How does ElementPay pricing work?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Each payment shows two things before you confirm: the exchange rate and the fee. Nothing is deducted by intermediaries on the way, so the recipient gets the amount shown."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Are there hidden fees?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. The rate and fee are shown upfront and fixed when you approve."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there volume pricing?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Pricing is tailored to your markets, rails and monthly volume. Large FX and stablecoin tickets can be quoted by the OTC desk."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do stablecoin conversions cost more?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDC and USDT conversions are quoted like any other currency pair, with the rate and fee shown before you confirm."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Pricing",
+       "item": "https://www.elementpay.net/pricing"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px);display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:clamp(32px,5vw,72px);align-items:start\"><div><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#6E6C8A\"><a href=\"/\" style=\"color:#6E6C8A\">Home</a><span>/</span><span style=\"color:#3B2ED3\">Pricing</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0\">Know the cost before you send<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:50ch\">Every payment shows the exchange rate and the fee before you confirm. The recipient gets exactly the amount shown, with no deductions on the way.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Get your pricing</a><a href=\"/exchange-rates\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See indicative rates →</a></div><p style=\"font-family:var(--font-label),monospace;font-size:12px;color:#6E6C8A;margin:20px 0 0\">Updated October 2026</p></div><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px\"><div style=\"padding:24px;border-radius:24px;background:#131126;color:#F6F4EF\"><div style=\"font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.12em;color:#B4B1D0\">QUICK ANSWER</div><p style=\"font-size:18px;line-height:28px;margin:12px 0 0\">Each payment shows two things before you confirm: the exchange rate and the fee. Nothing is deducted by intermediaries on the way, so the recipient gets the amount shown.</p></div></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">What you pay for.</h2><div style=\"margin-top:32px;border-radius:24px;background:#fff;overflow-x:auto\"><table style=\"width:100%;min-width:600px;border-collapse:collapse;font-size:15px\"><thead><tr style=\"font-family:var(--font-label),monospace;font-size:12px;letter-spacing:.08em;color:#6E6C8A;text-align:left\"><th style=\"padding:18px 24px;font-weight:500;\"></th><th style=\"padding:18px 24px;font-weight:500;\">HOW IT IS PRICED</th><th style=\"padding:18px 24px;font-weight:500;color:#3B2ED3\">WHEN YOU SEE IT</th></tr></thead><tbody><tr style=\"border-top:1px solid #EEEDE8\"><td style=\"padding:18px 24px;font-weight:600\">Payouts</td><td style=\"padding:18px 24px;color:#6E6C8A\">Per-payout fee by country and rail</td><td style=\"padding:18px 24px;font-weight:600;color:#131126\">Before you confirm</td></tr><tr style=\"border-top:1px solid #EEEDE8\"><td style=\"padding:18px 24px;font-weight:600\">FX and stablecoins</td><td style=\"padding:18px 24px;color:#6E6C8A\">Rate with a margin over mid-market</td><td style=\"padding:18px 24px;font-weight:600;color:#131126\">In the quote, locked before you approve</td></tr><tr style=\"border-top:1px solid #EEEDE8\"><td style=\"padding:18px 24px;font-weight:600\">Collections</td><td style=\"padding:18px 24px;color:#6E6C8A\">Per-transaction fee by method</td><td style=\"padding:18px 24px;font-weight:600;color:#131126\">In your agreement</td></tr><tr style=\"border-top:1px solid #EEEDE8\"><td style=\"padding:18px 24px;font-weight:600\">Business accounts</td><td style=\"padding:18px 24px;color:#6E6C8A\">Tailored to currencies and volume</td><td style=\"padding:18px 24px;font-weight:600;color:#131126\">In your agreement</td></tr><tr style=\"border-top:1px solid #EEEDE8\"><td style=\"padding:18px 24px;font-weight:600\">OTC desk</td><td style=\"padding:18px 24px;color:#6E6C8A\">Firm quote from a trader</td><td style=\"padding:18px 24px;font-weight:600;color:#131126\">Held for 60 seconds</td></tr></tbody></table></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">No intermediary deductions</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">No correspondent banks take a cut on the way.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Locked quotes</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">The amount the recipient gets is fixed when you approve.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff;display:flex;flex-direction:column;gap:12px;\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(24px, 0.9vw + 20px, 34px);line-height:1.05;font-weight:700;letter-spacing:-0.025em;margin:0\">Volume pricing</h3><p style=\"font-size:15px;line-height:23px;color:#4C4A66;margin:0\">Rates improve with volume and the markets you use.</p></div></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:clamp(24px,4vw,56px);align-items:start\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Pricing questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;grid-column:span 2;min-width:0\"><details open=\"\" style=\"border-radius:20px;background:#fff\"><summary style=\"cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px\"><h3 style=\"margin:0;font-size:17px;font-weight:500;line-height:24px\">How does ElementPay pricing work?</h3><span style=\"width:30px;height:30px;border-radius:50%;background:#F6F4EF;display:grid;place-items:center;color:#3B2ED3;flex:none;font-size:18px\">+</span></summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Each payment shows two things before you confirm: the exchange rate and the fee. Nothing is deducted by intermediaries on the way, so the recipient gets the amount shown.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px\"><h3 style=\"margin:0;font-size:17px;font-weight:500;line-height:24px\">Are there hidden fees?</h3><span style=\"width:30px;height:30px;border-radius:50%;background:#F6F4EF;display:grid;place-items:center;color:#3B2ED3;flex:none;font-size:18px\">+</span></summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">No. The rate and fee are shown upfront and fixed when you approve.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px\"><h3 style=\"margin:0;font-size:17px;font-weight:500;line-height:24px\">Is there volume pricing?</h3><span style=\"width:30px;height:30px;border-radius:50%;background:#F6F4EF;display:grid;place-items:center;color:#3B2ED3;flex:none;font-size:18px\">+</span></summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Pricing is tailored to your markets, rails and monthly volume. Large FX and stablecoin tickets can be quoted by the OTC desk.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:22px 24px\"><h3 style=\"margin:0;font-size:17px;font-weight:500;line-height:24px\">Do stablecoin conversions cost more?</h3><span style=\"width:30px;height:30px;border-radius:50%;background:#F6F4EF;display:grid;place-items:center;color:#3B2ED3;flex:none;font-size:18px\">+</span></summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">USDC and USDT conversions are quoted like any other currency pair, with the rate and fee shown before you confirm.</p></details></div></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(80px,10vw,140px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><div style=\"display:flex;align-items:center;gap:20px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:14ch\">Get pricing for your markets.</h2></div><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

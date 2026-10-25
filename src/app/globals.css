@@ -1,42 +1,30 @@
-@import "tailwindcss";
+/* Tailwind theme and utilities only. Its preflight reset is left out on
+   purpose: every page is built from the design export, which is authored
+   against browser defaults (content-box sizing, default p/ul margins, inline
+   images). With preflight, padded sections lose ~96px of width and headings
+   re-wrap. */
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
 
-/* BRAND.md defines one light palette with no dark-mode variant: pin these
-   regardless of OS color-scheme so inherited text never goes invisible
-   (e.g. a plain <h2> would otherwise inherit a near-white color here and
-   disappear against the brand's cream/white backgrounds). */
+/* BRAND.md defines one light palette with no dark-mode variant. */
 :root {
-  /* BRAND.md: white is the page ground on inner pages; the homepage
-     overrides this locally with its own cream wrapper. */
-  --background: #ffffff;
-  --foreground: #131126;
   color-scheme: light;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-body);
   --font-mono: var(--font-label);
   --font-heading: var(--font-heading);
 }
 
+/* The body rule every design page repeats in its <helmet>. */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-body), Arial, Helvetica, sans-serif;
-}
-
-/* body is `flex flex-col` (layout.tsx) with no wrapping element around page
-   content, so every top-level section is a flex item. Flex items centered
-   via `max-width + margin: 0 auto` (the standard pattern used throughout
-   this codebase) are cross-axis sized by content ("fit-content"), not
-   stretched to fill — grid-heavy sections collapse to their content's
-   natural width instead of expanding to max-width on wide viewports.
-   Forcing width:100% here restores stretch-then-clamp sizing for every
-   direct child, while leaving their own internal max-width centering
-   (which runs in normal block flow, not as a flex item) unaffected. */
-body > * {
-  width: 100%;
+  margin: 0;
+  background: #fff;
+  color: #131126;
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* BRAND.md section 2: links, focus and selection, defined once instead of per page */
@@ -45,7 +33,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: #2a1fb0;
+  color: #131126;
 }
 *:focus-visible {
   outline: 2px solid #7c6fff;
@@ -57,11 +45,6 @@ a:hover {
 }
 body {
   text-wrap: pretty;
-}
-h1,
-h2,
-h3 {
-  text-wrap: balance;
 }
 
 /* Shared resets from the ElementPay design system (repeated across every .dc.html <helmet>) */
