@@ -169,10 +169,11 @@ export const HOME_FAQS: Array<{ q: string; a: string }> = [
 export const SCENE_NAMES = ["Collect and pay out", "Where we reach", "Bulk payouts", "Stablecoin ramps", "Settlement and FX"];
 
 export const HOME_SOCIALS: Array<{ n: string; href: string }> = [
-  { n: "LinkedIn", href: "https://www.linkedin.com/company/elementpayhq/" },
-  { n: "X", href: "https://x.com/element_pay" },
-  { n: "TikTok", href: "https://www.tiktok.com/@elementpay" },
-  { n: "Instagram", href: "https://www.instagram.com/_elementpay/" },
+  { n: "LinkedIn", href: "https://www.linkedin.com/company/elementpay" },
+  { n: "X", href: "https://x.com/elementpay" },
+  { n: "Telegram", href: "https://t.me/elementpay" },
+  { n: "YouTube", href: "https://www.youtube.com/@elementpay" },
+  { n: "Instagram", href: "https://www.instagram.com/elementpay" },
 ];
 
 export const HOME_FOOTER_COLUMNS: Array<{ h: string; links: Array<{ t: string; href: string }> }> = [

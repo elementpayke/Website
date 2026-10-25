@@ -45,6 +45,11 @@ export default function HeroScene() {
           position: "relative",
           width: "100%",
           aspectRatio: "1/0.92",
+          borderRadius: 28,
+          background: "#fff",
+          border: "1px solid rgba(19,17,38,.08)",
+          boxShadow: "0 40px 80px -50px rgba(19,17,38,.45)",
+          overflow: "hidden",
         }}
       >
         <div

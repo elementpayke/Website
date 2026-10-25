@@ -7,7 +7,8 @@ import { TYPE } from "@/lib/brand";
 const MUTED = "#4C4A66";
 
 export default function FaqSection() {
-  const [open, setOpen] = useState(-1);
+  // The design opens the first question by default.
+  const [open, setOpen] = useState(0);
 
   return (
     <section
