@@ -35,6 +35,8 @@ function ContactFormInner() {
   const [need, setNeed] = useState(NEEDS[0]);
   const [message, setMessage] = useState("");
   const [sent, setSent] = useState(false);
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   if (sent) {
     return (
@@ -55,9 +57,26 @@ function ContactFormInner() {
 
   return (
     <form
-      onSubmit={(e) => {
+      onSubmit={async (e) => {
         e.preventDefault();
-        setSent(true);
+        setSubmitting(true);
+        setError(null);
+        try {
+          const res = await fetch("/api/contact", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ name, email, company, need, message }),
+          });
+          if (!res.ok) {
+            const body = await res.json().catch(() => null);
+            throw new Error(body?.error || "Failed to send your message. Please try again.");
+          }
+          setSent(true);
+        } catch (err) {
+          setError(err instanceof Error ? err.message : "Failed to send your message. Please try again.");
+        } finally {
+          setSubmitting(false);
+        }
       }}
       style={{ borderRadius: 24, background: "#fff", padding: "clamp(24px,4vw,40px)", display: "grid", gap: 14 }}
     >
@@ -116,8 +135,14 @@ function ContactFormInner() {
           style={{ ...inputStyle, height: "auto", padding: "14px 18px", resize: "vertical", fontFamily: "var(--font-body)" }}
         />
       </label>
+      {error && (
+        <p role="alert" style={{ margin: 0, fontSize: 14, color: "#b42318" }}>
+          {error}
+        </p>
+      )}
       <button
         type="submit"
+        disabled={submitting}
         style={{
           height: 52,
           marginTop: 6,
@@ -126,10 +151,11 @@ function ContactFormInner() {
           background: COLOR.indigo,
           color: "#fff",
           font: "600 16px var(--font-body)",
-          cursor: "pointer",
+          cursor: submitting ? "default" : "pointer",
+          opacity: submitting ? 0.7 : 1,
         }}
       >
-        Send to the team
+        {submitting ? "Sending…" : "Send to the team"}
       </button>
     </form>
   );
