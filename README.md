@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ElementPay website
 
-## Getting Started
+The ElementPay marketing site (Next.js app router). Pages are built from the
+Claude Design export and follow [`BRAND.md`](./BRAND.md).
 
-First, run the development server:
+## Develop
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev        # http://localhost:3100
+npm run test:run   # unit tests (Vitest)
+npm run test:e2e   # end-to-end tests (Playwright; builds and starts the site)
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How pages are built
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Pages | Source |
+| --- | --- |
+| Country, corridor, currency-account, stablecoin, gateway, comparison and other static pages (154, including the 16 French pages) | Imported verbatim from the design into `src/content/design-pages/` and served by `src/app/(site)/[slug]` and `src/app/(fr)/fr/[slug]` |
+| Homepage, products, solutions, company, blog, press, status, careers, contact, coverage | React components in `src/components/*`, ported from the design's interactive components |
+| Shared nav and footer | `src/components/nav/EPNav.tsx`, `src/components/footer/EPFooter.tsx` |
+| Titles, descriptions, Open Graph, hreflang and JSON-LD | Taken from each design page's `<helmet>` (`src/content/design-pages/heads.json` for the hand-built pages) |
+| `sitemap.xml`, `llms.txt` | The design's own files, imported alongside the pages |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+French pages live in a separate root layout so they render with `<html lang="fr">`.
 
-## Learn More
+### Updating from a new design export
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+node scripts/import-design.mjs <path-to-design-project>
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The importer rewrites `src/content/design-pages/` and `src/app/design-pseudo.css`
+(hover and focus states). It maps design filenames to clean URLs using each
+page's canonical link, points flags at `/flags`, swaps the design font names for
+the `next/font` variables and removes speed and opening-hours claims from the
+French copy (BRAND.md). Run the tests afterwards: `src/app/sitemap.test.ts`
+checks every sitemap URL has a route, and `src/lib/design/pseudo.test.ts`
+checks every hover state a component uses was generated.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Hand-built pages are not regenerated; port changes to their components by hand.
 
-## Deploy on Vercel
+## Design handoff notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[`docs/design/`](./docs/design) holds the notes that came with the design:
+the developer handoff (URL map, redirects, forms, live data, launch checklist)
+and the SEO/AI-search and code-review prompts.
