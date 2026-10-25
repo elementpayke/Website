@@ -6,13 +6,16 @@ import Link from "next/link";
 import { hover } from "@/lib/design/pseudo";
 import { PAYOUT_COUNTRIES, PAYOUT_REGIONS } from "@/lib/geo/coverageData";
 
+// Case- and accent-insensitive, so "cote" finds Côte d'Ivoire.
+const fold = (s: string) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+
 /** "20 payout countries." with region chips and search (design: Coverage.html). */
 export default function CoverageDirectory() {
   const [reg, setReg] = useState("All");
   const [q, setQ] = useState("");
-  const ql = q.trim().toLowerCase();
+  const ql = fold(q.trim());
   const rows = PAYOUT_COUNTRIES.filter(
-    (p) => (reg === "All" || p.region === reg) && (!ql || `${p.name} ${p.currency} ${p.rails.join(" ")}`.toLowerCase().includes(ql)),
+    (p) => (reg === "All" || p.region === reg) && (!ql || fold(`${p.name} ${p.currency} ${p.rails.join(" ")}`).includes(ql)),
   );
 
   return (

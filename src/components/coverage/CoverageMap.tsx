@@ -29,6 +29,7 @@ const CSS = `
 .cov-seg:hover{color:#fff}.cov-seg.on{background:#fff;color:#131126}
 .cov-country{fill:rgba(255,255,255,.07);stroke:#131126;stroke-width:.6;transition:fill .2s}
 .cov-country.on{fill:#8E8BAB;cursor:pointer}.cov-country.on:hover{fill:#B4B1D0}.cov-country.sel{fill:#fff}
+.cov-country:focus{outline:none}.cov-country:focus-visible{stroke:#FFB224;stroke-width:1.5}
 .cov-arc{fill:none;stroke:#B4B1D0;stroke-width:1.3;stroke-dasharray:4 6;animation:epDash 1.2s linear infinite;opacity:.85}
 .cov-flag{width:22px;height:16px;border-radius:3px;object-fit:cover;box-shadow:0 0 0 1px rgba(19,17,38,.08);flex:none;display:block}
 .cov-rail{padding:6px 10px;border-radius:8px;background:#F6F4EF;font-size:13px}
@@ -163,6 +164,8 @@ export default function CoverageMap() {
   const [mode, setMode] = useState<Mode>("payouts");
   const [sel, setSel] = useState("404");
   const [feats, setFeats] = useState<Country[]>([]);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [loadAttempt, setLoadAttempt] = useState(0);
   const [tip, setTip] = useState<{ x: number; y: number; flag: string; text: string } | null>(null);
   const svgRef = useRef<SVGSVGElement>(null);
 
@@ -173,11 +176,18 @@ export default function CoverageMap() {
       const topo = m.default as unknown as Topology<{ countries: GeometryCollection<{ name: string }> }>;
       const fc = feature(topo, topo.objects.countries) as FeatureCollection<Geometry, { name: string }>;
       if (live) setFeats(fc.features.filter((f) => f.id !== "010") as Country[]);
+    }).catch(() => {
+      if (live) setLoadFailed(true);
     });
     return () => {
       live = false;
     };
-  }, []);
+  }, [loadAttempt]);
+
+  const retryLoad = () => {
+    setLoadFailed(false);
+    setLoadAttempt((n) => n + 1);
+  };
 
   const proj: GeoProjection = useMemo(
     () =>
@@ -240,21 +250,37 @@ export default function CoverageMap() {
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,320px),1fr))", gap: 12, marginTop: 20, alignItems: "stretch" }}>
           <div style={{ gridColumn: "span 2", minWidth: 0, position: "relative", borderRadius: 24, background: "rgba(255,255,255,.04)", overflow: "hidden" }}>
-            <svg ref={svgRef} viewBox={`0 0 ${W} ${H}`} style={{ display: "block", width: "100%", height: "auto" }} role="img" aria-label="Map of ElementPay coverage">
+            <svg ref={svgRef} viewBox={`0 0 ${W} ${H}`} style={{ display: "block", width: "100%", height: "auto" }} role="group" aria-label="Map of ElementPay coverage">
               <g>
-                {feats.map((f, i) => (
-                  <path
-                    // A few territories in world-atlas have no ISO id.
-                    key={f.id ?? `shape-${i}`}
-                    data-id={f.id}
-                    d={path(f) ?? undefined}
-                    className={`cov-country${isOn(f.id) && mode !== "corridors" ? " on" : ""}${isSel(f.id) ? " sel" : ""}`}
-                    style={mode === "corridors" && PAYOUT_BY_ID[f.id] ? { fill: "rgba(142,139,171,.55)" } : undefined}
-                    onMouseMove={(e) => onMove(e, f)}
-                    onMouseLeave={() => setTip(null)}
-                    onClick={() => mode !== "corridors" && isOn(f.id) && setSel(f.id)}
-                  />
-                ))}
+                {feats.map((f, i) => {
+                  const pick = mode !== "corridors" && isOn(f.id);
+                  const hit = mode === "accounts" ? ACCOUNT_BY_ID[f.id] : PAYOUT_BY_ID[f.id];
+                  return (
+                    <path
+                      // A few territories in world-atlas have no ISO id.
+                      key={f.id ?? `shape-${i}`}
+                      data-id={f.id}
+                      d={path(f) ?? undefined}
+                      className={`cov-country${pick ? " on" : ""}${isSel(f.id) ? " sel" : ""}`}
+                      style={mode === "corridors" && PAYOUT_BY_ID[f.id] ? { fill: "rgba(142,139,171,.55)" } : undefined}
+                      onMouseMove={(e) => onMove(e, f)}
+                      onMouseLeave={() => setTip(null)}
+                      onClick={() => pick && setSel(f.id)}
+                      {...(pick && {
+                        tabIndex: 0,
+                        role: "button",
+                        "aria-label": Array.isArray(hit) ? `${f.properties.name}, ${hit[0]} account` : `${f.properties.name}, payouts in ${hit?.currency}`,
+                        "aria-pressed": isSel(f.id),
+                        onKeyDown: (e: React.KeyboardEvent) => {
+                          if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            setSel(f.id);
+                          }
+                        },
+                      })}
+                    />
+                  );
+                })}
               </g>
               <g>
                 {mode === "corridors" &&
@@ -306,7 +332,15 @@ export default function CoverageMap() {
               </div>
             )}
             {feats.length === 0 && (
-              <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", fontFamily: "var(--font-label)", fontSize: 13, color: "#8E8BAB" }}>Loading map…</div>
+              <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", fontFamily: "var(--font-label)", fontSize: 13, color: "#8E8BAB" }}>
+                {loadFailed ? (
+                  <button type="button" className="cov-seg" onClick={retryLoad}>
+                    Map didn&apos;t load · retry
+                  </button>
+                ) : (
+                  "Loading map…"
+                )}
+              </div>
             )}
           </div>
           <aside style={{ borderRadius: 24, background: "#fff", color: "#131126", padding: 28, display: "flex", flexDirection: "column", gap: 18, minHeight: 360 }}>

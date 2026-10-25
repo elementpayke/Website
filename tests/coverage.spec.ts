@@ -25,6 +25,20 @@ test.describe("Coverage page", () => {
     await expect(directory.getByRole("link", { name: /Kenya/ })).toHaveCount(0);
   });
 
+  test("countries are selectable from the keyboard and search ignores accents", async ({ page }) => {
+    await page.goto("/coverage");
+    const map = page.locator('[data-screen-label="Map"]');
+    const ghana = map.getByRole("button", { name: "Ghana, payouts in GHS" });
+    await ghana.focus();
+    await page.keyboard.press("Enter");
+    await expect(ghana).toHaveAttribute("aria-pressed", "true");
+    await expect(map.getByRole("link", { name: "Send money to Ghana →" })).toBeVisible();
+
+    await page.getByLabel("Search payout countries").fill("cote");
+    const directory = page.locator('[data-screen-label="Payout countries"]');
+    await expect(directory.getByRole("link", { name: /Côte d’Ivoire/ })).toBeVisible();
+  });
+
   test("has no horizontal overflow", async ({ page }) => {
     await page.goto("/coverage");
     const { scrollWidth, clientWidth } = await page.evaluate(() => ({
