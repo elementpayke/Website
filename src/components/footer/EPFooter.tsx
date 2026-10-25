@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -50,7 +51,7 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
       ["USDC and USDT ramps", "stablecoins.dc.html"],
       ["Off-ramp API", "stablecoin-off-ramp-api.dc.html"],
       ["On-ramp API", "stablecoin-on-ramp-api.dc.html"],
-      ["Buyer's guide", "best-stablecoin-payment-api-africa.dc.html"],
+      ["Buyer’s guide", "best-stablecoin-payment-api-africa.dc.html"],
     ],
   ],
   [
@@ -82,10 +83,11 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
 ];
 
 const SOCIALS: Array<[string, string]> = [
-  ["LinkedIn", "https://www.linkedin.com/company/elementpayhq/"],
-  ["X", "https://x.com/element_pay"],
-  ["TikTok", "https://www.tiktok.com/@elementpay"],
-  ["Instagram", "https://www.instagram.com/_elementpay/"],
+  ["LinkedIn", "https://www.linkedin.com/company/elementpay"],
+  ["X", "https://x.com/elementpay"],
+  ["Telegram", "https://t.me/elementpay"],
+  ["YouTube", "https://www.youtube.com/@elementpay"],
+  ["Instagram", "https://www.instagram.com/elementpay"],
 ];
 
 export default function EPFooter() {
@@ -164,6 +166,7 @@ export default function EPFooter() {
             />
             <button
               type="submit"
+              className={hover("background:#2A1FB0")}
               style={{
                 height: 50,
                 padding: "0 22px",
@@ -219,6 +222,7 @@ export default function EPFooter() {
                 target="_blank"
                 rel="noopener"
                 aria-label={`ElementPay on ${name}`}
+                className={hover("background:#3B2ED3;color:#fff")}
                 style={{
                   height: 40,
                   padding: "0 14px",
@@ -229,8 +233,7 @@ export default function EPFooter() {
                   fontWeight: 500,
                   display: "inline-flex",
                   alignItems: "center",
-                  boxShadow: "0 0 0 1px rgba(19,17,38,.08)",
-                  textDecoration: "none",
+                  boxShadow: "0 0 0 1px #E6E2DA",
                 }}
               >
                 {name}
@@ -246,7 +249,8 @@ export default function EPFooter() {
               <Link
                 key={label}
                 href={footerHref(href)}
-                style={{ color: MUTED, padding: "6px 0", display: "inline-block", textDecoration: "none" }}
+                className={hover("color:#3B2ED3")}
+                style={{ color: MUTED, padding: "6px 0", display: "inline-block" }}
               >
                 {label}
               </Link>
@@ -259,7 +263,7 @@ export default function EPFooter() {
         style={{
           marginTop: 48,
           paddingTop: 28,
-          borderTop: "1px solid rgba(19,17,38,.08)",
+          borderTop: "1px solid #E6E2DA",
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,240px),1fr))",
           gap: 24,

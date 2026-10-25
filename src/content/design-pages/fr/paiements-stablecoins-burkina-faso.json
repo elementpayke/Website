@@ -1,0 +1,104 @@
+{
+ "slug": "paiements-stablecoins-burkina-faso",
+ "lang": "fr",
+ "url": "/fr/paiements-stablecoins-burkina-faso",
+ "nav": "Products",
+ "head": {
+  "title": "Paiements en stablecoins au Burkina Faso : USDC et USDT vers XOF pour les entreprises",
+  "description": "Paiements B2B en stablecoins au Burkina Faso. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT.",
+  "canonical": "/fr/paiements-stablecoins-burkina-faso",
+  "alternates": {
+   "en": "/stablecoin-payments-in-burkina-faso",
+   "fr": "/fr/paiements-stablecoins-burkina-faso",
+   "x-default": "/stablecoin-payments-in-burkina-faso"
+  },
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "locale": "fr_FR",
+   "title": "Paiements en stablecoins au Burkina Faso : USDC et USDT vers XOF pour les entreprises | ElementPay",
+   "description": "Paiements B2B en stablecoins au Burkina Faso. Payez fournisseurs et salariés en XOF sur Orange Money et Moov Money depuis un solde USDC ou USDT.",
+   "url": "https://www.elementpay.net/fr/paiements-stablecoins-burkina-faso",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "inLanguage": "fr",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "Comment une entreprise effectue-t-elle des paiements en stablecoins au Burkina Faso ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Alimentez un solde ElementPay en USDC ou USDT, créez un paiement en XOF vers Orange Money et Moov Money, confirmez le montant affiché, et nous convertissons et livrons les fonds."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Peut-on payer des fournisseurs au Burkina Faso en USDT ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Les fournisseurs reçoivent des francs CFA sur Orange Money et Moov Money, sans portefeuille crypto."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Peut-on encaisser en XOF et régler en stablecoins ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Oui. Vos clients paient en XOF localement et les fonds sont réglés en USDC ou USDT sur votre solde."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Quel est le délai de paiement ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La plupart des paiements mobile money partent sur le réseau local dès la confirmation, avec un statut pour chaque paiement."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Est-ce destiné aux particuliers ?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. ElementPay est conçu pour les entreprises, et chaque compte fait l’objet d’une vérification."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Paiements en stablecoins au Burkina Faso",
+     "inLanguage": "fr",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Burkina Faso",
+     "audience": {
+      "@type": "BusinessAudience"
+     }
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Fil d’Ariane\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Accueil</a><span>/</span><a href=\"/stablecoin-payments-africa\" style=\"color:#4C4A66\">Stablecoins</a><span>/</span><span style=\"color:#3B2ED3\">Burkina Faso</span><a href=\"/stablecoin-payments-in-burkina-faso\" hreflang=\"en\" style=\"margin-left:auto;color:#4C4A66\">English</a></nav><img loading=\"lazy\" decoding=\"async\" src=\"/flags/bf.svg\" alt=\"Drapeau : Burkina Faso\" style=\"width:84px;height:56px;border-radius:9px;object-fit:cover;margin-top:28px;box-shadow:0 0 0 1px rgba(19,17,38,.08)\"><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">Paiements en stablecoins au Burkina Faso<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">Payez fournisseurs, salariés et partenaires au Burkina Faso en francs CFA depuis un solde USDC ou USDT, livrés sur Orange Money et Moov Money. Ou encaissez en XOF et réglez en stablecoins. Conçu pour les entreprises, avec un taux bloqué avant confirmation.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Parler à notre équipe</a><a href=\"/fr/envoyer-de-l-argent-au-burkina-faso\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">Payer au Burkina Faso →</a></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Ce que font les entreprises.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Payer vos fournisseurs en XOF</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Financez en USDC ou USDT et réglez les factures au Burkina Faso sur Orange Money et Moov Money.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">La paie au Burkina Faso</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Payez salariés et prestataires en francs CFA en une seule fois depuis un solde en stablecoins.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Encaisser en XOF, régler en USDC</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Acceptez les paiements locaux de vos clients et conservez le produit en USDC ou USDT.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Intégrer les rampes à votre produit</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Fintechs et portefeuilles proposent des rampes XOF à leurs utilisateurs via notre API.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Comment ça marche.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Vérifiez votre entreprise</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Un seul onboarding pour payer et encaisser dans 20 pays.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Alimentez en stablecoins</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Envoyez des USDC ou USDT, ou utilisez votre solde ElementPay.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Payez en XOF</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Choisissez Orange Money et Moov Money et confirmez le montant bloqué.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Rapprochez</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Chaque paiement renvoie un statut et votre référence par webhook.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">À voir aussi.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/fr/envoyer-de-l-argent-au-burkina-faso\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Envoyer de l’argent au Burkina Faso</a><a href=\"/stablecoin-payments-in-burkina-faso\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Version anglaise</a><a href=\"/stablecoin-payroll\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Paie en stablecoins</a><a href=\"/stablecoin-payment-gateway\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Passerelle de paiement stablecoin</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Comment une entreprise effectue-t-elle des paiements en stablecoins au Burkina Faso ?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Alimentez un solde ElementPay en USDC ou USDT, créez un paiement en XOF vers Orange Money et Moov Money, confirmez le montant affiché, et nous convertissons et livrons les fonds.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Peut-on payer des fournisseurs au Burkina Faso en USDT ?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Oui. Les fournisseurs reçoivent des francs CFA sur Orange Money et Moov Money, sans portefeuille crypto.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Peut-on encaisser en XOF et régler en stablecoins ?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Oui. Vos clients paient en XOF localement et les fonds sont réglés en USDC ou USDT sur votre solde.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Quel est le délai de paiement ?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">La plupart des paiements mobile money partent sur le réseau local dès la confirmation, avec un statut pour chaque paiement.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Est-ce destiné aux particuliers ?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Non. ElementPay est conçu pour les entreprises, et chaque compte fait l’objet d’une vérification.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Payez au Burkina Faso en stablecoins.</h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Parler à notre équipe</a></div></section>\n\n</div>"
+}

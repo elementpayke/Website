@@ -4,11 +4,29 @@ import { useState } from "react";
 import Image from "next/image";
 import { COLOR } from "@/lib/brand";
 import { RATE, fmt } from "@/lib/products/fx";
-import { COUNTRIES as COVERAGE_COUNTRIES } from "@/lib/geo/coverage";
 
-const COUNTRIES: Array<[string, string, string, string, string[]]> = COVERAGE_COUNTRIES.map(
-  (c) => [c.iso, c.name, c.currencyCode, c.dialCode, c.rails.map((r) => r.name)]
-);
+const COUNTRIES: Array<[string, string, string, string, string[]]> = [
+  ["ke", "Kenya", "KES", "+254", ["M-Pesa", "Airtel Money", "PesaLink"]],
+  ["ug", "Uganda", "UGX", "+256", ["MTN MoMo", "Airtel Money", "Bank"]],
+  ["tz", "Tanzania", "TZS", "+255", ["M-Pesa", "Airtel Money", "Mixx by Yas"]],
+  ["rw", "Rwanda", "RWF", "+250", ["MTN MoMo", "Airtel Money"]],
+  ["et", "Ethiopia", "ETB", "+251", ["telebirr", "Bank"]],
+  ["ng", "Nigeria", "NGN", "+234", ["Bank transfer"]],
+  ["gh", "Ghana", "GHS", "+233", ["MTN MoMo", "Telecel Cash", "Bank"]],
+  ["sn", "Senegal", "XOF", "+221", ["Wave", "Orange Money", "Free Money"]],
+  ["ci", "Côte d'Ivoire", "XOF", "+225", ["Orange Money", "MTN MoMo", "Wave"]],
+  ["bj", "Benin", "XOF", "+229", ["MTN MoMo", "Moov Money"]],
+  ["tg", "Togo", "XOF", "+228", ["Moov Money", "Mixx by Yas"]],
+  ["bf", "Burkina Faso", "XOF", "+226", ["Orange Money", "Moov Money"]],
+  ["ml", "Mali", "XOF", "+223", ["Orange Money", "Moov Money"]],
+  ["cm", "Cameroon", "XAF", "+237", ["MTN MoMo", "Orange Money"]],
+  ["cd", "DR Congo", "CDF", "+243", ["M-Pesa", "Airtel Money", "Orange Money"]],
+  ["za", "South Africa", "ZAR", "+27", ["Bank EFT"]],
+  ["zm", "Zambia", "ZMW", "+260", ["MTN MoMo", "Airtel Money"]],
+  ["mw", "Malawi", "MWK", "+265", ["Airtel Money", "TNM Mpamba"]],
+  ["mz", "Mozambique", "MZN", "+258", ["M-Pesa", "e-Mola"]],
+  ["bw", "Botswana", "BWP", "+267", ["Orange Money", "Bank"]],
+];
 const FUNDS = ["USD", "EUR", "USDC", "USDT"];
 
 function chipStyle(on: boolean) {
@@ -35,11 +53,11 @@ export default function PaymentsDemo() {
   const [iso, name, currency, dial, rails] = country;
   const rail = rails[Math.min(railIdx, rails.length - 1)];
   const fund = FUNDS[fundIdx];
-  const bank = /Bank|EFT/.test(rail);
+  const bank = /Bank|PesaLink|EFT/.test(rail);
   const send = fund === "EUR" ? "€460.00" : fund === "USD" ? "$500.00" : `500.00 ${fund}`;
   const local = `${currency} ${fmt(500 * (RATE[currency] ?? 1))}`;
   const phone = bank ? "Account •••• 4821" : `${dial} 7•• ••• 412`;
-  const time = "Depends on the rail";
+  const time = bank ? "41s" : "34s";
   const steps = [
     `${fund.startsWith("USD") && fund !== "USD" ? `${fund} converted` : "Quote locked"} · ${currency}`,
     `Routed via ${rail}`,
@@ -54,7 +72,7 @@ export default function PaymentsDemo() {
           <div style={{ fontFamily: "var(--font-heading)", fontSize: 48, fontWeight: 700, letterSpacing: "-0.03em", marginTop: 4 }}>{send}</div>
         </div>
         <div>
-          <div style={{ fontFamily: "var(--font-label)", fontSize: 12, color: COLOR.muted, marginBottom: 10 }}>TO · {COUNTRIES.length}+ COUNTRIES</div>
+          <div style={{ fontFamily: "var(--font-label)", fontSize: 12, color: COLOR.muted, marginBottom: 10 }}>TO · 20 COUNTRIES</div>
           <div style={{ display: "flex", gap: 6, flexWrap: "wrap" }}>
             {COUNTRIES.map(([f, n], i) => (
               <button key={n} type="button" onClick={() => { setCountryIdx(i); setRailIdx(0); }} style={chipStyle(i === countryIdx)}>

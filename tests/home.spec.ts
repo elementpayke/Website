@@ -29,10 +29,12 @@ test("coverage region tabs filter stops", async ({ page }) => {
   await expect(page.locator('[data-screen-label="Coverage"]').getByText("Nigeria")).toBeVisible();
 });
 
-test("FAQ accordion expands an answer", async ({ page }) => {
+test("FAQ accordion opens the first answer and switches on click", async ({ page }) => {
   await page.goto("/");
-  await page.getByText("What does ElementPay do?").click();
-  await expect(page.locator('[data-screen-label="FAQ"]').getByText(/payment infrastructure for businesses/)).toBeVisible();
+  const faq = page.locator('[data-screen-label="FAQ"]');
+  await expect(faq.getByText(/payment infrastructure for businesses/)).toBeVisible();
+  await page.getByText("Which markets do you cover?").click();
+  await expect(faq.getByText(/payment infrastructure for businesses/)).toBeHidden();
 });
 
 test("navigating to the blog from the home page works", async ({ page }) => {

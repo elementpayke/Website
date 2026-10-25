@@ -45,6 +45,11 @@ export default function HeroScene() {
           position: "relative",
           width: "100%",
           aspectRatio: "1/0.92",
+          borderRadius: 28,
+          background: "#fff",
+          border: "1px solid rgba(19,17,38,.08)",
+          boxShadow: "0 40px 80px -50px rgba(19,17,38,.45)",
+          overflow: "hidden",
         }}
       >
         <div
@@ -156,7 +161,7 @@ export default function HeroScene() {
               <EpGlobe />
             </div>
             <div style={{ position: "absolute", left: 0, right: 0, bottom: "3%", display: "flex", justifyContent: "center", fontFamily: "var(--font-heading)", fontSize: 13, fontWeight: 700, color: "#4C4A66", whiteSpace: "nowrap", animation: "epIn .6s 1s both" }}>
-              Payouts in 10+ African countries. Accounts in 30 currencies.
+              Payouts in 20 African countries. Accounts in 30 currencies.
             </div>
           </div>
         )}

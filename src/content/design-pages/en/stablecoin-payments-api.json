@@ -1,0 +1,129 @@
+{
+ "slug": "stablecoin-payments-api",
+ "lang": "en",
+ "url": "/stablecoin-payments-api",
+ "nav": "Products",
+ "head": {
+  "title": "Stablecoin payments API and gateway for Africa: USDC and USDT payment solutions",
+  "description": "Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa.",
+  "canonical": "/stablecoin-payments-api",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Stablecoin payments API and gateway for Africa: USDC and USDT payment solutions | ElementPay",
+   "description": "Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa.",
+   "url": "https://www.elementpay.net/stablecoin-payments-api",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a stablecoin payments API?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It is a single integration that lets your software send, receive and convert dollar stablecoins such as USDC and USDT, and pay out or collect in local currency."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which stablecoins and countries do you support?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDC and USDT, with payouts to mobile money and bank accounts in 20 African countries including Nigeria, Kenya, Ghana, Uganda, Tanzania, South Africa, Senegal and Cameroon."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How fast are payouts?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most mobile money payouts are sent on local rails as soon as you confirm, with a status for every payment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a sandbox?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Approved businesses get sandbox keys to test orders, quotes and webhooks before going live."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we reconcile stablecoin payments with invoices?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Every order carries your own reference and every webhook returns it, so each payment can be matched to an invoice or ledger entry."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who is it for?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Businesses: fintechs, platforms, payroll providers, PSPs, remittance companies and merchants. Every account goes through business verification."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "The stablecoin payments API for Africa",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Africa",
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "Stablecoin payments API and payment gateway for businesses in Africa. Collect, pay out and settle in USDC and USDT to M-Pesa, MTN MoMo and bank accounts in 20 countries, with webhooks for every event."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stablecoins",
+       "item": "https://www.elementpay.net/stablecoins"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Stablecoin payments API",
+       "item": "https://www.elementpay.net/stablecoin-payments-api"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#6E6C8A\"><a href=\"/\" style=\"color:#6E6C8A\">Home</a><span>/</span><a href=\"/stablecoins\" style=\"color:#6E6C8A\">Stablecoins</a><span>/</span><span style=\"color:#3B2ED3\">Stablecoin payments API</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">The stablecoin payments API for Africa<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:56ch\">Collect, pay out and settle in USDC and USDT through one API. Your customers and recipients get local currency on M-Pesa, MTN MoMo, Airtel Money or their bank. Built for fintechs, platforms, payroll providers and merchants.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/#platform\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See the platform →</a></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">What businesses build on it.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Stablecoin payouts</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Fund in USDC or USDT and pay suppliers, staff or users in local currency to mobile money and banks in 20 African countries.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Stablecoin collections</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Collect in naira, shillings or cedis through local rails and settle into USDC or USDT on your balance.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Payment gateway and checkout</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Accept stablecoins from customers at checkout and reconcile each payment against an order or invoice.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Wallet integration</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Add on- and off-ramps to your own wallet or mobile app so users can move between stablecoins and mobile money.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Create an order</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">One API call with the amount, currency and destination. Use the same objects in every market.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Lock the quote</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">We return the rate and fee upfront. Once confirmed, the local amount is fixed.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Fund in stablecoins</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Send USDC or USDT on supported chains, or draw from your ElementPay balance.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Track by webhook</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Receive events for created, routed, settled and failed, each with a reference you can reconcile.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Stablecoin routes.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/usdc-to-nigeria\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Nigeria</a><a href=\"/usdt-to-nigeria\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDT to Nigeria</a><a href=\"/usdc-to-kenya\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Kenya</a><a href=\"/usdt-to-kenya\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDT to Kenya</a><a href=\"/usdc-to-ghana\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Ghana</a><a href=\"/usdt-to-ghana\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDT to Ghana</a><a href=\"/usdc-to-uganda\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Uganda</a><a href=\"/usdc-to-south-africa\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to South Africa</a><a href=\"/usdt-to-cameroon\" style=\"padding:12px 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDT to Cameroon</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">What is a stablecoin payments API?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">It is a single integration that lets your software send, receive and convert dollar stablecoins such as USDC and USDT, and pay out or collect in local currency.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Which stablecoins and countries do you support?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">USDC and USDT, with payouts to mobile money and bank accounts in 20 African countries including Nigeria, Kenya, Ghana, Uganda, Tanzania, South Africa, Senegal and Cameroon.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">How fast are payouts?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Most mobile money payouts are sent on local rails as soon as you confirm, with a status for every payment.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Is there a sandbox?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Approved businesses get sandbox keys to test orders, quotes and webhooks before going live.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we reconcile stablecoin payments with invoices?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Every order carries your own reference and every webhook returns it, so each payment can be matched to an invoice or ledger entry.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Who is it for?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Businesses: fintechs, platforms, payroll providers, PSPs, remittance companies and merchants. Every account goes through business verification.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Integrate stablecoin payments.</h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding:clamp(56px,7vw,88px) clamp(20px,4vw,48px) 0\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);letter-spacing:-0.035em;font-weight:700;margin:0\">Explore more.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:20px\"><a href=\"/stablecoin-off-ramp-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px;box-shadow:inset 0 0 0 1px rgba(19,17,38,.08)\" class=\"dp-1hp7yy2\">Stablecoin off-ramp API</a><a href=\"/stablecoin-on-ramp-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px;box-shadow:inset 0 0 0 1px rgba(19,17,38,.08)\" class=\"dp-1hp7yy2\">Stablecoin on-ramp API</a><a href=\"/payout-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px;box-shadow:inset 0 0 0 1px rgba(19,17,38,.08)\" class=\"dp-1hp7yy2\">Payout API</a></div></section>\n\n</div>"
+}

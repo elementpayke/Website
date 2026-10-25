@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 import { COLOR, TYPE, fullStopSquare } from "@/lib/brand";
 import type { ProductData } from "@/lib/products/productsData";
 
@@ -37,6 +38,7 @@ export default function ProductHero({ product }: { product: ProductData }) {
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap", marginTop: 32 }}>
           <Link
             href="/contact"
+            className={hover("background:#2A1FB0;color:#fff")}
             style={{ padding: "16px 26px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: COLOR.indigo, color: "#fff" }}
           >
             Talk to sales
@@ -46,6 +48,7 @@ export default function ProductHero({ product }: { product: ProductData }) {
               href={product.cta[1]}
               target="_blank"
               rel="noopener"
+              className={hover("background:#ECEAE4;color:#131126")}
               style={{ padding: "16px 26px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: COLOR.cream, color: COLOR.ink }}
             >
               {product.cta[0]} →
@@ -53,6 +56,7 @@ export default function ProductHero({ product }: { product: ProductData }) {
           ) : (
             <Link
               href={product.cta[1]}
+              className={hover("background:#ECEAE4;color:#131126")}
               style={{ padding: "16px 26px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: COLOR.cream, color: COLOR.ink }}
             >
               {product.cta[0]} →

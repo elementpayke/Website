@@ -1,0 +1,814 @@
+[
+ {
+  "path": "/",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/about",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/agentic-payments",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/agentic-payments-policies",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/cfa-franc-xof-xaf",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/correspondent-banking-explained",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/mass-payouts-mobile-money",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/mobile-money-west-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/paying-suppliers-china-from-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/send-money-uk-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/stablecoin-off-ramps-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/business-accounts",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/contact",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/coverage",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/elementpay-dapp",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/elementpay-vs-crypto-exchange-off-ramps",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/elementpay-vs-remittance-apps",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/elementpay-vs-swift-wire",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/exchange-rates",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-ai-agents",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-cross-border-traders",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-financial-institutions",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-fintechs-and-wallets",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-global-merchants",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-growing-businesses",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-ngos-and-aid",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-platforms-and-marketplaces",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/for-remittance-companies",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-benin",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-burkina-faso",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-cameroun",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-mali",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-senegal",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-au-togo",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-en-cote-divoire",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/fr/envoyer-de-l-argent-en-rd-congo",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/glossary",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/help",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/merchant-dashboard",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-aed-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-aud-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-cad-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-chf-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-cny-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-czk-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-dkk-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-eur-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-gbp-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-ghs-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-hkd-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-huf-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-ils-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-jpy-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-kes-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-krw-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-mxn-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-ngn-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-nok-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-nzd-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-pln-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-ron-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-sek-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-sgd-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-thb-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-tzs-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-usd-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-xaf-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-xof-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/open-a-zar-account",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/otc-desk",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/payments",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/payments-api",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press/bank-accounts-30-currencies",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press/mboka-business-app",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press/otc-desk",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press/payouts-20-african-countries",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/press/usdc-usdt-off-ramps",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/pricing",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/security-and-compliance",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-canada-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-canada-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-china-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-china-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-china-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-china-to-tanzania",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-france-to-benin",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-france-to-cameroon",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-france-to-cote-divoire",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-france-to-mali",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-france-to-senegal",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-germany-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-germany-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uae-to-ethiopia",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uae-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uae-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uae-to-uganda",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uk-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uk-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uk-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uk-to-south-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-uk-to-uganda",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-us-to-cameroon",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-us-to-ethiopia",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-us-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-us-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-from-us-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-benin",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-botswana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-burkina-faso",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-cameroon",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-cote-divoire",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-dr-congo",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-ethiopia",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-malawi",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-mali",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-mozambique",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-rwanda",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-senegal",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-south-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-tanzania",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-togo",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-uganda",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/send-money-to-zambia",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/settlement-and-fx",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/stablecoins",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/status",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdc-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdc-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdc-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdc-to-south-africa",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdc-to-uganda",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdt-to-cameroon",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdt-to-ghana",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdt-to-kenya",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/usdt-to-nigeria",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/why-elementpay",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/stablecoin-payments-api",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-api-nigeria",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payroll",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-benin",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-botswana",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-burkina-faso",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-cameroon",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-cote-divoire",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-dr-congo",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-ethiopia",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-ghana",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-kenya",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-malawi",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-mali",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-mozambique",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-rwanda",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-senegal",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-south-africa",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-tanzania",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-togo",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-uganda",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-in-zambia",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-china",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-uk",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-us",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-uae",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-europe",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-canada",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payments-africa",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/b2b-stablecoin-payments",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/stablecoin-payment-gateway",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/payment-gateway-africa",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/card-payment-gateway",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-senegal",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-cote-divoire",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-cameroon",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-benin",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-togo",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-mali",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-burkina-faso",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/fr/paiements-stablecoins-dr-congo",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/best-stablecoin-payment-api-africa",
+  "lastmod": "2026-10-19"
+ },
+ {
+  "path": "/mobile-money-api",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/mpesa-api-for-business",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/payout-api",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/bulk-payouts-africa",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/collect-payments-in-africa",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/cross-border-payments-africa",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/pay-suppliers-in-china-from-africa",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/pay-contractors-in-africa",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/stablecoin-off-ramp-api",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/stablecoin-on-ramp-api",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/elementpay-facts",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/careers",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/blog/usdt-to-mpesa-for-business",
+  "lastmod": "2026-10-21"
+ },
+ {
+  "path": "/blog/usdc-vs-usdt-for-business",
+  "lastmod": "2026-10-20"
+ },
+ {
+  "path": "/blog/b2b-stablecoin-payments-guide",
+  "lastmod": "2026-10-18"
+ },
+ {
+  "path": "/blog/choose-payment-gateway-africa",
+  "lastmod": "2026-10-16"
+ },
+ {
+  "path": "/blog/paying-and-collecting-in-ghana",
+  "lastmod": "2026-10-15"
+ },
+ {
+  "path": "/blog/multi-country-payroll-africa",
+  "lastmod": "2026-10-14"
+ },
+ {
+  "path": "/blog/what-is-a-mobile-money-api",
+  "lastmod": "2026-10-13"
+ },
+ {
+  "path": "/blog/pay-suppliers-in-nigeria-from-abroad",
+  "lastmod": "2026-10-12"
+ }
+]

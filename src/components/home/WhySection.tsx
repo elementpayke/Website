@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 import { TYPE } from "@/lib/brand";
 
 const FEATURES: Array<[string, string, string]> = [
@@ -20,18 +22,19 @@ export default function WhySection() {
             ElementPay is a financial technology company, not a bank. Banking services are provided by licensed
             partner institutions, and every customer goes through business verification.
           </p>
-          <a
+          <Link
             href="/security-and-compliance"
-            style={{ alignSelf: "flex-start", marginTop: 4, padding: "12px 22px", borderRadius: 999, border: "1px solid rgba(255,255,255,.22)", color: "#fff", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 14, textDecoration: "none" }}
+            className={hover("background:rgba(255,255,255,.08);color:#fff")}
+            style={{ alignSelf: "flex-start", marginTop: 4, padding: "12px 22px", borderRadius: 999, border: "1px solid rgba(255,255,255,.22)", color: "#fff", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 14 }}
           >
             How we protect funds →
-          </a>
+          </Link>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,220px),1fr))", gap: 12 }}>
           {FEATURES.map(([color, title, desc]) => (
             <div key={title} style={{ padding: 22, borderRadius: 20, background: "rgba(255,255,255,.07)" }}>
               <span style={{ display: "block", width: 10, height: 10, background: color }} />
-              <h3 style={{ margin: "14px 0 0", fontFamily: "var(--font-heading)", fontSize: 19, fontWeight: 700, letterSpacing: "-0.02em" }}>{title}</h3>
+              <h3 style={{ margin: "14px 0 0", fontFamily: "var(--font-heading)", fontSize: "clamp(19px, 0.45vw + 17px, 24px)", fontWeight: 700, letterSpacing: "-0.02em" }}>{title}</h3>
               <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#B4B1D0" }}>{desc}</p>
             </div>
           ))}

@@ -11,7 +11,7 @@ const DESTINATIONS: Array<[string, string, string, string, string]> = [
   ["gh", "Ghana", "GHS", "MTN MoMo", "+233 2•• ••• 118"],
   ["ug", "Uganda", "UGX", "MTN MoMo", "+256 7•• ••• 903"],
   ["tz", "Tanzania", "TZS", "M-Pesa", "+255 7•• ••• 551"],
-  ["za", "South Africa", "ZAR", "Bank EFT", "•••• 7260"],
+  ["sn", "Senegal", "XOF", "Wave", "+221 7•• ••• 260"],
 ];
 
 const STEPS: Array<[string, string]> = [

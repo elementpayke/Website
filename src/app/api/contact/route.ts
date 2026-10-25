@@ -15,7 +15,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Invalid request body." }, { status: 400 });
   }
 
-  const { name, email, company, need, message } = payload as Record<string, unknown>;
+  const { name, email, company, need, message, role, website, headquarters, businessType, goLive } = payload as Record<string, unknown>;
+  const opt = (v: unknown) => (typeof v === "string" && v.trim() ? v : "—");
 
   if (
     typeof name !== "string" || !name.trim() ||
@@ -36,9 +37,14 @@ export async function POST(request: NextRequest) {
     "",
     `Name: ${name}`,
     `Email: ${email}`,
+    `Job title: ${opt(role)}`,
     `Company: ${company}`,
-    `Need: ${typeof need === "string" && need ? need : "—"}`,
-    `Message: ${typeof message === "string" && message.trim() ? message : "—"}`,
+    `Website: ${opt(website)}`,
+    `Headquarters: ${opt(headquarters)}`,
+    `Business type: ${opt(businessType)}`,
+    `Needs: ${opt(need)}`,
+    `Go live: ${opt(goLive)}`,
+    `Message: ${opt(message)}`,
   ].join("\n");
 
   try {

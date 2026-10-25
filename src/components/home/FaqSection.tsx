@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import { HOME_FAQS } from "./homeData";
 import { TYPE } from "@/lib/brand";
@@ -7,7 +8,8 @@ import { TYPE } from "@/lib/brand";
 const MUTED = "#4C4A66";
 
 export default function FaqSection() {
-  const [open, setOpen] = useState(-1);
+  // The design opens the first question by default.
+  const [open, setOpen] = useState(0);
 
   return (
     <section
@@ -26,8 +28,8 @@ export default function FaqSection() {
           Questions.
         </h2>
         <p style={{ margin: "16px 0 0", fontSize: 16, lineHeight: 1.55, color: MUTED, maxWidth: "36ch" }}>
-          Something else? <a href="/help" style={{ fontWeight: 700 }}>Visit the help centre</a> or{" "}
-          <a href="/contact" style={{ fontWeight: 700 }}>talk to our team</a>.
+          Something else? <Link href="/help" style={{ fontWeight: 700 }}>Visit the help centre</Link> or{" "}
+          <Link href="/contact" style={{ fontWeight: 700 }}>talk to our team</Link>.
         </p>
       </div>
       <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr)", gap: 8, alignContent: "start" }}>

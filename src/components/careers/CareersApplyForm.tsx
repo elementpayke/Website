@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { COLOR } from "@/lib/brand";
+import { hover } from "@/lib/design/pseudo";
 
-const TEAMS = ["Engineering", "Product and design", "Payments operations", "Compliance and risk", "Sales and partnerships", "Customer success"];
+// Design: careers.dc.html.
+const TEAMS = ["Engineering", "Product and design", "Payments operations", "Compliance and risk", "Sales and partnerships", "Customer success", "Other"];
 
 const inputStyle: React.CSSProperties = {
   height: 52,
@@ -19,7 +21,7 @@ const inputStyle: React.CSSProperties = {
 export default function CareersApplyForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [team, setTeam] = useState<string | null>(null);
+  const [team, setTeam] = useState("Engineering");
   const [link, setLink] = useState("");
   const [note, setNote] = useState("");
   const [sent, setSent] = useState(false);
@@ -30,7 +32,7 @@ export default function CareersApplyForm() {
     setSent(false);
     setName("");
     setEmail("");
-    setTeam(null);
+    setTeam("Engineering");
     setLink("");
     setNote("");
   };
@@ -40,7 +42,7 @@ export default function CareersApplyForm() {
       <div style={{ display: "grid", gap: 14 }}>
         <div style={{ width: 56, height: 56, borderRadius: "50%", background: COLOR.indigo, color: "#fff", display: "grid", placeItems: "center", fontSize: 24 }}>✓</div>
         <h3 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(24px, 0.9vw + 20px, 34px)", fontWeight: 700, letterSpacing: "-0.03em", margin: 0 }}>
-          Thanks, {name || "there"}. We&rsquo;ve got your application.
+          Thanks, {name.split(" ")[0] || "there"}. We&rsquo;ve got your application.
         </h3>
         <button
           type="button"
@@ -97,12 +99,13 @@ export default function CareersApplyForm() {
               <button
                 key={t}
                 type="button"
-                onClick={() => setTeam(on ? null : t)}
+                onClick={() => setTeam(t)}
                 aria-pressed={on}
                 style={{
-                  padding: "10px 16px",
+                  minHeight: 40,
+                  padding: "0 14px",
                   border: 0,
-                  borderRadius: 999,
+                  borderRadius: 10,
                   cursor: "pointer",
                   font: "500 14px var(--font-body)",
                   background: on ? COLOR.ink : COLOR.cream,
@@ -121,7 +124,7 @@ export default function CareersApplyForm() {
       </label>
       <label style={{ display: "grid", gap: 8, fontSize: 13, fontWeight: 600 }}>
         What would you work on?
-        <textarea name="note" rows={4} value={note} onChange={(e) => setNote(e.target.value)} style={{ ...inputStyle, height: "auto", padding: "14px 16px", resize: "vertical", fontFamily: "var(--font-body)" }} />
+        <textarea name="note" rows={4} value={note} onChange={(e) => setNote(e.target.value)} style={{ ...inputStyle, height: "auto", padding: "14px 16px", resize: "vertical", font: "16px/1.5 var(--font-body)" }} />
       </label>
       {error && (
         <p role="alert" style={{ margin: 0, fontSize: 14, color: "#b42318" }}>
@@ -131,6 +134,7 @@ export default function CareersApplyForm() {
       <button
         type="submit"
         disabled={submitting}
+        className={hover("background:#2A1FB0")}
         style={{
           justifySelf: "start",
           height: 52,

@@ -1,0 +1,254 @@
+{
+ "slug": "glossary",
+ "lang": "en",
+ "url": "/glossary",
+ "nav": "Resources",
+ "head": {
+  "title": "Payments glossary: mobile money, FX and stablecoin terms explained",
+  "description": "Plain definitions of M-Pesa, PesaLink, CFA franc, SWIFT, correspondent banks, off-ramps, USDC, USDT and other cross-border payment terms.",
+  "canonical": "/glossary",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Payments glossary: mobile money, FX and stablecoin terms explained | ElementPay",
+   "description": "Plain definitions of M-Pesa, PesaLink, CFA franc, SWIFT, correspondent banks, off-ramps, USDC, USDT and other cross-border payment terms.",
+   "url": "https://www.elementpay.net/glossary",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "DefinedTermSet",
+     "name": "ElementPay payments glossary",
+     "url": "https://www.elementpay.net/glossary",
+     "hasDefinedTerm": [
+      {
+       "@type": "DefinedTerm",
+       "name": "ACH",
+       "description": "Automated Clearing House: the US network for batch electronic bank transfers, used for payroll, bills and business payments in USD.",
+       "url": "https://www.elementpay.net/glossary#ach"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "BCEAO",
+       "description": "Central Bank of West African States. It issues the West African CFA franc (XOF) for eight WAEMU countries.",
+       "url": "https://www.elementpay.net/glossary#bceao"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "BEAC",
+       "description": "Bank of Central African States. It issues the Central African CFA franc (XAF) for six CEMAC countries.",
+       "url": "https://www.elementpay.net/glossary#beac"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "CFA franc (XOF and XAF)",
+       "description": "Two separate currencies, the West African CFA franc (XOF) and the Central African CFA franc (XAF), each pegged to the euro at 655.957 francs per euro. They are not interchangeable.",
+       "url": "https://www.elementpay.net/glossary#cfa-franc"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Collection",
+       "description": "Receiving a payment from a customer or partner, for example by mobile money, bank transfer or a payment link.",
+       "url": "https://www.elementpay.net/glossary#collection"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Correspondent bank",
+       "description": "A bank that holds accounts for other banks and processes payments on their behalf, often in a foreign currency. International wires may pass through one or more correspondents.",
+       "url": "https://www.elementpay.net/glossary#correspondent-bank"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "De-risking",
+       "description": "When banks end relationships with clients or regions they consider high risk, rather than managing that risk. It has reduced correspondent banking links with many smaller markets.",
+       "url": "https://www.elementpay.net/glossary#de-risking"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "EFT",
+       "description": "Electronic funds transfer. In South Africa, EFT is the standard way to pay into a bank account.",
+       "url": "https://www.elementpay.net/glossary#eft"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Faster Payments",
+       "description": "The UK real-time payment scheme for GBP transfers between bank accounts, available 24/7.",
+       "url": "https://www.elementpay.net/glossary#faster-payments"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "IBAN",
+       "description": "International Bank Account Number: a standard format that identifies a bank account across borders, used throughout Europe and in many other countries.",
+       "url": "https://www.elementpay.net/glossary#iban"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "KYB",
+       "description": "Know your business: verifying a company’s registration, directors, beneficial owners and activities before it can use a financial service.",
+       "url": "https://www.elementpay.net/glossary#kyb"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Mid-market rate",
+       "description": "The midpoint between the buy and sell prices of two currencies on global markets. Providers add a margin or fee on top.",
+       "url": "https://www.elementpay.net/glossary#mid-market-rate"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Mobile money",
+       "description": "A store of value linked to a mobile phone number, run by a telecom operator or licensed provider, used to pay, send and receive money without a bank account.",
+       "url": "https://www.elementpay.net/glossary#mobile-money"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "M-Pesa",
+       "description": "The mobile money service launched by Safaricom in Kenya in 2007. Vodacom also runs M-Pesa in Tanzania, DR Congo and Mozambique.",
+       "url": "https://www.elementpay.net/glossary#m-pesa"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "MTN MoMo",
+       "description": "MTN Group’s mobile money service, used in Uganda, Ghana, Rwanda, Cameroon, Côte d’Ivoire, Benin, Zambia and other markets.",
+       "url": "https://www.elementpay.net/glossary#mtn-momo"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Nostro account",
+       "description": "An account a bank holds in a foreign currency at another bank, used to send and receive payments in that currency. Pre-funding nostro accounts ties up capital.",
+       "url": "https://www.elementpay.net/glossary#nostro-account"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Off-ramp",
+       "description": "Converting digital assets such as USDC or USDT into local currency, ideally paid straight to a bank account or mobile money wallet.",
+       "url": "https://www.elementpay.net/glossary#off-ramp"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "On-ramp",
+       "description": "Converting local currency into digital assets such as USDC or USDT.",
+       "url": "https://www.elementpay.net/glossary#on-ramp"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "OTC desk",
+       "description": "An over-the-counter desk where a trader quotes large currency or stablecoin trades directly, instead of executing on a public order book.",
+       "url": "https://www.elementpay.net/glossary#otc-desk"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Paybill and Till numbers",
+       "description": "M-Pesa business numbers in Kenya. Paybill is used for bill and account payments; Till (Buy Goods) is used for purchases from merchants.",
+       "url": "https://www.elementpay.net/glossary#paybill-and-till-numbers"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "PesaLink",
+       "description": "A real-time interbank transfer service in Kenya that lets customers send money between participating banks.",
+       "url": "https://www.elementpay.net/glossary#pesalink"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Payout",
+       "description": "Sending money from your balance to a recipient, such as a supplier, employee or customer, on their mobile money wallet or bank account.",
+       "url": "https://www.elementpay.net/glossary#payout"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Rate lock",
+       "description": "Holding an exchange rate quote for a fixed period so the amount the recipient gets does not change while you approve.",
+       "url": "https://www.elementpay.net/glossary#rate-lock"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "SEPA",
+       "description": "Single Euro Payments Area: the scheme for euro bank transfers across the EU and other European countries. SEPA Instant settles in seconds.",
+       "url": "https://www.elementpay.net/glossary#sepa"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Settlement",
+       "description": "The point at which funds actually move and a payment becomes final.",
+       "url": "https://www.elementpay.net/glossary#settlement"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Sort code",
+       "description": "A six-digit number that identifies a UK bank branch. Used with an account number for GBP payments.",
+       "url": "https://www.elementpay.net/glossary#sort-code"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Stablecoin",
+       "description": "A digital token designed to hold a stable value, usually one-to-one with a currency such as the US dollar. USDC and USDT are the most widely used.",
+       "url": "https://www.elementpay.net/glossary#stablecoin"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "SWIFT",
+       "description": "The messaging network banks use to send international payment instructions. A SWIFT payment often relies on correspondent banks to move the funds.",
+       "url": "https://www.elementpay.net/glossary#swift"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "USDC",
+       "description": "A US dollar stablecoin issued by Circle.",
+       "url": "https://www.elementpay.net/glossary#usdc"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "USDT",
+       "description": "A US dollar stablecoin issued by Tether.",
+       "url": "https://www.elementpay.net/glossary#usdt"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Wave",
+       "description": "A mobile money service operating in Senegal, Côte d’Ivoire and other West African countries.",
+       "url": "https://www.elementpay.net/glossary#wave"
+      },
+      {
+       "@type": "DefinedTerm",
+       "name": "Webhook",
+       "description": "A message a platform sends to your server when an event happens, such as a payout being settled.",
+       "url": "https://www.elementpay.net/glossary#webhook"
+      }
+     ]
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Glossary",
+       "item": "https://www.elementpay.net/glossary"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(40px,5vw,64px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#6E6C8A\"><a href=\"/\" style=\"color:#6E6C8A\">Home</a><span>/</span><span style=\"color:#3B2ED3\">Glossary</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0\">The payments glossary<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:50ch\">Plain definitions of the terms that come up when moving money across emerging markets: mobile money, bank rails, FX and stablecoins.</p><div style=\"display:flex;gap:6px;flex-wrap:wrap;margin-top:32px\"><a href=\"#letter-A\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">A</a><a href=\"#letter-B\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">B</a><a href=\"#letter-C\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">C</a><a href=\"#letter-D\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">D</a><a href=\"#letter-E\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">E</a><a href=\"#letter-F\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">F</a><a href=\"#letter-I\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">I</a><a href=\"#letter-K\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">K</a><a href=\"#letter-M\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">M</a><a href=\"#letter-N\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">N</a><a href=\"#letter-O\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">O</a><a href=\"#letter-P\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">P</a><a href=\"#letter-R\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">R</a><a href=\"#letter-S\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">S</a><a href=\"#letter-U\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">U</a><a href=\"#letter-W\" style=\"width:44px;height:44px;border-radius:12px;background:#F6F4EF;color:#131126;display:grid;place-items:center;font-family:var(--font-heading),sans-serif;font-size:20px;font-weight:700\" class=\"dp-39xd0b\">W</a></div><p style=\"font-family:var(--font-label),monospace;font-size:12px;color:#6E6C8A;margin:20px 0 0\">Updated October 2026</p></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,6vw,80px);display:grid;gap:40px\"><div id=\"letter-A\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">A</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"ach\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">ACH</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Automated Clearing House: the US network for batch electronic bank transfers, used for payroll, bills and business payments in USD.</dd><a href=\"/open-a-usd-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-B\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">B</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"bceao\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">BCEAO</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Central Bank of West African States. It issues the West African CFA franc (XOF) for eight WAEMU countries.</dd><a href=\"/open-a-xof-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"beac\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">BEAC</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Bank of Central African States. It issues the Central African CFA franc (XAF) for six CEMAC countries.</dd><a href=\"/open-a-xaf-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-C\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">C</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"cfa-franc\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">CFA franc (XOF and XAF)</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Two separate currencies, the West African CFA franc (XOF) and the Central African CFA franc (XAF), each pegged to the euro at 655.957 francs per euro. They are not interchangeable.</dd><a href=\"/blog/cfa-franc-xof-xaf\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"collection\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Collection</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Receiving a payment from a customer or partner, for example by mobile money, bank transfer or a payment link.</dd><a href=\"/for-global-merchants\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"correspondent-bank\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Correspondent bank</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A bank that holds accounts for other banks and processes payments on their behalf, often in a foreign currency. International wires may pass through one or more correspondents.</dd><a href=\"/blog/correspondent-banking-explained\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-D\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">D</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"de-risking\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">De-risking</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">When banks end relationships with clients or regions they consider high risk, rather than managing that risk. It has reduced correspondent banking links with many smaller markets.</dd><a href=\"/blog/correspondent-banking-explained\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-E\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">E</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"eft\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">EFT</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Electronic funds transfer. In South Africa, EFT is the standard way to pay into a bank account.</dd><a href=\"/send-money-to-south-africa\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-F\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">F</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"faster-payments\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Faster Payments</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">The UK real-time payment scheme for GBP transfers between bank accounts, available 24/7.</dd><a href=\"/open-a-gbp-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-I\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">I</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"iban\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">IBAN</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">International Bank Account Number: a standard format that identifies a bank account across borders, used throughout Europe and in many other countries.</dd><a href=\"/open-a-eur-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-K\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">K</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"kyb\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">KYB</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Know your business: verifying a company’s registration, directors, beneficial owners and activities before it can use a financial service.</dd><a href=\"/security-and-compliance\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-M\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">M</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"mid-market-rate\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Mid-market rate</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">The midpoint between the buy and sell prices of two currencies on global markets. Providers add a margin or fee on top.</dd><a href=\"/pricing\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"mobile-money\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Mobile money</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A store of value linked to a mobile phone number, run by a telecom operator or licensed provider, used to pay, send and receive money without a bank account.</dd><a href=\"/payments\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"m-pesa\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">M-Pesa</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">The mobile money service launched by Safaricom in Kenya in 2007. Vodacom also runs M-Pesa in Tanzania, DR Congo and Mozambique.</dd><a href=\"/send-money-to-kenya\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"mtn-momo\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">MTN MoMo</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">MTN Group’s mobile money service, used in Uganda, Ghana, Rwanda, Cameroon, Côte d’Ivoire, Benin, Zambia and other markets.</dd><a href=\"/send-money-to-ghana\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-N\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">N</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"nostro-account\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Nostro account</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">An account a bank holds in a foreign currency at another bank, used to send and receive payments in that currency. Pre-funding nostro accounts ties up capital.</dd><a href=\"/for-remittance-companies\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-O\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">O</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"off-ramp\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Off-ramp</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Converting digital assets such as USDC or USDT into local currency, ideally paid straight to a bank account or mobile money wallet.</dd><a href=\"/stablecoins\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"on-ramp\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">On-ramp</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Converting local currency into digital assets such as USDC or USDT.</dd><a href=\"/stablecoins\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"otc-desk\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">OTC desk</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">An over-the-counter desk where a trader quotes large currency or stablecoin trades directly, instead of executing on a public order book.</dd><a href=\"/otc-desk\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-P\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">P</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"paybill-and-till-numbers\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Paybill and Till numbers</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">M-Pesa business numbers in Kenya. Paybill is used for bill and account payments; Till (Buy Goods) is used for purchases from merchants.</dd><a href=\"/send-money-to-kenya\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"pesalink\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">PesaLink</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A real-time interbank transfer service in Kenya that lets customers send money between participating banks.</dd><a href=\"/send-money-to-kenya\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"payout\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Payout</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Sending money from your balance to a recipient, such as a supplier, employee or customer, on their mobile money wallet or bank account.</dd><a href=\"/payments\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-R\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">R</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"rate-lock\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Rate lock</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Holding an exchange rate quote for a fixed period so the amount the recipient gets does not change while you approve.</dd><a href=\"/settlement-and-fx\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-S\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">S</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"sepa\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">SEPA</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">Single Euro Payments Area: the scheme for euro bank transfers across the EU and other European countries. SEPA Instant settles in seconds.</dd><a href=\"/open-a-eur-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"settlement\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Settlement</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">The point at which funds actually move and a payment becomes final.</dd><a href=\"/settlement-and-fx\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"sort-code\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Sort code</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A six-digit number that identifies a UK bank branch. Used with an account number for GBP payments.</dd><a href=\"/open-a-gbp-account\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"stablecoin\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Stablecoin</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A digital token designed to hold a stable value, usually one-to-one with a currency such as the US dollar. USDC and USDT are the most widely used.</dd><a href=\"/stablecoins\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"swift\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">SWIFT</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">The messaging network banks use to send international payment instructions. A SWIFT payment often relies on correspondent banks to move the funds.</dd><a href=\"/elementpay-vs-swift-wire\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-U\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">U</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"usdc\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">USDC</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A US dollar stablecoin issued by Circle.</dd><a href=\"/usdc-to-kenya\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"usdt\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">USDT</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A US dollar stablecoin issued by Tether.</dd><a href=\"/usdt-to-nigeria\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div><div id=\"letter-W\" style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:12px;align-items:start\"><span style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(41px,4.62vw,65px);line-height:.85;font-weight:700;color:#7C6FFF\">W</span><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:10px;grid-column:span 2;min-width:0\"><dl id=\"wave\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Wave</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A mobile money service operating in Senegal, Côte d’Ivoire and other West African countries.</dd><a href=\"/send-money-to-senegal\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl><dl id=\"webhook\" style=\"margin:0;padding:24px;border-radius:22px;background:#fff\"><dt style=\"font-family:var(--font-heading),sans-serif;font-size:26px;font-weight:700;letter-spacing:-0.02em\">Webhook</dt><dd style=\"margin:10px 0 0;font-size:16px;line-height:25px;color:#2A2840\">A message a platform sends to your server when an event happens, such as a payout being settled.</dd><a href=\"/payments-api\" style=\"display:inline-block;margin-top:12px;font-size:14px;font-weight:600\">Related →</a></dl></div></div></section><section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(80px,10vw,140px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><div style=\"display:flex;align-items:center;gap:20px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:14ch\">Questions we didn’t answer?</h2></div><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

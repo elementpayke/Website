@@ -1,0 +1,122 @@
+{
+ "slug": "stablecoin-payments-europe",
+ "lang": "en",
+ "url": "/stablecoin-payments-europe",
+ "nav": "Products",
+ "head": {
+  "title": "Stablecoin payments from Europe to Africa: pay African suppliers in USDC and USDT",
+  "description": "For businesses in Europe: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.",
+  "canonical": "/stablecoin-payments-europe",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Stablecoin payments from Europe to Africa: pay African suppliers in USDC and USDT | ElementPay",
+   "description": "For businesses in Europe: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank.",
+   "url": "https://www.elementpay.net/stablecoin-payments-europe",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How can a business in Europe pay African suppliers with stablecoins?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fund an ElementPay balance in USDC or USDT, create a payout to the supplier’s mobile money or bank account in their country, confirm the local amount and we deliver it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Do recipients need a crypto wallet?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Recipients receive local currency on mobile money or in their bank account."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we fund in EUR instead?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Fund in EUR and convert to local currency or stablecoins when you pay."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which countries can we pay?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "20 African countries, including Nigeria, Kenya, Ghana, South Africa, Uganda, Tanzania, Senegal and Cameroon."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Who is it for?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Importers, exporters, platforms, payroll providers and other businesses. Every account goes through business verification."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Stablecoin payments from Europe",
+     "serviceType": "Stablecoin payments",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Europe",
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "For businesses in Europe: pay suppliers, staff and partners in 20 African countries from USDC or USDT. Recipients get local currency on mobile money or bank. Fund in EUR or stablecoins."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stablecoin payments in Africa",
+       "item": "https://www.elementpay.net/stablecoin-payments-africa"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Stablecoin payments from Europe",
+       "item": "https://www.elementpay.net/stablecoin-payments-europe"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/stablecoin-payments-africa\" style=\"color:#4C4A66\">Stablecoin payments in Africa</a><span>/</span><span style=\"color:#3B2ED3\">Stablecoin payments from Europe</span></nav><img loading=\"lazy\" decoding=\"async\" src=\"/flags/eu.svg\" alt=\"Flag of Europe\" style=\"width:84px;height:56px;border-radius:9px;object-fit:cover;margin-top:28px;box-shadow:0 0 0 1px rgba(19,17,38,.08)\"><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">Stablecoin payments from Europe to Africa<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">Businesses in Europe use ElementPay to pay African suppliers, teams and partners from a USDC or USDT balance, or from EUR. Recipients get local currency on M-Pesa, MTN MoMo, Orange Money or their bank.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/coverage\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See coverage →</a></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Built for businesses in Europe.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Pay African suppliers</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Settle invoices in naira, cedis, shillings or CFA francs without correspondent banks.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Fund in stablecoins or EUR</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Hold USDC, USDT or EUR and convert at the moment you pay.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Collect from African customers</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Accept local payments across Africa and settle back into USDC, USDT or EUR.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Pay remote teams</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Run payroll for staff and contractors across 20 African countries in one batch.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Verify your business</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">One onboarding for paying and collecting across Africa.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Fund your balance</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">In USDC, USDT or EUR.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Pay out locally</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Choose the country and rail, and confirm the locked local amount.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Reconcile</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Track every payment by webhook or in the dashboard.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Popular routes.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/send-money-from-france-to-benin\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Europe to Benin</a><a href=\"/send-money-from-france-to-cameroon\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Europe to Cameroon</a><a href=\"/send-money-from-france-to-cote-divoire\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Europe to Côte d’Ivoire</a><a href=\"/send-money-from-france-to-mali\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Europe to Mali</a><a href=\"/send-money-from-france-to-senegal\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Europe to Senegal</a><a href=\"/open-a-eur-account\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Open a EUR account</a><a href=\"/b2b-stablecoin-payments\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">B2B stablecoin payments</a><a href=\"/stablecoin-payments-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin payments API</a><a href=\"/stablecoin-payments-africa\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">All stablecoin countries</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">How can a business in Europe pay African suppliers with stablecoins?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Fund an ElementPay balance in USDC or USDT, create a payout to the supplier’s mobile money or bank account in their country, confirm the local amount and we deliver it.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Do recipients need a crypto wallet?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">No. Recipients receive local currency on mobile money or in their bank account.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we fund in EUR instead?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Fund in EUR and convert to local currency or stablecoins when you pay.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Which countries can we pay?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">20 African countries, including Nigeria, Kenya, Ghana, South Africa, Uganda, Tanzania, Senegal and Cameroon.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Who is it for?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Importers, exporters, platforms, payroll providers and other businesses. Every account goes through business verification.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Pay Africa in stablecoins.</h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

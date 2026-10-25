@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 import { COLOR, TYPE } from "@/lib/brand";
 
 export default function ProductCta() {
@@ -17,8 +18,8 @@ export default function ProductCta() {
           flexWrap: "wrap",
         }}
       >
-        <h2 style={{ ...TYPE.h2Cta, margin: 0, maxWidth: "10ch" }}>Get on the rails.</h2>
-        <Link href="/contact" style={{ padding: "16px 28px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: "#fff", color: COLOR.indigo }}>
+        <h2 style={{ ...TYPE.h2Cta, lineHeight: 0.92, margin: 0, maxWidth: "10ch" }}>Get on the rails.</h2>
+        <Link href="/contact" className={hover("background:#F6F4EF;color:#131126")} style={{ padding: "16px 28px", borderRadius: 999, fontSize: 16, fontWeight: 500, background: "#fff", color: COLOR.indigo }}>
           Talk to sales
         </Link>
       </div>

@@ -1,0 +1,147 @@
+{
+ "slug": "elementpay-facts",
+ "lang": "en",
+ "url": "/elementpay-facts",
+ "nav": "Company",
+ "head": {
+  "title": "ElementPay at a glance: facts, coverage, products and status",
+  "description": "Key facts about ElementPay (Element Pay): what it does, who it serves, its platform and products, 20 payout countries, 30 account currencies and regulatory status.",
+  "canonical": "/elementpay-facts",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "ElementPay at a glance",
+   "description": "Key facts about ElementPay: products, coverage and status.",
+   "url": "https://www.elementpay.net/elementpay-facts",
+   "image": "https://www.elementpay.net/og-image.png"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "Organization",
+     "@id": "https://www.elementpay.net/#org",
+     "name": "ElementPay",
+     "alternateName": [
+      "Element Pay"
+     ],
+     "url": "https://www.elementpay.net",
+     "description": "Cross-border and stablecoin payment infrastructure for businesses in Africa.",
+     "sameAs": [
+      "https://mboka.finance",
+      "https://docs.elementpay.net/"
+     ],
+     "knowsAbout": [
+      "Cross-border payments",
+      "Mobile money",
+      "M-Pesa",
+      "Stablecoin payments",
+      "USDC",
+      "USDT",
+      "Stablecoin on-ramp",
+      "Stablecoin off-ramp",
+      "Bulk payouts",
+      "Payment gateway",
+      "Foreign exchange",
+      "Multi-currency business accounts",
+      "Agentic payments"
+     ],
+     "areaServed": [
+      "Kenya",
+      "Uganda",
+      "Tanzania",
+      "Rwanda",
+      "Ethiopia",
+      "Nigeria",
+      "Ghana",
+      "Senegal",
+      "Côte d'Ivoire",
+      "Benin",
+      "Togo",
+      "Burkina Faso",
+      "Mali",
+      "Cameroon",
+      "DR Congo",
+      "South Africa",
+      "Zambia",
+      "Malawi",
+      "Mozambique",
+      "Botswana"
+     ],
+     "brand": [
+      {
+       "@type": "Brand",
+       "name": "Mboka",
+       "url": "https://mboka.finance"
+      }
+     ]
+    },
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is ElementPay?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "ElementPay is cross-border and stablecoin payment infrastructure for businesses. Businesses use it to collect, pay out, convert and hold money across mobile money, bank rails and USDC and USDT."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which countries does ElementPay cover?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Payouts in 20 African countries and bank accounts in 30 currencies."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is ElementPay a bank?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. ElementPay is a financial technology company. Banking services are provided by licensed partner institutions."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "What is Mboka?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mboka is ElementPay’s web app for finance teams, with real business bank accounts, cards and payouts."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Does ElementPay serve individuals?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. ElementPay serves verified businesses."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "AboutPage",
+     "name": "ElementPay at a glance",
+     "url": "https://www.elementpay.net/elementpay-facts",
+     "dateModified": "2026-10-21",
+     "about": {
+      "@id": "https://www.elementpay.net/#org"
+     }
+    }
+   ]
+  }
+ ],
+ "background": "#F6F4EF",
+ "footerBackground": null,
+ "css": null,
+ "html": "<section style=\"max-width:960px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/about\" style=\"color:#4C4A66\">Company</a><span>/</span><span style=\"color:#3B2ED3\">At a glance</span></nav>\n<h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0\">ElementPay at a glance<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1>\n<p style=\"font-size:18px;line-height:1.55;color:#4C4A66;margin:20px 0 0;max-width:58ch\">The short, factual version of who we are and what we do. Updated October 2026.</p>\n<dl style=\"margin:40px 0 0;border-radius:24px;background:#fff;box-shadow:inset 0 0 0 1px rgba(19,17,38,.08);overflow:hidden\"><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">What ElementPay is</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Cross-border and stablecoin payment infrastructure for businesses, with a focus on Africa.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Also written as</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Element Pay</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Who it serves</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Businesses only: financial institutions, PSPs, fintechs and wallets, remittance companies, global merchants, platforms and marketplaces, cross-border traders, growing businesses, NGOs and AI agent builders.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Platform</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Mboka (web app with real business bank accounts, cards and payouts), merchant dashboard, ElementPay API, and the ElementPay dApp for USDC and USDT on- and off-ramps.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Products</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Payments (collections and payouts), Settlement and FX, Accounts and treasury, OTC desk, Stablecoins, Agentic payments.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Payout coverage</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">20 African countries: Kenya, Uganda, Tanzania, Rwanda, Ethiopia, Nigeria, Ghana, Senegal, Côte d’Ivoire, Benin, Togo, Burkina Faso, Mali, Cameroon, DR Congo, South Africa, Zambia, Malawi, Mozambique, Botswana.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Account currencies</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">30, one account per currency, including USD, EUR, GBP, AED, CNY, CAD, ZAR, NGN, KES, GHS, XOF and XAF.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Rails</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Mobile money (M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave and others), local bank transfer, SEPA, SWIFT, and the USDC and USDT stablecoins.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Pricing model</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">Rate and fee shown before each payment is confirmed. Volume pricing through sales.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Regulatory status</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\">ElementPay is a financial technology company, not a bank. Banking services are provided by licensed partner institutions. Every customer goes through business verification.</dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Website</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\"><a href=\"https://www.elementpay.net\">www.elementpay.net</a></dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Mboka</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\"><a href=\"https://mboka.finance\">mboka.finance</a></dd></div><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr));gap:6px 24px;padding:20px 24px;border-top:1px solid #EEECF4\"><dt style=\"font-family:var(--font-label),monospace;font-size:12.5px;letter-spacing:.04em;text-transform:uppercase;color:#4C4A66\">Developer docs</dt><dd style=\"margin:0;font-size:16px;line-height:1.55\"><a href=\"https://docs.elementpay.net\">docs.elementpay.net</a></dd></div></dl>\n<h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(28px, 1.5vw + 22px, 44px);letter-spacing:-0.035em;font-weight:700;margin:64px 0 0\">Common questions</h2>\n<div style=\"display:grid;grid-template-columns:minmax(0,1fr);margin-top:20px;border-top:1px solid rgba(19,17,38,.12)\"><div style=\"padding:20px 0;border-bottom:1px solid rgba(19,17,38,.12)\"><h3 style=\"margin:0;font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.015em\">What is ElementPay?</h3><p style=\"margin:8px 0 0;font-size:16px;line-height:1.6;color:#4C4A66\">ElementPay is cross-border and stablecoin payment infrastructure for businesses. Businesses use it to collect, pay out, convert and hold money across mobile money, bank rails and USDC and USDT.</p></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(19,17,38,.12)\"><h3 style=\"margin:0;font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.015em\">Which countries does ElementPay cover?</h3><p style=\"margin:8px 0 0;font-size:16px;line-height:1.6;color:#4C4A66\">Payouts in 20 African countries and bank accounts in 30 currencies.</p></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(19,17,38,.12)\"><h3 style=\"margin:0;font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.015em\">Is ElementPay a bank?</h3><p style=\"margin:8px 0 0;font-size:16px;line-height:1.6;color:#4C4A66\">No. ElementPay is a financial technology company. Banking services are provided by licensed partner institutions.</p></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(19,17,38,.12)\"><h3 style=\"margin:0;font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.015em\">What is Mboka?</h3><p style=\"margin:8px 0 0;font-size:16px;line-height:1.6;color:#4C4A66\">Mboka is ElementPay’s web app for finance teams, with real business bank accounts, cards and payouts.</p></div><div style=\"padding:20px 0;border-bottom:1px solid rgba(19,17,38,.12)\"><h3 style=\"margin:0;font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.015em\">Does ElementPay serve individuals?</h3><p style=\"margin:8px 0 0;font-size:16px;line-height:1.6;color:#4C4A66\">No. ElementPay serves verified businesses.</p></div></div>\n<p style=\"margin:40px 0 0;font-size:15px;color:#4C4A66\">Press and partnership enquiries: <a href=\"/contact\" style=\"font-weight:700\">contact us</a>. Brand assets on the <a href=\"/press\" style=\"font-weight:700\">press page</a>.</p>\n</section>\n<div style=\"height:80px\"></div>"
+}

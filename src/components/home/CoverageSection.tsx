@@ -21,7 +21,7 @@ export default function CoverageSection() {
             Where your money can go.
           </h2>
           <p style={{ margin: "14px 0 0", fontSize: 16, lineHeight: 1.55, color: MUTED }}>
-            Payouts in 10+ African countries. Bank accounts in 30 currencies.{" "}
+            Payouts in 20 African countries. Bank accounts in 30 currencies.{" "}
             <Link href="/coverage" style={{ fontWeight: 700 }}>Full coverage →</Link>
           </p>
         </div>

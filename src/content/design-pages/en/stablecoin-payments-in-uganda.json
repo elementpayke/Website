@@ -1,0 +1,122 @@
+{
+ "slug": "stablecoin-payments-in-uganda",
+ "lang": "en",
+ "url": "/stablecoin-payments-in-uganda",
+ "nav": "Products",
+ "head": {
+  "title": "Stablecoin payments in Uganda: USDC and USDT to UGX for businesses",
+  "description": "B2B stablecoin payments in Uganda. Pay suppliers and staff in UGX on MTN MoMo, Airtel Money and bank from USDC or USDT.",
+  "canonical": "/stablecoin-payments-in-uganda",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Stablecoin payments in Uganda: USDC and USDT to UGX for businesses | ElementPay",
+   "description": "B2B stablecoin payments in Uganda. Pay suppliers and staff in UGX on MTN MoMo, Airtel Money and bank from USDC or USDT.",
+   "url": "https://www.elementpay.net/stablecoin-payments-in-uganda",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "How do businesses make stablecoin payments in Uganda?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fund an ElementPay balance in USDC or USDT, create a payout in UGX to MTN MoMo, Airtel Money and bank in Uganda, confirm the quoted amount, and we convert and deliver it."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we pay suppliers in Uganda with USDT?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Suppliers receive shillings on MTN MoMo, Airtel Money and bank; they do not need a crypto wallet."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we collect in UGX and settle in stablecoins?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Customers pay in UGX locally and the proceeds settle into USDC or USDT on your balance."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "How fast are payouts in Uganda?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most mobile money payouts are sent on local rails as soon as you confirm, with a status for every payment."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is this for individuals?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. ElementPay is built for businesses, and every account goes through business verification."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Stablecoin payments in Uganda",
+     "serviceType": "Stablecoin payments",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Uganda",
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "B2B stablecoin payments in Uganda. Pay suppliers and staff in UGX on MTN MoMo, Airtel Money and bank from USDC or USDT, or collect UGX and settle in stablecoins. One API and dashboard."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stablecoin payments in Africa",
+       "item": "https://www.elementpay.net/stablecoin-payments-africa"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Stablecoin payments in Uganda",
+       "item": "https://www.elementpay.net/stablecoin-payments-in-uganda"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/stablecoin-payments-africa\" style=\"color:#4C4A66\">Stablecoin payments in Africa</a><span>/</span><span style=\"color:#3B2ED3\">Stablecoin payments in Uganda</span></nav><img loading=\"lazy\" decoding=\"async\" src=\"/flags/ug.svg\" alt=\"Flag of Uganda\" style=\"width:84px;height:56px;border-radius:9px;object-fit:cover;margin-top:28px;box-shadow:0 0 0 1px rgba(19,17,38,.08)\"><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">Stablecoin payments in Uganda<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">Pay suppliers, staff and partners in Uganda in shillings from a USDC or USDT balance, delivered to MTN MoMo, Airtel Money and bank. Or collect UGX from customers and settle into stablecoins. Built for businesses, with the rate fixed before you confirm.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/send-money-to-uganda\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">Send money to Uganda →</a></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">What businesses do in Uganda.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Pay suppliers in UGX</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Fund in USDC or USDT and settle invoices in Uganda to MTN MoMo, Airtel Money and bank.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Payroll in Uganda</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Pay employees and contractors in shillings in one run from a single stablecoin balance.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Collect UGX, settle in USDC</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Accept local payments from customers in Uganda and hold the proceeds in USDC or USDT.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Embed ramps in your product</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Fintechs and wallets offer UGX on- and off-ramps to their own users through our API.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Verify your business</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Complete onboarding once to pay and collect across all 20 countries.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Fund in stablecoins</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Send USDC or USDT, or use your existing ElementPay balance.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Pay out in UGX</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Choose MTN MoMo, Airtel Money and bank and confirm the locked UGX amount.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Reconcile</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Every payment returns a status and your own reference by webhook.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">More on Uganda.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/usdc-to-uganda\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">USDC to Uganda</a><a href=\"/send-money-to-uganda\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Send money to Uganda</a><a href=\"/send-money-from-uae-to-uganda\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">UAE to Uganda</a><a href=\"/send-money-from-uk-to-uganda\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">UK to Uganda</a><a href=\"/stablecoin-payroll\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin payroll</a><a href=\"/stablecoin-payment-gateway\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin payment gateway</a><a href=\"/stablecoin-payments-africa\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">All stablecoin countries</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">How do businesses make stablecoin payments in Uganda?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Fund an ElementPay balance in USDC or USDT, create a payout in UGX to MTN MoMo, Airtel Money and bank in Uganda, confirm the quoted amount, and we convert and deliver it.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we pay suppliers in Uganda with USDT?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Suppliers receive shillings on MTN MoMo, Airtel Money and bank; they do not need a crypto wallet.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we collect in UGX and settle in stablecoins?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Customers pay in UGX locally and the proceeds settle into USDC or USDT on your balance.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">How fast are payouts in Uganda?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Most mobile money payouts are sent on local rails as soon as you confirm, with a status for every payment.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Is this for individuals?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">No. ElementPay is built for businesses, and every account goes through business verification.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Start paying in Uganda.</h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}

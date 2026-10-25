@@ -105,7 +105,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "Using both with ElementPay"],
       [
         "p",
-        "ElementPay lets verified businesses fund payouts from USDC or USDT and convert to local currency for mobile money and bank accounts in 10+ African countries, with the rate shown before you confirm.",
+        "ElementPay lets verified businesses fund payouts from USDC or USDT and convert to local currency for mobile money and bank accounts in 20 African countries, with the rate shown before you confirm.",
       ],
       ["h", "Frequently asked questions"],
       ["h", "What is the difference between USDC and USDT?"],
@@ -160,7 +160,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "How ElementPay supports B2B stablecoin payments"],
       [
         "p",
-        "ElementPay combines USDC and USDT ramps with business accounts in 30 currencies and payouts in 10+ African countries, so finance teams manage stablecoin and fiat payments on one platform.",
+        "ElementPay combines USDC and USDT ramps with business accounts in 30 currencies and payouts in 20 African countries, so finance teams manage stablecoin and fiat payments on one platform.",
       ],
       ["h", "Frequently asked questions"],
       ["h", "What are B2B stablecoin payments?"],
@@ -212,7 +212,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "Where ElementPay fits"],
       [
         "p",
-        "ElementPay provides collections and payouts across mobile money and bank rails in 10+ African countries, settles into local currency, USD, USDC or USDT, and shows the rate and fee upfront.",
+        "ElementPay provides collections and payouts across mobile money and bank rails in 20 African countries, settles into local currency, USD, USDC or USDT, and shows the rate and fee upfront.",
       ],
       ["h", "Frequently asked questions"],
       ["h", "What is a payment gateway for Africa?"],
@@ -312,7 +312,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "How ElementPay helps"],
       [
         "p",
-        "ElementPay pays recipients in 10+ African countries from one balance, by file or API, with the rate shown before you confirm and approvals built in.",
+        "ElementPay pays recipients in 20 African countries from one balance, by file or API, with the rate shown before you confirm and approvals built in.",
       ],
       ["h", "Frequently asked questions"],
       ["h", "How do companies pay staff in several African countries?"],
@@ -359,7 +359,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "ElementPay’s approach"],
       [
         "p",
-        "ElementPay connects to mobile money networks including M-Pesa, MTN MoMo, Airtel Money, Orange Money and Wave across 10+ African countries, alongside bank rails and USDC and USDT, through one platform and API.",
+        "ElementPay connects to mobile money networks including M-Pesa, MTN MoMo, Airtel Money, Orange Money and Wave across 20 African countries, alongside bank rails and USDC and USDT, through one platform and API.",
       ],
       ["h", "Frequently asked questions"],
       ["h", "What is a mobile money API?"],
@@ -368,7 +368,7 @@ export const ARTICLES: readonly Article[] = [
         "A set of endpoints that lets software send money to, and request money from, mobile money wallets such as M-Pesa and MTN MoMo.",
       ],
       ["h", "Do I need a separate API for each network?"],
-      ["p", "Not with an aggregator. ElementPay covers many networks across 10+ countries through one integration."],
+      ["p", "Not with an aggregator. ElementPay covers many networks across 20 countries through one integration."],
       ["h", "Who uses mobile money APIs?"],
       ["p", "Fintechs, marketplaces, payroll providers, lenders, NGOs and any business paying or collecting from wallets."],
     ],
@@ -498,7 +498,7 @@ export const ARTICLES: readonly Article[] = [
       ["h", "Off-ramping with ElementPay"],
       [
         "p",
-        "Businesses use the ElementPay API to send USDC or USDT and pay out to mobile money or bank accounts in 10+ African countries. Teams can also use the ElementPay dApp for on- and off-ramping: connect a company wallet, enter a destination, see the local amount and sign.",
+        "Businesses use the ElementPay API to send USDC or USDT and pay out to mobile money or bank accounts in 20 African countries. Teams can also use the ElementPay dApp for on- and off-ramping: connect a company wallet, enter a destination, see the local amount and sign.",
       ],
       ["h", "On-ramps work the other way"],
       [

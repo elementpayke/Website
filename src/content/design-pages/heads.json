@@ -1,0 +1,3230 @@
+{
+ "/blog": {
+  "head": {
+   "title": "Blog: guides to payments, mobile money and stablecoins in emerging markets",
+   "description": "Guides on sending money to Africa, mobile money, stablecoin off-ramps, CFA francs and cross-border payments.",
+   "canonical": "/blog",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Blog: guides to payments, mobile money and stablecoins in emerging markets | ElementPay",
+    "description": "Guides on sending money to Africa, mobile money, stablecoin off-ramps, CFA francs and cross-border payments.",
+    "url": "https://www.elementpay.net/blog",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "ElementPay Blog",
+    "url": "https://www.elementpay.net/blog",
+    "blogPost": [
+     {
+      "@type": "BlogPosting",
+      "headline": "How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options",
+      "url": "https://www.elementpay.net/blog/send-money-uk-to-kenya",
+      "datePublished": "2026-10-09"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money",
+      "url": "https://www.elementpay.net/blog/stablecoin-off-ramps-africa",
+      "datePublished": "2026-09-30"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov",
+      "url": "https://www.elementpay.net/blog/mobile-money-west-africa",
+      "datePublished": "2026-09-18"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Why do cross-border payments to Africa take days? Correspondent banking explained",
+      "url": "https://www.elementpay.net/blog/correspondent-banking-explained",
+      "datePublished": "2026-09-04"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "XOF and XAF: a business guide to the CFA franc zones",
+      "url": "https://www.elementpay.net/blog/cfa-franc-xof-xaf",
+      "datePublished": "2026-08-21"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Mass payouts to mobile money: a guide for platforms and marketplaces",
+      "url": "https://www.elementpay.net/blog/mass-payouts-mobile-money",
+      "datePublished": "2026-08-07"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Paying suppliers in China from Nigeria, Ghana and Kenya",
+      "url": "https://www.elementpay.net/blog/paying-suppliers-china-from-africa",
+      "datePublished": "2026-07-24"
+     },
+     {
+      "@type": "BlogPosting",
+      "headline": "Agentic payments: how to let AI agents pay within your rules",
+      "url": "https://www.elementpay.net/blog/agentic-payments-policies",
+      "datePublished": "2026-07-10"
+     }
+    ]
+   }
+  ]
+ },
+ "/coverage": {
+  "head": {
+   "title": "Payment coverage: payouts in 20 African countries, accounts in 30 currencies · ElementPay",
+   "description": "Every country, currency and payment rail ElementPay supports: mobile money and bank payouts in 20 African countries, business accounts in 30 currencies, funded in fiat, USDC or USDT.",
+   "canonical": "/coverage",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "ElementPay coverage: 20 African payout countries, 30 account currencies",
+    "description": "Countries, currencies and rails for payouts, business accounts and stablecoin funding.",
+    "url": "https://www.elementpay.net/coverage",
+    "image": "https://www.elementpay.net/og-image.png"
+   },
+   "twitter": {
+    "card": "summary_large_image"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "name": "ElementPay payment coverage",
+      "url": "https://www.elementpay.net/coverage",
+      "description": "Countries, currencies and payment rails supported by ElementPay for payouts, business accounts and stablecoin funding.",
+      "about": [
+       "Stablecoin payments in Africa",
+       "Cross-border payouts",
+       "Mobile money payouts",
+       "Multi-currency business accounts"
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Coverage",
+        "item": "https://www.elementpay.net/coverage"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/": {
+  "head": {
+   "title": "ElementPay (Element Pay): stablecoin and cross-border payments API for businesses in Africa",
+   "description": "Payment infrastructure for businesses. Collect, pay out, convert and hold money across mobile money, banks and USDC or USDT through one platform.",
+   "canonical": "/",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "ElementPay: cross-border payment infrastructure for businesses",
+    "description": "Payouts in 20 African countries, accounts in 30 currencies, USDC and USDT ramps. One platform.",
+    "url": "https://www.elementpay.net/",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": [
+       "Element Pay",
+       "ElementPay Payments"
+      ],
+      "url": "https://www.elementpay.net",
+      "sameAs": [
+       "https://mboka.finance",
+       "https://docs.elementpay.net/"
+      ],
+      "description": "Cross-border payment infrastructure for businesses in emerging markets.",
+      "knowsAbout": [
+       "Cross-border payments",
+       "Mobile money API",
+       "M-Pesa",
+       "Stablecoin payments",
+       "USDC",
+       "USDT",
+       "Stablecoin on-ramp",
+       "Stablecoin off-ramp",
+       "Bulk payouts",
+       "Payment gateway",
+       "Foreign exchange",
+       "Business bank accounts"
+      ],
+      "brand": [
+       {
+        "@type": "Brand",
+        "name": "Mboka",
+        "url": "https://mboka.finance"
+       }
+      ]
+     },
+     {
+      "@type": "WebSite",
+      "name": "ElementPay",
+      "url": "https://www.elementpay.net"
+     }
+    ]
+   }
+  ]
+ },
+ "/press": {
+  "head": {
+   "title": "Newsroom: ElementPay press releases and media kit",
+   "description": "ElementPay press releases, company facts, brand assets and media contacts.",
+   "canonical": "/press",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Newsroom: ElementPay press releases and media kit",
+    "description": "ElementPay press releases, company facts, brand assets and media contacts.",
+    "url": "https://www.elementpay.net/press",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "ElementPay Newsroom",
+    "url": "https://www.elementpay.net/press"
+   }
+  ]
+ },
+ "/status": {
+  "head": {
+   "title": "ElementPay system status: live uptime for every rail",
+   "description": "Live status and 90-day uptime for M-Pesa, MTN MoMo, Airtel Money, Orange Money, Wave, bank rails, USDC and USDT settlement and the ElementPay API.",
+   "canonical": "/status",
+   "alternates": {},
+   "og": {},
+   "twitter": {}
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "ElementPay system status",
+    "url": "https://www.elementpay.net/status",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay",
+     "alternateName": "Element Pay"
+    }
+   }
+  ]
+ },
+ "/about": {
+  "head": {
+   "title": "About ElementPay: payment rails for emerging markets",
+   "description": "ElementPay connects mobile money and local banks in 20 African countries to 30 global currencies and to USDC and USDT.",
+   "canonical": "/about",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "About ElementPay: payment rails for emerging markets",
+    "description": "ElementPay connects mobile money and local banks in 20 African countries to 30 global currencies and to USDC and USDT.",
+    "url": "https://www.elementpay.net/about",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "url": "https://www.elementpay.net",
+      "sameAs": [
+       "https://mboka.finance",
+       "https://dapp.elementpay.net/",
+       "https://docs.elementpay.net/"
+      ],
+      "description": "Payment rails for emerging markets: payouts in 20 African countries, bank accounts in 30 currencies, USDC and USDT ramps."
+     },
+     {
+      "@type": "AboutPage",
+      "name": "About ElementPay",
+      "url": "https://www.elementpay.net/about"
+     }
+    ]
+   }
+  ]
+ },
+ "/agentic-payments": {
+  "head": {
+   "title": "Agentic payments infrastructure: stablecoin payment rails for AI agents",
+   "description": "Agentic payments infrastructure and API for businesses. Let AI agents pay in USDC or local currency within budgets, allow-lists and approval thresholds.",
+   "canonical": "/agentic-payments",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Agentic payments: budgets and policies for AI agents | ElementPay",
+    "description": "Agentic payments infrastructure and API for businesses. Let AI agents pay in USDC or local currency within budgets, allow-lists and approval thresholds.",
+    "url": "https://www.elementpay.net/agentic-payments",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Agentic payments: budgets and policies for AI agents",
+        "item": "https://www.elementpay.net/agentic-payments"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Agentic payments: budgets and policies for AI agents",
+      "description": "Let AI agents pay within budgets, allow-lists and approval thresholds. Recipients get local currency or USDC. Every action is logged.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/agentic-payments-policies": {
+  "head": {
+   "title": "Agentic payments: how to let AI agents pay within your rules",
+   "description": "Budgets, allow-lists, approval thresholds and audit trails for software that moves money.",
+   "canonical": "/blog/agentic-payments-policies",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Agentic payments: how to let AI agents pay within your rules | ElementPay",
+    "description": "Budgets, allow-lists, approval thresholds and audit trails for software that moves money.",
+    "url": "https://www.elementpay.net/blog/agentic-payments-policies",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Agentic payments: how to let AI agents pay within your rules",
+      "description": "Budgets, allow-lists, approval thresholds and audit trails for software that moves money.",
+      "datePublished": "2026-07-10",
+      "dateModified": "2026-07-10",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "AI agents, Policies, API",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/agentic-payments-policies"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Agentic payments: how to let AI agents pay within your rules",
+        "item": "https://www.elementpay.net/blog/agentic-payments-policies"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/b2b-stablecoin-payments-guide": {
+  "head": {
+   "title": "B2B stablecoin payments: a guide for finance teams | ElementPay",
+   "description": "How companies use USDC and USDT to pay suppliers and partners across borders, and the controls finance teams need in place.",
+   "canonical": "/blog/b2b-stablecoin-payments-guide",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "B2B stablecoin payments: a guide for finance teams | ElementPay",
+    "description": "How companies use USDC and USDT to pay suppliers and partners across borders, and the controls finance teams need in place.",
+    "url": "https://www.elementpay.net/blog/b2b-stablecoin-payments-guide",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "B2B stablecoin payments: a guide for finance teams",
+      "description": "How companies use USDC and USDT to pay suppliers and partners across borders, and the controls finance teams need in place.",
+      "datePublished": "2026-10-18",
+      "dateModified": "2026-10-18",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "B2B, Stablecoin payments, Suppliers, Treasury",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/b2b-stablecoin-payments-guide",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What are B2B stablecoin payments?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Payments between businesses that use stablecoins such as USDC or USDT to move value, often converted to local currency at either end."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Are B2B stablecoin payments legal?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Rules vary by country. Work with a provider that verifies businesses and operates with licensed partners in the markets you pay."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Does the supplier need to accept crypto?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "No. The supplier can receive local currency in a bank account or mobile money wallet."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "B2B stablecoin payments: a guide for finance teams",
+        "item": "https://www.elementpay.net/blog/b2b-stablecoin-payments-guide"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/cfa-franc-xof-xaf": {
+  "head": {
+   "title": "XOF and XAF: a business guide to the CFA franc zones | ElementPay",
+   "description": "Two currencies, one euro peg. Who uses which, what the peg means for pricing, and how to hold both.",
+   "canonical": "/blog/cfa-franc-xof-xaf",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "XOF and XAF: a business guide to the CFA franc zones | ElementPay",
+    "description": "Two currencies, one euro peg. Who uses which, what the peg means for pricing, and how to hold both.",
+    "url": "https://www.elementpay.net/blog/cfa-franc-xof-xaf",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "XOF and XAF: a business guide to the CFA franc zones",
+      "description": "Two currencies, one euro peg. Who uses which, what the peg means for pricing, and how to hold both.",
+      "datePublished": "2026-08-21",
+      "dateModified": "2026-08-21",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "XOF, XAF, CFA franc, EUR",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/cfa-franc-xof-xaf"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "XOF and XAF: a business guide to the CFA franc zones",
+        "item": "https://www.elementpay.net/blog/cfa-franc-xof-xaf"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/choose-payment-gateway-africa": {
+  "head": {
+   "title": "How to choose a payment gateway for Africa: a checklist | ElementPay",
+   "description": "What to compare when choosing a payment gateway for African markets: payment methods, coverage, settlement currencies, pricing visibility and controls.",
+   "canonical": "/blog/choose-payment-gateway-africa",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "How to choose a payment gateway for Africa: a checklist | ElementPay",
+    "description": "What to compare when choosing a payment gateway for African markets: payment methods, coverage, settlement currencies, pricing visibility and controls.",
+    "url": "https://www.elementpay.net/blog/choose-payment-gateway-africa",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "How to choose a payment gateway for Africa: a checklist",
+      "description": "What to compare when choosing a payment gateway for African markets: payment methods, coverage, settlement currencies, pricing visibility and controls.",
+      "datePublished": "2026-10-16",
+      "dateModified": "2026-10-16",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Payment gateway, Africa, Collections, Checklist",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/choose-payment-gateway-africa",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What is a payment gateway for Africa?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "A service that lets a business accept payments from customers in African markets, usually by mobile money, bank transfer and cards, and settle the funds."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Which payment methods matter most in Africa?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "It depends on the country. Mobile money dominates in East and West Africa; bank transfer is central in Nigeria and South Africa."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can I settle in USD or stablecoins?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Some gateways allow it. ElementPay settles into local currency, USD, USDC or USDT."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "How to choose a payment gateway for Africa: a checklist",
+        "item": "https://www.elementpay.net/blog/choose-payment-gateway-africa"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/correspondent-banking-explained": {
+  "head": {
+   "title": "Why do cross-border payments to Africa take days? Correspondent banking explained",
+   "description": "What happens between your bank and the recipient, where the time and fees go, and how local rails change the picture.",
+   "canonical": "/blog/correspondent-banking-explained",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Why do cross-border payments to Africa take days? Correspondent banking explained | ElementPay",
+    "description": "What happens between your bank and the recipient, where the time and fees go, and how local rails change the picture.",
+    "url": "https://www.elementpay.net/blog/correspondent-banking-explained",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Why do cross-border payments to Africa take days? Correspondent banking explained",
+      "description": "What happens between your bank and the recipient, where the time and fees go, and how local rails change the picture.",
+      "datePublished": "2026-09-04",
+      "dateModified": "2026-09-04",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "SWIFT, Correspondent banking, Cross-border",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/correspondent-banking-explained"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Why do cross-border payments to Africa take days? Correspondent banking explained",
+        "item": "https://www.elementpay.net/blog/correspondent-banking-explained"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/mass-payouts-mobile-money": {
+  "head": {
+   "title": "Mass payouts to mobile money: a guide for platforms and marketplaces",
+   "description": "How to structure payout files, choose between API and dashboard, fund the run and handle failed lines.",
+   "canonical": "/blog/mass-payouts-mobile-money",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Mass payouts to mobile money: a guide for platforms and marketplaces | ElementPay",
+    "description": "How to structure payout files, choose between API and dashboard, fund the run and handle failed lines.",
+    "url": "https://www.elementpay.net/blog/mass-payouts-mobile-money",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Mass payouts to mobile money: a guide for platforms and marketplaces",
+      "description": "How to structure payout files, choose between API and dashboard, fund the run and handle failed lines.",
+      "datePublished": "2026-08-07",
+      "dateModified": "2026-08-07",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "Bulk payouts, Marketplaces, Mobile money",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/mass-payouts-mobile-money"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mass payouts to mobile money: a guide for platforms and marketplaces",
+        "item": "https://www.elementpay.net/blog/mass-payouts-mobile-money"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/mobile-money-west-africa": {
+  "head": {
+   "title": "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov",
+   "description": "Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and how to pay out across them.",
+   "canonical": "/blog/mobile-money-west-africa",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov | ElementPay",
+    "description": "Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and how to pay out across them.",
+    "url": "https://www.elementpay.net/blog/mobile-money-west-africa",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov",
+      "description": "Which mobile money networks matter in Senegal, Côte d'Ivoire, Benin, Togo, Burkina Faso, Mali and Ghana, and how to pay out across them.",
+      "datePublished": "2026-09-18",
+      "dateModified": "2026-09-18",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "West Africa, Orange Money, Wave, XOF",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/mobile-money-west-africa"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mobile money in West Africa: Orange Money, MTN MoMo, Wave and Moov",
+        "item": "https://www.elementpay.net/blog/mobile-money-west-africa"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/multi-country-payroll-africa": {
+  "head": {
+   "title": "Running payroll across several African countries | ElementPay",
+   "description": "How companies pay employees and contractors in Kenya, Nigeria, Ghana, South Africa and other markets from one balance, on mobile money and bank.",
+   "canonical": "/blog/multi-country-payroll-africa",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Running payroll across several African countries | ElementPay",
+    "description": "How companies pay employees and contractors in Kenya, Nigeria, Ghana, South Africa and other markets from one balance, on mobile money and bank.",
+    "url": "https://www.elementpay.net/blog/multi-country-payroll-africa",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Running payroll across several African countries",
+      "description": "How companies pay employees and contractors in Kenya, Nigeria, Ghana, South Africa and other markets from one balance, on mobile money and bank.",
+      "datePublished": "2026-10-14",
+      "dateModified": "2026-10-14",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Payroll, Contractors, Bulk payouts, Africa",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/multi-country-payroll-africa",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "How do companies pay staff in several African countries?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "By funding one balance and sending a bulk payout that delivers local currency to each person’s mobile money wallet or bank account."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can payroll be funded in stablecoins?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. ElementPay accepts USDC and USDT funding; employees receive local currency."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can we require approval before payroll is released?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. Approval rules let a second person release each batch."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Running payroll across several African countries",
+        "item": "https://www.elementpay.net/blog/multi-country-payroll-africa"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/pay-suppliers-in-nigeria-from-abroad": {
+  "head": {
+   "title": "How to pay suppliers in Nigeria from abroad | ElementPay",
+   "description": "A guide for foreign businesses paying Nigerian suppliers in naira: bank payouts, funding in USD, GBP, CNY or stablecoins, and what to check before sending.",
+   "canonical": "/blog/pay-suppliers-in-nigeria-from-abroad",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "How to pay suppliers in Nigeria from abroad | ElementPay",
+    "description": "A guide for foreign businesses paying Nigerian suppliers in naira: bank payouts, funding in USD, GBP, CNY or stablecoins, and what to check before sending.",
+    "url": "https://www.elementpay.net/blog/pay-suppliers-in-nigeria-from-abroad",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "How to pay suppliers in Nigeria from abroad",
+      "description": "A guide for foreign businesses paying Nigerian suppliers in naira: bank payouts, funding in USD, GBP, CNY or stablecoins, and what to check before sending.",
+      "datePublished": "2026-10-12",
+      "dateModified": "2026-10-12",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Nigeria, NGN, Suppliers, Bank payouts",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/pay-suppliers-in-nigeria-from-abroad",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "How do I pay a supplier in Nigeria from the UK or US?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Fund a business balance in GBP, USD or stablecoins and pay NGN to the supplier’s Nigerian bank account."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can I pay Nigerian suppliers with USDT?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. ElementPay converts USDT or USDC to NGN and pays the supplier’s bank account."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "What details do I need?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "The supplier’s bank name, account number and account name, and your invoice reference."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "How to pay suppliers in Nigeria from abroad",
+        "item": "https://www.elementpay.net/blog/pay-suppliers-in-nigeria-from-abroad"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/paying-and-collecting-in-ghana": {
+  "head": {
+   "title": "Paying and collecting in Ghana: MTN MoMo, Telecel Cash and bank | ElementPay",
+   "description": "A business guide to moving money in Ghana: which mobile money networks and bank rails to use, and how to fund GHS payouts from abroad or from stablecoins.",
+   "canonical": "/blog/paying-and-collecting-in-ghana",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Paying and collecting in Ghana: MTN MoMo, Telecel Cash and bank | ElementPay",
+    "description": "A business guide to moving money in Ghana: which mobile money networks and bank rails to use, and how to fund GHS payouts from abroad or from stablecoins.",
+    "url": "https://www.elementpay.net/blog/paying-and-collecting-in-ghana",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Paying and collecting in Ghana: MTN MoMo, Telecel Cash and bank",
+      "description": "A business guide to moving money in Ghana: which mobile money networks and bank rails to use, and how to fund GHS payouts from abroad or from stablecoins.",
+      "datePublished": "2026-10-15",
+      "dateModified": "2026-10-15",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Ghana, GHS, MTN MoMo, Telecel Cash",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/paying-and-collecting-in-ghana",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "How do businesses pay recipients in Ghana?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Most payouts go to mobile money wallets on MTN MoMo, Telecel Cash or AT Money, or to Ghanaian bank accounts."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can we fund Ghana payouts with stablecoins?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. ElementPay converts USDC or USDT to GHS and pays mobile money or bank accounts."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can foreign businesses pay into Ghana?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes, subject to business verification."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Paying and collecting in Ghana: MTN MoMo, Telecel Cash and bank",
+        "item": "https://www.elementpay.net/blog/paying-and-collecting-in-ghana"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/paying-suppliers-china-from-africa": {
+  "head": {
+   "title": "Paying suppliers in China from Nigeria, Ghana and Kenya | ElementPay",
+   "description": "How importers pay factories in CNY without long waits, with rate locks, stablecoin funding and the OTC desk for large orders.",
+   "canonical": "/blog/paying-suppliers-china-from-africa",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Paying suppliers in China from Nigeria, Ghana and Kenya | ElementPay",
+    "description": "How importers pay factories in CNY without long waits, with rate locks, stablecoin funding and the OTC desk for large orders.",
+    "url": "https://www.elementpay.net/blog/paying-suppliers-china-from-africa",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Paying suppliers in China from Nigeria, Ghana and Kenya",
+      "description": "How importers pay factories in CNY without long waits, with rate locks, stablecoin funding and the OTC desk for large orders.",
+      "datePublished": "2026-07-24",
+      "dateModified": "2026-07-24",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "China, CNY, Importers, NGN",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/paying-suppliers-china-from-africa"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Paying suppliers in China from Nigeria, Ghana and Kenya",
+        "item": "https://www.elementpay.net/blog/paying-suppliers-china-from-africa"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/send-money-uk-to-kenya": {
+  "head": {
+   "title": "How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options",
+   "description": "A practical guide for businesses paying recipients in Kenya, from M-Pesa wallets and PesaLink bank transfers to USDC-funded payouts.",
+   "canonical": "/blog/send-money-uk-to-kenya",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options | ElementPay",
+    "description": "A practical guide for businesses paying recipients in Kenya, from M-Pesa wallets and PesaLink bank transfers to USDC-funded payouts.",
+    "url": "https://www.elementpay.net/blog/send-money-uk-to-kenya",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options",
+      "description": "A practical guide for businesses paying recipients in Kenya, from M-Pesa wallets and PesaLink bank transfers to USDC-funded payouts.",
+      "datePublished": "2026-10-09",
+      "dateModified": "2026-10-09",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "Kenya, M-Pesa, GBP to KES, USDC",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/send-money-uk-to-kenya"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "How to send money from the UK to Kenya: M-Pesa, bank and stablecoin options",
+        "item": "https://www.elementpay.net/blog/send-money-uk-to-kenya"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/stablecoin-off-ramps-africa": {
+  "head": {
+   "title": "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money",
+   "description": "How businesses convert dollar stablecoins into local currency on M-Pesa, MTN MoMo and bank accounts.",
+   "canonical": "/blog/stablecoin-off-ramps-africa",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money | ElementPay",
+    "description": "How businesses convert dollar stablecoins into local currency on M-Pesa, MTN MoMo and bank accounts.",
+    "url": "https://www.elementpay.net/blog/stablecoin-off-ramps-africa",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money",
+      "description": "How businesses convert dollar stablecoins into local currency on M-Pesa, MTN MoMo and bank accounts.",
+      "datePublished": "2026-09-30",
+      "dateModified": "2026-09-30",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay"
+      },
+      "keywords": "USDC, USDT, Off-ramp, Mobile money",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/stablecoin-off-ramps-africa"
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Stablecoin off-ramps in Africa: turning USDC and USDT into mobile money",
+        "item": "https://www.elementpay.net/blog/stablecoin-off-ramps-africa"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/usdc-vs-usdt-for-business": {
+  "head": {
+   "title": "USDC vs USDT for business payments in Africa | ElementPay",
+   "description": "The practical differences between USDC and USDT for companies that settle, hold or pay out in stablecoins across African markets.",
+   "canonical": "/blog/usdc-vs-usdt-for-business",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "USDC vs USDT for business payments in Africa | ElementPay",
+    "description": "The practical differences between USDC and USDT for companies that settle, hold or pay out in stablecoins across African markets.",
+    "url": "https://www.elementpay.net/blog/usdc-vs-usdt-for-business",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "USDC vs USDT for business payments in Africa",
+      "description": "The practical differences between USDC and USDT for companies that settle, hold or pay out in stablecoins across African markets.",
+      "datePublished": "2026-10-20",
+      "dateModified": "2026-10-20",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "USDC, USDT, Treasury, Stablecoins",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/usdc-vs-usdt-for-business",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What is the difference between USDC and USDT?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Both are US dollar stablecoins. USDC is issued by Circle and USDT by Tether. They differ in issuer, reserve reporting and how widely each is used on different networks."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Which stablecoin is used more in Africa?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "USDT is widely used in peer-to-peer and trading markets; USDC is common with regulated fintechs and global platforms. Many businesses accept both."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can ElementPay pay out from both?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. ElementPay supports funding and off-ramps from USDC and USDT."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "USDC vs USDT for business payments in Africa",
+        "item": "https://www.elementpay.net/blog/usdc-vs-usdt-for-business"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/usdt-to-mpesa-for-business": {
+  "head": {
+   "title": "How businesses convert USDT to M-Pesa in Kenya | ElementPay",
+   "description": "A step-by-step guide for companies that hold USDT or USDC and need to pay suppliers, staff or partners on M-Pesa in Kenyan shillings.",
+   "canonical": "/blog/usdt-to-mpesa-for-business",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "How businesses convert USDT to M-Pesa in Kenya | ElementPay",
+    "description": "A step-by-step guide for companies that hold USDT or USDC and need to pay suppliers, staff or partners on M-Pesa in Kenyan shillings.",
+    "url": "https://www.elementpay.net/blog/usdt-to-mpesa-for-business",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "How businesses convert USDT to M-Pesa in Kenya",
+      "description": "A step-by-step guide for companies that hold USDT or USDC and need to pay suppliers, staff or partners on M-Pesa in Kenyan shillings.",
+      "datePublished": "2026-10-21",
+      "dateModified": "2026-10-21",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "USDT, M-Pesa, Kenya, Off-ramp",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/usdt-to-mpesa-for-business",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "Can a business pay M-Pesa wallets from USDT?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. A licensed off-ramp provider converts USDT to KES and pays the M-Pesa wallet. With ElementPay, the KES amount and fee are shown before you confirm."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Do recipients need a crypto wallet?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "No. Recipients receive Kenyan shillings in their M-Pesa wallet or bank account."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Can we pay many M-Pesa wallets at once?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes, through a bulk payout file or the API."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "How businesses convert USDT to M-Pesa in Kenya",
+        "item": "https://www.elementpay.net/blog/usdt-to-mpesa-for-business"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/blog/what-is-a-mobile-money-api": {
+  "head": {
+   "title": "What is a mobile money API? | ElementPay",
+   "description": "A plain explanation of mobile money APIs: what they do, who uses them, and what to look for when you need to pay out to or collect from wallets across Africa.",
+   "canonical": "/blog/what-is-a-mobile-money-api",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "What is a mobile money API? | ElementPay",
+    "description": "A plain explanation of mobile money APIs: what they do, who uses them, and what to look for when you need to pay out to or collect from wallets across Africa.",
+    "url": "https://www.elementpay.net/blog/what-is-a-mobile-money-api",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "What is a mobile money API?",
+      "description": "A plain explanation of mobile money APIs: what they do, who uses them, and what to look for when you need to pay out to or collect from wallets across Africa.",
+      "datePublished": "2026-10-13",
+      "dateModified": "2026-10-13",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Mobile money API, M-Pesa, MTN MoMo, Developers",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/what-is-a-mobile-money-api",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What is a mobile money API?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "A set of endpoints that lets software send money to, and request money from, mobile money wallets such as M-Pesa and MTN MoMo."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Do I need a separate API for each network?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Not with an aggregator. ElementPay covers many networks across 20 countries through one integration."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Who uses mobile money APIs?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Fintechs, marketplaces, payroll providers, lenders, NGOs and any business paying or collecting from wallets."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "What is a mobile money API?",
+        "item": "https://www.elementpay.net/blog/what-is-a-mobile-money-api"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/business-accounts": {
+  "head": {
+   "title": "Multi-currency business accounts in 30 currencies | ElementPay",
+   "description": "Bank accounts issued one per currency in USD, EUR, GBP, KES, NGN, XOF, XAF and 23 more, alongside USDC and USDT balances.",
+   "canonical": "/business-accounts",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Multi-currency business accounts in 30 currencies | ElementPay",
+    "description": "Bank accounts issued one per currency in USD, EUR, GBP, KES, NGN, XOF, XAF and 23 more, alongside USDC and USDT balances.",
+    "url": "https://www.elementpay.net/business-accounts",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Multi-currency business accounts in 30 currencies",
+        "item": "https://www.elementpay.net/business-accounts"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Multi-currency business accounts in 30 currencies",
+      "description": "Bank accounts issued one per currency in USD, EUR, GBP, KES, NGN, XOF, XAF and 23 more, alongside USDC and USDT balances.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/careers": {
+  "head": {
+   "title": "Careers at ElementPay: build payment infrastructure for Africa",
+   "description": "Join ElementPay and build cross-border and stablecoin payment infrastructure for businesses across Africa. See how we work and send us your application.",
+   "canonical": "/careers",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Careers at ElementPay",
+    "description": "Build cross-border and stablecoin payment infrastructure for businesses across Africa.",
+    "url": "https://www.elementpay.net/careers",
+    "image": "https://www.elementpay.net/og-image.png"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebPage",
+      "name": "Careers at ElementPay",
+      "url": "https://www.elementpay.net/careers",
+      "about": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      }
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Company",
+        "item": "https://www.elementpay.net/about"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Careers",
+        "item": "https://www.elementpay.net/careers"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "/contact": {
+  "head": {
+   "title": "Talk to ElementPay sales: cross-border payments for your business",
+   "description": "Tell us about your business and what you need. Our team replies within one business day with coverage, pricing and an onboarding plan.",
+   "canonical": "/contact",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Talk to ElementPay sales",
+    "description": "Tell us about your business and what you need. We reply within one business day.",
+    "url": "https://www.elementpay.net/contact",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Talk to ElementPay sales",
+    "url": "https://www.elementpay.net/contact"
+   }
+  ]
+ },
+ "/elementpay-dapp": {
+  "head": {
+   "title": "ElementPay dApp: on- and off-ramp USDC and USDT to M-Pesa, mobile money and banks",
+   "description": "Connect a self-custody wallet and sell USDC or USDT straight to M-Pesa, MTN MoMo or a bank account. See the local amount before you sign.",
+   "canonical": "/elementpay-dapp",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "ElementPay dApp: on- and off-ramp USDC and USDT to M-Pesa, mobile money and banks",
+    "description": "Connect a self-custody wallet and sell USDC or USDT straight to M-Pesa, MTN MoMo or a bank account. See the local amount before you sign.",
+    "url": "https://www.elementpay.net/elementpay-dapp",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "On- and off-ramp USDC and USDT to M-Pesa, mobile money and banks",
+        "item": "https://www.elementpay.net/elementpay-dapp"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "On- and off-ramp USDC and USDT to M-Pesa, mobile money and banks",
+      "description": "Connect a self-custody wallet and sell USDC or USDT straight to M-Pesa, MTN MoMo or a bank account. See the local amount before you sign.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-ai-agents": {
+  "head": {
+   "title": "Programmable payments for AI agents in local currency | ElementPay",
+   "description": "Give agents budgets and policies. They pay suppliers on M-Pesa, banks or USDC within your rules.",
+   "canonical": "/for-ai-agents",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Programmable payments for AI agents in local currency | ElementPay",
+    "description": "Give agents budgets and policies. They pay suppliers on M-Pesa, banks or USDC within your rules.",
+    "url": "https://www.elementpay.net/for-ai-agents",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Programmable payments for AI agents in local currency",
+        "item": "https://www.elementpay.net/for-ai-agents"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Programmable payments for AI agents in local currency",
+      "description": "Give agents budgets and policies. They pay suppliers on M-Pesa, banks or USDC within your rules.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-cross-border-traders": {
+  "head": {
+   "title": "Pay suppliers in China and the Gulf from Africa | ElementPay",
+   "description": "Collect locally, hold USD or USDT, and pay suppliers in CNY or AED without waiting on SWIFT.",
+   "canonical": "/for-cross-border-traders",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Pay suppliers in China and the Gulf from Africa | ElementPay",
+    "description": "Collect locally, hold USD or USDT, and pay suppliers in CNY or AED without waiting on SWIFT.",
+    "url": "https://www.elementpay.net/for-cross-border-traders",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Pay suppliers in China and the Gulf from Africa",
+        "item": "https://www.elementpay.net/for-cross-border-traders"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Pay suppliers in China and the Gulf from Africa",
+      "description": "Collect locally, hold USD or USDT, and pay suppliers in CNY or AED without waiting on SWIFT.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-financial-institutions": {
+  "head": {
+   "title": "Payments infrastructure for banks, MFIs and PSPs in Africa",
+   "description": "White-label payouts, correspondent-free transfers and stablecoin liquidity for financial institutions.",
+   "canonical": "/for-financial-institutions",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Payments infrastructure for banks, MFIs and PSPs in Africa | ElementPay",
+    "description": "White-label payouts, correspondent-free transfers and stablecoin liquidity for financial institutions.",
+    "url": "https://www.elementpay.net/for-financial-institutions",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Payments infrastructure for banks, MFIs and PSPs in Africa",
+        "item": "https://www.elementpay.net/for-financial-institutions"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Payments infrastructure for banks, MFIs and PSPs in Africa",
+      "description": "White-label payouts, correspondent-free transfers and stablecoin liquidity for financial institutions.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-fintechs-and-wallets": {
+  "head": {
+   "title": "Mobile money cash-in and cash-out API for fintechs | ElementPay",
+   "description": "Add M-Pesa, MTN MoMo and bank on- and off-ramps plus USDC balances to your app with one API.",
+   "canonical": "/for-fintechs-and-wallets",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Mobile money cash-in and cash-out API for fintechs | ElementPay",
+    "description": "Add M-Pesa, MTN MoMo and bank on- and off-ramps plus USDC balances to your app with one API.",
+    "url": "https://www.elementpay.net/for-fintechs-and-wallets",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mobile money cash-in and cash-out API for fintechs",
+        "item": "https://www.elementpay.net/for-fintechs-and-wallets"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Mobile money cash-in and cash-out API for fintechs",
+      "description": "Add M-Pesa, MTN MoMo and bank on- and off-ramps plus USDC balances to your app with one API.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-global-merchants": {
+  "head": {
+   "title": "Accept M-Pesa, MTN MoMo and Wave from anywhere | ElementPay",
+   "description": "Let customers pay with mobile money and local bank transfer. Settle in USD, EUR, GBP or USDC.",
+   "canonical": "/for-global-merchants",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Accept M-Pesa, MTN MoMo and Wave from anywhere | ElementPay",
+    "description": "Let customers pay with mobile money and local bank transfer. Settle in USD, EUR, GBP or USDC.",
+    "url": "https://www.elementpay.net/for-global-merchants",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Accept M-Pesa, MTN MoMo and Wave from anywhere",
+        "item": "https://www.elementpay.net/for-global-merchants"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Accept M-Pesa, MTN MoMo and Wave from anywhere",
+      "description": "Let customers pay with mobile money and local bank transfer. Settle in USD, EUR, GBP or USDC.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-growing-businesses": {
+  "head": {
+   "title": "Business accounts, payroll and payouts for African SMEs | ElementPay",
+   "description": "Collect from customers, pay staff and suppliers across countries, and hold every currency including USDC in one place.",
+   "canonical": "/for-growing-businesses",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Business accounts, payroll and payouts for African SMEs | ElementPay",
+    "description": "Collect from customers, pay staff and suppliers across countries, and hold every currency including USDC in one place.",
+    "url": "https://www.elementpay.net/for-growing-businesses",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Business accounts, payroll and payouts for African SMEs",
+        "item": "https://www.elementpay.net/for-growing-businesses"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Business accounts, payroll and payouts for African SMEs",
+      "description": "Collect from customers, pay staff and suppliers across countries, and hold every currency including USDC in one place.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-ngos-and-aid": {
+  "head": {
+   "title": "Cash transfers to beneficiaries on mobile money | ElementPay",
+   "description": "Disburse stipends and cash transfers to mobile money wallets in bulk with donor-ready reporting.",
+   "canonical": "/for-ngos-and-aid",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Cash transfers to beneficiaries on mobile money | ElementPay",
+    "description": "Disburse stipends and cash transfers to mobile money wallets in bulk with donor-ready reporting.",
+    "url": "https://www.elementpay.net/for-ngos-and-aid",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cash transfers to beneficiaries on mobile money",
+        "item": "https://www.elementpay.net/for-ngos-and-aid"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Cash transfers to beneficiaries on mobile money",
+      "description": "Disburse stipends and cash transfers to mobile money wallets in bulk with donor-ready reporting.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-platforms-and-marketplaces": {
+  "head": {
+   "title": "Mass payouts to mobile money for platforms and marketplaces",
+   "description": "Pay thousands of sellers, drivers and creators on M-Pesa, banks and Wave from one USD or USDC balance.",
+   "canonical": "/for-platforms-and-marketplaces",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Mass payouts to mobile money for platforms and marketplaces | ElementPay",
+    "description": "Pay thousands of sellers, drivers and creators on M-Pesa, banks and Wave from one USD or USDC balance.",
+    "url": "https://www.elementpay.net/for-platforms-and-marketplaces",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mass payouts to mobile money for platforms and marketplaces",
+        "item": "https://www.elementpay.net/for-platforms-and-marketplaces"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Mass payouts to mobile money for platforms and marketplaces",
+      "description": "Pay thousands of sellers, drivers and creators on M-Pesa, banks and Wave from one USD or USDC balance.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/for-remittance-companies": {
+  "head": {
+   "title": "Remittance payouts to mobile money in 20 African countries",
+   "description": "Fund once in fiat or USDC and deliver to M-Pesa, MTN MoMo and banks without pre-funding each country.",
+   "canonical": "/for-remittance-companies",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Remittance payouts to mobile money in 20 African countries | ElementPay",
+    "description": "Fund once in fiat or USDC and deliver to M-Pesa, MTN MoMo and banks without pre-funding each country.",
+    "url": "https://www.elementpay.net/for-remittance-companies",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Solutions",
+        "item": "https://www.elementpay.net/solutions"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Remittance payouts to mobile money in 20 African countries",
+        "item": "https://www.elementpay.net/for-remittance-companies"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Remittance payouts to mobile money in 20 African countries",
+      "description": "Fund once in fiat or USDC and deliver to M-Pesa, MTN MoMo and banks without pre-funding each country.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/help": {
+  "head": {
+   "title": "Help centre: payouts, accounts, stablecoins and verification",
+   "description": "Answers on payouts to 20 African countries, accounts in 30 currencies, USDC and USDT, and business verification.",
+   "canonical": "/help",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Help centre: payouts, accounts, stablecoins and verification | ElementPay",
+    "description": "Answers on payouts to 20 African countries, accounts in 30 currencies, USDC and USDT, and business verification.",
+    "url": "https://www.elementpay.net/help",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "How do we open an account?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Sign up and complete business verification. Once approved, fund your balance in fiat or stablecoins and start paying and collecting."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Which countries can we pay out to?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Kenya, Uganda, Tanzania, Rwanda, Ethiopia, Nigeria, Ghana, Senegal, Côte d’Ivoire, Benin, Togo, Burkina Faso, Mali, Cameroon, DR Congo, South Africa, Zambia, Malawi, Mozambique and Botswana."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "How fast do payments arrive?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Most mobile money payouts are sent on local rails as soon as you confirm, with a status for every payment."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Which currencies can we hold?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Bank accounts are issued one per currency, in USD, EUR, GBP, ZAR, CAD, AED, NGN, GHS, KES, TZS, AUD, NZD, JPY, CNY, HKD, ILS, MXN, SEK, CHF, NOK, DKK, SGD, KRW, THB, HUF, PLN, RON, CZK, XOF and XAF."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Can we fund payouts with USDC or USDT?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Yes. Hold USDC or USDT in your ElementPay balance and use it as the source for any payout. We convert to local currency at a rate shown upfront."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Is ElementPay a bank?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "No. ElementPay is a financial technology company. Banking services are provided by licensed partner institutions."
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "/merchant-dashboard": {
+  "head": {
+   "title": "Merchant dashboard for collections, payouts and approvals | ElementPay",
+   "description": "Collect, pay, approve and reconcile across 20 African payout countries and 30 currencies, including stablecoins, from one dashboard.",
+   "canonical": "/merchant-dashboard",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Merchant dashboard for collections, payouts and approvals | ElementPay",
+    "description": "Collect, pay, approve and reconcile across 20 African payout countries and 30 currencies, including stablecoins, from one dashboard.",
+    "url": "https://www.elementpay.net/merchant-dashboard",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Merchant dashboard for collections, payouts and approvals",
+        "item": "https://www.elementpay.net/merchant-dashboard"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Merchant dashboard for collections, payouts and approvals",
+      "description": "Collect, pay, approve and reconcile across 20 African payout countries and 30 currencies, including stablecoins, from one dashboard.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/otc-desk": {
+  "head": {
+   "title": "OTC desk for large FX and stablecoin trades | ElementPay",
+   "description": "Firm quotes from a named trader, held for 60 seconds, settled the same day. USD, USDT and USDC against African currencies.",
+   "canonical": "/otc-desk",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "OTC desk for large FX and stablecoin trades | ElementPay",
+    "description": "Firm quotes from a named trader, held for 60 seconds, settled the same day. USD, USDT and USDC against African currencies.",
+    "url": "https://www.elementpay.net/otc-desk",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "OTC desk for large FX and stablecoin trades",
+        "item": "https://www.elementpay.net/otc-desk"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "OTC desk for large FX and stablecoin trades",
+      "description": "Firm quotes from a named trader, held for 60 seconds, settled the same day. USD, USDT and USDC against African currencies.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/payments-api": {
+  "head": {
+   "title": "Payments API for mobile money, banks and stablecoins | ElementPay",
+   "description": "One REST API for payouts and collections on every African rail, funded in fiat or USDC, with signed webhooks for every event.",
+   "canonical": "/payments-api",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Payments API for mobile money, banks and stablecoins | ElementPay",
+    "description": "One REST API for payouts and collections on every African rail, funded in fiat or USDC, with signed webhooks for every event.",
+    "url": "https://www.elementpay.net/payments-api",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Payments API for mobile money, banks and stablecoins",
+        "item": "https://www.elementpay.net/payments-api"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Payments API for mobile money, banks and stablecoins",
+      "description": "One REST API for payouts and collections on every African rail, funded in fiat or USDC, with signed webhooks for every event.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/payments": {
+  "head": {
+   "title": "Payouts to 20 African countries: M-Pesa, MTN MoMo and bank",
+   "description": "Pay out to mobile money and bank accounts in 20 African countries. Fund from USD, EUR, GBP, USDC or USDT.",
+   "canonical": "/payments",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Payouts to 20 African countries: M-Pesa, MTN MoMo and bank | ElementPay",
+    "description": "Pay out to mobile money and bank accounts in 20 African countries. Fund from USD, EUR, GBP, USDC or USDT.",
+    "url": "https://www.elementpay.net/payments",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Payouts to 20 African countries: M-Pesa, MTN MoMo and bank",
+        "item": "https://www.elementpay.net/payments"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Payouts to 20 African countries: M-Pesa, MTN MoMo and bank",
+      "description": "Pay out to mobile money and bank accounts in 20 African countries. Fund from USD, EUR, GBP, USDC or USDT.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/press/bank-accounts-30-currencies": {
+  "head": {
+   "title": "ElementPay launches bank accounts in 30 currencies",
+   "description": "Businesses can now receive, hold and pay in 30 currencies, each with its own account details.",
+   "canonical": "/press/bank-accounts-30-currencies",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "ElementPay launches bank accounts in 30 currencies",
+    "description": "Businesses can now receive, hold and pay in 30 currencies, each with its own account details.",
+    "url": "https://www.elementpay.net/press/bank-accounts-30-currencies",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "ElementPay launches bank accounts in 30 currencies",
+    "description": "Businesses can now receive, hold and pay in 30 currencies, each with its own account details.",
+    "datePublished": "2026-10-14",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay"
+    },
+    "mainEntityOfPage": "https://www.elementpay.net/press/bank-accounts-30-currencies"
+   }
+  ]
+ },
+ "/press/mboka-business-app": {
+  "head": {
+   "title": "ElementPay introduces Mboka, a web app with real business bank accounts, cards and payouts",
+   "description": "Mboka brings ElementPay accounts, cards and payouts to growing businesses in one app.",
+   "canonical": "/press/mboka-business-app",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "ElementPay introduces Mboka, a web app with real business bank accounts, cards and payouts",
+    "description": "Mboka brings ElementPay accounts, cards and payouts to growing businesses in one app.",
+    "url": "https://www.elementpay.net/press/mboka-business-app",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "ElementPay introduces Mboka, a web app with real business bank accounts, cards and payouts",
+    "description": "Mboka brings ElementPay accounts, cards and payouts to growing businesses in one app.",
+    "datePublished": "2026-08-19",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay"
+    },
+    "mainEntityOfPage": "https://www.elementpay.net/press/mboka-business-app"
+   }
+  ]
+ },
+ "/press/otc-desk": {
+  "head": {
+   "title": "ElementPay opens an OTC desk for large-ticket FX",
+   "description": "A named trader now quotes large FX and liquidity requests and settles the same day.",
+   "canonical": "/press/otc-desk",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "ElementPay opens an OTC desk for large-ticket FX",
+    "description": "A named trader now quotes large FX and liquidity requests and settles the same day.",
+    "url": "https://www.elementpay.net/press/otc-desk",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "ElementPay opens an OTC desk for large-ticket FX",
+    "description": "A named trader now quotes large FX and liquidity requests and settles the same day.",
+    "datePublished": "2026-06-11",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay"
+    },
+    "mainEntityOfPage": "https://www.elementpay.net/press/otc-desk"
+   }
+  ]
+ },
+ "/press/payouts-20-african-countries": {
+  "head": {
+   "title": "ElementPay expands payouts to 20 African countries",
+   "description": "Mobile money and bank payouts now reach East, West, Central and Southern Africa through one API.",
+   "canonical": "/press/payouts-20-african-countries",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "ElementPay expands payouts to 20 African countries",
+    "description": "Mobile money and bank payouts now reach East, West, Central and Southern Africa through one API.",
+    "url": "https://www.elementpay.net/press/payouts-20-african-countries",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "ElementPay expands payouts to 20 African countries",
+    "description": "Mobile money and bank payouts now reach East, West, Central and Southern Africa through one API.",
+    "datePublished": "2026-09-16",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay"
+    },
+    "mainEntityOfPage": "https://www.elementpay.net/press/payouts-20-african-countries"
+   }
+  ]
+ },
+ "/press/usdc-usdt-off-ramps": {
+  "head": {
+   "title": "ElementPay adds USDC and USDT off-ramps to mobile money",
+   "description": "Businesses can convert dollar stablecoins into local currency on mobile money and bank accounts.",
+   "canonical": "/press/usdc-usdt-off-ramps",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "ElementPay adds USDC and USDT off-ramps to mobile money",
+    "description": "Businesses can convert dollar stablecoins into local currency on mobile money and bank accounts.",
+    "url": "https://www.elementpay.net/press/usdc-usdt-off-ramps",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    "headline": "ElementPay adds USDC and USDT off-ramps to mobile money",
+    "description": "Businesses can convert dollar stablecoins into local currency on mobile money and bank accounts.",
+    "datePublished": "2026-07-22",
+    "publisher": {
+     "@type": "Organization",
+     "name": "ElementPay"
+    },
+    "mainEntityOfPage": "https://www.elementpay.net/press/usdc-usdt-off-ramps"
+   }
+  ]
+ },
+ "/settlement-and-fx": {
+  "head": {
+   "title": "Cross-border FX and settlement in 30 currencies and stablecoins",
+   "description": "Live FX quotes locked before you confirm. Convert between 30 currencies, USDC and USDT with no correspondent banks.",
+   "canonical": "/settlement-and-fx",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Cross-border FX and settlement in 30 currencies and stablecoins | ElementPay",
+    "description": "Live FX quotes locked before you confirm. Convert between 30 currencies, USDC and USDT with no correspondent banks.",
+    "url": "https://www.elementpay.net/settlement-and-fx",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cross-border FX and settlement in 30 currencies and stablecoins",
+        "item": "https://www.elementpay.net/settlement-and-fx"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "Cross-border FX and settlement in 30 currencies and stablecoins",
+      "description": "Live FX quotes locked before you confirm. Convert between 30 currencies, USDC and USDT with no correspondent banks.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/stablecoins": {
+  "head": {
+   "title": "Stablecoin payment solutions for businesses in Africa: USDC and USDT gateway, on- and off-ramps",
+   "description": "USDC and USDT payment solutions for businesses in Africa. Convert stablecoins to local currency and pay out to M-Pesa.",
+   "canonical": "/stablecoins",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "USDC and USDT on- and off-ramps to mobile money | ElementPay",
+    "description": "Convert USDC and USDT to local currency and pay out to M-Pesa, MTN MoMo and banks in 20 African countries, or collect locally and settle in USDC.",
+    "url": "https://www.elementpay.net/stablecoins",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Products",
+        "item": "https://www.elementpay.net/products"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "USDC and USDT on- and off-ramps to mobile money",
+        "item": "https://www.elementpay.net/stablecoins"
+       }
+      ]
+     },
+     {
+      "@type": "Service",
+      "name": "USDC and USDT on- and off-ramps to mobile money",
+      "description": "Convert USDC and USDT to local currency and pay out to M-Pesa, MTN MoMo and banks in 20 African countries, or collect locally and settle in USDC.",
+      "provider": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "areaServed": "Africa"
+     }
+    ]
+   }
+  ]
+ },
+ "/why-elementpay": {
+  "head": {
+   "title": "Why ElementPay: one platform for cross-border payments, with control",
+   "description": "Why businesses choose ElementPay: one integration for mobile money, banks and stablecoins, pricing shown upfront, every payment traceable, and approvals built in.",
+   "canonical": "/why-elementpay",
+   "alternates": {},
+   "og": {
+    "type": "website",
+    "site_name": "ElementPay",
+    "title": "Why ElementPay: built for teams that need control",
+    "description": "Why businesses choose ElementPay: one integration for mobile money, banks and stablecoins, pricing shown upfront, every payment traceable, and approvals built in.",
+    "url": "https://www.elementpay.net/why-elementpay",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Why ElementPay",
+        "item": "https://www.elementpay.net/why-elementpay"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

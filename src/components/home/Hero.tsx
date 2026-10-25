@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { hover } from "@/lib/design/pseudo";
 import HeroScene from "./HeroScene";
 import { COLOR, TYPE } from "@/lib/brand";
 
@@ -33,7 +35,7 @@ export default function Hero() {
           <span style={{ width: 8, height: 8, background: "#FFB224" }} />
           Cross-border payment infrastructure for businesses
         </span>
-        <h1 style={{ margin: 0, ...TYPE.h1Hero }}>
+        <h1 style={{ margin: 0, ...TYPE.h1Hero, lineHeight: 1 }}>
           Money should move like{" "}
           <span style={{ color: COLOR.indigo }}>
             messages
@@ -45,10 +47,10 @@ export default function Hero() {
           mobile money, bank rails and stablecoins.
         </p>
         <div style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
-          <a href="/contact" style={{ padding: "15px 28px", borderRadius: 999, background: "#3B2ED3", color: "#fff", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
+          <Link href="/contact" className={hover("background:#2A1FB0;color:#fff")} style={{ padding: "15px 28px", borderRadius: 999, background: "#3B2ED3", color: "#fff", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 15 }}>
             Talk to sales
-          </a>
-          <a href="#platform" style={{ padding: "15px 28px", borderRadius: 999, border: "1.5px solid rgba(19,17,38,.08)", background: "rgba(19,17,38,.045)", color: "#131126", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
+          </Link>
+          <a href="#platform" className={hover("background:rgba(19,17,38,.08);color:#131126")} style={{ padding: "15px 28px", borderRadius: 999, border: "1.5px solid rgba(19,17,38,.08)", background: "rgba(19,17,38,.045)", color: "#131126", fontFamily: "var(--font-heading)", fontWeight: 700, fontSize: 15, textDecoration: "none" }}>
             See the platform
           </a>
         </div>

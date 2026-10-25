@@ -1,0 +1,114 @@
+{
+ "slug": "stablecoin-payment-gateway",
+ "lang": "en",
+ "url": "/stablecoin-payment-gateway",
+ "nav": "Products",
+ "head": {
+  "title": "Stablecoin payment gateway: accept USDC and USDT and settle to local currency",
+  "description": "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency in 20 African countries.",
+  "canonical": "/stablecoin-payment-gateway",
+  "alternates": {},
+  "og": {
+   "type": "website",
+   "site_name": "ElementPay",
+   "title": "Stablecoin payment gateway: accept USDC and USDT and settle to local currency | ElementPay",
+   "description": "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency in 20 African countries.",
+   "url": "https://www.elementpay.net/stablecoin-payment-gateway",
+   "image": "https://www.elementpay.net/og-image.png",
+   "image:width": "1200",
+   "image:height": "630",
+   "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+  },
+  "twitter": {
+   "card": "summary_large_image",
+   "image": "https://www.elementpay.net/og-image.png"
+  }
+ },
+ "jsonLd": [
+  {
+   "@context": "https://schema.org",
+   "@graph": [
+    {
+     "@type": "FAQPage",
+     "mainEntity": [
+      {
+       "@type": "Question",
+       "name": "What is a stablecoin payment gateway?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A service that lets a business accept stablecoins such as USDC and USDT as payment and settle them into a balance or local currency."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Which stablecoins can customers pay with?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "USDC and USDT."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Can we settle into local currency?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, to mobile money or bank accounts in 20 African countries."
+       }
+      },
+      {
+       "@type": "Question",
+       "name": "Is there a no-code option?",
+       "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Payment links can be created in the merchant dashboard without writing code."
+       }
+      }
+     ]
+    },
+    {
+     "@type": "Service",
+     "name": "Stablecoin payment gateway",
+     "serviceType": "Payment gateway",
+     "provider": {
+      "@type": "Organization",
+      "name": "ElementPay",
+      "alternateName": "Element Pay",
+      "url": "https://www.elementpay.net"
+     },
+     "areaServed": "Africa",
+     "audience": {
+      "@type": "BusinessAudience"
+     },
+     "description": "A stablecoin payment gateway for merchants and platforms. Accept USDC and USDT at checkout, settle in stablecoins or local currency across 20 African countries, with webhooks for every payment."
+    },
+    {
+     "@type": "BreadcrumbList",
+     "itemListElement": [
+      {
+       "@type": "ListItem",
+       "position": 1,
+       "name": "Home",
+       "item": "https://www.elementpay.net/"
+      },
+      {
+       "@type": "ListItem",
+       "position": 2,
+       "name": "Stablecoins",
+       "item": "https://www.elementpay.net/stablecoins"
+      },
+      {
+       "@type": "ListItem",
+       "position": 3,
+       "name": "Stablecoin payment gateway",
+       "item": "https://www.elementpay.net/stablecoin-payment-gateway"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "background": null,
+ "footerBackground": "#F6F4EF",
+ "css": null,
+ "html": "<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(48px,7vw,96px);padding-bottom:clamp(48px,6vw,80px)\"><nav aria-label=\"Breadcrumb\" style=\"display:flex;gap:8px;flex-wrap:wrap;font-family:var(--font-label),monospace;font-size:13px;color:#4C4A66\"><a href=\"/\" style=\"color:#4C4A66\">Home</a><span>/</span><a href=\"/stablecoins\" style=\"color:#4C4A66\">Stablecoins</a><span>/</span><span style=\"color:#3B2ED3\">Stablecoin payment gateway</span></nav><h1 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(34px, 2.2vw + 26px, 58px);line-height:.95;letter-spacing:-0.045em;font-weight:700;margin:28px 0 0;max-width:16ch\">A stablecoin payment gateway for businesses<span aria-hidden=\"true\" style=\"display:inline-block;width:.2em;height:.2em;margin-left:.06em;background:#FFB224\"></span></h1><p style=\"font-size:clamp(17px,1.4vw,19px);line-height:1.55;color:#4C4A66;margin:24px 0 0;max-width:58ch\">Accept USDC and USDT from customers at checkout or by payment link, then keep the stablecoins or settle to local currency on mobile money or bank. Every payment is matched to an order with your own reference.</p><div style=\"display:flex;gap:12px;flex-wrap:wrap;margin-top:32px\"><a href=\"/contact\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#3B2ED3;color:#fff\" class=\"dp-1uxoczp\">Talk to sales</a><a href=\"/#platform\" style=\"padding:16px 26px;border-radius:999px;font-size:16px;font-weight:500;background:#F6F4EF;color:#131126\" class=\"dp-1u9awz2\">See the platform →</a></div></section>\n<div style=\"background:#F6F4EF\">\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">What the gateway does.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Stablecoin checkout</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Accept USDC and USDT in your app, website or by payment link.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Flexible settlement</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Keep stablecoins, or settle to local currency in 20 African countries.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Order matching</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Each payment carries your order or invoice reference.</p></div><div style=\"padding:28px;border-radius:24px;background:#fff\"><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);line-height:1.1;letter-spacing:-0.02em;font-weight:700;margin:0\">Subscriptions and invoices</h3><p style=\"font-size:16px;line-height:25px;color:#4C4A66;margin:10px 0 0\">Send payment links for recurring invoices and track each one.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">How it works.</h2><div style=\"display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px;margin-top:32px\"><div style=\"padding:28px;border-radius:28px;background:#3B2ED3;color:#fff\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">01</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Create a payment</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Call the API or create a payment link in the dashboard.</p></div><div style=\"padding:28px;border-radius:28px;background:#FFB224;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">02</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Customer pays</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">In USDC or USDT on a supported chain.</p></div><div style=\"padding:28px;border-radius:28px;background:#7C6FFF;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">03</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Confirm by webhook</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">We notify you once the payment is confirmed.</p></div><div style=\"padding:28px;border-radius:28px;background:#5ED6B4;color:#131126\"><span style=\"font-family:var(--font-label),monospace;font-size:13px;color:inherit;opacity:.75\">04</span><h3 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(19px, 0.45vw + 17px, 24px);font-weight:700;letter-spacing:-0.02em;margin:12px 0 0\">Settle</h3><p style=\"font-size:15px;line-height:23px;color:inherit;opacity:.85;margin:8px 0 0\">Into your stablecoin balance or local currency.</p></div></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Related.</h2><div style=\"display:flex;gap:8px;flex-wrap:wrap;margin-top:28px\"><a href=\"/payment-gateway-africa\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Payment gateway for Africa</a><a href=\"/card-payment-gateway\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Card payment gateway</a><a href=\"/stablecoin-payments-api\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Stablecoin payments API</a><a href=\"/b2b-stablecoin-payments\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">B2B stablecoin payments</a><a href=\"/merchant-dashboard\" style=\"display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;background:#fff;color:#131126;font-weight:500;font-size:15px\" class=\"dp-1hp7yy2\">Merchant dashboard</a></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.95;letter-spacing:-0.04em;font-weight:700;margin:0\">Questions.</h2><div style=\"display:grid;grid-template-columns:minmax(0,1fr);gap:8px;margin-top:32px;max-width:880px\"><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">What is a stablecoin payment gateway?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">A service that lets a business accept stablecoins such as USDC and USDT as payment and settle them into a balance or local currency.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Which stablecoins can customers pay with?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">USDC and USDT.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Can we settle into local currency?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes, to mobile money or bank accounts in 20 African countries.</p></details><details style=\"border-radius:20px;background:#fff\"><summary style=\"padding:22px 24px;font-weight:600;font-size:17px\">Is there a no-code option?</summary><p style=\"margin:0;padding:0 24px 22px;font-size:16px;line-height:25px;color:#4C4A66\">Yes. Payment links can be created in the merchant dashboard without writing code.</p></details></div></section>\n<section style=\"max-width:1240px;margin:0 auto;padding-left:clamp(20px,4vw,48px);padding-right:clamp(20px,4vw,48px);padding-top:clamp(64px,8vw,112px)\"><div style=\"border-radius:28px;background:#3B2ED3;color:#fff;padding:clamp(36px,6vw,80px);display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap\"><h2 style=\"font-family:var(--font-heading),sans-serif;font-size:clamp(30px, 1.9vw + 23px, 52px);line-height:.92;letter-spacing:-0.045em;font-weight:700;margin:0;max-width:12ch\">Accept stablecoins.</h2><a href=\"/contact\" style=\"padding:16px 28px;border-radius:999px;font-size:16px;font-weight:500;background:#fff;color:#3B2ED3\" class=\"dp-16y87us\">Talk to sales</a></div></section>\n\n</div>"
+}
