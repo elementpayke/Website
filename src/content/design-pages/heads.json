@@ -152,7 +152,7 @@
       "url": "https://www.elementpay.net",
       "sameAs": [
        "https://mboka.finance",
-       "https://docs.elementpay.net/"
+       "https://partners.elementpay.net/"
       ],
       "description": "Cross-border payment infrastructure for businesses in emerging markets.",
       "knowsAbout": [
@@ -273,7 +273,7 @@
       "sameAs": [
        "https://mboka.finance",
        "https://dapp.elementpay.net/",
-       "https://docs.elementpay.net/"
+       "https://partners.elementpay.net/"
       ],
       "description": "Payment rails for emerging markets: payouts in 20 African countries, bank accounts in 30 currencies, USDC and USDT ramps."
      },

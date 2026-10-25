@@ -63,7 +63,7 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
       ["Blog", "Blog.dc.html"],
       ["Help centre", "help.dc.html"],
       ["Status", "Status.dc.html"],
-      ["Docs", "https://docs.elementpay.net/"],
+      ["Docs", "https://partners.elementpay.net/"],
     ],
   ],
   [
@@ -84,10 +84,11 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
 
 const SOCIALS: Array<[string, string]> = [
   ["LinkedIn", "https://www.linkedin.com/company/elementpay"],
-  ["X", "https://x.com/elementpay"],
+  ["X", "https://x.com/element_pay"],
   ["Telegram", "https://t.me/elementpay"],
   ["YouTube", "https://www.youtube.com/@elementpay"],
   ["Instagram", "https://www.instagram.com/elementpay"],
+  ["TikTok", "https://www.tiktok.com/@elementpay?lang=en"],
 ];
 
 export default function EPFooter() {

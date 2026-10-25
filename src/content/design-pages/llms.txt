@@ -24,7 +24,7 @@ ElementPay is a financial technology company, not a bank. Banking services are p
 - [Security and compliance](https://www.elementpay.net/security-and-compliance)
 - [Glossary](https://www.elementpay.net/glossary)
 - [Help centre](https://www.elementpay.net/help)
-- [Developer docs](https://docs.elementpay.net/)
+- [Developer docs](https://partners.elementpay.net/)
 
 ## Country guides
 - https://www.elementpay.net/send-money-to-benin

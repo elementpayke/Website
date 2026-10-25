@@ -4,7 +4,7 @@ import Link from "next/link";
 const COLUMNS: Array<[string, Array<[string, string]>]> = [
   ["Platform", [["Mboka", "https://mboka.finance"], ["Merchant dashboard", "/merchant-dashboard"], ["ElementPay API", "/payments-api"], ["ElementPay dApp", "/elementpay-dapp"]]],
   ["Products", [["Payments", "/payments"], ["Settlement & FX", "/settlement-and-fx"], ["Accounts", "/business-accounts"], ["OTC desk", "/otc-desk"], ["Stablecoins", "/stablecoins"]]],
-  ["Resources", [["Coverage", "/coverage"], ["Blog", "/blog"], ["Help centre", "/help"], ["Status", "/status"], ["Docs", "https://docs.elementpay.net/"]]],
+  ["Resources", [["Coverage", "/coverage"], ["Blog", "/blog"], ["Help centre", "/help"], ["Status", "/status"], ["Docs", "https://partners.elementpay.net/"]]],
   ["Company", [["About", "/about"], ["Why ElementPay", "/why-elementpay"], ["Press", "/press"], ["Contact", "/contact"], ["Privacy", "https://www.elementpay.net/privacy-policy"]]],
 ];
 
