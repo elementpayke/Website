@@ -6,7 +6,8 @@ import { ARTICLES, getArticleBySlug } from "@/lib/blog/articles";
 import { buildArticleBlocks } from "@/lib/blog/toc";
 import ArticleToc from "@/components/blog/ArticleToc";
 import { TYPE, fullStopSquare } from "@/lib/brand";
-import { articleSchema, withContext } from "@/lib/schema";
+import DesignJsonLd from "@/components/design/DesignJsonLd";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -18,31 +19,11 @@ export function generateStaticParams() {
   return ARTICLES.map((a) => ({ slug: a.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: PageProps<"/blog/[slug]">): Promise<Metadata> {
-  const { slug } = await params;
-  const article = getArticleBySlug(slug);
-  if (!article) return {};
+export const dynamicParams = false;
 
-  const title = `${article.title} | ElementPay`;
-  return {
-    title: article.title,
-    description: article.desc,
-    alternates: { canonical: `/blog/${article.slug}` },
-    openGraph: {
-      title,
-      description: article.desc,
-      url: `/blog/${article.slug}`,
-      type: "article",
-      publishedTime: article.date,
-    },
-    twitter: {
-      card: "summary_large_image",
-      title,
-      description: article.desc,
-    },
-  };
+export async function generateMetadata({ params }: PageProps<"/blog/[slug]">): Promise<Metadata> {
+  const { slug } = await params;
+  return getArticleBySlug(slug) ? designMetadata(designHead(`/blog/${slug}`)) : {};
 }
 
 function pickMoreArticles(slug: string, cat: string) {
@@ -60,14 +41,9 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
   const more = pickMoreArticles(article.slug, article.cat);
   const h1Text = article.title.replace(/\.$/, "");
 
-  const jsonLd = withContext(articleSchema(article));
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <DesignJsonLd url={`/blog/${article.slug}`} />
       <article data-screen-label="Article">
         <header style={{ maxWidth: 1000, margin: "0 auto", padding: "clamp(40px,6vw,80px) clamp(20px,4vw,48px) 0" }}>
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", fontFamily: "var(--font-label)", fontSize: 13, color: SOFT }}>
@@ -126,7 +102,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
             {blocks.map((b, i) => {
               if (b.isH) {
                 return (
-                  <h2 key={i} id={b.id} style={{ ...TYPE.h3Feature, margin: "40px 0 0" }}>
+                  <h2 key={i} id={b.id} style={{ ...TYPE.h2Section, lineHeight: 1.1, letterSpacing: "-0.025em", margin: "40px 0 0" }}>
                     {b.text}
                   </h2>
                 );
@@ -147,7 +123,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
                 );
               }
               return (
-                <p key={i} style={{ fontSize: 18, lineHeight: "30px", color: "#131126", margin: "16px 0 0" }}>
+                <p key={i} style={{ fontSize: 18, lineHeight: "30px", color: "#2A2840", margin: "16px 0 0" }}>
                   {b.text}
                 </p>
               );
@@ -190,7 +166,7 @@ export default async function ArticlePage({ params }: PageProps<"/blog/[slug]">)
         </div>
 
         <section style={{ maxWidth: 1240, margin: "0 auto", padding: "clamp(64px,8vw,112px) clamp(20px,4vw,48px) 0" }}>
-          <h2 style={{ ...TYPE.h2Section, margin: 0 }}>Keep reading.</h2>
+          <h2 style={{ ...TYPE.h2Section, lineHeight: "normal", letterSpacing: "-0.03em", margin: 0 }}>Keep reading.</h2>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit,minmax(min(100%,300px),1fr))", gap: 12, marginTop: 24 }}>
             {more.map((m) => (
               <Link

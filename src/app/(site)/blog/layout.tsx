@@ -5,7 +5,9 @@ import Newsletter from "@/components/blog/Newsletter";
 export default function BlogLayout({ children }: LayoutProps<"/blog">) {
   return (
     <>
-      <EPNav active="Resources" />
+      <div style={{ position: "sticky", top: 0, zIndex: 30 }}>
+        <EPNav active="Resources" />
+      </div>
       {children}
       <Newsletter />
       <EPFooter />

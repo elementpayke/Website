@@ -4,28 +4,10 @@ import Image from "next/image";
 import { ARTICLES } from "@/lib/blog/articles";
 import BlogGrid from "@/components/blog/BlogGrid";
 import { TYPE, fullStopSquare } from "@/lib/brand";
-import { blogSchema, withContext } from "@/lib/schema";
+import DesignJsonLd from "@/components/design/DesignJsonLd";
+import { designHead, designMetadata } from "@/lib/design/pages";
 
-const TITLE = "Blog: guides to payments, mobile money and stablecoins in emerging markets";
-const DESCRIPTION =
-  "Guides on sending money to Africa, mobile money, stablecoin off-ramps, CFA francs and cross-border payments.";
-
-export const metadata: Metadata = {
-  title: TITLE,
-  description: DESCRIPTION,
-  alternates: { canonical: "/blog" },
-  openGraph: {
-    title: `${TITLE} | ElementPay`,
-    description: DESCRIPTION,
-    url: "/blog",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: `${TITLE} | ElementPay`,
-    description: DESCRIPTION,
-  },
-};
+export const metadata: Metadata = designMetadata(designHead("/blog"));
 
 const INK = "#131126";
 const PURPLE = "#3B2ED3";
@@ -33,14 +15,10 @@ const MUTED = "#4C4A66";
 
 export default function BlogIndexPage() {
   const [feat, ...rest] = ARTICLES;
-  const jsonLd = withContext(blogSchema(ARTICLES.slice(0, 8)));
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
+      <DesignJsonLd url="/blog" />
       <section
         data-screen-label="Blog hero"
         style={{
