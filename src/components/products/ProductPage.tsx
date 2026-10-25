@@ -14,11 +14,14 @@ export default function ProductPage({ product }: { product: ProductData }) {
       <DesignJsonLd url={product.path} />
       <EPNav active={product.group} />
       <ProductHero product={product} />
-      <ProductDemoSection product={product} />
-      <ProductFeatures product={product} />
-      <ProductRelated product={product} />
-      <ProductCta />
-      <EPFooter />
+      {/* The design runs one cream band from the demo down through the footer. */}
+      <div style={{ background: "#F6F4EF" }}>
+        <ProductDemoSection product={product} />
+        <ProductFeatures product={product} />
+        <ProductRelated product={product} />
+        <ProductCta />
+        <EPFooter />
+      </div>
     </>
   );
 }

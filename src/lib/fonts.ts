@@ -8,9 +8,11 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
 });
 
+// The design loads DM Sans with its optical-size axis (opsz 9..40); without
+// it glyphs are wider and copy re-wraps.
 const dmSans = DM_Sans({
   variable: "--font-body",
-  weight: ["400", "500", "600", "700"],
+  axes: ["opsz"],
   subsets: ["latin"],
 });
 
