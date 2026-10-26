@@ -31,7 +31,7 @@ export default function WhySection() {
           {FEATURES.map(([color, title, desc]) => (
             <div key={title} style={{ padding: 22, borderRadius: 20, background: "rgba(255,255,255,.07)" }}>
               <span style={{ display: "block", width: 10, height: 10, background: color }} />
-              <h3 style={{ margin: "14px 0 0", fontFamily: "var(--font-heading)", fontSize: 19, fontWeight: 700, letterSpacing: "-0.02em" }}>{title}</h3>
+              <h3 style={{ ...TYPE.h3Card, margin: "14px 0 0" }}>{title}</h3>
               <p style={{ margin: "8px 0 0", fontSize: 14, lineHeight: 1.55, color: "#B4B1D0" }}>{desc}</p>
             </div>
           ))}
