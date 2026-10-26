@@ -505,10 +505,10 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
     slug: "security-and-compliance",
     path: "/security-and-compliance",
     group: "Company",
-    name: "How we protect your money",
-    title: "How we protect your money.",
-    lede: "Verification before anyone goes live, monitoring on every payment, licensed partners holding funds, and security built into every layer.",
-    inShort: "Verification before anyone goes live, monitoring on every payment, licensed partners holding funds, and security built into every layer.",
+    name: "How we keep your money safe",
+    title: "How we keep your money safe.",
+    lede: "Funds held with licensed partner institutions, every business verified before it goes live, every payment screened, and security controls independently attested under SOC 2 Type I.",
+    inShort: "Funds held with licensed partner institutions, every business verified before it goes live, every payment screened, and security controls independently attested under SOC 2 Type I.",
     specs: [
       [
         "Verification",
@@ -570,8 +570,8 @@ const CORE_MARKETING_PAGES: Record<string, MarketingPageData> = {
       ],
     ],
     seo: {
-      title: "Security and compliance: how ElementPay protects your money",
-      description: "How ElementPay verifies businesses, monitors transactions, works with licensed banking partners and protects data.",
+      title: "Security and compliance: SOC 2 Type I, KYB and licensed partners",
+      description: "How ElementPay keeps business money safe: SOC 2 Type I attested controls, funds held with licensed partner institutions, KYB on every customer and screened payments.",
     },
   },
   "/careers": {
