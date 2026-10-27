@@ -52,28 +52,6 @@ export default function HeroScene() {
           overflow: "hidden",
         }}
       >
-        <div
-          style={{
-            position: "absolute",
-            left: 16,
-            top: 16,
-            zIndex: 3,
-            display: "flex",
-            alignItems: "center",
-            gap: 8,
-            padding: "7px 12px",
-            borderRadius: 999,
-            background: "#fff",
-            boxShadow: "0 14px 30px -16px rgba(19,17,38,.4)",
-            fontFamily: "var(--font-label)",
-            fontSize: 11.5,
-            color: INK,
-          }}
-        >
-          <span style={{ width: 7, height: 7, background: "#FFB224" }} />
-          {"0" + (scene + 1) + " · " + SCENE_NAMES[scene]}
-        </div>
-
         {scene === 0 && (
           <div style={{ position: "absolute", inset: 0, animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
             {FLOWS.map((f) => (
@@ -160,9 +138,6 @@ export default function HeroScene() {
             <div style={{ position: "absolute", left: "50%", top: "45%", width: "80%", aspectRatio: "1", transform: "translate(-50%,-50%)", filter: "drop-shadow(0 40px 50px rgba(59,46,211,.4))" }}>
               <EpGlobe />
             </div>
-            <div style={{ position: "absolute", left: 0, right: 0, bottom: "3%", display: "flex", justifyContent: "center", fontFamily: "var(--font-heading)", fontSize: 13, fontWeight: 700, color: "#4C4A66", whiteSpace: "nowrap", animation: "epIn .6s 1s both" }}>
-              Payouts in 20 African countries. Accounts in 30 currencies.
-            </div>
           </div>
         )}
 
@@ -171,7 +146,9 @@ export default function HeroScene() {
         {scene === 4 && <FxConversionScene />}
       </div>
 
-      <div style={{ display: "flex", justifyContent: "center", gap: 8, marginTop: 18 }}>
+      <p style={{ margin: "14px 0 0", textAlign: "center", fontSize: 13.5, fontWeight: 600, color: "#4C4A66" }}>{SCENE_NAMES[scene]}</p>
+
+      <div style={{ display: "flex", justifyContent: "center", gap: 8, marginTop: 12 }}>
         {SCENE_NAMES.map((label, i) => (
           <button
             key={label}

@@ -36,9 +36,10 @@ export default function Hero() {
           Cross-border payment infrastructure for businesses
         </span>
         <h1 style={{ margin: 0, ...TYPE.h1Hero, lineHeight: 1 }}>
-          Money should move like{" "}
+          Money should move
+          <br />
           <span style={{ color: COLOR.indigo }}>
-            messages
+            like messages
             <span style={{ display: "inline-block", width: ".22em", height: ".22em", marginLeft: ".06em", background: COLOR.amber }} />
           </span>
         </h1>

@@ -8,7 +8,7 @@ vi.mock("next/navigation", () => ({ useRouter: () => ({ push: vi.fn() }) }));
 describe("Home page", () => {
   test("renders the real ElementPay hero heading", () => {
     render(<Page />);
-    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Money should move like messages");
+    expect(screen.getByRole("heading", { level: 1 })).toHaveTextContent("Money should movelike messages");
   });
 
   test("renders the primary CTAs", () => {
