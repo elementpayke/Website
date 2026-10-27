@@ -166,7 +166,13 @@ export const HOME_FAQS: Array<{ q: string; a: string }> = [
   ["Is ElementPay a bank?", "No. ElementPay is a financial technology company. Banking services are provided by licensed partner institutions."],
 ].map(([q, a]) => ({ q, a }));
 
-export const SCENE_NAMES = ["Collect and pay out", "Where we reach", "Bulk payouts", "Stablecoin ramps", "Settlement and FX"];
+export const SCENE_NAMES = [
+  "Collections in, payouts out.",
+  "Payouts in 20 African countries. Accounts in 30 currencies.",
+  "Bulk payouts from one file.",
+  "Stablecoin on- and off-ramps.",
+  "Settlement and FX, rate shown upfront.",
+];
 
 export const HOME_SOCIALS: Array<{ n: string; href: string }> = [
   { n: "LinkedIn", href: "https://www.linkedin.com/company/elementpay" },

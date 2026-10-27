@@ -12,23 +12,23 @@ describe("HeroScene", () => {
 
   test("shows the first scene by default", () => {
     render(<HeroScene />);
-    expect(screen.getByText(/01 · Collect and pay out/)).toBeInTheDocument();
+    expect(screen.getByText("Collections in, payouts out.")).toBeInTheDocument();
   });
 
   test("clicking a scene dot jumps to that scene", async () => {
     const user = userEvent.setup();
     render(<HeroScene />);
-    await user.click(screen.getByRole("button", { name: "Bulk payouts" }));
-    expect(screen.getByText(/03 · Bulk payouts/)).toBeInTheDocument();
+    await user.click(screen.getByRole("button", { name: "Bulk payouts from one file." }));
+    expect(screen.getByText("Bulk payouts from one file.")).toBeInTheDocument();
   });
 
   test("auto-advances to the next scene over time", () => {
     vi.useFakeTimers();
     render(<HeroScene />);
-    expect(screen.getByText(/01 · Collect and pay out/)).toBeInTheDocument();
+    expect(screen.getByText("Collections in, payouts out.")).toBeInTheDocument();
     act(() => {
       vi.advanceTimersByTime(4600);
     });
-    expect(screen.getByText(/02 · Where we reach/)).toBeInTheDocument();
+    expect(screen.getByText("Payouts in 20 African countries. Accounts in 30 currencies.")).toBeInTheDocument();
   });
 });
