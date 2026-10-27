@@ -210,6 +210,11 @@ export const HOME_FOOTER_COLUMNS: Array<{ h: string; links: Array<{ t: string; h
     { t: "Security", href: "/security-and-compliance" },
     { t: "Press", href: "/press" },
     { t: "Contact", href: "/contact" },
-    { t: "Privacy", href: "https://www.elementpay.net/privacy-policy" },
+  ] },
+  { h: "Legal", links: [
+    { t: "Terms and conditions", href: "/terms-and-conditions" },
+    { t: "Service agreement", href: "/service-agreement" },
+    { t: "Privacy policy", href: "/privacy-policy" },
+    { t: "Electronic communications consent", href: "/electronic-communications-consent-agreement" },
   ] },
 ];

@@ -77,7 +77,15 @@ const COLUMNS: Array<[string, Array<[string, string]>]> = [
       ["Careers", "careers.dc.html"],
       ["Press", "Press.dc.html"],
       ["Contact", "contact.dc.html"],
-      ["Privacy", "https://www.elementpay.net/privacy-policy"],
+    ],
+  ],
+  [
+    "Legal",
+    [
+      ["Terms and conditions", "terms-and-conditions"],
+      ["Service agreement", "service-agreement"],
+      ["Privacy policy", "privacy-policy"],
+      ["Electronic communications consent", "electronic-communications-consent-agreement"],
     ],
   ],
 ];
