@@ -118,7 +118,7 @@
  },
  "/": {
   "head": {
-   "title": "ElementPay (Element Pay): stablecoin and cross-border payments API for businesses in Africa",
+   "title": "ElementPay: Cross-Border Payments API for Africa",
    "description": "Payment infrastructure for businesses. Collect, pay out, convert and hold money across mobile money, banks and USDC or USDT through one platform.",
    "canonical": "/",
    "alternates": {},
