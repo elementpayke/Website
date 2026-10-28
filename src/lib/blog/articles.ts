@@ -17,6 +17,57 @@ export type Article = {
 
 export const ARTICLES: readonly Article[] = [
   {
+    slug: "what-is-mboka-by-elementpay",
+    cat: "Product",
+    flag: "ke",
+    date: "Oct 28, 2026",
+    read: "4 min",
+    title: "Mboka is live: what ElementPay's business app does",
+    desc: "Mboka, ElementPay's web app for growing businesses, is live at mboka.finance. Here's what it is, what it does and how it fits with the rest of the ElementPay network.",
+    tags: ["Mboka", "Business accounts", "Cards", "Payouts"],
+    body: [
+      ["h", "Mboka is live"],
+      [
+        "p",
+        "Mboka, a web app built on the ElementPay network, is live at mboka.finance. It gives growing businesses real bank accounts in their own name, cards for online spend, and payouts to mobile money and banks, in one place.",
+      ],
+      ["h", "What Mboka does"],
+      [
+        "ul",
+        [
+          "Real business bank accounts, issued in the company's own name rather than a shared pooled account.",
+          "Cards for online spend, such as ads, software subscriptions and supplier payments.",
+          "Payouts to mobile money wallets and bank accounts for staff and suppliers.",
+          "Payment links, so customers can pay the business directly.",
+          "One balance sheet that holds every currency, including USDC and USDT, alongside local currency.",
+        ],
+      ],
+      ["h", "Who it's for"],
+      [
+        "p",
+        "Mboka is built for finance teams at growing businesses that need day-to-day banking, not just a payments API. If your team currently juggles a local bank account, a card provider and a separate payout tool, Mboka brings those into one app.",
+      ],
+      ["h", "How Mboka fits with the rest of ElementPay"],
+      [
+        "p",
+        "Mboka is one of four ways onto the same ElementPay rails. Mboka is the web app for finance teams who want real accounts, cards and payouts. The merchant dashboard is for operations teams running collections and payouts. The API is for developers building payments into their own product. The ElementPay dApp is for on- and off-ramping between USDC or USDT and local currency. All four share the same balance, business verification and records.",
+      ],
+      ["h", "Frequently asked questions"],
+      ["h", "What is Mboka?"],
+      [
+        "p",
+        "Mboka is a web app, built on the ElementPay network, that gives growing businesses real bank accounts in their own name, cards and payouts to mobile money and banks, in one place.",
+      ],
+      ["h", "Is Mboka part of ElementPay?"],
+      [
+        "p",
+        "Yes. Mboka runs on ElementPay's infrastructure and shares the same balance, business verification and rails as the merchant dashboard, the API and the dApp.",
+      ],
+      ["h", "How do I get started with Mboka?"],
+      ["p", "Visit mboka.finance to create a business account."],
+    ],
+  },
+  {
     slug: "usdt-to-mpesa-for-business",
     cat: "Stablecoins",
     flag: "ke",

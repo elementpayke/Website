@@ -1,4 +1,105 @@
 {
+ "/blog/what-is-mboka-by-elementpay": {
+  "head": {
+   "title": "Mboka is live: what ElementPay's business app does",
+   "description": "Mboka, ElementPay's web app for growing businesses, is live at mboka.finance. Here's what it is, what it does and how it fits with the rest of the ElementPay network.",
+   "canonical": "/blog/what-is-mboka-by-elementpay",
+   "alternates": {},
+   "og": {
+    "type": "article",
+    "site_name": "ElementPay",
+    "title": "Mboka is live: what ElementPay's business app does",
+    "description": "Mboka, ElementPay's web app for growing businesses, is live at mboka.finance. Here's what it is, what it does and how it fits with the rest of the ElementPay network.",
+    "url": "https://www.elementpay.net/blog/what-is-mboka-by-elementpay",
+    "image": "https://www.elementpay.net/og-image.png",
+    "image:width": "1200",
+    "image:height": "630",
+    "image:alt": "ElementPay: stablecoin and cross-border payments for Africa"
+   },
+   "twitter": {
+    "card": "summary_large_image",
+    "image": "https://www.elementpay.net/og-image.png"
+   }
+  },
+  "jsonLd": [
+   {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "Article",
+      "headline": "Mboka is live: what ElementPay's business app does",
+      "description": "Mboka, ElementPay's web app for growing businesses, is live at mboka.finance. Here's what it is, what it does and how it fits with the rest of the ElementPay network.",
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28",
+      "author": {
+       "@type": "Organization",
+       "name": "ElementPay Team"
+      },
+      "publisher": {
+       "@type": "Organization",
+       "name": "ElementPay",
+       "url": "https://www.elementpay.net"
+      },
+      "keywords": "Mboka, Business accounts, Cards, Payouts",
+      "mainEntityOfPage": "https://www.elementpay.net/blog/what-is-mboka-by-elementpay",
+      "image": "https://www.elementpay.net/og-image.png"
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "What is Mboka?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Mboka is a web app, built on the ElementPay network, that gives growing businesses real bank accounts in their own name, cards and payouts to mobile money and banks, in one place."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Is Mboka part of ElementPay?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Yes. Mboka runs on ElementPay's infrastructure and shares the same balance, business verification and rails as the merchant dashboard, the API and the dApp."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "How do I get started with Mboka?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Visit mboka.finance to create a business account."
+        }
+       }
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://www.elementpay.net/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://www.elementpay.net/blog"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Mboka is live: what ElementPay's business app does",
+        "item": "https://www.elementpay.net/blog/what-is-mboka-by-elementpay"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
  "/blog": {
   "head": {
    "title": "Blog: guides to payments, mobile money and stablecoins in emerging markets",
