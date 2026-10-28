@@ -40,18 +40,7 @@ export default function HeroScene() {
 
   return (
     <div style={{ width: "100%", maxWidth: 520, justifySelf: "center" }}>
-      <div
-        style={{
-          position: "relative",
-          width: "100%",
-          aspectRatio: "1/0.92",
-          borderRadius: 28,
-          background: "#fff",
-          border: "1px solid rgba(19,17,38,.08)",
-          boxShadow: "0 40px 80px -50px rgba(19,17,38,.45)",
-          overflow: "hidden",
-        }}
-      >
+      <div style={{ position: "relative", width: "100%", aspectRatio: "1/0.92" }}>
         {scene === 0 && (
           <div style={{ position: "absolute", inset: 0, animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
             {FLOWS.map((f) => (
@@ -172,19 +161,19 @@ export default function HeroScene() {
   );
 }
 
-const PAYOUT_ROWS: Array<{ iso: string; country: string; rail: string; amt: string; width: string; delay: number }> = [
-  { iso: "ke", country: "Kenya", rail: "M-Pesa", amt: "KES 4.2M", width: "100%", delay: 0.45 },
-  { iso: "ng", country: "Nigeria", rail: "Bank", amt: "₦18.6M", width: "100%", delay: 0.6 },
-  { iso: "gh", country: "Ghana", rail: "MoMo", amt: "GHS 96,400", width: "100%", delay: 0.75 },
-  { iso: "ug", country: "Uganda", rail: "MTN", amt: "UGX 52.1M", width: "88%", delay: 0.9 },
-  { iso: "za", country: "South Africa", rail: "EFT", amt: "ZAR 310,500", width: "64%", delay: 1.05 },
+const PAYOUT_ROWS: Array<{ iso: string; country: string; rail: string; amt: string; width: string; rowDelay: number; barDelay: number }> = [
+  { iso: "ke", country: "Kenya", rail: "M-Pesa", amt: "KES 4.2M", width: "100%", rowDelay: 0.25, barDelay: 0.45 },
+  { iso: "ng", country: "Nigeria", rail: "Bank", amt: "₦18.6M", width: "100%", rowDelay: 0.4, barDelay: 0.6 },
+  { iso: "gh", country: "Ghana", rail: "MoMo", amt: "GHS 96,400", width: "100%", rowDelay: 0.55, barDelay: 0.75 },
+  { iso: "ug", country: "Uganda", rail: "MTN", amt: "UGX 52.1M", width: "88%", rowDelay: 0.7, barDelay: 0.9 },
+  { iso: "za", country: "South Africa", rail: "EFT", amt: "ZAR 310,500", width: "64%", rowDelay: 0.85, barDelay: 1.05 },
 ];
 
 function BulkPayoutScene() {
   return (
     <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
-      <div style={{ width: "86%", background: "#fff", borderRadius: 20, padding: "16px 18px", display: "flex", flexDirection: "column", gap: 4 }}>
-        <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "6px 0 14px", animation: "epTick .45s .05s both" }}>
+      <div style={{ width: "82%", display: "flex", flexDirection: "column", gap: 12 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 10, padding: "10px 12px", borderRadius: 14, border: "1.5px dashed #CFCBE0", animation: "epTick .45s .05s both" }}>
           <span style={{ width: 28, height: 34, borderRadius: 4, background: "#5ED6B4", display: "flex", alignItems: "flex-end", justifyContent: "center", paddingBottom: 4, boxSizing: "border-box", fontSize: 8, fontWeight: 700 }}>
             CSV
           </span>
@@ -194,8 +183,8 @@ function BulkPayoutScene() {
           </span>
           <span style={{ padding: "5px 10px", borderRadius: 999, background: "#EEEDFB", color: "#3B2ED3", fontSize: 11.5, fontWeight: 700 }}>Approved</span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          {PAYOUT_ROWS.map((row, i) => (
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, padding: 16, borderRadius: 18, background: "#fff", boxShadow: "0 18px 40px -26px rgba(19,17,38,.35)" }}>
+          {PAYOUT_ROWS.map((row) => (
             <div
               key={row.iso}
               style={{
@@ -203,9 +192,7 @@ function BulkPayoutScene() {
                 gridTemplateColumns: "auto minmax(0,1fr) auto",
                 gap: "4px 10px",
                 alignItems: "center",
-                padding: "10px 0",
-                borderTop: i === 0 ? "none" : "1px solid rgba(19,17,38,.06)",
-                animation: `epTick .45s ${row.delay}s both`,
+                animation: `epTick .45s ${row.rowDelay}s both`,
               }}
             >
               <span aria-hidden style={{ width: 20, height: 14, borderRadius: 3, flex: "none", background: `url(/flags/${row.iso}.svg) center/cover`, boxShadow: "0 0 0 1px rgba(0,0,0,.08)" }} />
@@ -215,12 +202,12 @@ function BulkPayoutScene() {
               <span style={{ fontFamily: "var(--font-label)", fontSize: 12 }}>{row.amt}</span>
               <span />
               <span style={{ gridColumn: "span 2", height: 6, borderRadius: 99, background: "#EEECF4", overflow: "hidden" }}>
-                <span style={{ display: "block", height: "100%", width: row.width, background: "#3B2ED3", borderRadius: 99, animation: `epBar 1.4s ${row.delay + 0.3}s cubic-bezier(.2,.8,.2,1) both` }} />
+                <span style={{ display: "block", height: "100%", width: row.width, background: "#3B2ED3", borderRadius: 99, animation: `epBar 1.4s ${row.barDelay}s cubic-bezier(.2,.8,.2,1) both` }} />
               </span>
             </div>
           ))}
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 12.5, fontWeight: 700, paddingTop: 14, animation: "epTick .45s 1.2s both" }}>
+        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 12.5, fontWeight: 700, animation: "epTick .45s 1.2s both" }}>
           <span>One file. One approval. Five countries.</span>
           <span style={{ fontFamily: "var(--font-label)", color: "#0E7A5A" }}>231 / 250 paid</span>
         </div>
@@ -257,7 +244,7 @@ function StablecoinRampScene() {
             <b style={{ fontFamily: "var(--font-heading)", fontSize: 22, letterSpacing: "-0.02em" }}>25,000.00 USDC</b>
           </span>
         </div>
-        <div style={{ padding: "16px 16px 2px", borderRadius: 18, background: "#fff" }}>
+        <div style={{ padding: "16px 16px 2px", borderRadius: 18, background: "#fff", boxShadow: "0 18px 40px -26px rgba(19,17,38,.35)" }}>
           {steps.map((step) => (
             <div key={step.n} style={{ display: "grid", gridTemplateColumns: "auto minmax(0,1fr)", gap: "0 12px", animation: `epTick .45s ${step.delay}s both` }}>
               <span style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -306,7 +293,7 @@ function FxConversionScene() {
   return (
     <div style={{ position: "absolute", inset: 0, display: "grid", placeItems: "center", animation: "epIn .6s cubic-bezier(.2,.8,.2,1) both" }}>
       <div style={{ width: "78%", display: "flex", flexDirection: "column", gap: 10 }}>
-        <div style={{ padding: 18, borderRadius: 20, background: "#fff", animation: "epTick .5s .1s both" }}>
+        <div style={{ padding: 18, borderRadius: 20, background: "#fff", boxShadow: "0 18px 40px -26px rgba(19,17,38,.35)", animation: "epTick .5s .1s both" }}>
           <div style={{ fontSize: 12, color: "#6E6C8A", fontWeight: 700 }}>You send</div>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginTop: 4 }}>
             <b style={{ fontFamily: "var(--font-heading)", fontSize: 30, letterSpacing: "-0.03em" }}>10,000.00</b>

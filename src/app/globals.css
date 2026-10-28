@@ -73,6 +73,19 @@ summary::-webkit-details-marker {
     grid-column: auto !important;
   }
 }
+@media (max-width: 820px) {
+  /* Sticky intro columns (contact, solution pages) pair with a two-column
+     grid that collapses to one column on mobile; sticky has nothing to
+     pin against there and can mis-stick after a late font-swap reflow,
+     overlapping the content below it. */
+  [style*="top: 120px"],
+  [style*="top:120px"],
+  [style*="top: 110px"],
+  [style*="top:110px"] {
+    position: static !important;
+    top: auto !important;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation: none !important;
