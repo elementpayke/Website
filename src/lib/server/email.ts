@@ -51,12 +51,14 @@ function getEmailConfig(): {
 
 export async function sendNotificationEmail(params: {
   to: string;
+  cc?: string[];
   subject: string;
   text: string;
   replyTo?: { email: string; name?: string };
 }): Promise<void> {
   const { provider, apiKey, fromEmail } = getEmailConfig();
   const isBrevo = provider === "brevo";
+  const cc = params.cc?.length ? params.cc.map((email) => ({ email })) : undefined;
   const res = await fetch(isBrevo ? BREVO_API_URL : SENDGRID_API_URL, {
     method: "POST",
     headers: {
@@ -70,12 +72,13 @@ export async function sendNotificationEmail(params: {
         ? {
             sender: { email: fromEmail, name: "ElementPay Website" },
             to: [{ email: params.to }],
+            ...(cc ? { cc } : {}),
             ...(params.replyTo ? { replyTo: params.replyTo } : {}),
             subject: params.subject,
             textContent: params.text,
           }
         : {
-            personalizations: [{ to: [{ email: params.to }] }],
+            personalizations: [{ to: [{ email: params.to }], ...(cc ? { cc } : {}) }],
             from: { email: fromEmail, name: "ElementPay Website" },
             ...(params.replyTo ? { reply_to: params.replyTo } : {}),
             subject: params.subject,

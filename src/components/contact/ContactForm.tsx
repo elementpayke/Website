@@ -101,7 +101,7 @@ function ContactFormInner() {
         <div style={{ width: 56, height: 56, borderRadius: "50%", background: "#3B2ED3", color: "#fff", display: "grid", placeItems: "center", fontSize: 24 }}>✓</div>
         <h2 style={{ fontFamily: "var(--font-heading)", fontSize: "clamp(28px, 1.5vw + 22px, 44px)", lineHeight: 1.05, letterSpacing: "-0.03em", fontWeight: 700, margin: "24px 0 0" }}>Thanks, {f.first}.</h2>
         <p style={{ fontSize: 17, lineHeight: 1.55, color: "#4C4A66", margin: "12px 0 0", maxWidth: "44ch" }}>
-          We&apos;ve received your request for {f.company}. Someone from our team will email you from support@mboka.finance within one business day.
+          We&apos;ve received your request for {f.company}. Someone from our team will email you from info@elementpay.net within one business day.
         </p>
         <button
           type="button"
