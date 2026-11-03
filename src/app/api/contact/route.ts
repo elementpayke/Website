@@ -32,6 +32,11 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Contact form is not configured." }, { status: 500 });
   }
 
+  const ccEmails = (process.env.CONTACT_CC_EMAIL ?? "")
+    .split(",")
+    .map((e) => e.trim())
+    .filter(Boolean);
+
   const text = [
     "New contact form submission from elementpay.net",
     "",
@@ -50,6 +55,7 @@ export async function POST(request: NextRequest) {
   try {
     await sendNotificationEmail({
       to: toEmail,
+      cc: ccEmails,
       subject: `Contact form: ${company} (${name})`,
       text,
       replyTo: { email, name },

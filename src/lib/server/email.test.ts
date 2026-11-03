@@ -71,6 +71,27 @@ describe("sendNotificationEmail", () => {
     );
   });
 
+  it("adds cc recipients for both providers", async () => {
+    vi.stubEnv("SENDGRID_API_KEY", "sendgrid-key");
+    vi.stubEnv("SENDGRID_FROM_EMAIL", "verified@example.com");
+
+    await sendNotificationEmail({ ...params, cc: ["copy@example.com"] });
+
+    const sendgridBody = JSON.parse(vi.mocked(fetch).mock.calls[0][1]!.body as string);
+    expect(sendgridBody.personalizations).toEqual([
+      { to: [{ email: params.to }], cc: [{ email: "copy@example.com" }] },
+    ]);
+
+    vi.stubEnv("SENDGRID_API_KEY", "");
+    vi.stubEnv("BREVO_API_KEY", "brevo-key");
+    vi.stubEnv("BREVO_FROM_EMAIL", "verified@example.com");
+
+    await sendNotificationEmail({ ...params, cc: ["copy@example.com"] });
+
+    const brevoBody = JSON.parse(vi.mocked(fetch).mock.calls[1][1]!.body as string);
+    expect(brevoBody.cc).toEqual([{ email: "copy@example.com" }]);
+  });
+
   it("uses EMAIL_PROVIDER to choose when both providers are configured", async () => {
     vi.stubEnv("EMAIL_PROVIDER", "brevo");
     vi.stubEnv("SENDGRID_API_KEY", "sendgrid-key");

@@ -31,7 +31,7 @@ test.describe("Contact page", () => {
     await page.getByRole("button", { name: "Payouts", exact: true }).click();
     await page.getByRole("button", { name: "Send to sales" }).click();
     await expect(page.getByText("Thanks, Jane.")).toBeVisible();
-    await expect(page.getByText(/email you from support@mboka\.finance/)).toBeVisible();
+    await expect(page.getByText(/email you from info@elementpay\.net/)).toBeVisible();
     expect(sent).toMatchObject({ name: "Jane Doe", email: "jane@acme.com", company: "Acme Ltd", need: "Payouts" });
   });
 
